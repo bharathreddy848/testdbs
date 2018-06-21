@@ -9,7 +9,11 @@
   "createdDate": "2018-06-13T04:44:05.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
+      "id": "0Fb7F000000l2TpSAI",
+      "label": "Wave_Sample_Opportunities",
+      "name": "Wave_Sample_Opportunities",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
     }
   ],
   "files": [
@@ -23,11 +27,15 @@
     }
   ],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbZWAU",
   "label": "SAQL - Data Spreads",
-  "lastAccessedDate": "2018-06-21T09:25:42.000Z",
+  "lastAccessedDate": "2018-06-21T09:33:56.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -827,18 +835,18 @@
         "dimensions": [],
         "label": "static",
         "selectMode": "singlerequired",
-        "start": "{\"display\":[\"Mean Distribution\"]}",
+        "start": "{&quot;display&quot;:[&quot;Mean Distribution&quot;]}",
         "type": "staticflex",
         "values": [
-          "{\"display\":\"Quartile Distribution\",\"chart\":\"hbar\",\"value\":\"q = load \\\"${App.EdgeMarts.puttupu__Wave_Sample_Opportunities.Alias}\\\";\\nq = group q by 'Billing_Country';\\n \\nq = foreach q generate 'Billing_Country',\\nsum('Amount') as 'sum_Revenue',\\nrank() over ([..] partition by all order by sum('Amount')) as 'Position', sum(1) over ([..] partition by all) as 'count';\\nq = foreach q generate 'Billing_Country',\\n'sum_Revenue', ( case\\nwhen 'Position' <= (floor(('count' + 1)/4)) then \\\"1st Quartile\\\" \\nwhen 'Position' >= (floor(((3*'count') + 1)/4)) then \\\"4th Quartile\\\" \\nwhen 'Position' <= (floor(((2*'count') + 1)/4)) then \\\"2nd Quartile\\\" \\nelse \\\"3rd Quartile\\\" end ) as 'Quartile';\\nq = group q by ('Billing_Country', 'Quartile');\\nq = foreach q generate 'Quartile' as 'Quartile', 'Billing_Country' as 'Billing_Country', max('sum_Revenue') as 'sum_Revenue';\\nq = order q by 'sum_Revenue' desc;\"}",
-          "{\"display\":\"Mean Distribution\",\"chart\":\"combo\",\"value\":\"q = load \\\"${App.EdgeMarts.puttupu__Wave_Sample_Opportunities.Alias}\\\";\\n\\nq = filter q by date('Created_Date_Year', 'Created_Date_Month', 'Created_Date_Day') in [dateRange([2016,2,18], [2016,8,16])];\\n\\n\\n\\nq = group q by 'Industry';\\nq=foreach q generate 'Industry',avg('Amount') as 'Amount' ,median(avg('Amount')) over ( [..] partition by all ) as\\n'group_median' ;\\nL = filter q by 'Amount' <= 'group_median';\\nL = group L by 'Industry';\\nL = foreach L generate 'Industry',avg('Amount') as 'Amount',\\nmedian('Amount') as 'Lmedian',avg('group_median') as\\n'group_median',median(avg('Amount')) over ( [..] partition by all ) as\\n'Lgroup_median';\\nH = filter q by 'Amount' > 'group_median';\\nH = group H by 'Industry';\\nH = foreach H generate 'Industry',avg('Amount') as\\n'Amount',median('Amount') as 'Hmedian',avg('group_median') as\\n'group_median',median(avg('Amount')) over ( [..] partition by all ) as\\n'Hgroup_median';\\nF = union L,H;\\nF=group F by 'Industry';F=foreach F generate\\n'Industry',avg('Amount') as 'Amount',avg(avg('group_median')) over (\\n[..] partition by all ) as 'Median',avg(avg('Lgroup_median')) over ( [..]\\npartition by all ) as 'Lower Group Median',avg(avg('Hgroup_median')) over ( [..]\\npartition by all ) as 'Top Group Median';\"}"
+          "{&quot;display&quot;:&quot;Quartile Distribution&quot;,&quot;chart&quot;:&quot;hbar&quot;,&quot;value&quot;:&quot;q = load &#92;&quot;puttupu__Wave_Sample_Opportunities&#92;&quot;;&#92;nq = group q by &#39;Billing_Country&#39;;&#92;n &#92;nq = foreach q generate &#39;Billing_Country&#39;,&#92;nsum(&#39;Amount&#39;) as &#39;sum_Revenue&#39;,&#92;nrank() over ([..] partition by all order by sum(&#39;Amount&#39;)) as &#39;Position&#39;, sum(1) over ([..] partition by all) as &#39;count&#39;;&#92;nq = foreach q generate &#39;Billing_Country&#39;,&#92;n&#39;sum_Revenue&#39;, ( case&#92;nwhen &#39;Position&#39; &lt;= (floor((&#39;count&#39; + 1)/4)) then &#92;&quot;1st Quartile&#92;&quot; &#92;nwhen &#39;Position&#39; &gt;= (floor(((3*&#39;count&#39;) + 1)/4)) then &#92;&quot;4th Quartile&#92;&quot; &#92;nwhen &#39;Position&#39; &lt;= (floor(((2*&#39;count&#39;) + 1)/4)) then &#92;&quot;2nd Quartile&#92;&quot; &#92;nelse &#92;&quot;3rd Quartile&#92;&quot; end ) as &#39;Quartile&#39;;&#92;nq = group q by (&#39;Billing_Country&#39;, &#39;Quartile&#39;);&#92;nq = foreach q generate &#39;Quartile&#39; as &#39;Quartile&#39;, &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, max(&#39;sum_Revenue&#39;) as &#39;sum_Revenue&#39;;&#92;nq = order q by &#39;sum_Revenue&#39; desc;&quot;}",
+          "{&quot;display&quot;:&quot;Mean Distribution&quot;,&quot;chart&quot;:&quot;combo&quot;,&quot;value&quot;:&quot;q = load &#92;&quot;puttupu__Wave_Sample_Opportunities&#92;&quot;;&#92;n&#92;nq = filter q by date(&#39;Created_Date_Year&#39;, &#39;Created_Date_Month&#39;, &#39;Created_Date_Day&#39;) in [dateRange([2016,2,18], [2016,8,16])];&#92;n&#92;n&#92;n&#92;nq = group q by &#39;Industry&#39;;&#92;nq=foreach q generate &#39;Industry&#39;,avg(&#39;Amount&#39;) as &#39;Amount&#39; ,median(avg(&#39;Amount&#39;)) over ( [..] partition by all ) as&#92;n&#39;group_median&#39; ;&#92;nL = filter q by &#39;Amount&#39; &lt;= &#39;group_median&#39;;&#92;nL = group L by &#39;Industry&#39;;&#92;nL = foreach L generate &#39;Industry&#39;,avg(&#39;Amount&#39;) as &#39;Amount&#39;,&#92;nmedian(&#39;Amount&#39;) as &#39;Lmedian&#39;,avg(&#39;group_median&#39;) as&#92;n&#39;group_median&#39;,median(avg(&#39;Amount&#39;)) over ( [..] partition by all ) as&#92;n&#39;Lgroup_median&#39;;&#92;nH = filter q by &#39;Amount&#39; &gt; &#39;group_median&#39;;&#92;nH = group H by &#39;Industry&#39;;&#92;nH = foreach H generate &#39;Industry&#39;,avg(&#39;Amount&#39;) as&#92;n&#39;Amount&#39;,median(&#39;Amount&#39;) as &#39;Hmedian&#39;,avg(&#39;group_median&#39;) as&#92;n&#39;group_median&#39;,median(avg(&#39;Amount&#39;)) over ( [..] partition by all ) as&#92;n&#39;Hgroup_median&#39;;&#92;nF = union L,H;&#92;nF=group F by &#39;Industry&#39;;F=foreach F generate&#92;n&#39;Industry&#39;,avg(&#39;Amount&#39;) as &#39;Amount&#39;,avg(avg(&#39;group_median&#39;)) over (&#92;n[..] partition by all ) as &#39;Median&#39;,avg(avg(&#39;Lgroup_median&#39;)) over ( [..]&#92;npartition by all ) as &#39;Lower Group Median&#39;,avg(avg(&#39;Hgroup_median&#39;)) over ( [..]&#92;npartition by all ) as &#39;Top Group Median&#39;;&quot;}"
         ]
       },
       "lens_1": {
         "broadcastFacet": true,
         "groups": [],
         "numbers": [],
-        "query": "q = load \"puttupu__Wave_Sample_Opportunities\"; {{cell(static_1.selection, 0, \"value\").asString()}}",
+        "query": "q = load &quot;puttupu__Wave_Sample_Opportunities&quot;; {{cell(static_1.selection, 0, &quot;value&quot;).asString()}}",
         "receiveFacet": true,
         "selectMode": "none",
         "strings": [],
@@ -997,7 +1005,7 @@
       "text_11": {
         "parameters": {
           "fontSize": 14,
-          "text": "If you're concerned about consistency in your data, understanding spread is critical! Toggle between charts to see different ways to uncover how the values in your dataset are distributed.",
+          "text": "If you&#39;re concerned about consistency in your data, understanding spread is critical! Toggle between charts to see different ways to uncover how the values in your dataset are distributed.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1054,7 +1062,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 14,
-          "text": "F = union L,H;\nF=group F by 'Industry';F=foreach F generate\\n'Industry',avg('Amount') as 'Amount',avg(avg('group_median')) over ([..] partition by all ) as 'Median',avg(avg('Lgroup_median')) over ( [..]partition by all ) as 'Lower Group Median',avg(avg('Hgroup_median')) over ( [..]partition by all ) as 'Top Group Median';",
+          "text": "F = union L,H;\nF=group F by &#39;Industry&#39;;F=foreach F generate&#92;n&#39;Industry&#39;,avg(&#39;Amount&#39;) as &#39;Amount&#39;,avg(avg(&#39;group_median&#39;)) over ([..] partition by all ) as &#39;Median&#39;,avg(avg(&#39;Lgroup_median&#39;)) over ( [..]partition by all ) as &#39;Lower Group Median&#39;,avg(avg(&#39;Hgroup_median&#39;)) over ( [..]partition by all ) as &#39;Top Group Median&#39;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1137,7 +1145,7 @@
             "customizeTooltip": false,
             "dimensions": ""
           },
-          "visualizationType": "{{cell(static_1.selection, 0, \"chart\").asString()}}",
+          "visualizationType": "{{cell(static_1.selection, 0, &quot;chart&quot;).asString()}}",
           "exploreLink": true,
           "title": {
             "fontSize": 14,
@@ -1202,7 +1210,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 14,
-          "text": "Data spreads help clarify what's going on in your dataset. Most of us are familiar with modes, medians, and means, but these only tell a small part of the story, especially when your dataset is large. \n\nMeasures of spread can take your understanding to the next level by showing how scattered or concentrated values are and how much they differ from the mean. ",
+          "text": "Data spreads help clarify what&#39;s going on in your dataset. Most of us are familiar with modes, medians, and means, but these only tell a small part of the story, especially when your dataset is large. \n\nMeasures of spread can take your understanding to the next level by showing how scattered or concentrated values are and how much they differ from the mean. ",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1382,7 +1390,7 @@
       "text_25": {
         "parameters": {
           "fontSize": 14,
-          "text": "L = filter q by 'Amount' <= 'group_median';\nL = group L by 'Industry';\nL = foreach L generate 'Industry',avg('Amount') as 'Amount', median('Amount') as 'Lmedian',avg('group_median') as 'group_median',median(avg('Amount')) over ( [..] partition by all ) as 'Lgroup_median';",
+          "text": "L = filter q by &#39;Amount&#39; &lt;= &#39;group_median&#39;;\nL = group L by &#39;Industry&#39;;\nL = foreach L generate &#39;Industry&#39;,avg(&#39;Amount&#39;) as &#39;Amount&#39;, median(&#39;Amount&#39;) as &#39;Lmedian&#39;,avg(&#39;group_median&#39;) as &#39;group_median&#39;,median(avg(&#39;Amount&#39;)) over ( [..] partition by all ) as &#39;Lgroup_median&#39;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1406,7 +1414,7 @@
       "text_24": {
         "parameters": {
           "fontSize": 14,
-          "text": "q = group q by 'Industry';\nq=foreach q generate 'Industry',avg('Amount') as 'Amount' ,median(avg('Amount')) over ( [..] partition by all ) as 'group_median' ;",
+          "text": "q = group q by &#39;Industry&#39;;\nq=foreach q generate &#39;Industry&#39;,avg(&#39;Amount&#39;) as &#39;Amount&#39; ,median(avg(&#39;Amount&#39;)) over ( [..] partition by all ) as &#39;group_median&#39; ;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1445,7 +1453,7 @@
       "text_26": {
         "parameters": {
           "fontSize": 14,
-          "text": "H = filter q by 'Amount' > 'group_median';\nH = group H by 'Industry';\nH = foreach H generate 'Industry',avg('Amount') as 'Amount',median('Amount') as 'Hmedian',avg('group_median') as 'group_median',median(avg('Amount')) over ( [..] partition by all ) as 'Hgroup_median';",
+          "text": "H = filter q by &#39;Amount&#39; &gt; &#39;group_median&#39;;\nH = group H by &#39;Industry&#39;;\nH = foreach H generate &#39;Industry&#39;,avg(&#39;Amount&#39;) as &#39;Amount&#39;,median(&#39;Amount&#39;) as &#39;Hmedian&#39;,avg(&#39;group_median&#39;) as &#39;group_median&#39;,median(avg(&#39;Amount&#39;)) over ( [..] partition by all ) as &#39;Hgroup_median&#39;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1472,7 +1480,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
-          "text": "q = load \\\"${App.EdgeMarts.Wave_Sample_Opportunities.Alias}\\\";\nq = filter q by date('Created_Date_Year', 'Created_Date_Month', 'Created_Date_Day') in [dateRange([2016,2,18], [2016,8,16])];",
+          "text": "q = load &#92;&quot;Wave_Sample_Opportunities&#92;&quot;;\nq = filter q by date(&#39;Created_Date_Year&#39;, &#39;Created_Date_Month&#39;, &#39;Created_Date_Day&#39;) in [dateRange([2016,2,18], [2016,8,16])];",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

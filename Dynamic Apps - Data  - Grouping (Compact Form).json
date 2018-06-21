@@ -9,16 +9,24 @@
   "createdDate": "2018-06-13T04:44:01.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
+      "id": "0Fb7F000000l2TpSAI",
+      "label": "Wave_Sample_Opportunities",
+      "name": "Wave_Sample_Opportunities",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
     }
   ],
   "files": [],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbMWAU",
   "label": "Dynamic Apps - Data  - Grouping (Compact Form)",
-  "lastAccessedDate": "2018-06-21T09:25:42.000Z",
+  "lastAccessedDate": "2018-06-21T09:33:56.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -752,13 +760,17 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
+            "id": "0Fb7F000000l2TpSAI",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
           }
         ],
         "isGlobal": false,
         "label": "Dynamic_Query",
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":\"{{ cell(Grouping_Toggle_1.selection, 0, \\\"groups\\\").asObject() }}\"}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:&quot;{{ cell(Grouping_Toggle_1.selection, 0, &#92;&quot;groups&#92;&quot;).asObject() }}&quot;}",
           "version": -1
         },
         "receiveFacet": true,
@@ -873,7 +885,7 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"1\",\"value\":\"{{ cell(Grouping_Toggle_1.selection, 0, \\\\\\\"groups\\\\\\\").asObject() }}\"}"
+          "{&quot;display&quot;:&quot;1&quot;,&quot;value&quot;:&quot;{{ cell(Grouping_Toggle_1.selection, 0, &#92;&#92;&#92;&quot;groups&#92;&#92;&#92;&quot;).asObject() }}&quot;}"
         ]
       },
       "Grouping_Toggle_1": {
@@ -883,13 +895,13 @@
         "isGlobal": false,
         "label": "Grouping Toggle",
         "selectMode": "singlerequired",
-        "start": "{\"display\":[\"Product Family\"]}",
+        "start": "{&quot;display&quot;:[&quot;Product Family&quot;]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"Product Family\",\"groups\":[\"Product_Family\"]}",
-          "{\"display\":\"Product Name\",\"groups\":[\"Product_Name\"]}",
-          "{\"display\":\"Both\",\"groups\":[\"Product_Family\",\"Product_Name\"]}"
+          "{&quot;display&quot;:&quot;Product Family&quot;,&quot;groups&quot;:[&quot;Product_Family&quot;]}",
+          "{&quot;display&quot;:&quot;Product Name&quot;,&quot;groups&quot;:[&quot;Product_Name&quot;]}",
+          "{&quot;display&quot;:&quot;Both&quot;,&quot;groups&quot;:[&quot;Product_Family&quot;,&quot;Product_Name&quot;]}"
         ]
       }
     },
@@ -904,7 +916,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell( Binding_Value_1.result, 0, \"value\").asObject() }}",
+          "text": "{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1077,7 +1089,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
-          "text": "Tie a widget's data or design to the selection or results of another",
+          "text": "Tie a widget&#39;s data or design to the selection or results of another",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
         },
@@ -1231,7 +1243,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) Create a toggle widget (\"pillbox_1\") with a step (\"Grouping_Toggle_1\") that specifies different groupings.\n\n2) Create a bar chart (\"chart_1\") with a step (\"Dynamic_Query\") in compact form that groups the total amount by the selected grouping in the toggle widget.\n\n3) In Spring '18 release, a new columnMap chart property was introduced to build more powerful visualizations, however columnMap is not necessary for this dynamic visualization. Replace this columnMap {} parameter with columnMap: null. \n\n4) To dynamically set the grouping in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the \"groups\" property in the \"Dynamic_Query\" step.\n\n\"groups\": \"{{cell( Binding_Value_1.result, 0, \"value\").asObject()}}\"\n\n5) VOILÀ! Click Done and you're ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
+          "text": "1) Create a toggle widget (&quot;pillbox_1&quot;) with a step (&quot;Grouping_Toggle_1&quot;) that specifies different groupings.\n\n2) Create a bar chart (&quot;chart_1&quot;) with a step (&quot;Dynamic_Query&quot;) in compact form that groups the total amount by the selected grouping in the toggle widget.\n\n3) In Spring &#39;18 release, a new columnMap chart property was introduced to build more powerful visualizations, however columnMap is not necessary for this dynamic visualization. Replace this columnMap {} parameter with columnMap: null. \n\n4) To dynamically set the grouping in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the &quot;groups&quot; property in the &quot;Dynamic_Query&quot; step.\n\n&quot;groups&quot;: &quot;{{cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject()}}&quot;\n\n5) VOILÀ! Click Done and you&#39;re ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1461,7 +1473,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell(Grouping_Toggle_1.selection, 0, \"groups\").asString() }}",
+          "text": "{{ cell(Grouping_Toggle_1.selection, 0, &quot;groups&quot;).asString() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1470,7 +1482,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) cell(Grouping_Toggle_1.selection, 0, \\\"groups\\\") returns the selected grouping from the \"Grouping_Toggle_1\" step. Gets the value from cell (first row, \"groups\" column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
+          "text": "1) cell(Grouping_Toggle_1.selection, 0, &#92;&quot;groups&#92;&quot;) returns the selected grouping from the &quot;Grouping_Toggle_1&quot; step. Gets the value from cell (first row, &quot;groups&quot; column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

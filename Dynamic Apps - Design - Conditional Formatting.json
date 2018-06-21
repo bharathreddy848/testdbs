@@ -9,7 +9,11 @@
   "createdDate": "2018-06-13T04:44:03.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
+      "id": "0Fb7F000000l2TpSAI",
+      "label": "Wave_Sample_Opportunities",
+      "name": "Wave_Sample_Opportunities",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
     }
   ],
   "files": [
@@ -23,11 +27,15 @@
     }
   ],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbSWAU",
   "label": "Dynamic Apps - Design - Conditional Formatting",
-  "lastAccessedDate": "2018-06-21T09:25:42.000Z",
+  "lastAccessedDate": "2018-06-21T09:33:57.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -785,7 +793,7 @@
         "groups": [],
         "label": "Amount - Education",
         "numbers": [],
-        "query": "q = load \"puttupu__Wave_Sample_Opportunities\";\nq = filter q by 'Industry' == \"Education\";\nq = group q by 'all';\nq = foreach q generate sum('Amount') as 'sum_Amount', (case when sum('Amount') < 40000000 then \"#c23934\" when sum('Amount') < 60000000 then \"#6b6d70\" else \"#04844b\" end) as 'color';\nq = limit q 2000;",
+        "query": "q = load &quot;puttupu__Wave_Sample_Opportunities&quot;;\nq = filter q by &#39;Industry&#39; == &quot;Education&quot;;\nq = group q by &#39;all&#39;;\nq = foreach q generate sum(&#39;Amount&#39;) as &#39;sum_Amount&#39;, (case when sum(&#39;Amount&#39;) &lt; 40000000 then &quot;#c23934&quot; when sum(&#39;Amount&#39;) &lt; 60000000 then &quot;#6b6d70&quot; else &quot;#04844b&quot; end) as &#39;color&#39;;\nq = limit q 2000;",
         "receiveFacet": true,
         "selectMode": "single",
         "strings": [],
@@ -879,7 +887,7 @@
         "groups": [],
         "label": "Amount - Banking",
         "numbers": [],
-        "query": "q = load \"puttupu__Wave_Sample_Opportunities\";\nq = filter q by 'Industry' == \"Banking\";\nq = group q by 'all';\nq = foreach q generate sum('Amount') as 'sum_Amount', (case when sum('Amount') < 40000000 then \"#c23934\" when sum('Amount') < 60000000 then \"#6b6d70\" else \"#04844b\" end) as 'color';\nq = limit q 2000;",
+        "query": "q = load &quot;puttupu__Wave_Sample_Opportunities&quot;;\nq = filter q by &#39;Industry&#39; == &quot;Banking&quot;;\nq = group q by &#39;all&#39;;\nq = foreach q generate sum(&#39;Amount&#39;) as &#39;sum_Amount&#39;, (case when sum(&#39;Amount&#39;) &lt; 40000000 then &quot;#c23934&quot; when sum(&#39;Amount&#39;) &lt; 60000000 then &quot;#6b6d70&quot; else &quot;#04844b&quot; end) as &#39;color&#39;;\nq = limit q 2000;",
         "receiveFacet": true,
         "selectMode": "single",
         "strings": [],
@@ -973,7 +981,7 @@
         "groups": [],
         "label": "Amount - Technology",
         "numbers": [],
-        "query": "q = load \"puttupu__Wave_Sample_Opportunities\";\nq = filter q by 'Industry' == \"Technology\";\nq = group q by 'all';\nq = foreach q generate sum('Amount') as 'sum_Amount', (case when sum('Amount') < 40000000 then \"#c23934\" when sum('Amount') < 60000000 then \"#6b6d70\" else \"#04844b\" end) as 'color';\nq = limit q 2000;",
+        "query": "q = load &quot;puttupu__Wave_Sample_Opportunities&quot;;\nq = filter q by &#39;Industry&#39; == &quot;Technology&quot;;\nq = group q by &#39;all&#39;;\nq = foreach q generate sum(&#39;Amount&#39;) as &#39;sum_Amount&#39;, (case when sum(&#39;Amount&#39;) &lt; 40000000 then &quot;#c23934&quot; when sum(&#39;Amount&#39;) &lt; 60000000 then &quot;#6b6d70&quot; else &quot;#04844b&quot; end) as &#39;color&#39;;\nq = limit q 2000;",
         "receiveFacet": true,
         "selectMode": "single",
         "strings": [],
@@ -1072,7 +1080,7 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"1\",\"value\":\"{{cell(Amount_Banking.result, 0, \\\\\\\"color\\\\\\\").asString()}}\",\"value1\":\"{{cell(Amount_Education_2.result, 0, \\\\\\\"color\\\\\\\").asString()}}\",\"value2\":\"{{cell(Amount_Technology_1.result, 0, \\\\\\\"color\\\\\\\").asString()}}\"}"
+          "{&quot;display&quot;:&quot;1&quot;,&quot;value&quot;:&quot;{{cell(Amount_Banking.result, 0, &#92;&#92;&#92;&quot;color&#92;&#92;&#92;&quot;).asString()}}&quot;,&quot;value1&quot;:&quot;{{cell(Amount_Education_2.result, 0, &#92;&#92;&#92;&quot;color&#92;&#92;&#92;&quot;).asString()}}&quot;,&quot;value2&quot;:&quot;{{cell(Amount_Technology_1.result, 0, &#92;&#92;&#92;&quot;color&#92;&#92;&#92;&quot;).asString()}}&quot;}"
         ]
       }
     },
@@ -1087,9 +1095,9 @@
       "text_18": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell( Binding_Value_1.result, 0, \"value2\").asObject() }}",
+          "text": "{{ cell( Binding_Value_1.result, 0, &quot;value2&quot;).asObject() }}",
           "textAlignment": "left",
-          "textColor": "{{cell(Amount_Technology_1.result, 0, \"color\").asString()}}"
+          "textColor": "{{cell(Amount_Technology_1.result, 0, &quot;color&quot;).asString()}}"
         },
         "type": "text"
       },
@@ -1185,7 +1193,7 @@
       "text_15": {
         "parameters": {
           "fontSize": 16,
-          "text": "Build bindings that conditionally highlight the results based on their values. Check out the color coding below to see how well you're doing in each industry.",
+          "text": "Build bindings that conditionally highlight the results based on their values. Check out the color coding below to see how well you&#39;re doing in each industry.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1203,9 +1211,9 @@
       "text_11": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell( Binding_Value_1.result, 0, \"value1\").asObject() }}",
+          "text": "{{ cell( Binding_Value_1.result, 0, &quot;value1&quot;).asObject() }}",
           "textAlignment": "left",
-          "textColor": "{{cell(Amount_Education_2.result, 0, \"color\").asString()}}"
+          "textColor": "{{cell(Amount_Education_2.result, 0, &quot;color&quot;).asString()}}"
         },
         "type": "text"
       },
@@ -1269,7 +1277,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
-          "text": "Tie a widget's data or design to the selection or results of another",
+          "text": "Tie a widget&#39;s data or design to the selection or results of another",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
         },
@@ -1294,18 +1302,18 @@
       "text_5": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{cell(Amount_Technology_1.result, 0, \"color\").asString()}}",
+          "text": "{{cell(Amount_Technology_1.result, 0, &quot;color&quot;).asString()}}",
           "textAlignment": "left",
-          "textColor": "{{cell(Amount_Technology_1.result, 0, \"color\").asString()}}"
+          "textColor": "{{cell(Amount_Technology_1.result, 0, &quot;color&quot;).asString()}}"
         },
         "type": "text"
       },
       "text_4": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{cell(Amount_Education_2.result, 0, \"color\").asString()}}",
+          "text": "{{cell(Amount_Education_2.result, 0, &quot;color&quot;).asString()}}",
           "textAlignment": "left",
-          "textColor": "{{cell(Amount_Education_2.result, 0, \"color\").asString()}}"
+          "textColor": "{{cell(Amount_Education_2.result, 0, &quot;color&quot;).asString()}}"
         },
         "type": "text"
       },
@@ -1330,7 +1338,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
-          "text": "Complete the following steps for each industry’s number widget. Let’s see how to do this for the banking industry.\n\n1) Create a number widget (\"number_1\") with a step (\"Amount_Banking\") that calculates the total opportunity amount for the industry.\n\n2) In the SAQL query for the step (\"Amount_Banking\"), add a \"color\" derived dimension in the foreach statement.\n\nq = foreach q generate sum('Amount') as 'sum_Amount', (case when sum('Amount') < 40000000 then \\\"#c23934\\\" when sum('Amount') < 60000000 then \\\"#6b6d70\\\" else \\\"#04844b\\\" end) as 'color';\n\n3) To dynamically change the number’s color based on the color determined in the \"Amount_Banking\" step, open the dashboard JSON and bind the \"numberColor\" property in the number widget (\"number_1\").\n\n\"numberColor\": \"{{ cell( Binding_Value_1.result, 0, \"value\").asObject() }}\"\n\n4) VOILÀ! Click Done and you're ready to go.\n\nTo see how we created the widgets, steps, and bindings in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
+          "text": "Complete the following steps for each industry’s number widget. Let’s see how to do this for the banking industry.\n\n1) Create a number widget (&quot;number_1&quot;) with a step (&quot;Amount_Banking&quot;) that calculates the total opportunity amount for the industry.\n\n2) In the SAQL query for the step (&quot;Amount_Banking&quot;), add a &quot;color&quot; derived dimension in the foreach statement.\n\nq = foreach q generate sum(&#39;Amount&#39;) as &#39;sum_Amount&#39;, (case when sum(&#39;Amount&#39;) &lt; 40000000 then &#92;&quot;#c23934&#92;&quot; when sum(&#39;Amount&#39;) &lt; 60000000 then &#92;&quot;#6b6d70&#92;&quot; else &#92;&quot;#04844b&#92;&quot; end) as &#39;color&#39;;\n\n3) To dynamically change the number’s color based on the color determined in the &quot;Amount_Banking&quot; step, open the dashboard JSON and bind the &quot;numberColor&quot; property in the number widget (&quot;number_1&quot;).\n\n&quot;numberColor&quot;: &quot;{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject() }}&quot;\n\n4) VOILÀ! Click Done and you&#39;re ready to go.\n\nTo see how we created the widgets, steps, and bindings in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1339,9 +1347,9 @@
       "text_8": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell( Binding_Value_1.result, 0, \"value\").asObject() }}",
+          "text": "{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject() }}",
           "textAlignment": "left",
-          "textColor": "{{cell(Amount_Banking.result, 0, \"color\").asString()}}"
+          "textColor": "{{cell(Amount_Banking.result, 0, &quot;color&quot;).asString()}}"
         },
         "type": "text"
       },
@@ -1431,7 +1439,7 @@
           "compact": true,
           "exploreLink": true,
           "measureField": "sum_Amount",
-          "numberColor": "{{cell(Amount_Technology_1.result, 0, \"color\").asString()}}",
+          "numberColor": "{{cell(Amount_Technology_1.result, 0, &quot;color&quot;).asString()}}",
           "numberSize": 48,
           "step": "Amount_Technology_1",
           "textAlignment": "left",
@@ -1446,7 +1454,7 @@
           "compact": true,
           "exploreLink": true,
           "measureField": "sum_Amount",
-          "numberColor": "{{cell(Amount_Education_2.result, 0, \"color\").asString()}}",
+          "numberColor": "{{cell(Amount_Education_2.result, 0, &quot;color&quot;).asString()}}",
           "numberSize": 48,
           "step": "Amount_Education_2",
           "textAlignment": "left",
@@ -1461,7 +1469,7 @@
           "compact": true,
           "exploreLink": true,
           "measureField": "sum_Amount",
-          "numberColor": "{{cell(Amount_Banking.result, 0, \"color\").asString()}}",
+          "numberColor": "{{cell(Amount_Banking.result, 0, &quot;color&quot;).asString()}}",
           "numberSize": 48,
           "step": "Amount_Banking",
           "textAlignment": "left",
@@ -1615,16 +1623,16 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{cell(Amount_Banking.result, 0, \"color\").asString()}}",
+          "text": "{{cell(Amount_Banking.result, 0, &quot;color&quot;).asString()}}",
           "textAlignment": "left",
-          "textColor": "{{cell(Amount_Banking.result, 0, \"color\").asString()}}"
+          "textColor": "{{cell(Amount_Banking.result, 0, &quot;color&quot;).asString()}}"
         },
         "type": "text"
       },
       "text_23": {
         "parameters": {
           "fontSize": 14,
-          "text": "The binding code is the same for each number widget step. Let’s look at the binding for the \"Amount_Banking\" step.\n\n1) cell(Amount_Banking.result, 0, \\\"color\\\") returns the resulting color for the average calculated in the \"Amount_Banking\" step. Gets the value from cell (first row, \"avg_Amount\" column) in the step results.\n\n2) asString() formats the results as a string, the expected format in the dashboard JSON.",
+          "text": "The binding code is the same for each number widget step. Let’s look at the binding for the &quot;Amount_Banking&quot; step.\n\n1) cell(Amount_Banking.result, 0, &#92;&quot;color&#92;&quot;) returns the resulting color for the average calculated in the &quot;Amount_Banking&quot; step. Gets the value from cell (first row, &quot;avg_Amount&quot; column) in the step results.\n\n2) asString() formats the results as a string, the expected format in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

@@ -9,16 +9,24 @@
   "createdDate": "2018-06-13T04:44:00.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
+      "id": "0Fb7F000000l2TpSAI",
+      "label": "Wave_Sample_Opportunities",
+      "name": "Wave_Sample_Opportunities",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
     }
   ],
   "files": [],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbKWAU",
   "label": "Dynamic Apps - Data  - Basic Filter",
-  "lastAccessedDate": "2018-06-21T09:25:40.000Z",
+  "lastAccessedDate": "2018-06-21T09:33:53.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -744,13 +752,17 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
+            "id": "0Fb7F000000l2TpSAI",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
           }
         ],
         "isGlobal": false,
         "label": "",
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"limit\":3,\"groups\":[\"Stage\"],\"order\":[[-1,{\"ascending\":true}]]}",
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;limit&quot;:3,&quot;groups&quot;:[&quot;Stage&quot;],&quot;order&quot;:[[-1,{&quot;ascending&quot;:true}]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -766,13 +778,17 @@
         "broadcastFacet": false,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
+            "id": "0Fb7F000000l2TpSAI",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
           }
         ],
         "isGlobal": false,
         "label": "",
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"Stage\",\"{{column(StageName_1.selection,[\\\"Stage\\\"]).asObject()}}\",\"in\"]]}",
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;filters&quot;:[[&quot;Stage&quot;,&quot;{{column(StageName_1.selection,[&#92;&quot;Stage&#92;&quot;]).asObject()}}&quot;,&quot;in&quot;]]}",
           "version": -1
         },
         "receiveFacet": false,
@@ -794,7 +810,7 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"1\",\"value\":\"{{ column( StageName_1.selection, [\\\\\\\"Stage\\\\\\\"] ).asObject() }}\"}"
+          "{&quot;display&quot;:&quot;1&quot;,&quot;value&quot;:&quot;{{ column( StageName_1.selection, [&#92;&#92;&#92;&quot;Stage&#92;&#92;&#92;&quot;] ).asObject() }}&quot;}"
         ]
       }
     },
@@ -809,7 +825,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell( Binding_Value_1.result, 0, \"value\").asObject() }}",
+          "text": "{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -911,7 +927,7 @@
       "text_15": {
         "parameters": {
           "fontSize": 16,
-          "text": "Build a binding to dynamically filter a total based on the selections. With selections, you'll need fewer filter widgets. Try it below!",
+          "text": "Build a binding to dynamically filter a total based on the selections. With selections, you&#39;ll need fewer filter widgets. Try it below!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -986,7 +1002,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
-          "text": "Tie a widget's data or design to the selection or results of another",
+          "text": "Tie a widget&#39;s data or design to the selection or results of another",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
         },
@@ -1149,7 +1165,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) Create a chart widget (\"chart_1\") with a step (\"StageName_1\") that shows the number of opportunities grouped by each stage.\n\n2) Create a number widget (\"number_1\") with a step (\"all_1\") in compact form that calculates the total number of opportunities.\n\n3) To dynamically change the filter in the number widget based on the selected stage in the chart, bind the \"filters\" JSON property in the \"all_1\" step.\n\n\"filters\": [\n   [\n      \"Stage\",\n      \"{{cell( Binding_Value_1.result, 0, \"value\").asObject()}}\",\n      \"in\"\n   ]\n]\n\n4) VOILÀ! Click Done and you're ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
+          "text": "1) Create a chart widget (&quot;chart_1&quot;) with a step (&quot;StageName_1&quot;) that shows the number of opportunities grouped by each stage.\n\n2) Create a number widget (&quot;number_1&quot;) with a step (&quot;all_1&quot;) in compact form that calculates the total number of opportunities.\n\n3) To dynamically change the filter in the number widget based on the selected stage in the chart, bind the &quot;filters&quot; JSON property in the &quot;all_1&quot; step.\n\n&quot;filters&quot;: [\n   [\n      &quot;Stage&quot;,\n      &quot;{{cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject()}}&quot;,\n      &quot;in&quot;\n   ]\n]\n\n4) VOILÀ! Click Done and you&#39;re ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1395,7 +1411,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{column(StageName_1.selection,[\"Stage\"]).asString()}}",
+          "text": "{{column(StageName_1.selection,[&quot;Stage&quot;]).asString()}}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1404,7 +1420,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) column( StageName_1.selection, [\\\"Stage\\\"] ) returns the selected stage from the \"StageName_1\" step. Gets the value from the \"Stage\" column in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
+          "text": "1) column( StageName_1.selection, [&#92;&quot;Stage&#92;&quot;] ) returns the selected stage from the &quot;StageName_1&quot; step. Gets the value from the &quot;Stage&quot; column in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

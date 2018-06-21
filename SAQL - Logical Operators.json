@@ -9,7 +9,11 @@
   "createdDate": "2018-06-13T04:44:08.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.OpportunitiesRegion2.Alias}"
+      "id": "0Fb7F000000l2TrSAI",
+      "label": "OpportunitiesRegion2",
+      "name": "OpportunitiesRegion2",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TrSAI"
     }
   ],
   "files": [
@@ -23,11 +27,15 @@
     }
   ],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbbWAE",
   "label": "SAQL - Logical Operators",
-  "lastAccessedDate": "2018-06-21T09:25:41.000Z",
+  "lastAccessedDate": "2018-06-21T09:33:56.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -889,7 +897,7 @@
         "groups": [],
         "label": "all_1",
         "numbers": [],
-        "query": "q = load \"puttupu__OpportunitiesRegion2\";\r\nq = filter q by 'Stage' != \"09 - Closed Lost\";\r\n\r\nq = foreach q generate Industry, (case \r\n     when  (Account_Owner in [\"Laura Garza\", \"Laura Palmer\", \"Dennis Howard\", \"Harold Campbell\"] &amp;&amp; Probability > .4) then Amount\r\n     when  (Account_Owner in [\"Julie Chavez, Eric Sanchez, Chris Riley, Irene McCoy, Irene Kelley\"] &amp;&amp; Probability > .5) then Amount\r\n     when Probability > .6 then Amount\r\n     else 0\r\n     \r\n     end) as 'Forcast';\r\n     \r\n     q = filter q by 'Forcast' != 0;\r\n\r\nq = group q by 'Industry';\r\n\r\nq = foreach q generate Industry, sum('Forcast') as 'Forcast'; \r\n\r\nq = order q by 'Forcast' asc;\r\n",
+        "query": "q = load &quot;puttupu__OpportunitiesRegion2&quot;;\r\nq = filter q by &#39;Stage&#39; != &quot;09 - Closed Lost&quot;;\r\n\r\nq = foreach q generate Industry, (case \r\n     when  (Account_Owner in [&quot;Laura Garza&quot;, &quot;Laura Palmer&quot;, &quot;Dennis Howard&quot;, &quot;Harold Campbell&quot;] &amp;&amp; Probability &gt; .4) then Amount\r\n     when  (Account_Owner in [&quot;Julie Chavez, Eric Sanchez, Chris Riley, Irene McCoy, Irene Kelley&quot;] &amp;&amp; Probability &gt; .5) then Amount\r\n     when Probability &gt; .6 then Amount\r\n     else 0\r\n     \r\n     end) as &#39;Forcast&#39;;\r\n     \r\n     q = filter q by &#39;Forcast&#39; != 0;\r\n\r\nq = group q by &#39;Industry&#39;;\r\n\r\nq = foreach q generate Industry, sum(&#39;Forcast&#39;) as &#39;Forcast&#39;; \r\n\r\nq = order q by &#39;Forcast&#39; asc;\r\n",
         "receiveFacet": true,
         "selectMode": "single",
         "strings": [],
@@ -1006,7 +1014,7 @@
         "broadcastFacet": true,
         "groups": [],
         "numbers": [],
-        "query": "{{cell(static_1.selection, 0, \"value\").asString()}}",
+        "query": "{{cell(static_1.selection, 0, &quot;value&quot;).asString()}}",
         "receiveFacet": true,
         "selectMode": "none",
         "strings": [],
@@ -1067,7 +1075,7 @@
       "text_14": {
         "parameters": {
           "fontSize": 14,
-          "text": "q = load \"OpportunitiesRegion2\";",
+          "text": "q = load &quot;OpportunitiesRegion2&quot;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1222,7 +1230,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 14,
-          "text": "q = filter q by 'Forecast' != 0;\nq = group q by 'Industry';\nq = foreach q generate Industry, sum('Forecast') as 'Forecast'; \nq = order q by 'Forecast' asc;\n",
+          "text": "q = filter q by &#39;Forecast&#39; != 0;\nq = group q by &#39;Industry&#39;;\nq = foreach q generate Industry, sum(&#39;Forecast&#39;) as &#39;Forecast&#39;; \nq = order q by &#39;Forecast&#39; asc;\n",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1393,7 +1401,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
-          "text": "Let's break down this forecast query. The SAQL might look pretty intimidating, but the logic is easy to follow.\n\nAfter loading the data and removing all lost opportunities, we use a case operator to generate some logic. Namely, we're choosing to include opportunities in this forecast with lower probabilities to close that are owned by top tier reps. Since they're so good, they should close more deals, right? We also add logic that factors in lower expectations for our poorest performing reps.",
+          "text": "Let&#39;s break down this forecast query. The SAQL might look pretty intimidating, but the logic is easy to follow.\n\nAfter loading the data and removing all lost opportunities, we use a case operator to generate some logic. Namely, we&#39;re choosing to include opportunities in this forecast with lower probabilities to close that are owned by top tier reps. Since they&#39;re so good, they should close more deals, right? We also add logic that factors in lower expectations for our poorest performing reps.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1540,7 +1548,7 @@
       "text_32": {
         "parameters": {
           "fontSize": 14,
-          "text": "when Probability > .6 then Amount\n    else 0",
+          "text": "when Probability &gt; .6 then Amount\n    else 0",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1549,7 +1557,7 @@
       "text_31": {
         "parameters": {
           "fontSize": 14,
-          "text": "when  (Account_Owner in [\"Julie Chavez\", \"Eric Sanchez\", \"Chris Riley\", \"Irene McCoy\", \"Irene Kelley\"] &amp;&amp; Probability > .5) then Amount  ",
+          "text": "when  (Account_Owner in [&quot;Julie Chavez&quot;, &quot;Eric Sanchez&quot;, &quot;Chris Riley&quot;, &quot;Irene McCoy&quot;, &quot;Irene Kelley&quot;] &amp;&amp; Probability &gt; .5) then Amount  ",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1558,7 +1566,7 @@
       "text_34": {
         "parameters": {
           "fontSize": 14,
-          "text": "end) as 'Forecast';",
+          "text": "end) as &#39;Forecast&#39;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1576,7 +1584,7 @@
       "text_30": {
         "parameters": {
           "fontSize": 14,
-          "text": "when  (Account_Owner in [\"Laura Garza\", \"Laura Palmer\", \"Dennis Howard\", \"Harold Campbell\"] &amp;&amp; Probability > .4) then Amount ",
+          "text": "when  (Account_Owner in [&quot;Laura Garza&quot;, &quot;Laura Palmer&quot;, &quot;Dennis Howard&quot;, &quot;Harold Campbell&quot;] &amp;&amp; Probability &gt; .4) then Amount ",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1594,7 +1602,7 @@
       "text_28": {
         "parameters": {
           "fontSize": 14,
-          "text": "q = filter q by 'Stage' != \"09 - Closed Lost\";\n",
+          "text": "q = filter q by &#39;Stage&#39; != &quot;09 - Closed Lost&quot;;\n",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

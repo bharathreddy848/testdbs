@@ -10,11 +10,15 @@
   "datasets": [],
   "files": [],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbVWAU",
   "label": "Adventure Home",
-  "lastAccessedDate": "2018-06-21T09:25:42.000Z",
+  "lastAccessedDate": "2018-06-21T09:33:59.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -451,7 +455,7 @@
       "text_1": {
         "parameters": {
           "fontSize": 20,
-          "text": "Thanks for stopping by! This app walks you through best practice examples for designing just the right visualizations and building powerful dynamic apps.\n\nPlay, learn, try! Seriously, click the titles below and dig in. You'll become an Analytics hero in no time. Already a pro? Clone the things you like and call them your own. We won't tell your boss. Promise!\n\nBrand new to Einstein Analytics? Make sure to check out Trailhead first to learn the basics",
+          "text": "Thanks for stopping by! This app walks you through best practice examples for designing just the right visualizations and building powerful dynamic apps.\n\nPlay, learn, try! Seriously, click the titles below and dig in. You&#39;ll become an Analytics hero in no time. Already a pro? Clone the things you like and call them your own. We won&#39;t tell your boss. Promise!\n\nBrand new to Einstein Analytics? Make sure to check out Trailhead first to learn the basics",
           "textAlignment": "left",
           "textColor": "rgb(255, 255, 255)"
         },
@@ -516,7 +520,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
-          "text": "Tie a widget's data or design to the selection or results of another",
+          "text": "Tie a widget&#39;s data or design to the selection or results of another",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

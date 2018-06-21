@@ -9,7 +9,11 @@
   "createdDate": "2018-06-13T04:44:05.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
+      "id": "0Fb7F000000l2TpSAI",
+      "label": "Wave_Sample_Opportunities",
+      "name": "Wave_Sample_Opportunities",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
     }
   ],
   "files": [
@@ -23,11 +27,15 @@
     }
   ],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbYWAU",
   "label": "SAQL - Computing Quartiles",
-  "lastAccessedDate": "2018-06-21T09:25:38.000Z",
+  "lastAccessedDate": "2018-06-21T09:33:52.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -798,7 +806,7 @@
         "broadcastFacet": true,
         "groups": [],
         "numbers": [],
-        "query": "{{cell(Toggle_1_1.selection, 0, \"value\").asString()}}",
+        "query": "{{cell(Toggle_1_1.selection, 0, &quot;value&quot;).asString()}}",
         "receiveFacet": true,
         "selectMode": "none",
         "strings": [],
@@ -811,23 +819,27 @@
         "dimensions": [],
         "label": "Toggle_1",
         "selectMode": "single",
-        "start": "{\"display\":[\"Countries by Quartile\"]}",
+        "start": "{&quot;display&quot;:[&quot;Countries by Quartile&quot;]}",
         "type": "staticflex",
         "values": [
-          "{\"display\":\"Countries by Quartile\",\"chart\":\"hbar\",\"value\":\"q = load \\\"${App.EdgeMarts.puttupu__Wave_Sample_Opportunities.Alias}\\\";\\nq = group q by 'Billing_Country';\\n \\nq = foreach q generate 'Billing_Country',\\nsum('Amount') as 'sum_Revenue',\\nrank() over ([..] partition by all order by sum('Amount')) as 'Position', sum(1) over ([..] partition by all) as 'count';\\nq = foreach q generate 'Billing_Country',\\n'sum_Revenue', ( case\\nwhen 'Position' <= (floor(('count' + 1)/4)) then \\\"1st Quartile\\\" \\nwhen 'Position' >= (floor(((3*'count') + 1)/4)) then \\\"4th Quartile\\\" \\nwhen 'Position' <= (floor(((2*'count') + 1)/4)) then \\\"2nd Quartile\\\" \\nelse \\\"3rd Quartile\\\" end ) as 'Quartile';\\nq = group q by ('Billing_Country', 'Quartile');\\nq = foreach q generate 'Quartile' as 'Quartile', 'Billing_Country' as 'Billing_Country', max('sum_Revenue') as 'sum_Revenue';\\nq = order q by 'sum_Revenue' desc;\"}",
-          "{\"display\":\"Revenue by Quartile\",\"chart\":\"pie\",\"value\":\"q = load \\\"${App.EdgeMarts.puttupu__Wave_Sample_Opportunities.Alias}\\\";\\nq = group q by 'Billing_Country';\\n \\nq = foreach q generate 'Billing_Country',\\nsum('Amount') as 'sum_Revenue',\\nrank() over ([..] partition by all order by sum('Amount')) as 'Position', sum(1) over ([..] partition by all) as 'count';\\nq = foreach q generate 'Billing_Country',\\n'sum_Revenue', ( case\\nwhen 'Position' <= (floor(('count' + 1)/4)) then \\\"1st Quartile\\\" \\nwhen 'Position' >= (floor(((3*'count') + 1)/4)) then \\\"4th Quartile\\\" \\nwhen 'Position' <= (floor(((2*'count') + 1)/4)) then \\\"2nd Quartile\\\" \\nelse \\\"3rd Quartile\\\" end ) as 'Quartile';\\nq = group q by ('Quartile');\\nq = foreach q generate 'Quartile' as 'Quartile', max('sum_Revenue') as 'sum_Revenue';\\nq = order q by 'sum_Revenue' desc;\"}"
+          "{&quot;display&quot;:&quot;Countries by Quartile&quot;,&quot;chart&quot;:&quot;hbar&quot;,&quot;value&quot;:&quot;q = load &#92;&quot;puttupu__Wave_Sample_Opportunities&#92;&quot;;&#92;nq = group q by &#39;Billing_Country&#39;;&#92;n &#92;nq = foreach q generate &#39;Billing_Country&#39;,&#92;nsum(&#39;Amount&#39;) as &#39;sum_Revenue&#39;,&#92;nrank() over ([..] partition by all order by sum(&#39;Amount&#39;)) as &#39;Position&#39;, sum(1) over ([..] partition by all) as &#39;count&#39;;&#92;nq = foreach q generate &#39;Billing_Country&#39;,&#92;n&#39;sum_Revenue&#39;, ( case&#92;nwhen &#39;Position&#39; &lt;= (floor((&#39;count&#39; + 1)/4)) then &#92;&quot;1st Quartile&#92;&quot; &#92;nwhen &#39;Position&#39; &gt;= (floor(((3*&#39;count&#39;) + 1)/4)) then &#92;&quot;4th Quartile&#92;&quot; &#92;nwhen &#39;Position&#39; &lt;= (floor(((2*&#39;count&#39;) + 1)/4)) then &#92;&quot;2nd Quartile&#92;&quot; &#92;nelse &#92;&quot;3rd Quartile&#92;&quot; end ) as &#39;Quartile&#39;;&#92;nq = group q by (&#39;Billing_Country&#39;, &#39;Quartile&#39;);&#92;nq = foreach q generate &#39;Quartile&#39; as &#39;Quartile&#39;, &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, max(&#39;sum_Revenue&#39;) as &#39;sum_Revenue&#39;;&#92;nq = order q by &#39;sum_Revenue&#39; desc;&quot;}",
+          "{&quot;display&quot;:&quot;Revenue by Quartile&quot;,&quot;chart&quot;:&quot;pie&quot;,&quot;value&quot;:&quot;q = load &#92;&quot;puttupu__Wave_Sample_Opportunities&#92;&quot;;&#92;nq = group q by &#39;Billing_Country&#39;;&#92;n &#92;nq = foreach q generate &#39;Billing_Country&#39;,&#92;nsum(&#39;Amount&#39;) as &#39;sum_Revenue&#39;,&#92;nrank() over ([..] partition by all order by sum(&#39;Amount&#39;)) as &#39;Position&#39;, sum(1) over ([..] partition by all) as &#39;count&#39;;&#92;nq = foreach q generate &#39;Billing_Country&#39;,&#92;n&#39;sum_Revenue&#39;, ( case&#92;nwhen &#39;Position&#39; &lt;= (floor((&#39;count&#39; + 1)/4)) then &#92;&quot;1st Quartile&#92;&quot; &#92;nwhen &#39;Position&#39; &gt;= (floor(((3*&#39;count&#39;) + 1)/4)) then &#92;&quot;4th Quartile&#92;&quot; &#92;nwhen &#39;Position&#39; &lt;= (floor(((2*&#39;count&#39;) + 1)/4)) then &#92;&quot;2nd Quartile&#92;&quot; &#92;nelse &#92;&quot;3rd Quartile&#92;&quot; end ) as &#39;Quartile&#39;;&#92;nq = group q by (&#39;Quartile&#39;);&#92;nq = foreach q generate &#39;Quartile&#39; as &#39;Quartile&#39;, max(&#39;sum_Revenue&#39;) as &#39;sum_Revenue&#39;;&#92;nq = order q by &#39;sum_Revenue&#39; desc;&quot;}"
         ]
       },
       "Billing_Country_1": {
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
+            "id": "0Fb7F000000l2TpSAI",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"{{coalesce(cell(static_1.selection, 0, \\\"grouping\\\"), cell(static_1.result, 0, \\\"grouping\\\")).asString()}}\"]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;{{coalesce(cell(static_1.selection, 0, &#92;&quot;grouping&#92;&quot;), cell(static_1.result, 0, &#92;&quot;grouping&#92;&quot;)).asString()}}&quot;]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -880,7 +892,7 @@
               "type": "x",
               "chartsPerLine": 4
             },
-            "map": "{{coalesce(cell(static_1.selection, 0, \"mapType\"), cell(static_1.result, 0, \"mapType\")).asString()}}"
+            "map": "{{coalesce(cell(static_1.selection, 0, &quot;mapType&quot;), cell(static_1.result, 0, &quot;mapType&quot;)).asString()}}"
           },
           "type": "chart"
         }
@@ -954,7 +966,7 @@
       "text_14": {
         "parameters": {
           "fontSize": 14,
-          "text": "q = foreach q generate 'Billing_Country',\nsum('Amount') as 'sum_Revenue',\nrank() over ([..] partition by all order by sum('Amount')) as 'Position', sum(1) over ([..] partition by all) as 'count';",
+          "text": "q = foreach q generate &#39;Billing_Country&#39;,\nsum(&#39;Amount&#39;) as &#39;sum_Revenue&#39;,\nrank() over ([..] partition by all order by sum(&#39;Amount&#39;)) as &#39;Position&#39;, sum(1) over ([..] partition by all) as &#39;count&#39;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -963,7 +975,7 @@
       "text_13": {
         "parameters": {
           "fontSize": 14,
-          "text": "q = group q by ('Billing_Country', 'Quartile');\nq = foreach q generate 'Quartile' as 'Quartile', 'Billing_Country' as 'Billing_Country', max('sum_Revenue') as 'sum_Revenue';\nq = order q by 'sum_Revenue' desc;",
+          "text": "q = group q by (&#39;Billing_Country&#39;, &#39;Quartile&#39;);\nq = foreach q generate &#39;Quartile&#39; as &#39;Quartile&#39;, &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, max(&#39;sum_Revenue&#39;) as &#39;sum_Revenue&#39;;\nq = order q by &#39;sum_Revenue&#39; desc;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -986,7 +998,7 @@
       "text_16": {
         "parameters": {
           "fontSize": 14,
-          "text": "q = foreach q generate 'Billing_Country',\n'sum_Revenue', ( case\nwhen 'Position' <= (floor(('count' + 1)/4)) then \"1st Quartile\" \nwhen 'Position' >= (floor(((3*'count') + 1)/4)) then \"4th Quartile\" \nwhen 'Position' <= (floor(((2*'count') + 1)/4)) then \"2nd Quartile\" \nelse \"3rd Quartile\" end ) as 'Quartile';",
+          "text": "q = foreach q generate &#39;Billing_Country&#39;,\n&#39;sum_Revenue&#39;, ( case\nwhen &#39;Position&#39; &lt;= (floor((&#39;count&#39; + 1)/4)) then &quot;1st Quartile&quot; \nwhen &#39;Position&#39; &gt;= (floor(((3*&#39;count&#39;) + 1)/4)) then &quot;4th Quartile&quot; \nwhen &#39;Position&#39; &lt;= (floor(((2*&#39;count&#39;) + 1)/4)) then &quot;2nd Quartile&quot; \nelse &quot;3rd Quartile&quot; end ) as &#39;Quartile&#39;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -995,7 +1007,7 @@
       "text_15": {
         "parameters": {
           "fontSize": 16,
-          "text": "Want to group your data by relative measures like \"top half,\" \"bottom quarter,\" or \"10th percentile\"? Defining static ranges doesn't cut it; your data changes. Divvy your data with SAQL quartiles!",
+          "text": "Want to group your data by relative measures like &quot;top half,&quot; &quot;bottom quarter,&quot; or &quot;10th percentile&quot;? Defining static ranges doesn&#39;t cut it; your data changes. Divvy your data with SAQL quartiles!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1018,7 +1030,7 @@
       "text_10": {
         "parameters": {
           "fontSize": 14,
-          "text": "Let's break down the Countries by Quartile query syntax below. \n\nAfter loading the data, we calculate revenue by country. We then order the countries by revenue amount, and define their position in the order. From there, we can calculate the quartiles!\n\nWant to know the SAQL behind the Revenue by Quartile pie chart? Not a problem. Use Cmd-E to check it out in the JSON!",
+          "text": "Let&#39;s break down the Countries by Quartile query syntax below. \n\nAfter loading the data, we calculate revenue by country. We then order the countries by revenue amount, and define their position in the order. From there, we can calculate the quartiles!\n\nWant to know the SAQL behind the Revenue by Quartile pie chart? Not a problem. Use Cmd-E to check it out in the JSON!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1027,7 +1039,7 @@
       "text_12": {
         "parameters": {
           "fontSize": 14,
-          "text": "Because quartiles can help you easily spot outliers in your data, they're great for visualizing team performance. \n\nConsider quartiling service rep performance by looking at how agents or teams compare at resolving cases.",
+          "text": "Because quartiles can help you easily spot outliers in your data, they&#39;re great for visualizing team performance. \n\nConsider quartiling service rep performance by looking at how agents or teams compare at resolving cases.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1093,7 +1105,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 14,
-          "text": "q = load \"Wave_Sample_Opportunities\";\nq = group q by 'Billing_Country';",
+          "text": "q = load &quot;Wave_Sample_Opportunities&quot;;\nq = group q by &#39;Billing_Country&#39;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1138,7 +1150,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 14,
-          "text": "Let's look at our revenue by country: the quartiles help us quickly see that the majority of our revenue is coming from just a few countries. The 4th quartile to be exact!",
+          "text": "Let&#39;s look at our revenue by country: the quartiles help us quickly see that the majority of our revenue is coming from just a few countries. The 4th quartile to be exact!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1205,7 +1217,7 @@
             "customizeTooltip": false,
             "dimensions": ""
           },
-          "visualizationType": "{{cell(Toggle_1_1.selection, 0, \"chart\").asString()}}",
+          "visualizationType": "{{cell(Toggle_1_1.selection, 0, &quot;chart&quot;).asString()}}",
           "exploreLink": true,
           "title": {
             "fontSize": 14,

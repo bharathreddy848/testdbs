@@ -10,11 +10,15 @@
   "datasets": [],
   "files": [],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbaWAE",
   "label": "SAQL - Introduction",
-  "lastAccessedDate": "2018-06-21T09:25:43.000Z",
+  "lastAccessedDate": "2018-06-21T09:33:56.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",

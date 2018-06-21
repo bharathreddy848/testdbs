@@ -9,16 +9,24 @@
   "createdDate": "2018-06-13T04:44:02.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
+      "id": "0Fb7F000000l2TpSAI",
+      "label": "Wave_Sample_Opportunities",
+      "name": "Wave_Sample_Opportunities",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
     }
   ],
   "files": [],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbOWAU",
   "label": "Dynamic Apps - Data  - Measure (Compact Form)",
-  "lastAccessedDate": "2018-06-21T09:25:36.000Z",
+  "lastAccessedDate": "2018-06-21T09:33:50.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -719,26 +727,30 @@
         "isGlobal": false,
         "label": "Measure Toggle",
         "selectMode": "singlerequired",
-        "start": "{\"display\":[\"Sum of Amount\"]}",
+        "start": "{&quot;display&quot;:[&quot;Sum of Amount&quot;]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"Sum of Amount\",\"measures\":[[\"sum\",\"Amount\"]]}",
-          "{\"display\":\"Count of Rows\",\"measures\":[[\"count\",\"*\"]]}",
-          "{\"display\":\"Both\",\"measures\":[[\"sum\",\"Amount\"],[\"count\",\"*\"]]}"
+          "{&quot;display&quot;:&quot;Sum of Amount&quot;,&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]]}",
+          "{&quot;display&quot;:&quot;Count of Rows&quot;,&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]]}",
+          "{&quot;display&quot;:&quot;Both&quot;,&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;],[&quot;count&quot;,&quot;*&quot;]]}"
         ]
       },
       "Dynamic_Query_1": {
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
+            "id": "0Fb7F000000l2TpSAI",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
           }
         ],
         "isGlobal": false,
         "label": "Dynamic Query",
         "query": {
-          "query": "{\"measures\":\"{{ cell(Measure_Toggle_1.selection, 0, \\\"measures\\\").asObject() }}\",\"groups\":[\"Product_Family\"]}",
+          "query": "{&quot;measures&quot;:&quot;{{ cell(Measure_Toggle_1.selection, 0, &#92;&quot;measures&#92;&quot;).asObject() }}&quot;,&quot;groups&quot;:[&quot;Product_Family&quot;]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -853,7 +865,7 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"1\",\"value\":\"{{ cell(Measure_Toggle_1.selection, 0, \\\\\\\"measures\\\\\\\").asObject() }}\"}"
+          "{&quot;display&quot;:&quot;1&quot;,&quot;value&quot;:&quot;{{ cell(Measure_Toggle_1.selection, 0, &#92;&#92;&#92;&quot;measures&#92;&#92;&#92;&quot;).asObject() }}&quot;}"
         ]
       }
     },
@@ -880,7 +892,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell( Binding_Value_1.result, 0, \"value\").asObject() }}",
+          "text": "{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1077,7 +1089,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
-          "text": "Tie a widget's data or design to the selection or results of another",
+          "text": "Tie a widget&#39;s data or design to the selection or results of another",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
         },
@@ -1222,7 +1234,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) Create a toggle widget (\"pillbox_1\") with a step (\"Measure_Toggle_1\") that specifies different measures.\n\n2) Create a bar chart (\"chart_1\") with a step (\"Dynamic_Query\") in compact form that groups the selected measure from the toggle widget by product family.\n\n3) In Spring '18 release, a new columnMap chart property was introduced to build more powerful visualizations, however columnMap is not necessary for this dynamic visualization. Make this columnMap {} parameter null with \"columnMap\": null. \n\n4) To dynamically set the measure in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the \"measures\" property in the \"Dynamic_Query\" step.\n\n\"measures\": \"{{cell( Binding_Value_1.result, 0, \"value\").asObject()}}\"\n\n5) VOILÀ! Click Done and you're ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
+          "text": "1) Create a toggle widget (&quot;pillbox_1&quot;) with a step (&quot;Measure_Toggle_1&quot;) that specifies different measures.\n\n2) Create a bar chart (&quot;chart_1&quot;) with a step (&quot;Dynamic_Query&quot;) in compact form that groups the selected measure from the toggle widget by product family.\n\n3) In Spring &#39;18 release, a new columnMap chart property was introduced to build more powerful visualizations, however columnMap is not necessary for this dynamic visualization. Make this columnMap {} parameter null with &quot;columnMap&quot;: null. \n\n4) To dynamically set the measure in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the &quot;measures&quot; property in the &quot;Dynamic_Query&quot; step.\n\n&quot;measures&quot;: &quot;{{cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject()}}&quot;\n\n5) VOILÀ! Click Done and you&#39;re ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1366,7 +1378,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell(Measure_Toggle_1.selection, 0, \"measures\").asString() }}",
+          "text": "{{ cell(Measure_Toggle_1.selection, 0, &quot;measures&quot;).asString() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1375,7 +1387,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) cell(Measure_Toggle_1.selection, 0, \\\"measures\\\") returns the selected measure from the \"Measure_Toggle_1\" step. Gets the value from cell (first row, \"measures\" column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
+          "text": "1) cell(Measure_Toggle_1.selection, 0, &#92;&quot;measures&#92;&quot;) returns the selected measure from the &quot;Measure_Toggle_1&quot; step. Gets the value from cell (first row, &quot;measures&quot; column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
