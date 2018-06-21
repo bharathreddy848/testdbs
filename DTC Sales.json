@@ -1,48 +1,56 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000LrLbWAK&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000005f5rWAA&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2017-08-16T01:52:43.000Z",
+  "createdDate": "2017-10-23T07:09:34.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.DTC_Opportunity_SAMPLE.Alias}"
+      "id": "0Fb7F0000004IyxSAE",
+      "label": "DTC Opportunity",
+      "name": "DTC_Opportunity_SAMPLE",
+      "namespace": "bharathreddy848",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
     }
   ],
   "files": [
     {
       "contentType": "image/png",
-      "fileLength": 11118,
+      "fileLength": 13067,
       "fileName": "assetPreviewThumb",
-      "id": "0FJ7F00000003QPWAY",
-      "lastModifiedDate": "2018-02-13T09:49:57.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F000000LrLbWAK/files/0FJ7F00000003QPWAY"
+      "id": "0FJ7F0000008TZSWA2",
+      "lastModifiedDate": "2017-10-23T07:09:34.000Z",
+      "url": "/services/data/v41.0/wave/lenses/0FK7F0000005f5rWAA/files/0FJ7F0000008TZSWA2"
     }
   ],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001VEMTQA4",
+    "label": "My DTC Sales",
+    "name": "My_DTC_Sales",
+    "namespace": "bharathreddy848",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001VEMTQA4"
   },
-  "id": "0FK7F000000LrLbWAK",
+  "id": "0FK7F0000005f5rWAA",
   "label": "DTC Sales",
-  "lastAccessedDate": "2018-04-02T10:52:08.000Z",
+  "lastAccessedDate": "2018-06-12T11:20:20.000Z",
   "lastModifiedBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-02-08T11:25:36.000Z",
+  "lastModifiedDate": "2017-10-23T07:09:34.000Z",
   "mobileDisabled": false,
   "name": "DTC_Sales_SAMPLE",
-  "namespace": "puttupu",
+  "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
     "modify": true,
     "view": true
   },
-  "refreshDate": "2017-08-16T01:52:43.000Z",
+  "refreshDate": "2017-10-23T07:09:34.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -53,7 +61,7 @@
         "numColumns": 18,
         "pages": [
           {
-            "name": "a6a5b24c-9332-4df6-abf2-7420b17b93f1",
+            "name": "ac33bbb0-cbf2-4582-98a1-b2d95de43020",
             "widgets": [
               {
                 "colspan": 3,
@@ -250,7 +258,7 @@
         "numColumns": 2,
         "pages": [
           {
-            "name": "a6a5b24c-9332-4df6-abf2-7420b17b93f1",
+            "name": "ac33bbb0-cbf2-4582-98a1-b2d95de43020",
             "widgets": [
               {
                 "colspan": 2,
@@ -456,12 +464,16 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.DTC_Opportunity_SAMPLE.Alias}"
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\",\"B\",{\"display\":\"sum(A) over ([..0] partition by all order by ('Close_Date_Year~~~Close_Date_Month'))\",\"format\":\"currencydollars\"}]],\"columns\":[{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Month\"]],\"filters\":[[\"Won\",[\"true\"],\"in\"]]}},{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Month\"]],\"formula\":\"sum(A) over ([..0] partition by all order by ('Close_Date_Year~~~Close_Date_Month'))\",\"filters\":[[\"Won\",[\"true\"],\"in\"]]},\"format\":\"currencydollars\"}],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Month\"]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;,&quot;B&quot;,{&quot;display&quot;:&quot;sum(A) over ([..0] partition by all order by (&#39;Close_Date_Year~~~Close_Date_Month&#39;))&quot;,&quot;format&quot;:&quot;currencydollars&quot;}]],&quot;columns&quot;:[{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Month&quot;]],&quot;filters&quot;:[[&quot;Won&quot;,[&quot;true&quot;],&quot;in&quot;]]}},{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Month&quot;]],&quot;formula&quot;:&quot;sum(A) over ([..0] partition by all order by (&#39;Close_Date_Year~~~Close_Date_Month&#39;))&quot;,&quot;filters&quot;:[[&quot;Won&quot;,[&quot;true&quot;],&quot;in&quot;]]},&quot;format&quot;:&quot;currencydollars&quot;}],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Month&quot;]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -477,12 +489,16 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.DTC_Opportunity_SAMPLE.Alias}"
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"filters\":[[\"Closed\",[\"false\"],\"in\"]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;filters&quot;:[[&quot;Closed&quot;,[&quot;false&quot;],&quot;in&quot;]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -498,12 +514,16 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.DTC_Opportunity_SAMPLE.Alias}"
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"filters\":[[\"Won\",[\"true\"],\"in\"]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;filters&quot;:[[&quot;Won&quot;,[&quot;true&quot;],&quot;in&quot;]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -519,12 +539,16 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.DTC_Opportunity_SAMPLE.Alias}"
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Close_Date_Year\"],\"filters\":[[\"Closed\",[\"true\"],\"in\"]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Close_Date_Year&quot;],&quot;filters&quot;:[[&quot;Closed&quot;,[&quot;true&quot;],&quot;in&quot;]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -541,12 +565,16 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.DTC_Opportunity_SAMPLE.Alias}"
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"filters\":[[\"Won\",[\"false\"],\"in\"],[\"Closed\",[\"true\"],\"in\"]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;filters&quot;:[[&quot;Won&quot;,[&quot;false&quot;],&quot;in&quot;],[&quot;Closed&quot;,[&quot;true&quot;],&quot;in&quot;]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -562,12 +590,16 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.DTC_Opportunity_SAMPLE.Alias}"
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -605,7 +637,7 @@
           "destinationType": "dashboard",
           "fontSize": 16,
           "includeState": false,
-          "text": "Opportunity Details  >",
+          "text": "Opportunity Details  &gt;",
           "textAlignment": "center",
           "textColor": "#5C7A99"
         },
@@ -689,7 +721,7 @@
           "destinationType": "dashboard",
           "fontSize": 16,
           "includeState": false,
-          "text": "Regional Sales  >",
+          "text": "Regional Sales  &gt;",
           "textAlignment": "center",
           "textColor": "#5C7A99"
         },
@@ -818,5 +850,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000LrLbWAK"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000005f5rWAA"
 }

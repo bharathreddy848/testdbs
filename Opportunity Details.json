@@ -1,19 +1,19 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000LrLcWAK&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000005f5sWAA&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2017-08-16T01:52:43.000Z",
+  "createdDate": "2017-10-23T07:09:34.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000PEymSAG",
+      "id": "0Fb7F0000004IyxSAE",
       "label": "DTC Opportunity",
       "name": "DTC_Opportunity_SAMPLE",
-      "namespace": "puttupu",
-      "url": "/services/data/v42.0/wave/datasets/0Fb7F000000PEymSAG"
+      "namespace": "bharathreddy848",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
     }
   ],
   "description": "Analyze opportunities by sales rep, stage, and more. View the total value of their open, won, and lost opportunities. Analyze the sales pipeline with charts. Look at the individual opportunity records. Get it all in this interactive dashboard!",
@@ -22,36 +22,35 @@
       "contentType": "image/png",
       "fileLength": 20789,
       "fileName": "assetPreviewThumb",
-      "id": "0FJ7F00000003QRWAY",
-      "lastModifiedDate": "2017-08-16T01:52:43.000Z",
-      "url": "/services/data/v42.0/wave/lenses/0FK7F000000LrLcWAK/files/0FJ7F00000003QRWAY"
+      "id": "0FJ7F0000008TZUWA2",
+      "lastModifiedDate": "2017-10-23T07:09:34.000Z",
+      "url": "/services/data/v41.0/wave/lenses/0FK7F0000005f5sWAA/files/0FJ7F0000008TZUWA2"
     }
   ],
   "folder": {
-    "id": "00l7F000001JxDtQAK",
+    "id": "00l7F000001VEMTQA4",
     "label": "My DTC Sales",
     "name": "My_DTC_Sales",
-    "namespace": "puttupu",
-    "url": "/services/data/v42.0/wave/folders/00l7F000001JxDtQAK"
+    "namespace": "bharathreddy848",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001VEMTQA4"
   },
-  "id": "0FK7F000000LrLcWAK",
+  "id": "0FK7F0000005f5sWAA",
   "label": "Opportunity Details",
-  "lastAccessedDate": "2018-06-06T04:25:06.000Z",
   "lastModifiedBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-02-08T11:25:36.000Z",
+  "lastModifiedDate": "2017-10-23T07:09:34.000Z",
   "mobileDisabled": false,
   "name": "Opportunity_Details",
-  "namespace": "puttupu",
+  "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
     "modify": true,
     "view": true
   },
-  "refreshDate": "2017-08-16T01:52:43.000Z",
+  "refreshDate": "2017-10-23T07:09:34.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -62,7 +61,7 @@
         "numColumns": 18,
         "pages": [
           {
-            "name": "6636cead-b5a4-4bc3-9e99-5141e0bed8d1",
+            "name": "d1aeeb20-1e6a-48f3-86dc-eaecd8c5d9ab",
             "widgets": [
               {
                 "colspan": 16,
@@ -354,7 +353,7 @@
         "numColumns": 2,
         "pages": [
           {
-            "name": "6636cead-b5a4-4bc3-9e99-5141e0bed8d1",
+            "name": "d1aeeb20-1e6a-48f3-86dc-eaecd8c5d9ab",
             "widgets": [
               {
                 "colspan": 2,
@@ -584,11 +583,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000PEymSAG",
+            "id": "0Fb7F0000004IyxSAE",
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
-            "namespace": "puttupu",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F000000PEymSAG"
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -606,11 +605,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000PEymSAG",
+            "id": "0Fb7F0000004IyxSAE",
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
-            "namespace": "puttupu",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F000000PEymSAG"
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -631,11 +630,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000PEymSAG",
+            "id": "0Fb7F0000004IyxSAE",
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
-            "namespace": "puttupu",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F000000PEymSAG"
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -656,11 +655,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000PEymSAG",
+            "id": "0Fb7F0000004IyxSAE",
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
-            "namespace": "puttupu",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F000000PEymSAG"
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -676,12 +675,11 @@
       },
       "static_1": {
         "broadcastFacet": false,
-        "groups": [],
+        "datasets": [],
+        "dimensions": [],
         "isGlobal": false,
-        "numbers": [],
         "selectMode": "singlerequired",
         "start": "{&quot;display&quot;:[&quot;Open&quot;]}",
-        "strings": [],
         "type": "staticflex",
         "useGlobal": false,
         "values": [
@@ -694,11 +692,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000PEymSAG",
+            "id": "0Fb7F0000004IyxSAE",
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
-            "namespace": "puttupu",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F000000PEymSAG"
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -719,11 +717,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000PEymSAG",
+            "id": "0Fb7F0000004IyxSAE",
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
-            "namespace": "puttupu",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F000000PEymSAG"
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -744,11 +742,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000PEymSAG",
+            "id": "0Fb7F0000004IyxSAE",
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
-            "namespace": "puttupu",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F000000PEymSAG"
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -766,11 +764,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000PEymSAG",
+            "id": "0Fb7F0000004IyxSAE",
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
-            "namespace": "puttupu",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F000000PEymSAG"
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -791,11 +789,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000PEymSAG",
+            "id": "0Fb7F0000004IyxSAE",
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
-            "namespace": "puttupu",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F000000PEymSAG"
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -814,11 +812,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000PEymSAG",
+            "id": "0Fb7F0000004IyxSAE",
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
-            "namespace": "puttupu",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F000000PEymSAG"
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -839,11 +837,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000PEymSAG",
+            "id": "0Fb7F0000004IyxSAE",
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
-            "namespace": "puttupu",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F000000PEymSAG"
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -932,7 +930,6 @@
       },
       "table_2": {
         "parameters": {
-          "columnProperties": {},
           "columns": [],
           "customBulkActions": [],
           "exploreLink": true,
@@ -1065,7 +1062,6 @@
       },
       "chart_2": {
         "parameters": {
-          "totalValue": "computeTotal",
           "showPoints": true,
           "legend": {
             "showHeader": true,
@@ -1093,7 +1089,6 @@
             "type": "x",
             "chartsPerLine": 4
           },
-          "totalLabel": "",
           "fillArea": true,
           "showZero": true,
           "measureAxis2": {
@@ -1116,7 +1111,6 @@
       "chart_1": {
         "parameters": {
           "autoFitMode": "fit",
-          "totalValue": "computeTotal",
           "showValues": true,
           "legend": {
             "showHeader": false,
@@ -1138,7 +1132,6 @@
             "align": "center",
             "subtitleLabel": ""
           },
-          "totalLabel": "",
           "measureAxis2": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1181,7 +1174,6 @@
       },
       "chart_4": {
         "parameters": {
-          "totalValue": "computeTotal",
           "legend": {
             "showHeader": true,
             "show": true,
@@ -1190,7 +1182,11 @@
             "inside": false
           },
           "showMeasureTitle": false,
+          "valueType": "compactNumber",
+          "showTotal": true,
           "visualizationType": "funnel",
+          "theme": "wave",
+          "step": "StageName_2",
           "exploreLink": true,
           "title": {
             "label": "Opportunity Amount",
@@ -1202,11 +1198,6 @@
             "type": "x",
             "chartsPerLine": 4
           },
-          "totalLabel": "",
-          "valueType": "compactNumber",
-          "showTotal": true,
-          "theme": "wave",
-          "step": "StageName_2",
           "stemSegments": 3
         },
         "type": "chart"
@@ -1214,5 +1205,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v42.0/wave/dashboards/0FK7F000000LrLcWAK"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000005f5sWAA"
 }
