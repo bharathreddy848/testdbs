@@ -9,7 +9,7 @@
   "createdDate": "2018-06-13T04:44:08.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.OpportunitiesRegion2.Alias}"
+      "name": "${App.EdgeMarts.${App.EdgeMarts.OpportunitiesRegion2.Alias}.Alias}"
     }
   ],
   "files": [

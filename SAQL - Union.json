@@ -9,10 +9,10 @@
   "createdDate": "2018-06-13T04:44:09.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.DTC_Opportunity_SAMPLE1.Alias}"
+      "name": "${App.EdgeMarts.${App.EdgeMarts.DTC_Opportunity_SAMPLE1.Alias}.Alias}"
     },
     {
-      "name": "${App.EdgeMarts.OpportunitiesRegion2.Alias}"
+      "name": "${App.EdgeMarts.${App.EdgeMarts.OpportunitiesRegion2.Alias}.Alias}"
     }
   ],
   "files": [],
@@ -749,7 +749,7 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.DTC_Opportunity_SAMPLE1.Alias}"
+            "name": "${App.EdgeMarts.${App.EdgeMarts.DTC_Opportunity_SAMPLE1.Alias}.Alias}"
           }
         ],
         "isGlobal": false,
@@ -870,7 +870,7 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.OpportunitiesRegion2.Alias}"
+            "name": "${App.EdgeMarts.${App.EdgeMarts.OpportunitiesRegion2.Alias}.Alias}"
           }
         ],
         "isGlobal": false,
