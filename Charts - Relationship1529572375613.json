@@ -1,24 +1,33 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbJWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbIWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-06-13T04:44:00.000Z",
+  "createdDate": "2018-06-13T04:43:59.000Z",
   "datasets": [
     {
       "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
-  "files": [],
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 21000,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ7F000000kKHwWAM",
+      "lastModifiedDate": "2018-06-21T06:19:45.000Z",
+      "url": "/services/data/v41.0/wave/lenses/0FK7F000000nFbIWAU/files/0FJ7F000000kKHwWAM"
+    }
+  ],
   "folder": {
     "id": "${App.Folder.Id}"
   },
-  "id": "0FK7F000000nFbJWAU",
-  "label": "Charts - Trending",
-  "lastAccessedDate": "2018-06-21T09:11:08.000Z",
+  "id": "0FK7F000000nFbIWAU",
+  "label": "Charts - Relationship1529572375613",
+  "lastAccessedDate": "2018-06-21T09:11:19.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -26,7 +35,7 @@
   },
   "lastModifiedDate": "2018-06-13T04:44:13.000Z",
   "mobileDisabled": false,
-  "name": "Charts_Trending",
+  "name": "Charts_Relationship",
   "namespace": "puttupu",
   "permissions": {
     "manage": true,
@@ -45,7 +54,7 @@
         "pages": [
           {
             "label": "Untitled",
-            "name": "749731c2-7f03-442a-ab3c-52de503e279a",
+            "name": "d477d3f4-4226-431d-93b4-a576934ce110",
             "widgets": [
               {
                 "colspan": 3,
@@ -110,7 +119,7 @@
                 "row": 30,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "backgroundColor": "#FFFFFF",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -180,7 +189,7 @@
                 "row": 30,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "backgroundColor": "#FFFFFF",
                   "borderColor": "rgb(216, 221, 230)",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -278,7 +287,7 @@
                 "column": 28,
                 "name": "text_3",
                 "row": 18,
-                "rowspan": 17,
+                "rowspan": 23,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -291,8 +300,8 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_7",
-                "row": 36,
-                "rowspan": 4,
+                "row": 41,
+                "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
                   "borderColor": "rgb(237, 235, 232)",
@@ -307,7 +316,7 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_8",
-                "row": 40,
+                "row": 44,
                 "rowspan": 25,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -321,7 +330,7 @@
                 "colspan": 9,
                 "column": 29,
                 "name": "link_10",
-                "row": 118,
+                "row": 83,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(0, 112, 210)",
@@ -338,7 +347,7 @@
                 "row": 26,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
+                  "backgroundColor": "#F2F6FA",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -352,7 +361,7 @@
                 "row": 26,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
+                  "backgroundColor": "#F2F6FA",
                   "borderColor": "rgb(216, 221, 230)",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -360,10 +369,10 @@
                 }
               },
               {
-                "colspan": 18,
+                "colspan": 19,
                 "column": 8,
                 "name": "text_9",
-                "row": 73,
+                "row": 23,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
@@ -374,8 +383,8 @@
                 "colspan": 18,
                 "column": 8,
                 "name": "text_11",
-                "row": 77,
-                "rowspan": 2,
+                "row": 26,
+                "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgba(9, 26, 62, 0)",
                   "borderColor": "#FFFFFF",
@@ -385,25 +394,11 @@
                 }
               },
               {
-                "colspan": 8,
-                "column": 8,
-                "name": "text_5",
-                "row": 111,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "rgba(2, 34, 66, 0)",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
                 "colspan": 20,
                 "column": 7,
                 "name": "container_2",
-                "row": 71,
-                "rowspan": 54,
+                "row": 21,
+                "rowspan": 66,
                 "widgetStyle": {
                   "backgroundColor": "rgb(225, 243, 251)",
                   "borderColor": "#E6ECF2",
@@ -413,10 +408,40 @@
                 }
               },
               {
+                "colspan": 4,
+                "column": 7,
+                "name": "text_4",
+                "row": 15,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(22, 50, 92, 0)",
+                  "borderColor": "rgb(22, 50, 92)",
+                  "borderEdges": [
+                    "right"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 12,
+                "name": "text_10",
+                "row": 15,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
                 "colspan": 11,
                 "column": 28,
                 "name": "text_14",
-                "row": 107,
+                "row": 72,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -430,8 +455,8 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_15",
-                "row": 111,
-                "rowspan": 6,
+                "row": 76,
+                "rowspan": 7,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -445,7 +470,7 @@
                 "column": 0,
                 "name": "container_6",
                 "row": 11,
-                "rowspan": 118,
+                "rowspan": 78,
                 "widgetStyle": {
                   "backgroundColor": "rgb(244, 246, 249)",
                   "borderColor": "#E6ECF2",
@@ -455,10 +480,24 @@
                 }
               },
               {
+                "colspan": 20,
+                "column": 7,
+                "name": "container_9",
+                "row": 14,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(225, 243, 251)",
+                  "borderColor": "rgb(22, 50, 92)",
+                  "borderEdges": [],
+                  "borderRadius": 8,
+                  "borderWidth": 2
+                }
+              },
+              {
                 "colspan": 11,
                 "column": 28,
                 "name": "container_3",
-                "row": 104,
+                "row": 69,
                 "rowspan": 18,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
@@ -472,7 +511,7 @@
                 "colspan": 1,
                 "column": 38,
                 "name": "image_7",
-                "row": 104,
+                "row": 69,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -486,7 +525,7 @@
                 "colspan": 10,
                 "column": 28,
                 "name": "text_16",
-                "row": 104,
+                "row": 69,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -525,198 +564,13 @@
                 }
               },
               {
-                "colspan": 18,
-                "column": 8,
-                "name": "chart_2",
-                "row": 81,
-                "rowspan": 30,
-                "widgetStyle": {
-                  "backgroundColor": "rgba(22, 50, 92, 0)",
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 18,
-                "column": 8,
-                "name": "pillbox_1",
-                "row": 113,
-                "rowspan": 3,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 11,
-                "column": 28,
-                "name": "text_18",
-                "row": 71,
-                "rowspan": 9,
-                "widgetStyle": {
-                  "backgroundColor": "rgba(255, 255, 255, 0)",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 8,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 11,
-                "column": 28,
-                "name": "text_19",
-                "row": 67,
-                "rowspan": 4,
-                "widgetStyle": {
-                  "backgroundColor": "rgb(250, 247, 245)",
-                  "borderColor": "rgb(237, 235, 232)",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 2
-                }
-              },
-              {
-                "colspan": 11,
-                "column": 28,
-                "name": "text_20",
-                "row": 82,
-                "rowspan": 4,
-                "widgetStyle": {
-                  "backgroundColor": "rgb(250, 247, 245)",
-                  "borderColor": "rgb(237, 235, 232)",
-                  "borderEdges": [
-                    "top"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 2
-                }
-              },
-              {
-                "colspan": 11,
-                "column": 28,
-                "name": "text_21",
-                "row": 86,
-                "rowspan": 15,
-                "widgetStyle": {
-                  "backgroundColor": "rgba(255, 255, 255, 0)",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 20,
-                "column": 7,
-                "name": "container_4",
-                "row": 64,
-                "rowspan": 6,
-                "widgetStyle": {
-                  "backgroundColor": "rgb(225, 243, 251)",
-                  "borderColor": "rgb(22, 50, 92)",
-                  "borderEdges": [],
-                  "borderRadius": 8,
-                  "borderWidth": 2
-                }
-              },
-              {
-                "colspan": 4,
-                "column": 7,
-                "name": "text_22",
-                "row": 65,
-                "rowspan": 4,
-                "widgetStyle": {
-                  "backgroundColor": "rgba(22, 50, 92, 0)",
-                  "borderColor": "rgb(22, 50, 92)",
-                  "borderEdges": [
-                    "right"
-                  ],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 15,
-                "column": 11,
-                "name": "text_23",
-                "row": 65,
-                "rowspan": 4,
-                "widgetStyle": {
-                  "backgroundColor": "rgba(255, 255, 255, 0)",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 20,
-                "column": 7,
-                "name": "container_5",
-                "row": 14,
-                "rowspan": 46,
-                "widgetStyle": {
-                  "backgroundColor": "rgb(225, 243, 251)",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 8,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 17,
-                "column": 8,
-                "name": "text_24",
-                "row": 16,
-                "rowspan": 3,
-                "widgetStyle": {
-                  "backgroundColor": "rgba(2, 34, 66, 0)",
-                  "borderColor": "rgb(230, 236, 242)",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 18,
-                "column": 8,
-                "name": "text_25",
-                "row": 19,
-                "rowspan": 2,
-                "widgetStyle": {
-                  "backgroundColor": "rgba(9, 26, 62, 0)",
-                  "borderColor": "#FFFFFF",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 18,
-                "column": 8,
-                "name": "chart_1",
-                "row": 23,
-                "rowspan": 30,
-                "widgetStyle": {
-                  "backgroundColor": "rgba(2, 34, 66, 0)",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
                 "colspan": 4,
                 "column": 2,
                 "name": "link_2",
                 "row": 14,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "backgroundColor": "#F2F6FA",
                   "borderColor": "rgb(216, 221, 230)",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -730,11 +584,33 @@
                 "row": 22,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "backgroundColor": "#F2F6FA",
                   "borderColor": "rgb(216, 221, 230)",
                   "borderEdges": [],
                   "borderRadius": 0,
                   "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 18,
+                "column": 8,
+                "name": "chart_1",
+                "row": 31,
+                "rowspan": 30,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(2, 34, 66, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 18,
+                "column": 8,
+                "name": "pillbox_1",
+                "row": 63,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderEdges": []
                 }
               }
             ]
@@ -756,30 +632,8 @@
     ],
     "layouts": [],
     "steps": {
-      "Close_Date_Year_Clos_2": {
-        "broadcastFacet": false,
-        "datasets": [
-          {
-            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
-          }
-        ],
-        "isGlobal": false,
-        "label": "Use Case 1",
-        "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\",\"A\",{\"display\":\"Totals\"}]],\"columns\":[{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Month\"]],\"formula\":\"sum(B) over ([..0] partition by all order by ('Close_Date_Year~~~Close_Date_Month'))\",\"filters\":[[\"Closed\",[\"Closed\"],\"in\"]]},\"header\":\"Totals\"},{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Month\"]],\"filters\":[[\"Closed\",[\"Closed\"],\"in\"]]}}],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Month\"]]}",
-          "version": -1
-        },
-        "receiveFacet": false,
-        "selectMode": "single",
-        "type": "aggregateflex",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "options": {},
-          "visualizationType": "comparisontable"
-        }
-      },
-      "Close_Date_Year_Clos_3": {
-        "broadcastFacet": false,
+      "Segment_1": {
+        "broadcastFacet": true,
         "datasets": [
           {
             "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
@@ -787,52 +641,75 @@
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\",\"A\",{\"display\":\"Revenue\",\"format\":\"currencydollars\"}],[\"count\",\"Industry\",\"D\",{\"display\":\"Average\",\"format\":\"currencydollars\"}]],\"columns\":[{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]],\"filters\":[[\"Industry\",\"{{ column(Industry_1.selection, [\\\"Industry\\\"]).asObject() }}\",\"in\"]]},\"format\":\"currencydollars\",\"header\":\"Selected Revenue\"},{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]]}},{\"query\":{\"measures\":[[\"count\",\"Industry\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]]}},{\"query\":{\"measures\":[[\"count\",\"Industry\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]],\"formula\":\"B/C\"},\"format\":\"currencydollars\",\"header\":\"Average\"}],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]]}",
+          "query": "{\"measures\":\"{{cell(Measures___Relations_1.selection, 0, \\\"value\\\").asObject()}}\",\"groups\":[\"Segment\"]}",
           "version": -1
         },
-        "receiveFacet": false,
+        "receiveFacet": true,
         "selectMode": "single",
         "type": "aggregateflex",
         "useGlobal": true,
         "visualizationParameters": {
-          "options": {},
-          "visualizationType": "comparisontable"
+          "parameters": {
+            "radiusRatio": 5,
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "x": {
+              "sqrtScale": false,
+              "showZero": true,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "visualizationType": "scatter",
+            "y": {
+              "sqrtScale": false,
+              "showZero": true,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "title": {
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            }
+          },
+          "type": "chart"
         }
       },
-      "Axis___Trending_1": {
+      "Measures___Relations_1": {
         "broadcastFacet": false,
         "datasets": [],
         "dimensions": [],
         "isGlobal": false,
-        "label": "Axis - Trending",
+        "label": "Measures - Relationship",
         "selectMode": "singlerequired",
-        "start": "{\"display\":[\"Single Axis\"]}",
+        "start": "{\"display\":[\"3 Measures\"]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"Single Axis\",\"value\":\"sync\"}",
-          "{\"display\":\"Small Multiples\",\"value\":\"multi\"}",
-          "{\"display\":\"Dual Axis\",\"value\":\"dual\"}"
+          "{\"display\":\"2 Measures\",\"value\":[[\"sum\",\"Amount\"],[\"sum\",\"Order_Quantity\"]]}",
+          "{\"display\":\"3 Measures\",\"value\":[[\"sum\",\"Amount\"],[\"sum\",\"Order_Quantity\"],[\"count\",\"*\"]]}"
         ]
-      },
-      "Industry_1": {
-        "broadcastFacet": false,
-        "datasets": [
-          {
-            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
-          }
-        ],
-        "isGlobal": false,
-        "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Industry\"],\"filters\":[]}",
-          "version": -1
-        },
-        "receiveFacet": false,
-        "selectMode": "single",
-        "start": "[\"Banking\"]",
-        "type": "aggregateflex",
-        "useGlobal": false,
-        "visualizationParameters": {}
       }
     },
     "widgetStyle": {
@@ -843,15 +720,6 @@
       "borderWidth": 1
     },
     "widgets": {
-      "text_18": {
-        "parameters": {
-          "fontSize": 14,
-          "text": "Sometimes, you want to track and compare two or more values over time. This example shows revenue against the average. Might want to look into that Q2 dip!",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        },
-        "type": "text"
-      },
       "text_17": {
         "parameters": {
           "fontSize": 12,
@@ -890,15 +758,6 @@
           "textColor": "rgb(22, 50, 92)"
         },
         "type": "link"
-      },
-      "text_19": {
-        "parameters": {
-          "fontSize": 20,
-          "text": "Why Multiple Measures?",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        },
-        "type": "text"
       },
       "link_12": {
         "parameters": {
@@ -981,7 +840,16 @@
       "text_15": {
         "parameters": {
           "fontSize": 14,
-          "text": "The axis toggle under the chart is a binding, which helps make apps more interactive. Want to create your own? Learn how!",
+          "text": "The chart type toggle under the chart is a binding, which helps make apps more interactive. Want to create your own? Learn how!",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "text"
+      },
+      "text_10": {
+        "parameters": {
+          "fontSize": 16,
+          "text": "Click the toggle below the chart to change number of measures. The design changes based on your choice. ",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -990,7 +858,7 @@
       "text_11": {
         "parameters": {
           "fontSize": 16,
-          "text": "Track multiple metrics on a chart using shared, separate, or dual axes.",
+          "text": "Scatter plot charts show distribution across multiple measures to quickly show relative value.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1028,30 +896,10 @@
         },
         "type": "container"
       },
-      "container_4": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "fit": "original"
-        },
-        "type": "container"
-      },
-      "container_5": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "bottom",
-          "fit": "fitwidth",
-          "image": {
-            "name": "bgfooterjpg13",
-            "namespace": "puttupu"
-          }
-        },
-        "type": "container"
-      },
       "text_3": {
         "parameters": {
           "fontSize": 14,
-          "text": "Need to measure a value over time? A trending chart is the way to go. \n\nThe timeline chart is optimized for showing dates. Other trending charts, like line, dot plots, and calendar heat maps, give you different views. \n\nLooks like you’ll be hitting your target right around July!",
+          "text": "Relationships can be hard, but seeing relationships in your data doesn’t have to be.\n\nWant to compare revenue, number ordered, and number of deals across all segments? Sounds complicated, right? Not for a scatter chart! \n\nThis example makes it easy to visually compare segments (color) by relative position in the chart (up = more ordered, right = more revenue), and relative size (number of deals). Many-layered insight in a compact space. Looks like it’s time to kickstart Enterprise sales….",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1074,97 +922,22 @@
         },
         "type": "text"
       },
-      "text_5": {
+      "text_4": {
         "parameters": {
-          "fontSize": 14,
-          "text": "works with:",
-          "textAlignment": "left",
+          "fontSize": 24,
+          "text": "PLAY!",
+          "textAlignment": "center",
           "textColor": "rgb(22, 50, 92)"
         },
         "type": "text"
       },
-      "chart_2": {
+      "container_9": {
         "parameters": {
-          "showPoints": true,
-          "legend": {
-            "showHeader": true,
-            "show": true,
-            "customSize": "auto",
-            "position": "bottom-center",
-            "inside": false
-          },
-          "axisMode": "{{cell(Axis___Trending_1.selection, 0, \"value\").asObject()}}",
-          "tooltip": {
-            "showBinLabel": true,
-            "measures": "",
-            "showPercentage": true,
-            "showDimensions": true,
-            "showMeasures": true,
-            "customizeTooltip": false,
-            "dimensions": ""
-          },
-          "visualizationType": "time",
-          "missingValue": "disconnect",
-          "dashLine": {
-            "measures": "",
-            "showDashLine": false
-          },
-          "timeAxis": {
-            "showTitle": true,
-            "showAxis": true,
-            "title": "Closed Date"
-          },
-          "exploreLink": true,
-          "title": {
-            "fontSize": 14,
-            "subtitleFontSize": 11,
-            "label": "",
-            "align": "center",
-            "subtitleLabel": ""
-          },
-          "trellis": {
-            "flipLabels": false,
-            "showGridLines": true,
-            "size": [
-              100,
-              100
-            ],
-            "enable": false,
-            "type": "x",
-            "parameters": {},
-            "chartsPerLine": 4
-          },
-          "fillArea": true,
-          "showZero": true,
-          "measureAxis2": {
-            "sqrtScale": false,
-            "showTitle": true,
-            "showAxis": true,
-            "title": "",
-            "customDomain": {
-              "showDomain": false
-            }
-          },
-          "computeTotal": true,
-          "measureAxis1": {
-            "sqrtScale": false,
-            "showTitle": true,
-            "showAxis": true,
-            "title": "",
-            "customDomain": {
-              "showDomain": false
-            }
-          },
-          "theme": "light",
-          "step": "Close_Date_Year_Clos_3",
-          "drawArea": {
-            "measure": "",
-            "showDrawArea": false,
-            "bounding1": "",
-            "bounding2": ""
-          }
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
         },
-        "type": "chart"
+        "type": "container"
       },
       "text_7": {
         "parameters": {
@@ -1178,7 +951,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 20,
-          "text": "Why Trending Charts?",
+          "text": "Why Relationship Charts?",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1186,7 +959,28 @@
       },
       "chart_1": {
         "parameters": {
-          "showPoints": true,
+          "autoFitMode": "keepLabels",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
           "legend": {
             "showHeader": true,
             "show": true,
@@ -1204,23 +998,8 @@
             "customizeTooltip": false,
             "dimensions": ""
           },
-          "visualizationType": "time",
-          "missingValue": "connect",
-          "dashLine": {
-            "measures": "",
-            "showDashLine": false
-          },
+          "visualizationType": "scatter",
           "exploreLink": true,
-          "timeAxis": {
-            "showTitle": true,
-            "predictiveLine": {
-              "color": "#8932ED",
-              "time": "2017-06",
-              "label": "Today"
-            },
-            "showAxis": true,
-            "title": ""
-          },
           "title": {
             "fontSize": 14,
             "subtitleFontSize": 11,
@@ -1228,20 +1007,20 @@
             "align": "center",
             "subtitleLabel": ""
           },
+          "binValues": false,
           "trellis": {
             "flipLabels": false,
             "showGridLines": true,
             "size": [
-              100,
-              100
+              150,
+              150
             ],
             "enable": false,
             "type": "x",
             "parameters": {},
             "chartsPerLine": 4
           },
-          "fillArea": true,
-          "showZero": true,
+          "radiusRatio": 5,
           "measureAxis2": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1256,25 +1035,47 @@
             "sqrtScale": false,
             "showTitle": true,
             "showAxis": true,
-            "referenceLines": [
-              {
-                "color": "#2EC2BA",
-                "label": "Target",
-                "value": 450000000
-              }
-            ],
-            "title": "Sum of Amount",
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "x": {
+            "sqrtScale": false,
+            "showZero": true,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "y": {
+            "sqrtScale": false,
+            "showZero": true,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "Number Ordered",
             "customDomain": {
               "showDomain": false
             }
           },
           "theme": "light",
-          "step": "Close_Date_Year_Clos_2",
-          "drawArea": {
-            "measure": "",
-            "showDrawArea": false,
-            "bounding1": "",
-            "bounding2": ""
+          "step": "Segment_1",
+          "dimensionAxis": {
+            "showTitle": true,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round",
+                "parameters": {}
+              }
+            }
           }
         },
         "type": "chart"
@@ -1282,7 +1083,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 20,
-          "text": "Measure Twice, Chart Once",
+          "text": "Compare by Position and Size",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1291,7 +1092,7 @@
       "text_8": {
         "parameters": {
           "fontSize": 14,
-          "text": "Target is a Reference Line, used to set a goal. Set a Reference Line in the Left Axis widget property.\n\nToday is a Predictive Line, used to extrapolate trends. Set it in the X-Axis widget property.\n\nMissing data? You can show the gap or continue the line. Set Handling Missing Values in the Timeline Chart widget property.\n\nCalendar heat maps are great for visualizing recurring activities over long periods.",
+          "text": "To take full advantage of a scatter chart, add three measures. With just two measures, all the bubbles will be the same size. Still useful, but not awesome.\n\nWhen building your chart, change the order of your measures for the best fit. Want the x-axis to show units? Move that measure to the top. Want bubble size to reflect revenue? Move Sum of Amount to the bottom.\n\nWhen choosing a chart, hover over the type to see helpful hints about the number of measures and groupings. Charts you can’t use are grayed out.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1378,6 +1179,74 @@
         },
         "type": "image"
       },
+      "link_3": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Charts_Comparison",
+            "namespace": "puttupu"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "COMPARISON",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "link"
+      },
+      "link_1": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Charts_Trending",
+            "namespace": "puttupu"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "TRENDING",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "link"
+      },
+      "link_2": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Charts_Introduction",
+            "namespace": "puttupu"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "INTRODUCTION",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "link"
+      },
+      "link_8": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Adventure_Home",
+            "namespace": "puttupu"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "HOME",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "link"
+      },
+      "pillbox_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "step": "Measures___Relations_1"
+        },
+        "type": "pillbox"
+      },
       "image_1": {
         "parameters": {
           "alignmentX": "center",
@@ -1413,131 +1282,9 @@
           }
         },
         "type": "image"
-      },
-      "text_25": {
-        "parameters": {
-          "fontSize": 16,
-          "text": "Use a cumulative line chart to track against a target, and beyond.",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        },
-        "type": "text"
-      },
-      "link_3": {
-        "parameters": {
-          "destinationLink": {
-            "name": "Charts_Comparison",
-            "namespace": "puttupu"
-          },
-          "destinationType": "dashboard",
-          "fontSize": 12,
-          "includeState": false,
-          "text": "COMPARISON",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        },
-        "type": "link"
-      },
-      "text_24": {
-        "parameters": {
-          "fontSize": 20,
-          "text": "Watch Your Business Grow Over Time",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        },
-        "type": "text"
-      },
-      "link_1": {
-        "parameters": {
-          "destinationLink": {
-            "name": "Charts_Trending",
-            "namespace": "puttupu"
-          },
-          "destinationType": "dashboard",
-          "fontSize": 12,
-          "includeState": false,
-          "text": "TRENDING",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        },
-        "type": "link"
-      },
-      "link_2": {
-        "parameters": {
-          "destinationLink": {
-            "name": "Charts_Introduction",
-            "namespace": "puttupu"
-          },
-          "destinationType": "dashboard",
-          "fontSize": 12,
-          "includeState": false,
-          "text": "INTRODUCTION",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        },
-        "type": "link"
-      },
-      "text_21": {
-        "parameters": {
-          "fontSize": 14,
-          "text": "Simply add another measure to see it in your chart. But keep it simple! It’s easy to make things too complicated.\n\nSharpen your axes. Use a single axis when values are roughly the same, dual axis when you want to normalize values, and small multiples to see separate graphs.",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        },
-        "type": "text"
-      },
-      "text_20": {
-        "parameters": {
-          "fontSize": 20,
-          "text": "Did you know...",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        },
-        "type": "text"
-      },
-      "text_23": {
-        "parameters": {
-          "fontSize": 16,
-          "text": "Try the Axis Toggle below the chart. The design changes based on your choice. ",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        },
-        "type": "text"
-      },
-      "text_22": {
-        "parameters": {
-          "fontSize": 24,
-          "text": "PLAY!",
-          "textAlignment": "center",
-          "textColor": "rgb(22, 50, 92)"
-        },
-        "type": "text"
-      },
-      "link_8": {
-        "parameters": {
-          "destinationLink": {
-            "name": "Adventure_Home",
-            "namespace": "puttupu"
-          },
-          "destinationType": "dashboard",
-          "fontSize": 12,
-          "includeState": false,
-          "text": "HOME",
-          "textAlignment": "left",
-          "textColor": "#FFFFFF"
-        },
-        "type": "link"
-      },
-      "pillbox_1": {
-        "parameters": {
-          "compact": false,
-          "exploreLink": true,
-          "step": "Axis___Trending_1"
-        },
-        "type": "pillbox"
       }
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbJWAU"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbIWAU"
 }
