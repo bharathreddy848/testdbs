@@ -1,39 +1,30 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000006KAhWAM&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbOWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-01-04T05:09:11.000Z",
+  "createdDate": "2018-06-13T04:44:02.000Z",
   "datasets": [
     {
       "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
-  "files": [
-    {
-      "contentType": "image/png",
-      "fileLength": 14113,
-      "fileName": "assetPreviewThumb",
-      "id": "0FJ7F0000008VyUWAU",
-      "lastModifiedDate": "2018-01-10T09:07:50.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F0000006KAhWAM/files/0FJ7F0000008VyUWAU"
-    }
-  ],
+  "files": [],
   "folder": {
     "id": "${App.Folder.Id}"
   },
-  "id": "0FK7F0000006KAhWAM",
+  "id": "0FK7F000000nFbOWAU",
   "label": "Dynamic Apps - Data  - Measure (Compact Form)",
-  "lastAccessedDate": "2018-04-27T05:26:10.000Z",
+  "lastAccessedDate": "2018-06-21T08:55:29.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-01-04T05:09:18.000Z",
+  "lastModifiedDate": "2018-06-13T04:44:15.000Z",
   "mobileDisabled": false,
   "name": "Dynamic_Apps_Data_Measure_Compact_Form",
   "namespace": "puttupu",
@@ -42,7 +33,7 @@
     "modify": true,
     "view": true
   },
-  "refreshDate": "2018-01-04T05:07:47.000Z",
+  "refreshDate": "2018-06-13T04:42:30.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -187,7 +178,7 @@
                 "column": 7,
                 "name": "container_2",
                 "row": 21,
-                "rowspan": 34,
+                "rowspan": 37,
                 "widgetStyle": {
                   "backgroundColor": "rgb(225, 243, 251)",
                   "borderColor": "#E6ECF2",
@@ -216,8 +207,8 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_9",
-                "row": 18,
-                "rowspan": 41,
+                "row": 19,
+                "rowspan": 53,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -227,10 +218,10 @@
                 }
               },
               {
-                "colspan": 5,
+                "colspan": 4,
                 "column": 7,
                 "name": "text_17",
-                "row": 57,
+                "row": 60,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -246,7 +237,7 @@
                 "colspan": 15,
                 "column": 12,
                 "name": "text_18",
-                "row": 57,
+                "row": 60,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -260,7 +251,7 @@
                 "colspan": 15,
                 "column": 12,
                 "name": "text_20",
-                "row": 64,
+                "row": 67,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -274,7 +265,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_4",
-                "row": 73,
+                "row": 76,
                 "rowspan": 17,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
@@ -282,10 +273,10 @@
                 }
               },
               {
-                "colspan": 5,
+                "colspan": 4,
                 "column": 7,
                 "name": "text_21",
-                "row": 64,
+                "row": 67,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -301,7 +292,7 @@
                 "colspan": 17,
                 "column": 7,
                 "name": "text_22",
-                "row": 73,
+                "row": 76,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
@@ -315,7 +306,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "text_23",
-                "row": 77,
+                "row": 80,
                 "rowspan": 12,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -330,7 +321,7 @@
                 "column": 0,
                 "name": "container_6",
                 "row": 11,
-                "rowspan": 79,
+                "rowspan": 86,
                 "widgetStyle": {
                   "backgroundColor": "rgb(244, 246, 249)",
                   "borderColor": "#E6ECF2",
@@ -343,7 +334,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_7",
-                "row": 56,
+                "row": 59,
                 "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
@@ -359,7 +350,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_8",
-                "row": 63,
+                "row": 66,
                 "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
@@ -375,7 +366,7 @@
                 "colspan": 19,
                 "column": 7,
                 "name": "text_3",
-                "row": 70,
+                "row": 73,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -389,7 +380,7 @@
                 "colspan": 1,
                 "column": 26,
                 "name": "image_7",
-                "row": 70,
+                "row": 73,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -613,16 +604,6 @@
               {
                 "colspan": 18,
                 "column": 8,
-                "name": "chart_1",
-                "row": 27,
-                "rowspan": 20,
-                "widgetStyle": {
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 18,
-                "column": 8,
                 "name": "pillbox_1",
                 "row": 23,
                 "rowspan": 3,
@@ -701,6 +682,16 @@
                 "widgetStyle": {
                   "borderEdges": []
                 }
+              },
+              {
+                "colspan": 18,
+                "column": 8,
+                "name": "chart_1",
+                "row": 26,
+                "rowspan": 22,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
               }
             ]
           }
@@ -725,13 +716,10 @@
         "broadcastFacet": false,
         "datasets": [],
         "dimensions": [],
-        "groups": [],
         "isGlobal": false,
         "label": "Measure Toggle",
-        "numbers": [],
         "selectMode": "singlerequired",
         "start": "{\"display\":[\"Sum of Amount\"]}",
-        "strings": [],
         "type": "staticflex",
         "useGlobal": false,
         "values": [
@@ -740,7 +728,7 @@
           "{\"display\":\"Both\",\"measures\":[[\"sum\",\"Amount\"],[\"count\",\"*\"]]}"
         ]
       },
-      "Dynamic_Query": {
+      "Dynamic_Query_1": {
         "broadcastFacet": true,
         "datasets": [
           {
@@ -748,6 +736,7 @@
           }
         ],
         "isGlobal": false,
+        "label": "Dynamic Query",
         "query": {
           "query": "{\"measures\":\"{{ cell(Measure_Toggle_1.selection, 0, \\\"measures\\\").asObject() }}\",\"groups\":[\"Product_Family\"]}",
           "version": -1
@@ -784,24 +773,39 @@
               "showHeader": true,
               "show": true,
               "customSize": "auto",
-              "position": "bottom-center",
+              "position": "right-top",
               "inside": false
             },
-            "axisMode": "dual",
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
             "visualizationType": "hbar",
             "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
               "label": "",
               "align": "center",
               "subtitleLabel": ""
             },
+            "binValues": false,
             "trellis": {
               "flipLabels": false,
               "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
               "enable": false,
               "type": "x",
               "chartsPerLine": 4
             },
-            "binValues": false,
             "measureAxis2": {
               "sqrtScale": false,
               "showTitle": true,
@@ -843,12 +847,9 @@
         "broadcastFacet": false,
         "datasets": [],
         "dimensions": [],
-        "groups": [],
         "isGlobal": false,
         "label": "Binding Value",
-        "numbers": [],
         "selectMode": "single",
-        "strings": [],
         "type": "staticflex",
         "useGlobal": false,
         "values": [
@@ -870,7 +871,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontablepng1",
+            "name": "icontablepng3",
             "namespace": "puttupu"
           }
         },
@@ -889,7 +890,7 @@
         "parameters": {
           "fontSize": 24,
           "text": "CODE",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "textColor": "rgb(34, 144, 138)"
         },
         "type": "text"
@@ -900,7 +901,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconconditionalpng1",
+            "name": "iconconditionalpng3",
             "namespace": "puttupu"
           }
         },
@@ -927,7 +928,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconintroductionpng1",
+            "name": "iconintroductionpng3",
             "namespace": "puttupu"
           }
         },
@@ -1000,7 +1001,7 @@
       },
       "text_15": {
         "parameters": {
-          "fontSize": 14,
+          "fontSize": 16,
           "text": "Build a binding to let users choose the measure they want to use in the chart. Three charts in one. Try it below!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1022,7 +1023,7 @@
           "alignmentY": "bottom",
           "fit": "original",
           "image": {
-            "name": "headerdetailpng1",
+            "name": "headerdetailpng3",
             "namespace": "puttupu"
           }
         },
@@ -1034,7 +1035,7 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterdesertjpg1",
+            "name": "bgfooterdesertjpg13",
             "namespace": "puttupu"
           }
         },
@@ -1147,7 +1148,7 @@
             "position": "bottom-center",
             "inside": false
           },
-          "axisMode": "dual",
+          "axisMode": "multi",
           "tooltip": {
             "showBinLabel": true,
             "measures": "",
@@ -1188,6 +1189,7 @@
               "showDomain": false
             }
           },
+          "computeTotal": false,
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1198,7 +1200,7 @@
             }
           },
           "theme": "light",
-          "step": "Dynamic_Query",
+          "step": "Dynamic_Query_1",
           "dimensionAxis": {
             "showTitle": true,
             "customSize": "auto",
@@ -1220,7 +1222,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) Create a toggle widget (\"pillbox_1\") with a step (\"Measure_Toggle_1\") that specifies different measures.\n\n2) Create a bar chart (\"chart_1\") with a step (\"Dynamic_Query\") in compact form that groups the selected measure from the toggle widget by product family.\n\n3) To dynamically set the measure in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the \"measures\" property in the \"Dynamic_Query\" step.\n\n\"measures\": \"{{cell( Binding_Value_1.result, 0, \"value\").asObject()}}\"\n\n4) VOILÀ! Click Done and you're ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
+          "text": "1) Create a toggle widget (\"pillbox_1\") with a step (\"Measure_Toggle_1\") that specifies different measures.\n\n2) Create a bar chart (\"chart_1\") with a step (\"Dynamic_Query\") in compact form that groups the selected measure from the toggle widget by product family.\n\n3) In Spring '18 release, a new columnMap chart property was introduced to build more powerful visualizations, however columnMap is not necessary for this dynamic visualization. Make this columnMap {} parameter null with \"columnMap\": null. \n\n4) To dynamically set the measure in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the \"measures\" property in the \"Dynamic_Query\" step.\n\n\"measures\": \"{{cell( Binding_Value_1.result, 0, \"value\").asObject()}}\"\n\n5) VOILÀ! Click Done and you're ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1232,7 +1234,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconreferencelinepng2",
+            "name": "iconreferencelinepng6",
             "namespace": "puttupu"
           }
         },
@@ -1244,7 +1246,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmappng1",
+            "name": "iconmappng3",
             "namespace": "puttupu"
           }
         },
@@ -1256,7 +1258,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlimitpng1",
+            "name": "iconlimitpng3",
             "namespace": "puttupu"
           }
         },
@@ -1268,7 +1270,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icongrouppng1",
+            "name": "icongrouppng3",
             "namespace": "puttupu"
           }
         },
@@ -1289,7 +1291,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlearnmorepng1",
+            "name": "iconlearnmorepng3",
             "namespace": "puttupu"
           }
         },
@@ -1301,7 +1303,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconorderpng1",
+            "name": "iconorderpng3",
             "namespace": "puttupu"
           }
         },
@@ -1356,7 +1358,7 @@
         "parameters": {
           "fontSize": 24,
           "text": "RESULTS",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "textColor": "rgb(36, 147, 243)"
         },
         "type": "text"
@@ -1462,7 +1464,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconfilterpng2",
+            "name": "iconfilterpng6",
             "namespace": "puttupu"
           }
         },
@@ -1474,7 +1476,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmeasurepng1",
+            "name": "iconmeasurepng3",
             "namespace": "puttupu"
           }
         },
@@ -1486,7 +1488,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icondatepng2",
+            "name": "icondatepng6",
             "namespace": "puttupu"
           }
         },
@@ -1495,5 +1497,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000006KAhWAM"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbOWAU"
 }

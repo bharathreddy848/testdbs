@@ -1,35 +1,26 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000006KAoWAM&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbVWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-01-04T05:09:13.000Z",
+  "createdDate": "2018-06-13T04:44:04.000Z",
   "datasets": [],
-  "files": [
-    {
-      "contentType": "image/png",
-      "fileLength": 22808,
-      "fileName": "assetPreviewThumb",
-      "id": "0FJ7F0000008VgWWAU",
-      "lastModifiedDate": "2018-01-04T05:11:07.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F0000006KAoWAM/files/0FJ7F0000008VgWWAU"
-    }
-  ],
+  "files": [],
   "folder": {
     "id": "${App.Folder.Id}"
   },
-  "id": "0FK7F0000006KAoWAM",
+  "id": "0FK7F000000nFbVWAU",
   "label": "Adventure Home",
-  "lastAccessedDate": "2018-04-27T05:26:10.000Z",
+  "lastAccessedDate": "2018-06-21T08:55:31.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-01-04T05:09:13.000Z",
+  "lastModifiedDate": "2018-06-13T04:44:17.000Z",
   "mobileDisabled": false,
   "name": "Adventure_Home",
   "namespace": "puttupu",
@@ -55,8 +46,8 @@
                 "colspan": 17,
                 "column": 2,
                 "name": "container_5",
-                "row": 39,
-                "rowspan": 17,
+                "row": 41,
+                "rowspan": 19,
                 "widgetStyle": {
                   "backgroundColor": "rgb(225, 243, 251)",
                   "borderColor": "rgba(9, 26, 62, 0)",
@@ -69,7 +60,7 @@
                 "colspan": 4,
                 "column": 15,
                 "name": "image_5",
-                "row": 40,
+                "row": 42,
                 "rowspan": 5,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -83,8 +74,8 @@
                 "colspan": 4,
                 "column": 15,
                 "name": "image_6",
-                "row": 48,
-                "rowspan": 8,
+                "row": 50,
+                "rowspan": 10,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -97,7 +88,7 @@
                 "colspan": 12,
                 "column": 3,
                 "name": "text_18",
-                "row": 43,
+                "row": 45,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -111,8 +102,8 @@
                 "colspan": 17,
                 "column": 21,
                 "name": "container_6",
-                "row": 39,
-                "rowspan": 17,
+                "row": 41,
+                "rowspan": 19,
                 "widgetStyle": {
                   "backgroundColor": "rgb(225, 243, 251)",
                   "borderColor": "#091A3E",
@@ -125,7 +116,7 @@
                 "colspan": 4,
                 "column": 34,
                 "name": "image_7",
-                "row": 40,
+                "row": 42,
                 "rowspan": 5,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -139,7 +130,7 @@
                 "colspan": 12,
                 "column": 22,
                 "name": "text_20",
-                "row": 43,
+                "row": 45,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -153,8 +144,8 @@
                 "colspan": 4,
                 "column": 34,
                 "name": "image_8",
-                "row": 48,
-                "rowspan": 8,
+                "row": 50,
+                "rowspan": 10,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -195,7 +186,7 @@
                 "colspan": 9,
                 "column": 22,
                 "name": "link_9",
-                "row": 40,
+                "row": 42,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -209,7 +200,7 @@
                 "colspan": 11,
                 "column": 3,
                 "name": "link_11",
-                "row": 40,
+                "row": 42,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -238,7 +229,7 @@
                 "column": 2,
                 "name": "container_3",
                 "row": 9,
-                "rowspan": 27,
+                "rowspan": 28,
                 "widgetStyle": {
                   "backgroundColor": "rgba(8, 30, 41, 0.75)",
                   "borderColor": "#E6ECF2",
@@ -252,23 +243,9 @@
                 "column": 7,
                 "name": "container_1",
                 "row": 4,
-                "rowspan": 5,
+                "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 36,
-                "column": 2,
-                "name": "container_8",
-                "row": 63,
-                "rowspan": 5,
-                "widgetStyle": {
-                  "backgroundColor": "rgb(3, 30, 41)",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -279,11 +256,93 @@
                 "colspan": 10,
                 "column": 3,
                 "name": "link_1",
-                "row": 30,
+                "row": 31,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgba(8, 30, 41, 0.75)",
                   "borderColor": "rgb(230, 236, 242)",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 17,
+                "column": 2,
+                "name": "container_2",
+                "row": 64,
+                "rowspan": 19,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(225, 244, 251)",
+                  "borderEdges": [],
+                  "borderRadius": 8
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 3,
+                "name": "link_2",
+                "row": 65,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 40,
+                "column": 0,
+                "name": "container_8",
+                "row": 83,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(8, 30, 41, 0.75)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 3,
+                "name": "text_2",
+                "row": 71,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 15,
+                "name": "image_2",
+                "row": 65,
+                "rowspan": 5,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 15,
+                "name": "image_9",
+                "row": 72,
+                "rowspan": 11,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
                   "borderWidth": 1
@@ -303,7 +362,7 @@
           "fit": "fitwidth",
           "gutterColor": "rgb(8, 30, 41)",
           "image": {
-            "name": "bgpng1",
+            "name": "bgpng13",
             "namespace": "puttupu"
           }
         },
@@ -320,13 +379,25 @@
       "borderWidth": 1
     },
     "widgets": {
+      "image_9": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "fitheight",
+          "image": {
+            "name": "astro_hard_hatpng3",
+            "namespace": "puttupu"
+          }
+        },
+        "type": "image"
+      },
       "image_8": {
         "parameters": {
           "alignmentX": "center",
           "alignmentY": "bottom",
           "fit": "fitheight",
           "image": {
-            "name": "astro_clipboardpng1",
+            "name": "astro_clipboardpng13",
             "namespace": "puttupu"
           }
         },
@@ -335,7 +406,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 14,
-          "text": "Learn to choose the best chart for visualizing your data.",
+          "text": "Learn to choose the best chart for visualizing your data",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -347,7 +418,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconchartpng1",
+            "name": "iconchartpng13",
             "namespace": "puttupu"
           }
         },
@@ -359,7 +430,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "arrowrpng1",
+            "name": "arrowrpng13",
             "namespace": "puttupu"
           }
         },
@@ -371,7 +442,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconrefreshinversepng1",
+            "name": "iconrefreshinversepng13",
             "namespace": "puttupu"
           }
         },
@@ -392,7 +463,7 @@
           "alignmentY": "bottom",
           "fit": "fitheight",
           "image": {
-            "name": "astro_hmmmpng1",
+            "name": "astro_hmmmpng13",
             "namespace": "puttupu"
           }
         },
@@ -427,10 +498,25 @@
         },
         "type": "link"
       },
+      "link_2": {
+        "parameters": {
+          "destinationLink": {
+            "name": "KA_SAQL_Introduction",
+            "namespace": "puttupu"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 24,
+          "includeState": false,
+          "text": "Ask Advanced Questions with SAQL",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "link"
+      },
       "text_20": {
         "parameters": {
           "fontSize": 14,
-          "text": "Tie a widget's data or design to the selection or results of another.",
+          "text": "Tie a widget's data or design to the selection or results of another",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -455,9 +541,21 @@
         "parameters": {
           "alignmentX": "center",
           "alignmentY": "center",
-          "fit": "original",
+          "fit": "fitwidth",
           "image": {
-            "name": "titlepng1",
+            "name": "titlepng13",
+            "namespace": "puttupu"
+          }
+        },
+        "type": "container"
+      },
+      "container_2": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "bottom",
+          "fit": "fitwidth",
+          "image": {
+            "name": "bgfootersnowjpg",
             "namespace": "puttupu"
           }
         },
@@ -477,7 +575,7 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterjpg1",
+            "name": "bgfooterjpg13",
             "namespace": "puttupu"
           }
         },
@@ -489,11 +587,20 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterdesertjpg1",
+            "name": "bgfooterdesertjpg13",
             "namespace": "puttupu"
           }
         },
         "type": "container"
+      },
+      "text_2": {
+        "parameters": {
+          "fontSize": 14,
+          "text": "Take your charts to the next level with advanced queries",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "text"
       },
       "image_3": {
         "parameters": {
@@ -501,7 +608,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "arrowlpng1",
+            "name": "arrowlpng13",
             "namespace": "puttupu"
           }
         },
@@ -514,9 +621,21 @@
           "fit": "original"
         },
         "type": "container"
+      },
+      "image_2": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconquerypng",
+            "namespace": "puttupu"
+          }
+        },
+        "type": "image"
       }
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000006KAoWAM"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbVWAU"
 }

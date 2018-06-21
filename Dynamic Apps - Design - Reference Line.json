@@ -1,39 +1,30 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000006KAmWAM&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbTWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-01-04T05:09:13.000Z",
+  "createdDate": "2018-06-13T04:44:03.000Z",
   "datasets": [
     {
       "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
-  "files": [
-    {
-      "contentType": "image/png",
-      "fileLength": 19422,
-      "fileName": "assetPreviewThumb",
-      "id": "0FJ7F0000008VgvWAE",
-      "lastModifiedDate": "2018-01-04T05:15:06.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F0000006KAmWAM/files/0FJ7F0000008VgvWAE"
-    }
-  ],
+  "files": [],
   "folder": {
     "id": "${App.Folder.Id}"
   },
-  "id": "0FK7F0000006KAmWAM",
+  "id": "0FK7F000000nFbTWAU",
   "label": "Dynamic Apps - Design - Reference Line",
-  "lastAccessedDate": "2018-04-27T05:26:08.000Z",
+  "lastAccessedDate": "2018-06-21T08:55:29.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-01-04T05:09:19.000Z",
+  "lastModifiedDate": "2018-06-13T04:44:17.000Z",
   "mobileDisabled": false,
   "name": "Dynamic_Apps_Design_Reference_Line",
   "namespace": "puttupu",
@@ -42,7 +33,7 @@
     "modify": true,
     "view": true
   },
-  "refreshDate": "2018-01-04T05:07:47.000Z",
+  "refreshDate": "2018-06-13T04:42:30.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -244,8 +235,8 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_9",
-                "row": 18,
-                "rowspan": 57,
+                "row": 19,
+                "rowspan": 55,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -255,7 +246,7 @@
                 }
               },
               {
-                "colspan": 5,
+                "colspan": 4,
                 "column": 7,
                 "name": "text_17",
                 "row": 63,
@@ -303,14 +294,14 @@
                 "column": 7,
                 "name": "container_4",
                 "row": 76,
-                "rowspan": 19,
+                "rowspan": 16,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 5,
+                "colspan": 4,
                 "column": 7,
                 "name": "text_21",
                 "row": 70,
@@ -344,7 +335,7 @@
                 "column": 7,
                 "name": "text_23",
                 "row": 83,
-                "rowspan": 11,
+                "rowspan": 7,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -358,7 +349,7 @@
                 "column": 0,
                 "name": "container_6",
                 "row": 11,
-                "rowspan": 84,
+                "rowspan": 85,
                 "widgetStyle": {
                   "backgroundColor": "rgb(244, 246, 249)",
                   "borderColor": "#E6ECF2",
@@ -559,7 +550,7 @@
                 }
               },
               {
-                "colspan": 13,
+                "colspan": 14,
                 "column": 12,
                 "name": "text_15",
                 "row": 15,
@@ -773,21 +764,15 @@
         }
       },
       "all_1": {
-        "broadcastFacet": false,
-        "datasets": [
-          {
-            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
-          }
-        ],
-        "isGlobal": false,
+        "broadcastFacet": true,
+        "groups": [],
         "label": "Amount Rounded",
-        "query": {
-          "query": "{\"pigql\":\"q = load \\\"${App.EdgeMarts.puttupu__Wave_Sample_Opportunities.Alias}\\\";\\nq = group q by all;\\nq = foreach q generate round(avg('Amount')) as 'avg_Amount';\",\"measures\":[[\"count\",\"*\",\"avg_Amount\"]],\"measuresMap\":{},\"groups\":[]}",
-          "version": -1
-        },
-        "receiveFacet": false,
+        "numbers": [],
+        "query": "q = load \"puttupu__Wave_Sample_Opportunities\";\nq = group q by all;\nq = foreach q generate round(avg('Amount')) as 'avg_Amount';",
+        "receiveFacet": true,
         "selectMode": "single",
-        "type": "aggregateflex",
+        "strings": [],
+        "type": "saql",
         "useGlobal": true,
         "visualizationParameters": {}
       },
@@ -795,12 +780,9 @@
         "broadcastFacet": false,
         "datasets": [],
         "dimensions": [],
-        "groups": [],
         "isGlobal": false,
         "label": "Binding Value",
-        "numbers": [],
         "selectMode": "single",
-        "strings": [],
         "type": "staticflex",
         "useGlobal": false,
         "values": [
@@ -829,7 +811,7 @@
         "parameters": {
           "fontSize": 24,
           "text": "CODE",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "textColor": "rgb(34, 144, 138)"
         },
         "type": "text"
@@ -920,7 +902,7 @@
       },
       "text_15": {
         "parameters": {
-          "fontSize": 14,
+          "fontSize": 16,
           "text": "Build a binding that sets a reference line based on the average opportunity amount for all sale reps. Try it below!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -942,7 +924,7 @@
           "alignmentY": "bottom",
           "fit": "original",
           "image": {
-            "name": "headerdetailpng1",
+            "name": "headerdetailpng3",
             "namespace": "puttupu"
           }
         },
@@ -954,7 +936,7 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterdesertjpg1",
+            "name": "bgfooterdesertjpg13",
             "namespace": "puttupu"
           }
         },
@@ -1107,6 +1089,7 @@
               "showDomain": false
             }
           },
+          "computeTotal": true,
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1123,6 +1106,7 @@
               "showDomain": false
             }
           },
+          "valueType": "none",
           "theme": "light",
           "step": "CloseDate_Year_Close_2",
           "drawArea": {
@@ -1149,7 +1133,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconreferencelinepng2",
+            "name": "iconreferencelinepng6",
             "namespace": "puttupu"
           }
         },
@@ -1161,7 +1145,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmappng1",
+            "name": "iconmappng3",
             "namespace": "puttupu"
           }
         },
@@ -1173,7 +1157,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconconditionalpng1",
+            "name": "iconconditionalpng3",
             "namespace": "puttupu"
           }
         },
@@ -1185,7 +1169,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icongrouppng1",
+            "name": "icongrouppng3",
             "namespace": "puttupu"
           }
         },
@@ -1206,7 +1190,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlearnmorepng1",
+            "name": "iconlearnmorepng3",
             "namespace": "puttupu"
           }
         },
@@ -1218,7 +1202,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlimitpng1",
+            "name": "iconlimitpng3",
             "namespace": "puttupu"
           }
         },
@@ -1245,7 +1229,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconfilterpng2",
+            "name": "iconfilterpng6",
             "namespace": "puttupu"
           }
         },
@@ -1257,7 +1241,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmeasurepng1",
+            "name": "iconmeasurepng3",
             "namespace": "puttupu"
           }
         },
@@ -1269,7 +1253,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icondatepng2",
+            "name": "icondatepng6",
             "namespace": "puttupu"
           }
         },
@@ -1281,7 +1265,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontablepng1",
+            "name": "icontablepng3",
             "namespace": "puttupu"
           }
         },
@@ -1293,7 +1277,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconorderpng1",
+            "name": "iconorderpng3",
             "namespace": "puttupu"
           }
         },
@@ -1305,7 +1289,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconintroductionpng1",
+            "name": "iconintroductionpng3",
             "namespace": "puttupu"
           }
         },
@@ -1371,7 +1355,7 @@
         "parameters": {
           "fontSize": 24,
           "text": "RESULTS",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "textColor": "rgb(36, 147, 243)"
         },
         "type": "text"
@@ -1462,5 +1446,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000006KAmWAM"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbTWAU"
 }

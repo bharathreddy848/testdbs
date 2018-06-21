@@ -1,39 +1,30 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000006KAYWA2&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbFWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-01-04T05:09:05.000Z",
+  "createdDate": "2018-06-13T04:43:59.000Z",
   "datasets": [
     {
       "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
-  "files": [
-    {
-      "contentType": "image/png",
-      "fileLength": 24355,
-      "fileName": "assetPreviewThumb",
-      "id": "0FJ7F0000008VgbWAE",
-      "lastModifiedDate": "2018-01-04T05:13:01.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F0000006KAYWA2/files/0FJ7F0000008VgbWAE"
-    }
-  ],
+  "files": [],
   "folder": {
     "id": "${App.Folder.Id}"
   },
-  "id": "0FK7F0000006KAYWA2",
+  "id": "0FK7F000000nFbFWAU",
   "label": "Charts - Introduction",
-  "lastAccessedDate": "2018-04-27T05:26:06.000Z",
+  "lastAccessedDate": "2018-06-21T08:55:29.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-01-04T05:09:15.000Z",
+  "lastModifiedDate": "2018-06-13T04:44:12.000Z",
   "mobileDisabled": false,
   "name": "Charts_Introduction",
   "namespace": "puttupu",
@@ -42,7 +33,7 @@
     "modify": true,
     "view": true
   },
-  "refreshDate": "2018-01-04T05:07:47.000Z",
+  "refreshDate": "2018-06-13T04:42:30.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -429,13 +420,10 @@
         "broadcastFacet": false,
         "datasets": [],
         "dimensions": [],
-        "groups": [],
         "isGlobal": false,
         "label": "Grouping - Comparison 1 Measure",
-        "numbers": [],
         "selectMode": "singlerequired",
         "start": "{\"display\":[\"Top\"]}",
-        "strings": [],
         "type": "staticflex",
         "useGlobal": false,
         "values": [
@@ -447,13 +435,10 @@
         "broadcastFacet": false,
         "datasets": [],
         "dimensions": [],
-        "groups": [],
         "isGlobal": false,
         "label": "Visualization - Comparison 1 Measure",
-        "numbers": [],
         "selectMode": "singlerequired",
         "start": "{\"display\":[\"Bars\"]}",
-        "strings": [],
         "type": "staticflex",
         "useGlobal": false,
         "values": [
@@ -592,7 +577,7 @@
           "alignmentY": "bottom",
           "fit": "original",
           "image": {
-            "name": "headerdetailpng1",
+            "name": "headerdetailpng3",
             "namespace": "puttupu"
           }
         },
@@ -604,7 +589,7 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterjpg1",
+            "name": "bgfooterjpg13",
             "namespace": "puttupu"
           }
         },
@@ -651,7 +636,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconintroductionpng1",
+            "name": "iconintroductionpng3",
             "namespace": "puttupu"
           }
         },
@@ -663,7 +648,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconcomparepng1",
+            "name": "iconcomparepng3",
             "namespace": "puttupu"
           }
         },
@@ -675,7 +660,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlocationpng1",
+            "name": "iconlocationpng3",
             "namespace": "puttupu"
           }
         },
@@ -687,7 +672,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icondistributionpng1",
+            "name": "icondistributionpng3",
             "namespace": "puttupu"
           }
         },
@@ -708,7 +693,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmetricspng2",
+            "name": "iconmetricspng6",
             "namespace": "puttupu"
           }
         },
@@ -765,7 +750,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontrendingpng2",
+            "name": "icontrendingpng6",
             "namespace": "puttupu"
           }
         },
@@ -777,7 +762,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconcompositionpng2",
+            "name": "iconcompositionpng6",
             "namespace": "puttupu"
           }
         },
@@ -789,7 +774,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconrelationshippng2",
+            "name": "iconrelationshippng6",
             "namespace": "puttupu"
           }
         },
@@ -798,5 +783,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000006KAYWA2"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbFWAU"
 }

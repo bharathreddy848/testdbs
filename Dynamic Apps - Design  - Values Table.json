@@ -1,39 +1,30 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000006KAjWAM&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbQWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-01-04T05:09:12.000Z",
+  "createdDate": "2018-06-13T04:44:02.000Z",
   "datasets": [
     {
       "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
-  "files": [
-    {
-      "contentType": "image/png",
-      "fileLength": 22811,
-      "fileName": "assetPreviewThumb",
-      "id": "0FJ7F000000kGkDWAU",
-      "lastModifiedDate": "2018-03-12T04:08:51.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F0000006KAjWAM/files/0FJ7F000000kGkDWAU"
-    }
-  ],
+  "files": [],
   "folder": {
     "id": "${App.Folder.Id}"
   },
-  "id": "0FK7F0000006KAjWAM",
+  "id": "0FK7F000000nFbQWAU",
   "label": "Dynamic Apps - Design  - Values Table",
-  "lastAccessedDate": "2018-04-27T05:26:08.000Z",
+  "lastAccessedDate": "2018-06-21T08:55:32.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-01-04T05:09:18.000Z",
+  "lastModifiedDate": "2018-06-13T04:44:16.000Z",
   "mobileDisabled": false,
   "name": "Dynamic_Apps_Design_Values_Table",
   "namespace": "puttupu",
@@ -42,7 +33,7 @@
     "modify": true,
     "view": true
   },
-  "refreshDate": "2018-01-04T05:07:47.000Z",
+  "refreshDate": "2018-06-13T04:42:30.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -214,7 +205,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_2",
-                "row": 21,
+                "row": 23,
                 "rowspan": 33,
                 "widgetStyle": {
                   "backgroundColor": "rgb(225, 243, 251)",
@@ -228,7 +219,7 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_10",
-                "row": 13,
+                "row": 14,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
@@ -244,8 +235,8 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_9",
-                "row": 17,
-                "rowspan": 60,
+                "row": 19,
+                "rowspan": 53,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -255,10 +246,10 @@
                 }
               },
               {
-                "colspan": 5,
+                "colspan": 4,
                 "column": 7,
                 "name": "text_17",
-                "row": 56,
+                "row": 58,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -274,7 +265,7 @@
                 "colspan": 15,
                 "column": 12,
                 "name": "text_18",
-                "row": 56,
+                "row": 58,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -288,7 +279,7 @@
                 "colspan": 15,
                 "column": 12,
                 "name": "text_20",
-                "row": 63,
+                "row": 65,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -302,18 +293,18 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_4",
-                "row": 69,
-                "rowspan": 19,
+                "row": 71,
+                "rowspan": 22,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 5,
+                "colspan": 4,
                 "column": 7,
                 "name": "text_21",
-                "row": 63,
+                "row": 65,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -329,7 +320,7 @@
                 "colspan": 17,
                 "column": 7,
                 "name": "text_22",
-                "row": 72,
+                "row": 74,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
@@ -343,8 +334,8 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "text_23",
-                "row": 76,
-                "rowspan": 11,
+                "row": 78,
+                "rowspan": 13,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -358,7 +349,7 @@
                 "column": 0,
                 "name": "container_6",
                 "row": 11,
-                "rowspan": 77,
+                "rowspan": 86,
                 "widgetStyle": {
                   "backgroundColor": "rgb(244, 246, 249)",
                   "borderColor": "#E6ECF2",
@@ -371,7 +362,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_7",
-                "row": 55,
+                "row": 57,
                 "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
@@ -387,7 +378,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_8",
-                "row": 62,
+                "row": 64,
                 "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
@@ -403,7 +394,7 @@
                 "colspan": 19,
                 "column": 7,
                 "name": "text_3",
-                "row": 69,
+                "row": 71,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -417,7 +408,7 @@
                 "colspan": 1,
                 "column": 26,
                 "name": "image_7",
-                "row": 69,
+                "row": 71,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -532,8 +523,8 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_3",
-                "row": 13,
-                "rowspan": 7,
+                "row": 14,
+                "rowspan": 8,
                 "widgetStyle": {
                   "backgroundColor": "rgb(225, 243, 251)",
                   "borderColor": "#E6ECF2",
@@ -546,8 +537,8 @@
                 "colspan": 4,
                 "column": 7,
                 "name": "text_14",
-                "row": 14,
-                "rowspan": 4,
+                "row": 15,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
                   "borderColor": "rgb(22, 50, 92)",
@@ -559,10 +550,10 @@
                 }
               },
               {
-                "colspan": 15,
+                "colspan": 14,
                 "column": 12,
                 "name": "text_15",
-                "row": 13,
+                "row": 15,
                 "rowspan": 6,
                 "widgetStyle": {
                   "borderEdges": []
@@ -614,7 +605,7 @@
                 "colspan": 18,
                 "column": 8,
                 "name": "pillbox_1",
-                "row": 23,
+                "row": 25,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -642,7 +633,7 @@
                 "colspan": 18,
                 "column": 8,
                 "name": "table_2",
-                "row": 27,
+                "row": 29,
                 "rowspan": 21,
                 "widgetStyle": {
                   "borderEdges": []
@@ -721,12 +712,9 @@
         "broadcastFacet": false,
         "datasets": [],
         "dimensions": [],
-        "groups": [],
         "isGlobal": false,
-        "numbers": [],
         "selectMode": "multirequired",
         "start": "{\"display\":[\"Stage\"]}",
-        "strings": [],
         "type": "staticflex",
         "useGlobal": false,
         "values": [
@@ -739,12 +727,9 @@
         "broadcastFacet": false,
         "datasets": [],
         "dimensions": [],
-        "groups": [],
         "isGlobal": false,
         "label": "Binding Value",
-        "numbers": [],
         "selectMode": "single",
-        "strings": [],
         "type": "staticflex",
         "useGlobal": false,
         "values": [
@@ -787,7 +772,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontablepng1",
+            "name": "icontablepng3",
             "namespace": "puttupu"
           }
         },
@@ -806,7 +791,7 @@
         "parameters": {
           "fontSize": 24,
           "text": "CODE",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "textColor": "rgb(34, 144, 138)"
         },
         "type": "text"
@@ -832,7 +817,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconconditionalpng1",
+            "name": "iconconditionalpng3",
             "namespace": "puttupu"
           }
         },
@@ -844,7 +829,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconintroductionpng1",
+            "name": "iconintroductionpng3",
             "namespace": "puttupu"
           }
         },
@@ -921,7 +906,7 @@
       },
       "text_15": {
         "parameters": {
-          "fontSize": 14,
+          "fontSize": 16,
           "text": "Build a binding to dynamically show table columns based on the selection. Hide unwanted columns to minimize the scrolling. Try it below!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -943,7 +928,7 @@
           "alignmentY": "bottom",
           "fit": "original",
           "image": {
-            "name": "headerdetailpng1",
+            "name": "headerdetailpng3",
             "namespace": "puttupu"
           }
         },
@@ -955,7 +940,7 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterdesertjpg1",
+            "name": "bgfooterdesertjpg13",
             "namespace": "puttupu"
           }
         },
@@ -1052,7 +1037,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconreferencelinepng2",
+            "name": "iconreferencelinepng6",
             "namespace": "puttupu"
           }
         },
@@ -1064,7 +1049,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmappng1",
+            "name": "iconmappng3",
             "namespace": "puttupu"
           }
         },
@@ -1076,7 +1061,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlimitpng1",
+            "name": "iconlimitpng3",
             "namespace": "puttupu"
           }
         },
@@ -1088,7 +1073,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icongrouppng1",
+            "name": "icongrouppng3",
             "namespace": "puttupu"
           }
         },
@@ -1109,7 +1094,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlearnmorepng1",
+            "name": "iconlearnmorepng3",
             "namespace": "puttupu"
           }
         },
@@ -1121,7 +1106,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconorderpng1",
+            "name": "iconorderpng3",
             "namespace": "puttupu"
           }
         },
@@ -1187,7 +1172,7 @@
         "parameters": {
           "fontSize": 24,
           "text": "RESULTS",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "textColor": "rgb(36, 147, 243)"
         },
         "type": "text"
@@ -1304,7 +1289,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconfilterpng2",
+            "name": "iconfilterpng6",
             "namespace": "puttupu"
           }
         },
@@ -1316,7 +1301,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmeasurepng1",
+            "name": "iconmeasurepng3",
             "namespace": "puttupu"
           }
         },
@@ -1328,7 +1313,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icondatepng2",
+            "name": "icondatepng6",
             "namespace": "puttupu"
           }
         },
@@ -1337,5 +1322,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000006KAjWAM"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbQWAU"
 }

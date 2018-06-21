@@ -1,47 +1,30 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000006KAXWA2&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbEWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-01-04T05:09:05.000Z",
+  "createdDate": "2018-06-13T04:43:58.000Z",
   "datasets": [
     {
-      "id": "0Fb7F0000004MAOSA2",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities",
-      "namespace": "puttupu",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004MAOSA2"
+      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
-  "files": [
-    {
-      "contentType": "image/png",
-      "fileLength": 22388,
-      "fileName": "assetPreviewThumb",
-      "id": "0FJ7F0000008WQHWA2",
-      "lastModifiedDate": "2018-01-23T05:17:41.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F0000006KAXWA2/files/0FJ7F0000008WQHWA2"
-    }
-  ],
+  "files": [],
   "folder": {
-    "id": "00l7F000000dZiMQAU",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000000dZiMQAU"
+    "id": "${App.Folder.Id}"
   },
-  "id": "0FK7F0000006KAXWA2",
+  "id": "0FK7F000000nFbEWAU",
   "label": "Charts - Distribution",
-  "lastAccessedDate": "2018-05-09T10:06:14.000Z",
+  "lastAccessedDate": "2018-06-21T08:55:30.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-01-04T05:09:15.000Z",
+  "lastModifiedDate": "2018-06-13T04:44:11.000Z",
   "mobileDisabled": false,
   "name": "Charts_Distribution",
   "namespace": "puttupu",
@@ -50,7 +33,7 @@
     "modify": true,
     "view": true
   },
-  "refreshDate": "2018-01-04T05:07:47.000Z",
+  "refreshDate": "2018-06-13T04:42:30.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -602,17 +585,13 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F0000004MAOSA2",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004MAOSA2"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "label": "Whitespace",
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;],[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;Product_Name&quot;,&quot;Billing_Country&quot;],&quot;filters&quot;:[]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"],[\"count\",\"*\"]],\"groups\":[\"Product_Name\",\"Billing_Country\"],\"filters\":[]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -699,16 +678,12 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F0000004MAOSA2",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004MAOSA2"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Product_Family&quot;,&quot;Opportunity_Name&quot;]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Family\",\"Opportunity_Name\"]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -802,17 +777,13 @@
         "broadcastFacet": false,
         "datasets": [
           {
-            "id": "0Fb7F0000004MAOSA2",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004MAOSA2"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "label": "Use Case 1",
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;,&quot;A&quot;,{&quot;display&quot;:&quot;Totals&quot;}]],&quot;columns&quot;:[{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Month&quot;]],&quot;formula&quot;:&quot;sum(B) over ([..0] partition by all order by (&#39;Close_Date_Year~~~Close_Date_Month&#39;))&quot;,&quot;filters&quot;:[[&quot;Closed&quot;,[&quot;TRUE&quot;],&quot;in&quot;]]},&quot;header&quot;:&quot;Totals&quot;},{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Month&quot;]],&quot;filters&quot;:[[&quot;Closed&quot;,[&quot;TRUE&quot;],&quot;in&quot;]]}}],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Month&quot;]]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\",\"A\",{\"display\":\"Totals\"}]],\"columns\":[{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Month\"]],\"formula\":\"sum(B) over ([..0] partition by all order by ('Close_Date_Year~~~Close_Date_Month'))\",\"filters\":[[\"Closed\",[\"TRUE\"],\"in\"]]},\"header\":\"Totals\"},{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Month\"]],\"filters\":[[\"Closed\",[\"TRUE\"],\"in\"]]}}],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Month\"]]}",
           "version": -1
         },
         "receiveFacet": false,
@@ -828,16 +799,12 @@
         "broadcastFacet": false,
         "datasets": [
           {
-            "id": "0Fb7F0000004MAOSA2",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004MAOSA2"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;,&quot;A&quot;,{&quot;display&quot;:&quot;Revenue&quot;,&quot;format&quot;:&quot;currencydollars&quot;}],[&quot;count&quot;,&quot;Industry&quot;,&quot;D&quot;,{&quot;display&quot;:&quot;Average&quot;,&quot;format&quot;:&quot;currencydollars&quot;}]],&quot;columns&quot;:[{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Quarter&quot;]],&quot;filters&quot;:[[&quot;Industry&quot;,&quot;{{ column(Industry_1.selection, [&#92;&quot;Industry&#92;&quot;]).asObject() }}&quot;,&quot;in&quot;]]},&quot;format&quot;:&quot;currencydollars&quot;,&quot;header&quot;:&quot;Selected Revenue&quot;},{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Quarter&quot;]]}},{&quot;query&quot;:{&quot;measures&quot;:[[&quot;count&quot;,&quot;Industry&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Quarter&quot;]]}},{&quot;query&quot;:{&quot;measures&quot;:[[&quot;count&quot;,&quot;Industry&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Quarter&quot;]],&quot;formula&quot;:&quot;B/C&quot;},&quot;format&quot;:&quot;currencydollars&quot;,&quot;header&quot;:&quot;Average&quot;}],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Quarter&quot;]]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\",\"A\",{\"display\":\"Revenue\",\"format\":\"currencydollars\"}],[\"count\",\"Industry\",\"D\",{\"display\":\"Average\",\"format\":\"currencydollars\"}]],\"columns\":[{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]],\"filters\":[[\"Industry\",\"{{ column(Industry_1.selection, [\\\"Industry\\\"]).asObject() }}\",\"in\"]]},\"format\":\"currencydollars\",\"header\":\"Selected Revenue\"},{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]]}},{\"query\":{\"measures\":[[\"count\",\"Industry\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]]}},{\"query\":{\"measures\":[[\"count\",\"Industry\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]],\"formula\":\"B/C\"},\"format\":\"currencydollars\",\"header\":\"Average\"}],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]]}",
           "version": -1
         },
         "receiveFacet": false,
@@ -853,35 +820,28 @@
         "broadcastFacet": false,
         "datasets": [],
         "dimensions": [],
-        "groups": [],
         "isGlobal": false,
         "label": "Axis - Trending",
-        "numbers": [],
         "selectMode": "singlerequired",
-        "start": "{&quot;display&quot;:[&quot;Single Axis&quot;]}",
-        "strings": [],
+        "start": "{\"display\":[\"Single Axis\"]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{&quot;display&quot;:&quot;Single Axis&quot;,&quot;value&quot;:&quot;sync&quot;}",
-          "{&quot;display&quot;:&quot;Small Multiples&quot;,&quot;value&quot;:&quot;multi&quot;}",
-          "{&quot;display&quot;:&quot;Dual Axis&quot;,&quot;value&quot;:&quot;dual&quot;}"
+          "{\"display\":\"Single Axis\",\"value\":\"sync\"}",
+          "{\"display\":\"Small Multiples\",\"value\":\"multi\"}",
+          "{\"display\":\"Dual Axis\",\"value\":\"dual\"}"
         ]
       },
       "Segment_Industry_1": {
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F0000004MAOSA2",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004MAOSA2"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;Segment&quot;,&quot;Industry&quot;]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Segment\",\"Industry\"]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -946,16 +906,12 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F0000004MAOSA2",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004MAOSA2"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Product_Family&quot;,&quot;Product_Name&quot;]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Family\",\"Product_Name\"]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -1029,16 +985,12 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F0000004MAOSA2",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004MAOSA2"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Product_Family&quot;]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Family\"]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -1081,21 +1033,17 @@
         "broadcastFacet": false,
         "datasets": [
           {
-            "id": "0Fb7F0000004MAOSA2",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004MAOSA2"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;Industry&quot;],&quot;filters&quot;:[]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Industry\"],\"filters\":[]}",
           "version": -1
         },
         "receiveFacet": false,
         "selectMode": "single",
-        "start": "[&quot;Banking&quot;]",
+        "start": "[\"Banking\"]",
         "type": "aggregateflex",
         "useGlobal": false,
         "visualizationParameters": {}
@@ -1104,17 +1052,13 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F0000004MAOSA2",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004MAOSA2"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "label": "Whitespace",
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Product_Name&quot;,&quot;Billing_Country&quot;],&quot;filters&quot;:[]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Name\",\"Billing_Country\"],\"filters\":[]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -1268,7 +1212,7 @@
       "text_12": {
         "parameters": {
           "fontSize": 14,
-          "text": "Heat maps use color density to show concentration. In this case, a darker color means more opportunities. Heat maps can only have a single measure.\n\nWant to see more than one dimension? Try a matrix chart, which is like the offspring of a heat map and a scatter plot. (There&#39;s nothing more beautiful than the love between two chart types.)\n\nMatrix charts show distribution by color density and bubble size. In the below example, size represents sales, and color the number of opportunities. Matrix charts can have up to two measures. When building the chart, change the order of measures to swap color and size.",
+          "text": "Heat maps use color density to show concentration. In this case, a darker color means more opportunities. Heat maps can only have a single measure.\n\nWant to see more than one dimension? Try a matrix chart, which is like the offspring of a heat map and a scatter plot. (There's nothing more beautiful than the love between two chart types.)\n\nMatrix charts show distribution by color density and bubble size. In the below example, size represents sales, and color the number of opportunities. Matrix charts can have up to two measures. When building the chart, change the order of measures to swap color and size.",
           "textAlignment": "left",
           "textColor": "rgb(9, 26, 62)"
         },
@@ -1289,7 +1233,7 @@
           "alignmentY": "bottom",
           "fit": "original",
           "image": {
-            "name": "headerdetailpng1",
+            "name": "headerdetailpng3",
             "namespace": "puttupu"
           }
         },
@@ -1301,7 +1245,7 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterjpg1",
+            "name": "bgfooterjpg13",
             "namespace": "puttupu"
           }
         },
@@ -1313,7 +1257,7 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterjpg1",
+            "name": "bgfooterjpg13",
             "namespace": "puttupu"
           }
         },
@@ -1322,7 +1266,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 14,
-          "text": "Heat maps, matrix, and other distribution charts help you visualize volume distribution so you can make decisions about concentration and whitespace. Too many eggs in one basket? Vast stretches of zero penetration? Find out, with a distribution chart.\n\nThis example helps you quickly see where your opportunities fall... and where they don&#39;t. I&#39;m looking at you, Enterprise Energy.",
+          "text": "Heat maps, matrix, and other distribution charts help you visualize volume distribution so you can make decisions about concentration and whitespace. Too many eggs in one basket? Vast stretches of zero penetration? Find out, with a distribution chart.\n\nThis example helps you quickly see where your opportunities fall... and where they don't. I'm looking at you, Enterprise Energy.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1451,6 +1395,7 @@
               "showDomain": false
             }
           },
+          "computeTotal": true,
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1569,6 +1514,7 @@
               "showDomain": false
             }
           },
+          "computeTotal": true,
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1623,7 +1569,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconintroductionpng1",
+            "name": "iconintroductionpng3",
             "namespace": "puttupu"
           }
         },
@@ -1635,7 +1581,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconcomparepng1",
+            "name": "iconcomparepng3",
             "namespace": "puttupu"
           }
         },
@@ -1647,7 +1593,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlocationpng1",
+            "name": "iconlocationpng3",
             "namespace": "puttupu"
           }
         },
@@ -1659,7 +1605,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icondistributionpng1",
+            "name": "icondistributionpng3",
             "namespace": "puttupu"
           }
         },
@@ -1680,7 +1626,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmetricspng2",
+            "name": "iconmetricspng6",
             "namespace": "puttupu"
           }
         },
@@ -1782,7 +1728,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontrendingpng2",
+            "name": "icontrendingpng6",
             "namespace": "puttupu"
           }
         },
@@ -1794,7 +1740,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconcompositionpng2",
+            "name": "iconcompositionpng6",
             "namespace": "puttupu"
           }
         },
@@ -1806,7 +1752,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconrelationshippng2",
+            "name": "iconrelationshippng6",
             "namespace": "puttupu"
           }
         },
@@ -1815,5 +1761,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000006KAXWA2"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbEWAU"
 }

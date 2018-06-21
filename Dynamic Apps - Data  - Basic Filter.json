@@ -1,39 +1,30 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000006KAdWAM&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbKWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-01-04T05:09:07.000Z",
+  "createdDate": "2018-06-13T04:44:00.000Z",
   "datasets": [
     {
       "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
-  "files": [
-    {
-      "contentType": "image/png",
-      "fileLength": 18384,
-      "fileName": "assetPreviewThumb",
-      "id": "0FJ7F0000008VyPWAU",
-      "lastModifiedDate": "2018-01-10T09:07:31.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F0000006KAdWAM/files/0FJ7F0000008VyPWAU"
-    }
-  ],
+  "files": [],
   "folder": {
     "id": "${App.Folder.Id}"
   },
-  "id": "0FK7F0000006KAdWAM",
+  "id": "0FK7F000000nFbKWAU",
   "label": "Dynamic Apps - Data  - Basic Filter",
-  "lastAccessedDate": "2018-04-27T05:47:05.000Z",
+  "lastAccessedDate": "2018-06-21T08:55:29.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-01-04T05:09:16.000Z",
+  "lastModifiedDate": "2018-06-13T04:44:13.000Z",
   "mobileDisabled": false,
   "name": "Dynamic_Apps_Data_Basic_Filter",
   "namespace": "puttupu",
@@ -42,7 +33,7 @@
     "modify": true,
     "view": true
   },
-  "refreshDate": "2018-01-04T05:07:47.000Z",
+  "refreshDate": "2018-06-13T04:42:30.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -214,7 +205,7 @@
                 "colspan": 18,
                 "column": 8,
                 "name": "chart_1",
-                "row": 26,
+                "row": 25,
                 "rowspan": 14,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
@@ -228,7 +219,7 @@
                 "colspan": 14,
                 "column": 8,
                 "name": "number_1",
-                "row": 41,
+                "row": 40,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
@@ -244,7 +235,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_2",
-                "row": 24,
+                "row": 23,
                 "rowspan": 31,
                 "widgetStyle": {
                   "backgroundColor": "rgb(225, 243, 251)",
@@ -274,8 +265,8 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_9",
-                "row": 18,
-                "rowspan": 51,
+                "row": 19,
+                "rowspan": 48,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -285,10 +276,10 @@
                 }
               },
               {
-                "colspan": 5,
+                "colspan": 4,
                 "column": 7,
                 "name": "text_17",
-                "row": 58,
+                "row": 56,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -304,7 +295,7 @@
                 "colspan": 15,
                 "column": 12,
                 "name": "text_18",
-                "row": 58,
+                "row": 56,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -318,7 +309,7 @@
                 "colspan": 15,
                 "column": 12,
                 "name": "text_20",
-                "row": 66,
+                "row": 63,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -332,7 +323,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_4",
-                "row": 73,
+                "row": 69,
                 "rowspan": 17,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
@@ -340,10 +331,10 @@
                 }
               },
               {
-                "colspan": 5,
+                "colspan": 4,
                 "column": 7,
                 "name": "text_21",
-                "row": 66,
+                "row": 63,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -359,7 +350,7 @@
                 "colspan": 15,
                 "column": 7,
                 "name": "text_22",
-                "row": 76,
+                "row": 72,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
@@ -373,7 +364,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "text_23",
-                "row": 80,
+                "row": 76,
                 "rowspan": 9,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -401,7 +392,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_7",
-                "row": 57,
+                "row": 55,
                 "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
@@ -417,7 +408,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_8",
-                "row": 65,
+                "row": 62,
                 "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
@@ -433,7 +424,7 @@
                 "colspan": 19,
                 "column": 7,
                 "name": "text_3",
-                "row": 73,
+                "row": 69,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -447,7 +438,7 @@
                 "colspan": 1,
                 "column": 26,
                 "name": "image_7",
-                "row": 73,
+                "row": 69,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -577,7 +568,7 @@
                 "column": 7,
                 "name": "text_14",
                 "row": 15,
-                "rowspan": 4,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
                   "borderColor": "rgb(22, 50, 92)",
@@ -658,7 +649,7 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_4",
-                "row": 73,
+                "row": 69,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
@@ -674,8 +665,8 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_5",
-                "row": 77,
-                "rowspan": 13,
+                "row": 74,
+                "rowspan": 11,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -797,12 +788,9 @@
         "broadcastFacet": false,
         "datasets": [],
         "dimensions": [],
-        "groups": [],
         "isGlobal": false,
         "label": "Binding Value",
-        "numbers": [],
         "selectMode": "single",
-        "strings": [],
         "type": "staticflex",
         "useGlobal": false,
         "values": [
@@ -831,7 +819,7 @@
         "parameters": {
           "fontSize": 24,
           "text": "CODE",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "textColor": "rgb(34, 144, 138)"
         },
         "type": "text"
@@ -922,7 +910,7 @@
       },
       "text_15": {
         "parameters": {
-          "fontSize": 14,
+          "fontSize": 16,
           "text": "Build a binding to dynamically filter a total based on the selections. With selections, you'll need fewer filter widgets. Try it below!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -944,7 +932,7 @@
           "alignmentY": "bottom",
           "fit": "original",
           "image": {
-            "name": "headerdetailpng1",
+            "name": "headerdetailpng3",
             "namespace": "puttupu"
           }
         },
@@ -956,7 +944,7 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterdesertjpg1",
+            "name": "bgfooterdesertjpg13",
             "namespace": "puttupu"
           }
         },
@@ -1025,7 +1013,7 @@
           "fontSize": 14,
           "text": "You can also use faceting to filter a step. Faceting is actually a lot easier to set up than bindings. However, sometimes you don’t want to filter a step based on all other faceted steps. You just want to filter it based on one other step. In this case, use a binding.",
           "textAlignment": "left",
-          "textColor": "#091A3E"
+          "textColor": "rgb(22, 50, 92)"
         },
         "type": "text"
       },
@@ -1119,6 +1107,7 @@
               "showDomain": false
             }
           },
+          "computeTotal": true,
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1172,7 +1161,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconreferencelinepng2",
+            "name": "iconreferencelinepng6",
             "namespace": "puttupu"
           }
         },
@@ -1184,7 +1173,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmappng1",
+            "name": "iconmappng3",
             "namespace": "puttupu"
           }
         },
@@ -1196,7 +1185,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icongrouppng1",
+            "name": "icongrouppng3",
             "namespace": "puttupu"
           }
         },
@@ -1208,7 +1197,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmeasurepng1",
+            "name": "iconmeasurepng3",
             "namespace": "puttupu"
           }
         },
@@ -1229,7 +1218,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlearnmorepng1",
+            "name": "iconlearnmorepng3",
             "namespace": "puttupu"
           }
         },
@@ -1241,7 +1230,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlimitpng1",
+            "name": "iconlimitpng3",
             "namespace": "puttupu"
           }
         },
@@ -1268,7 +1257,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconfilterpng2",
+            "name": "iconfilterpng6",
             "namespace": "puttupu"
           }
         },
@@ -1280,7 +1269,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconconditionalpng1",
+            "name": "iconconditionalpng3",
             "namespace": "puttupu"
           }
         },
@@ -1292,7 +1281,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icondatepng2",
+            "name": "icondatepng6",
             "namespace": "puttupu"
           }
         },
@@ -1304,7 +1293,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontablepng1",
+            "name": "icontablepng3",
             "namespace": "puttupu"
           }
         },
@@ -1316,7 +1305,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconorderpng1",
+            "name": "iconorderpng3",
             "namespace": "puttupu"
           }
         },
@@ -1328,7 +1317,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconintroductionpng1",
+            "name": "iconintroductionpng3",
             "namespace": "puttupu"
           }
         },
@@ -1398,7 +1387,7 @@
         "parameters": {
           "fontSize": 24,
           "text": "RESULTS",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "textColor": "rgb(36, 147, 243)"
         },
         "type": "text"
@@ -1474,5 +1463,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000006KAdWAM"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbKWAU"
 }

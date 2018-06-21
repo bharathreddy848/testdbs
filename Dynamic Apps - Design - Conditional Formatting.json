@@ -1,12 +1,12 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000006KAlWAM&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbSWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-01-04T05:09:12.000Z",
+  "createdDate": "2018-06-13T04:44:03.000Z",
   "datasets": [
     {
       "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
@@ -15,25 +15,25 @@
   "files": [
     {
       "contentType": "image/png",
-      "fileLength": 19873,
+      "fileLength": 21278,
       "fileName": "assetPreviewThumb",
-      "id": "0FJ7F0000008W2CWAU",
-      "lastModifiedDate": "2018-01-11T09:44:05.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F0000006KAlWAM/files/0FJ7F0000008W2CWAU"
+      "id": "0FJ7F000000kKI1WAM",
+      "lastModifiedDate": "2018-06-21T06:22:02.000Z",
+      "url": "/services/data/v41.0/wave/lenses/0FK7F000000nFbSWAU/files/0FJ7F000000kKI1WAM"
     }
   ],
   "folder": {
     "id": "${App.Folder.Id}"
   },
-  "id": "0FK7F0000006KAlWAM",
+  "id": "0FK7F000000nFbSWAU",
   "label": "Dynamic Apps - Design - Conditional Formatting",
-  "lastAccessedDate": "2018-04-27T05:26:09.000Z",
+  "lastAccessedDate": "2018-06-21T08:55:33.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
     "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-01-04T05:09:19.000Z",
+  "lastModifiedDate": "2018-06-13T04:44:17.000Z",
   "mobileDisabled": false,
   "name": "Dynamic_Apps_Design_Conditional_Formatting",
   "namespace": "puttupu",
@@ -42,7 +42,7 @@
     "modify": true,
     "view": true
   },
-  "refreshDate": "2018-01-04T05:07:47.000Z",
+  "refreshDate": "2018-06-13T04:42:30.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -215,7 +215,7 @@
                 "column": 7,
                 "name": "container_2",
                 "row": 23,
-                "rowspan": 20,
+                "rowspan": 23,
                 "widgetStyle": {
                   "backgroundColor": "rgb(225, 243, 251)",
                   "borderColor": "#E6ECF2",
@@ -244,8 +244,8 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_9",
-                "row": 18,
-                "rowspan": 60,
+                "row": 19,
+                "rowspan": 58,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -258,8 +258,8 @@
                 "colspan": 4,
                 "column": 7,
                 "name": "text_17",
-                "row": 46,
-                "rowspan": 7,
+                "row": 48,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
                   "borderColor": "rgb(34, 144, 138)",
@@ -271,10 +271,10 @@
                 }
               },
               {
-                "colspan": 16,
-                "column": 11,
+                "colspan": 15,
+                "column": 12,
                 "name": "text_18",
-                "row": 50,
+                "row": 52,
                 "rowspan": 2,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -288,7 +288,7 @@
                 "colspan": 15,
                 "column": 12,
                 "name": "text_20",
-                "row": 56,
+                "row": 57,
                 "rowspan": 2,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -302,18 +302,18 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_4",
-                "row": 64,
-                "rowspan": 22,
+                "row": 65,
+                "rowspan": 23,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 5,
+                "colspan": 4,
                 "column": 7,
                 "name": "text_21",
-                "row": 56,
+                "row": 57,
                 "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -329,7 +329,7 @@
                 "colspan": 12,
                 "column": 7,
                 "name": "text_22",
-                "row": 67,
+                "row": 68,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
@@ -343,7 +343,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "text_23",
-                "row": 71,
+                "row": 72,
                 "rowspan": 14,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -358,7 +358,7 @@
                 "column": 0,
                 "name": "container_6",
                 "row": 11,
-                "rowspan": 75,
+                "rowspan": 81,
                 "widgetStyle": {
                   "backgroundColor": "rgb(244, 246, 249)",
                   "borderColor": "#E6ECF2",
@@ -371,8 +371,8 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_7",
-                "row": 45,
-                "rowspan": 9,
+                "row": 47,
+                "rowspan": 8,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
                   "borderColor": "rgb(34, 144, 138)",
@@ -387,7 +387,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_8",
-                "row": 55,
+                "row": 56,
                 "rowspan": 8,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
@@ -403,7 +403,7 @@
                 "colspan": 19,
                 "column": 7,
                 "name": "text_3",
-                "row": 64,
+                "row": 65,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -417,7 +417,7 @@
                 "colspan": 1,
                 "column": 26,
                 "name": "image_7",
-                "row": 64,
+                "row": 65,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -547,7 +547,7 @@
                 "column": 7,
                 "name": "text_14",
                 "row": 15,
-                "rowspan": 4,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
                   "borderColor": "rgb(22, 50, 92)",
@@ -563,7 +563,7 @@
                 "column": 12,
                 "name": "text_15",
                 "row": 15,
-                "rowspan": 7,
+                "rowspan": 6,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -615,7 +615,7 @@
                 "column": 8,
                 "name": "number_1",
                 "row": 25,
-                "rowspan": 8,
+                "rowspan": 9,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -625,7 +625,7 @@
                 "column": 14,
                 "name": "number_2",
                 "row": 25,
-                "rowspan": 8,
+                "rowspan": 9,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -635,7 +635,7 @@
                 "column": 20,
                 "name": "number_3",
                 "row": 25,
-                "rowspan": 8,
+                "rowspan": 9,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -655,7 +655,7 @@
                 "colspan": 15,
                 "column": 12,
                 "name": "text_4",
-                "row": 58,
+                "row": 59,
                 "rowspan": 2,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -669,7 +669,7 @@
                 "colspan": 15,
                 "column": 12,
                 "name": "text_5",
-                "row": 60,
+                "row": 61,
                 "rowspan": 2,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -680,10 +680,10 @@
                 }
               },
               {
-                "colspan": 16,
-                "column": 11,
+                "colspan": 15,
+                "column": 12,
                 "name": "text_8",
-                "row": 46,
+                "row": 48,
                 "rowspan": 2,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -694,10 +694,10 @@
                 }
               },
               {
-                "colspan": 16,
-                "column": 11,
+                "colspan": 15,
+                "column": 12,
                 "name": "text_11",
-                "row": 48,
+                "row": 50,
                 "rowspan": 2,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -1066,12 +1066,9 @@
         "broadcastFacet": false,
         "datasets": [],
         "dimensions": [],
-        "groups": [],
         "isGlobal": false,
         "label": "Binding Value",
-        "numbers": [],
         "selectMode": "single",
-        "strings": [],
         "type": "staticflex",
         "useGlobal": false,
         "values": [
@@ -1111,7 +1108,7 @@
         "parameters": {
           "fontSize": 24,
           "text": "CODE",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "textColor": "rgb(34, 144, 138)"
         },
         "type": "text"
@@ -1187,7 +1184,7 @@
       },
       "text_15": {
         "parameters": {
-          "fontSize": 14,
+          "fontSize": 16,
           "text": "Build bindings that conditionally highlight the results based on their values. Check out the color coding below to see how well you're doing in each industry.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1218,7 +1215,7 @@
           "alignmentY": "bottom",
           "fit": "original",
           "image": {
-            "name": "headerdetailpng1",
+            "name": "headerdetailpng3",
             "namespace": "puttupu"
           }
         },
@@ -1230,7 +1227,7 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterdesertjpg1",
+            "name": "bgfooterdesertjpg13",
             "namespace": "puttupu"
           }
         },
@@ -1354,7 +1351,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconreferencelinepng2",
+            "name": "iconreferencelinepng6",
             "namespace": "puttupu"
           }
         },
@@ -1366,7 +1363,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmappng1",
+            "name": "iconmappng3",
             "namespace": "puttupu"
           }
         },
@@ -1378,7 +1375,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icongrouppng1",
+            "name": "icongrouppng3",
             "namespace": "puttupu"
           }
         },
@@ -1390,7 +1387,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmeasurepng1",
+            "name": "iconmeasurepng3",
             "namespace": "puttupu"
           }
         },
@@ -1411,7 +1408,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlearnmorepng1",
+            "name": "iconlearnmorepng3",
             "namespace": "puttupu"
           }
         },
@@ -1423,7 +1420,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlimitpng1",
+            "name": "iconlimitpng3",
             "namespace": "puttupu"
           }
         },
@@ -1480,7 +1477,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconfilterpng2",
+            "name": "iconfilterpng6",
             "namespace": "puttupu"
           }
         },
@@ -1492,7 +1489,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconconditionalpng1",
+            "name": "iconconditionalpng3",
             "namespace": "puttupu"
           }
         },
@@ -1504,7 +1501,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icondatepng2",
+            "name": "icondatepng6",
             "namespace": "puttupu"
           }
         },
@@ -1516,7 +1513,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontablepng1",
+            "name": "icontablepng3",
             "namespace": "puttupu"
           }
         },
@@ -1528,7 +1525,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconorderpng1",
+            "name": "iconorderpng3",
             "namespace": "puttupu"
           }
         },
@@ -1540,7 +1537,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconintroductionpng1",
+            "name": "iconintroductionpng3",
             "namespace": "puttupu"
           }
         },
@@ -1610,7 +1607,7 @@
         "parameters": {
           "fontSize": 24,
           "text": "RESULTS",
-          "textAlignment": "left",
+          "textAlignment": "center",
           "textColor": "rgb(36, 147, 243)"
         },
         "type": "text"
@@ -1690,5 +1687,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000006KAlWAM"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbSWAU"
 }
