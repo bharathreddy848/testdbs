@@ -9,16 +9,24 @@
   "createdDate": "2018-06-13T04:44:02.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.${App.EdgeMarts.Wave_Sample_Opportunities.Alias}.Alias}"
+      "id": "0Fb7F000000l2TpSAI",
+      "label": "Wave_Sample_Opportunities",
+      "name": "Wave_Sample_Opportunities",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
     }
   ],
   "files": [],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbPWAU",
   "label": "Dynamic Apps - Data  - Order (Compact Form)",
-  "lastAccessedDate": "2018-06-21T09:33:50.000Z",
+  "lastAccessedDate": "2018-06-21T09:34:46.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -716,12 +724,16 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.${App.EdgeMarts.Wave_Sample_Opportunities.Alias}.Alias}"
+            "id": "0Fb7F000000l2TpSAI",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Family\"],\"order\":\"{{ cell(Order_Toggle_1.selection, 0, \\\"order\\\").asObject() }}\"}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Product_Family&quot;],&quot;order&quot;:&quot;{{ cell(Order_Toggle_1.selection, 0, &#92;&quot;order&#92;&quot;).asObject() }}&quot;}",
           "version": -1
         },
         "receiveFacet": true,
@@ -821,7 +833,7 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"1\",\"value\":\"{{ cell(Order_Toggle_1.selection, 0, \\\\\\\"order\\\\\\\").asObject() }}\"}"
+          "{&quot;display&quot;:&quot;1&quot;,&quot;value&quot;:&quot;{{ cell(Order_Toggle_1.selection, 0, &#92;&#92;&#92;&quot;order&#92;&#92;&#92;&quot;).asObject() }}&quot;}"
         ]
       },
       "Order_Toggle_1": {
@@ -831,13 +843,13 @@
         "isGlobal": false,
         "label": "Grouping Toggle",
         "selectMode": "singlerequired",
-        "start": "{\"display\":[\"Top\"]}",
+        "start": "{&quot;display&quot;:[&quot;Top&quot;]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"Top\",\"order\":[[\"sum_Amount\",{\"ascending\":false}]]}",
-          "{\"display\":\"Bottom\",\"order\":[[\"sum_Amount\",{\"ascending\":true}]]}",
-          "{\"display\":\"Alphabetical\",\"order\":[]}"
+          "{&quot;display&quot;:&quot;Top&quot;,&quot;order&quot;:[[&quot;sum_Amount&quot;,{&quot;ascending&quot;:false}]]}",
+          "{&quot;display&quot;:&quot;Bottom&quot;,&quot;order&quot;:[[&quot;sum_Amount&quot;,{&quot;ascending&quot;:true}]]}",
+          "{&quot;display&quot;:&quot;Alphabetical&quot;,&quot;order&quot;:[]}"
         ]
       }
     },
@@ -864,7 +876,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell( Binding_Value_1.result, 0, \"value\").asObject() }}",
+          "text": "{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1061,7 +1073,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
-          "text": "Tie a widget's data or design to the selection or results of another",
+          "text": "Tie a widget&#39;s data or design to the selection or results of another",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
         },
@@ -1206,7 +1218,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) Create a toggle widget (\"pillbox_1\") with a step (\"Order_Toggle_1\") that specifies different orders.\n\n2) Create a bar chart (\"chart_1\") with a step (\"Dynamic_Query\") in compact form that groups the total amount by product family and sorts the results based on the selected order in the toggle widget.\n\n3) To dynamically set the order in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the \"order\" property in the \"Dynamic_Query\" step.\n\n\"order\": \"{{cell( Binding_Value_1.result, 0, \"value\").asObject()}}\"\n\n4) VOILÀ! Click Done and you're ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
+          "text": "1) Create a toggle widget (&quot;pillbox_1&quot;) with a step (&quot;Order_Toggle_1&quot;) that specifies different orders.\n\n2) Create a bar chart (&quot;chart_1&quot;) with a step (&quot;Dynamic_Query&quot;) in compact form that groups the total amount by product family and sorts the results based on the selected order in the toggle widget.\n\n3) To dynamically set the order in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the &quot;order&quot; property in the &quot;Dynamic_Query&quot; step.\n\n&quot;order&quot;: &quot;{{cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject()}}&quot;\n\n4) VOILÀ! Click Done and you&#39;re ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1350,7 +1362,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell(Order_Toggle_1.selection, 0, \"order\").asString() }}",
+          "text": "{{ cell(Order_Toggle_1.selection, 0, &quot;order&quot;).asString() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1359,7 +1371,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) cell(Order_Toggle_1.selection, 0, \\\"order\\\") returns the selected order from the \"Order_Toggle_1\" step. Gets the value from cell (first row, \"order\" column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
+          "text": "1) cell(Order_Toggle_1.selection, 0, &#92;&quot;order&#92;&quot;) returns the selected order from the &quot;Order_Toggle_1&quot; step. Gets the value from cell (first row, &quot;order&quot; column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

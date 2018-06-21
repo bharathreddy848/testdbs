@@ -10,11 +10,15 @@
   "datasets": [],
   "files": [],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbUWAU",
   "label": "Dynamic Apps - Introduction",
-  "lastAccessedDate": "2018-06-21T09:33:56.000Z",
+  "lastAccessedDate": "2018-06-21T09:34:41.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -600,7 +604,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
-          "text": "Tie a widget's data or design to the selection or results of another",
+          "text": "Tie a widget&#39;s data or design to the selection or results of another",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
         },
@@ -609,7 +613,7 @@
       "text_5": {
         "parameters": {
           "fontSize": 14,
-          "text": "Einstein Analytics dashboards are already interactive. Select a value and the rest of the dashboard filters based on your selection. That's \"faceting.\" But faceting has its limits: all faceted widgets change with every selection. And they're really just a glorified filter. (Not to badmouth facets, which are fantastic and automatic.) But what if you want something a little more sophisticated?\n\nThat's where bindings come in. They're really the secret sauce of Analytics, the thing that'll get you to the next level. Want to go beyond filters? Like filtering one widget instead of all? Or let your users choose a chart's measure or grouping? Set a reference line based on the average? Change the color of a number widget based on custom thresholds? Or show a custom map based on a user's locale? Or even change the chart type based on a selection?! You can even nest bindings to create an app of infinite wonder. But let's start with the basics.\n\nBindings change the data or design of a widget based on the selection or results of another. You add bindings directly in the dashboard JSON, so be ready to get your hands dirty. Don't worry, this learning app is here to help.\n\nTo view the JSON, press Cmd+E for Mac or Ctrl+E for Windows. But before you go under the hood, first click and walk through the examples on the left to learn more. For wisdom, Odin gave up an eye. For deeper insight, surely you're willing to learn a little JSON, right? Right?! Okay, let's do this.",
+          "text": "Einstein Analytics dashboards are already interactive. Select a value and the rest of the dashboard filters based on your selection. That&#39;s &quot;faceting.&quot; But faceting has its limits: all faceted widgets change with every selection. And they&#39;re really just a glorified filter. (Not to badmouth facets, which are fantastic and automatic.) But what if you want something a little more sophisticated?\n\nThat&#39;s where bindings come in. They&#39;re really the secret sauce of Analytics, the thing that&#39;ll get you to the next level. Want to go beyond filters? Like filtering one widget instead of all? Or let your users choose a chart&#39;s measure or grouping? Set a reference line based on the average? Change the color of a number widget based on custom thresholds? Or show a custom map based on a user&#39;s locale? Or even change the chart type based on a selection?! You can even nest bindings to create an app of infinite wonder. But let&#39;s start with the basics.\n\nBindings change the data or design of a widget based on the selection or results of another. You add bindings directly in the dashboard JSON, so be ready to get your hands dirty. Don&#39;t worry, this learning app is here to help.\n\nTo view the JSON, press Cmd+E for Mac or Ctrl+E for Windows. But before you go under the hood, first click and walk through the examples on the left to learn more. For wisdom, Odin gave up an eye. For deeper insight, surely you&#39;re willing to learn a little JSON, right? Right?! Okay, let&#39;s do this.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

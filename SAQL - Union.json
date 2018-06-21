@@ -9,19 +9,31 @@
   "createdDate": "2018-06-13T04:44:09.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.${App.EdgeMarts.DTC_Opportunity_SAMPLE1.Alias}.Alias}"
+      "id": "0Fb7F000000l2TqSAI",
+      "label": "DTC_Opportunity_SAMPLE",
+      "name": "DTC_Opportunity_SAMPLE1",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TqSAI"
     },
     {
-      "name": "${App.EdgeMarts.${App.EdgeMarts.OpportunitiesRegion2.Alias}.Alias}"
+      "id": "0Fb7F000000l2TrSAI",
+      "label": "OpportunitiesRegion2",
+      "name": "OpportunitiesRegion2",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TrSAI"
     }
   ],
   "files": [],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbeWAE",
   "label": "SAQL - Union",
-  "lastAccessedDate": "2018-06-21T09:33:55.000Z",
+  "lastAccessedDate": "2018-06-21T09:34:42.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -47,7 +59,7 @@
         "numColumns": 40,
         "pages": [
           {
-            "label": "PHIL'S UPDATED VERSION",
+            "label": "PHIL&#39;S UPDATED VERSION",
             "name": "ec3bd4b5-63d4-4996-9b89-d769097076a9",
             "widgets": [
               {
@@ -737,24 +749,28 @@
         "dimensions": [],
         "label": "union",
         "selectMode": "singlerequired",
-        "start": "{\"display\":[\"Top 5 Both Regions\"]}",
+        "start": "{&quot;display&quot;:[&quot;Top 5 Both Regions&quot;]}",
         "type": "staticflex",
         "values": [
-          "{\"display\":\"Region 1\",\"value\":\"-- load the Opportunity dataset from Region 1\\nq = load \\\"${App.EdgeMarts.puttupu__DTC_Opportunity_SAMPLE1.Alias}\\\"; \\n\\n -- group by Industry \\nq = group q by 'Industry'; \\n\\n-- Project the sum of amount for each Industry \\n q = foreach q generate 'Industry' as 'Industry', sum('Amount') as 'sum_Amount';\\n q = order q by 'Industry' asc; \\nq = limit q 2000;\"}",
-          "{\"display\":\"Region 2\",\"value\":\"-- load the Opportunity dataset from Region 2 \\n q = load \\\"${App.EdgeMarts.puttupu__OpportunitiesRegion2.Alias}\\\";\\n\\n -- group by Industry \\nq = group q by 'Industry'; \\n\\n-- Project the sum of amount for each Industry \\nq = foreach q generate 'Industry' as 'Industry', sum('Amount') as 'sum_Amount';\\nq = order q by 'Industry' asc;\\nq = limit q 2000;\"}",
-          "{\"display\":\"Top 5 Both Regions\",\"value\":\"\\nopp1 = load \\\"${App.EdgeMarts.puttupu__DTC_Opportunity_SAMPLE1.Alias}\\\"; \\nopp1 = group opp1 by 'Industry'; \\nopp1 = foreach opp1 generate 'Industry' as 'Industry', sum('Amount') as 'Amount'; \\n\\nopp2 = load \\\"${App.EdgeMarts.puttupu__OpportunitiesRegion2.Alias}\\\"; \\nopp2 = group opp2 by 'Industry'; \\nopp2 = foreach opp2 generate 'Industry' as 'Industry', sum('Amount') as 'Amount'; \\n\\nresult = union opp1, opp2; \\nresult = order result by 'Amount' desc; \\nresult = limit result 5;\"}"
+          "{&quot;display&quot;:&quot;Region 1&quot;,&quot;value&quot;:&quot;-- load the Opportunity dataset from Region 1&#92;nq = load &#92;&quot;puttupu__DTC_Opportunity_SAMPLE1&#92;&quot;; &#92;n&#92;n -- group by Industry &#92;nq = group q by &#39;Industry&#39;; &#92;n&#92;n-- Project the sum of amount for each Industry &#92;n q = foreach q generate &#39;Industry&#39; as &#39;Industry&#39;, sum(&#39;Amount&#39;) as &#39;sum_Amount&#39;;&#92;n q = order q by &#39;Industry&#39; asc; &#92;nq = limit q 2000;&quot;}",
+          "{&quot;display&quot;:&quot;Region 2&quot;,&quot;value&quot;:&quot;-- load the Opportunity dataset from Region 2 &#92;n q = load &#92;&quot;puttupu__OpportunitiesRegion2&#92;&quot;;&#92;n&#92;n -- group by Industry &#92;nq = group q by &#39;Industry&#39;; &#92;n&#92;n-- Project the sum of amount for each Industry &#92;nq = foreach q generate &#39;Industry&#39; as &#39;Industry&#39;, sum(&#39;Amount&#39;) as &#39;sum_Amount&#39;;&#92;nq = order q by &#39;Industry&#39; asc;&#92;nq = limit q 2000;&quot;}",
+          "{&quot;display&quot;:&quot;Top 5 Both Regions&quot;,&quot;value&quot;:&quot;&#92;nopp1 = load &#92;&quot;puttupu__DTC_Opportunity_SAMPLE1&#92;&quot;; &#92;nopp1 = group opp1 by &#39;Industry&#39;; &#92;nopp1 = foreach opp1 generate &#39;Industry&#39; as &#39;Industry&#39;, sum(&#39;Amount&#39;) as &#39;Amount&#39;; &#92;n&#92;nopp2 = load &#92;&quot;puttupu__OpportunitiesRegion2&#92;&quot;; &#92;nopp2 = group opp2 by &#39;Industry&#39;; &#92;nopp2 = foreach opp2 generate &#39;Industry&#39; as &#39;Industry&#39;, sum(&#39;Amount&#39;) as &#39;Amount&#39;; &#92;n&#92;nresult = union opp1, opp2; &#92;nresult = order result by &#39;Amount&#39; desc; &#92;nresult = limit result 5;&quot;}"
         ]
       },
       "all_1": {
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.${App.EdgeMarts.DTC_Opportunity_SAMPLE1.Alias}.Alias}"
+            "id": "0Fb7F000000l2TqSAI",
+            "label": "DTC_Opportunity_SAMPLE",
+            "name": "DTC_Opportunity_SAMPLE1",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TqSAI"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]]}",
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -870,12 +886,16 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.${App.EdgeMarts.OpportunitiesRegion2.Alias}.Alias}"
+            "id": "0Fb7F000000l2TrSAI",
+            "label": "OpportunitiesRegion2",
+            "name": "OpportunitiesRegion2",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TrSAI"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]]}",
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -991,7 +1011,7 @@
         "broadcastFacet": true,
         "groups": [],
         "numbers": [],
-        "query": "{{cell(union_1.selection, 0, \"value\").asString()}}",
+        "query": "{{cell(union_1.selection, 0, &quot;value&quot;).asString()}}",
         "receiveFacet": true,
         "selectMode": "none",
         "strings": [],
@@ -1028,7 +1048,7 @@
       "text_19": {
         "parameters": {
           "fontSize": 14,
-          "text": "opp1 = load \\\"${App.EdgeMarts.DTC_Opportunity_SAMPLE.Alias}\\\"; \nopp1 = group opp1 by 'Industry'; \nopp1 = foreach opp1 generate 'Industry' as 'Industry', sum('Amount') as 'Amount'; ",
+          "text": "opp1 = load &#92;&quot;DTC_Opportunity_SAMPLE&#92;&quot;; \nopp1 = group opp1 by &#39;Industry&#39;; \nopp1 = foreach opp1 generate &#39;Industry&#39; as &#39;Industry&#39;, sum(&#39;Amount&#39;) as &#39;Amount&#39;; ",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1126,7 +1146,7 @@
       "text_12": {
         "parameters": {
           "fontSize": 14,
-          "text": "Add a chart for each region grouped by Industry, measuring Sum of Amount. Then, create a third chart and customize the query with the union function to join them:\n\nresult = union opp1, opp2; \n\nNow we see the total amount across all industries in both regions, filtered for the top 5! \n\nTip: Before you can join two sets of data in holy matrimony, you first need to add them to the dashboard. Don't want to show them? Simply remove the widget. The underlying steps stick around for you to join.",
+          "text": "Add a chart for each region grouped by Industry, measuring Sum of Amount. Then, create a third chart and customize the query with the union function to join them:\n\nresult = union opp1, opp2; \n\nNow we see the total amount across all industries in both regions, filtered for the top 5! \n\nTip: Before you can join two sets of data in holy matrimony, you first need to add them to the dashboard. Don&#39;t want to show them? Simply remove the widget. The underlying steps stick around for you to join.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1192,7 +1212,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 16,
-          "text": "Want to create one chart from two datasets? You can't do that in explorer. You could use a recipe, or just use SAQL!",
+          "text": "Want to create one chart from two datasets? You can&#39;t do that in explorer. You could use a recipe, or just use SAQL!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1275,7 +1295,7 @@
             "customizeTooltip": false,
             "dimensions": ""
           },
-          "visualizationType": "{{cell(union_1.selection, 0, \"chart\").asString()}}",
+          "visualizationType": "{{cell(union_1.selection, 0, &quot;chart&quot;).asString()}}",
           "exploreLink": false,
           "title": {
             "fontSize": 14,
@@ -1339,7 +1359,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 14,
-          "text": "With explorer and dashboard designer, a widget can only be based on a single dataset. Of course, using data manager, you could create complex and multifarious datasets to your heart's content. But for ad hoc joins, there's a much easier way.\n\nSay you have an opportunity dataset for region 1 and another for region 2. How would you find the top five industries spanning both regions? Use the union function!",
+          "text": "With explorer and dashboard designer, a widget can only be based on a single dataset. Of course, using data manager, you could create complex and multifarious datasets to your heart&#39;s content. But for ad hoc joins, there&#39;s a much easier way.\n\nSay you have an opportunity dataset for region 1 and another for region 2. How would you find the top five industries spanning both regions? Use the union function!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1357,7 +1377,7 @@
       "text_8": {
         "parameters": {
           "fontSize": 14,
-          "text": "result = union opp1, opp2; \nresult = order result by 'Amount' desc; \nresult = limit result 5;\"",
+          "text": "result = union opp1, opp2; \nresult = order result by &#39;Amount&#39; desc; \nresult = limit result 5;&quot;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1560,7 +1580,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
-          "text": "opp2 = load \\\"${App.EdgeMarts.OpportunitiesRegion2.Alias}\\\"; \nopp2 = group opp2 by 'Industry'; \nopp2 = foreach opp2 generate 'Industry' as 'Industry', sum('Amount') as 'Amount'; ",
+          "text": "opp2 = load &#92;&quot;OpportunitiesRegion2&#92;&quot;; \nopp2 = group opp2 by &#39;Industry&#39;; \nopp2 = foreach opp2 generate &#39;Industry&#39; as &#39;Industry&#39;, sum(&#39;Amount&#39;) as &#39;Amount&#39;; ",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

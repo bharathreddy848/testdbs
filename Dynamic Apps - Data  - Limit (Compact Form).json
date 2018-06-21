@@ -9,16 +9,24 @@
   "createdDate": "2018-06-13T04:44:01.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.${App.EdgeMarts.Wave_Sample_Opportunities.Alias}.Alias}"
+      "id": "0Fb7F000000l2TpSAI",
+      "label": "Wave_Sample_Opportunities",
+      "name": "Wave_Sample_Opportunities",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
     }
   ],
   "files": [],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbNWAU",
   "label": "Dynamic Apps - Data  - Limit (Compact Form)",
-  "lastAccessedDate": "2018-06-21T09:33:59.000Z",
+  "lastAccessedDate": "2018-06-21T09:34:38.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -719,25 +727,29 @@
         "isGlobal": false,
         "label": "Grouping Toggle",
         "selectMode": "singlerequired",
-        "start": "{\"display\":[\"Top 5\"]}",
+        "start": "{&quot;display&quot;:[&quot;Top 5&quot;]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"Top 5\",\"limit\":5}",
-          "{\"display\":\"Top 20\",\"limit\":20}",
-          "{\"display\":\"All\",\"limit\":\"\"}"
+          "{&quot;display&quot;:&quot;Top 5&quot;,&quot;limit&quot;:5}",
+          "{&quot;display&quot;:&quot;Top 20&quot;,&quot;limit&quot;:20}",
+          "{&quot;display&quot;:&quot;All&quot;,&quot;limit&quot;:&quot;&quot;}"
         ]
       },
       "Dynamic_Query": {
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.${App.EdgeMarts.Wave_Sample_Opportunities.Alias}.Alias}"
+            "id": "0Fb7F000000l2TpSAI",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"limit\":\"{{ cell(Limit_Toggle_1.selection, 0, \\\"limit\\\").asObject() }}\",\"groups\":[\"Account_Name\"],\"order\":[[\"sum_Amount\",{\"ascending\":false}]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;limit&quot;:&quot;{{ cell(Limit_Toggle_1.selection, 0, &#92;&quot;limit&#92;&quot;).asObject() }}&quot;,&quot;groups&quot;:[&quot;Account_Name&quot;],&quot;order&quot;:[[&quot;sum_Amount&quot;,{&quot;ascending&quot;:false}]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -837,7 +849,7 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"1\",\"value\":\"{{ cell(Limit_Toggle_1.selection, 0, \\\\\\\"limit\\\\\\\").asObject() }}\"}"
+          "{&quot;display&quot;:&quot;1&quot;,&quot;value&quot;:&quot;{{ cell(Limit_Toggle_1.selection, 0, &#92;&#92;&#92;&quot;limit&#92;&#92;&#92;&quot;).asObject() }}&quot;}"
         ]
       }
     },
@@ -864,7 +876,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell( Binding_Value_1.result, 0, \"value\").asObject() }}",
+          "text": "{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1065,7 +1077,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
-          "text": "Tie a widget's data or design to the selection or results of another",
+          "text": "Tie a widget&#39;s data or design to the selection or results of another",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
         },
@@ -1210,7 +1222,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) Create a toggle widget (\"pillbox_1\") with a step (\"Limit_Toggle_1\") that specifies different limits.\n\n2) Create a bar chart (\"chart_1\") with a step (\"Dynamic_Query\") in compact form that shows the total amount, displayed in descending order, grouped by account name, with the limit selected in the toggle widget.\n\n3) To dynamically set the limit in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the \"limit\" property in the \"Dynamic_Query\" step.\n\n\"limit\": \"{{cell( Binding_Value_1.result, 0, \"value\").asObject()}}\"\n\n4) VOILÀ! Click Done and you're ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
+          "text": "1) Create a toggle widget (&quot;pillbox_1&quot;) with a step (&quot;Limit_Toggle_1&quot;) that specifies different limits.\n\n2) Create a bar chart (&quot;chart_1&quot;) with a step (&quot;Dynamic_Query&quot;) in compact form that shows the total amount, displayed in descending order, grouped by account name, with the limit selected in the toggle widget.\n\n3) To dynamically set the limit in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the &quot;limit&quot; property in the &quot;Dynamic_Query&quot; step.\n\n&quot;limit&quot;: &quot;{{cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject()}}&quot;\n\n4) VOILÀ! Click Done and you&#39;re ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1354,7 +1366,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell(Limit_Toggle_1.selection, 0, \"limit\").asString() }}",
+          "text": "{{ cell(Limit_Toggle_1.selection, 0, &quot;limit&quot;).asString() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1363,7 +1375,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) cell(Limit_Toggle_1.selection, 0, \\\"limit\\\") returns the selected limit from the \"Limit_Toggle_1\" step. Gets the value from cell (first row, \"limit\" column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
+          "text": "1) cell(Limit_Toggle_1.selection, 0, &#92;&quot;limit&#92;&quot;) returns the selected limit from the &quot;Limit_Toggle_1&quot; step. Gets the value from cell (first row, &quot;limit&quot; column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

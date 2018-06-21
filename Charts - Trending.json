@@ -9,16 +9,24 @@
   "createdDate": "2018-06-13T04:44:00.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.${App.EdgeMarts.Wave_Sample_Opportunities.Alias}.Alias}"
+      "id": "0Fb7F000000l2TpSAI",
+      "label": "Wave_Sample_Opportunities",
+      "name": "Wave_Sample_Opportunities",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
     }
   ],
   "files": [],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbJWAU",
   "label": "Charts - Trending",
-  "lastAccessedDate": "2018-06-21T09:33:52.000Z",
+  "lastAccessedDate": "2018-06-21T09:34:44.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -760,13 +768,17 @@
         "broadcastFacet": false,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.${App.EdgeMarts.Wave_Sample_Opportunities.Alias}.Alias}"
+            "id": "0Fb7F000000l2TpSAI",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
           }
         ],
         "isGlobal": false,
         "label": "Use Case 1",
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\",\"A\",{\"display\":\"Totals\"}]],\"columns\":[{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Month\"]],\"formula\":\"sum(B) over ([..0] partition by all order by ('Close_Date_Year~~~Close_Date_Month'))\",\"filters\":[[\"Closed\",[\"Closed\"],\"in\"]]},\"header\":\"Totals\"},{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Month\"]],\"filters\":[[\"Closed\",[\"Closed\"],\"in\"]]}}],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Month\"]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;,&quot;A&quot;,{&quot;display&quot;:&quot;Totals&quot;}]],&quot;columns&quot;:[{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Month&quot;]],&quot;formula&quot;:&quot;sum(B) over ([..0] partition by all order by (&#39;Close_Date_Year~~~Close_Date_Month&#39;))&quot;,&quot;filters&quot;:[[&quot;Closed&quot;,[&quot;Closed&quot;],&quot;in&quot;]]},&quot;header&quot;:&quot;Totals&quot;},{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Month&quot;]],&quot;filters&quot;:[[&quot;Closed&quot;,[&quot;Closed&quot;],&quot;in&quot;]]}}],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Month&quot;]]}",
           "version": -1
         },
         "receiveFacet": false,
@@ -782,12 +794,16 @@
         "broadcastFacet": false,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.${App.EdgeMarts.Wave_Sample_Opportunities.Alias}.Alias}"
+            "id": "0Fb7F000000l2TpSAI",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\",\"A\",{\"display\":\"Revenue\",\"format\":\"currencydollars\"}],[\"count\",\"Industry\",\"D\",{\"display\":\"Average\",\"format\":\"currencydollars\"}]],\"columns\":[{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]],\"filters\":[[\"Industry\",\"{{ column(Industry_1.selection, [\\\"Industry\\\"]).asObject() }}\",\"in\"]]},\"format\":\"currencydollars\",\"header\":\"Selected Revenue\"},{\"query\":{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]]}},{\"query\":{\"measures\":[[\"count\",\"Industry\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]]}},{\"query\":{\"measures\":[[\"count\",\"Industry\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]],\"formula\":\"B/C\"},\"format\":\"currencydollars\",\"header\":\"Average\"}],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Quarter\"]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;,&quot;A&quot;,{&quot;display&quot;:&quot;Revenue&quot;,&quot;format&quot;:&quot;currencydollars&quot;}],[&quot;count&quot;,&quot;Industry&quot;,&quot;D&quot;,{&quot;display&quot;:&quot;Average&quot;,&quot;format&quot;:&quot;currencydollars&quot;}]],&quot;columns&quot;:[{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Quarter&quot;]],&quot;filters&quot;:[[&quot;Industry&quot;,&quot;{{ column(Industry_1.selection, [&#92;&quot;Industry&#92;&quot;]).asObject() }}&quot;,&quot;in&quot;]]},&quot;format&quot;:&quot;currencydollars&quot;,&quot;header&quot;:&quot;Selected Revenue&quot;},{&quot;query&quot;:{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Quarter&quot;]]}},{&quot;query&quot;:{&quot;measures&quot;:[[&quot;count&quot;,&quot;Industry&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Quarter&quot;]]}},{&quot;query&quot;:{&quot;measures&quot;:[[&quot;count&quot;,&quot;Industry&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Quarter&quot;]],&quot;formula&quot;:&quot;B/C&quot;},&quot;format&quot;:&quot;currencydollars&quot;,&quot;header&quot;:&quot;Average&quot;}],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Quarter&quot;]]}",
           "version": -1
         },
         "receiveFacet": false,
@@ -806,30 +822,34 @@
         "isGlobal": false,
         "label": "Axis - Trending",
         "selectMode": "singlerequired",
-        "start": "{\"display\":[\"Single Axis\"]}",
+        "start": "{&quot;display&quot;:[&quot;Single Axis&quot;]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"Single Axis\",\"value\":\"sync\"}",
-          "{\"display\":\"Small Multiples\",\"value\":\"multi\"}",
-          "{\"display\":\"Dual Axis\",\"value\":\"dual\"}"
+          "{&quot;display&quot;:&quot;Single Axis&quot;,&quot;value&quot;:&quot;sync&quot;}",
+          "{&quot;display&quot;:&quot;Small Multiples&quot;,&quot;value&quot;:&quot;multi&quot;}",
+          "{&quot;display&quot;:&quot;Dual Axis&quot;,&quot;value&quot;:&quot;dual&quot;}"
         ]
       },
       "Industry_1": {
         "broadcastFacet": false,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.${App.EdgeMarts.Wave_Sample_Opportunities.Alias}.Alias}"
+            "id": "0Fb7F000000l2TpSAI",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Industry\"],\"filters\":[]}",
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;Industry&quot;],&quot;filters&quot;:[]}",
           "version": -1
         },
         "receiveFacet": false,
         "selectMode": "single",
-        "start": "[\"Banking\"]",
+        "start": "[&quot;Banking&quot;]",
         "type": "aggregateflex",
         "useGlobal": false,
         "visualizationParameters": {}
@@ -1093,7 +1113,7 @@
             "position": "bottom-center",
             "inside": false
           },
-          "axisMode": "{{cell(Axis___Trending_1.selection, 0, \"value\").asObject()}}",
+          "axisMode": "{{cell(Axis___Trending_1.selection, 0, &quot;value&quot;).asObject()}}",
           "tooltip": {
             "showBinLabel": true,
             "measures": "",

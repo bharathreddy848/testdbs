@@ -9,7 +9,11 @@
   "createdDate": "2018-06-13T04:44:09.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.${App.EdgeMarts.Wave_Sample_Opportunities.Alias}.Alias}"
+      "id": "0Fb7F000000l2TpSAI",
+      "label": "Wave_Sample_Opportunities",
+      "name": "Wave_Sample_Opportunities",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
     }
   ],
   "files": [
@@ -23,11 +27,15 @@
     }
   ],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbdWAE",
   "label": "SAQL - Standard Deviations",
-  "lastAccessedDate": "2018-06-21T09:34:00.000Z",
+  "lastAccessedDate": "2018-06-21T09:34:37.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -809,12 +817,16 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.${App.EdgeMarts.Wave_Sample_Opportunities.Alias}.Alias}"
+            "id": "0Fb7F000000l2TpSAI",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Product_Name\"],\"order\":[[-1,{\"ascending\":\"{{cell(Group_1.selection, 0, \\\"value\\\").asObject()}}\"}]]}",
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;Product_Name&quot;],&quot;order&quot;:[[-1,{&quot;ascending&quot;:&quot;{{cell(Group_1.selection, 0, &#92;&quot;value&#92;&quot;).asObject()}}&quot;}]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -924,7 +936,7 @@
         "groups": [],
         "label": "lens_1",
         "numbers": [],
-        "query": "q = load \"puttupu__Wave_Sample_Opportunities\";\n \nr = group q by 'Billing_Country';\nr = foreach r generate sum('Amount') as 'Amount',first('Billing_Country') as 'Billing_Country';\nr = group r by all;\nr = foreach r generate stddevp('Amount') as 'stddevp_Amount',first('Billing_Country') as 'Billing_Country';\n\nf = group q by 'Billing_Country' left,r by 'Billing_Country';\nf = foreach f generate q.'Billing_Country' as 'Billing_Country',sum(q.'Amount') as 'Amount',max(r.'stddevp_Amount') as 'stddev';\nf = group f by 'Billing_Country';\nf = foreach f generate avg('Amount') as 'Amount','Billing_Country' as 'Billing_Country', \navg(avg('Amount')) over([..] partition by 'all') as 'average',\navg(avg('Amount')) over([..] partition by 'all') + max(max('stddev')) over([..] partition by 'all') as '+1STDDEV',\navg(avg('Amount')) over([..] partition by 'all') - max(max('stddev')) over([..] partition by 'all') as '-1STDDEV';\n",
+        "query": "q = load &quot;puttupu__Wave_Sample_Opportunities&quot;;\n \nr = group q by &#39;Billing_Country&#39;;\nr = foreach r generate sum(&#39;Amount&#39;) as &#39;Amount&#39;,first(&#39;Billing_Country&#39;) as &#39;Billing_Country&#39;;\nr = group r by all;\nr = foreach r generate stddevp(&#39;Amount&#39;) as &#39;stddevp_Amount&#39;,first(&#39;Billing_Country&#39;) as &#39;Billing_Country&#39;;\n\nf = group q by &#39;Billing_Country&#39; left,r by &#39;Billing_Country&#39;;\nf = foreach f generate q.&#39;Billing_Country&#39; as &#39;Billing_Country&#39;,sum(q.&#39;Amount&#39;) as &#39;Amount&#39;,max(r.&#39;stddevp_Amount&#39;) as &#39;stddev&#39;;\nf = group f by &#39;Billing_Country&#39;;\nf = foreach f generate avg(&#39;Amount&#39;) as &#39;Amount&#39;,&#39;Billing_Country&#39; as &#39;Billing_Country&#39;, \navg(avg(&#39;Amount&#39;)) over([..] partition by &#39;all&#39;) as &#39;average&#39;,\navg(avg(&#39;Amount&#39;)) over([..] partition by &#39;all&#39;) + max(max(&#39;stddev&#39;)) over([..] partition by &#39;all&#39;) as &#39;+1STDDEV&#39;,\navg(avg(&#39;Amount&#39;)) over([..] partition by &#39;all&#39;) - max(max(&#39;stddev&#39;)) over([..] partition by &#39;all&#39;) as &#39;-1STDDEV&#39;;\n",
         "receiveFacet": true,
         "selectMode": "single",
         "strings": [],
@@ -1022,7 +1034,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 20,
-          "text": "Where's my business coming from?",
+          "text": "Where&#39;s my business coming from?",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1040,7 +1052,7 @@
       "text_19": {
         "parameters": {
           "fontSize": 14,
-          "text": "We know our overage opportunity size, but how are our opportunities distributed around the world? Looks like they're concentrated in a few key countries....",
+          "text": "We know our overage opportunity size, but how are our opportunities distributed around the world? Looks like they&#39;re concentrated in a few key countries....",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1147,7 +1159,7 @@
       "text_11": {
         "parameters": {
           "fontSize": 14,
-          "text": "Calculating the standard deviation in your data can be valuable for a number of contexts, whether it's looking at deal size, case age, rep performance or global revenue.\n\nYou can even chart +/-3 standard deviations around the mean to see if any values really stand out!",
+          "text": "Calculating the standard deviation in your data can be valuable for a number of contexts, whether it&#39;s looking at deal size, case age, rep performance or global revenue.\n\nYou can even chart +/-3 standard deviations around the mean to see if any values really stand out!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1346,7 +1358,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 14,
-          "text": "f = foreach f generate avg('Amount') as 'Amount','Billing_Country' as 'Billing_Country', \navg(avg('Amount')) over([..] partition by 'all') as 'average',\navg(avg('Amount')) over([..] partition by 'all') + max(max('stddev')) over([..] partition by 'all') as '+1STDDEV',\navg(avg('Amount')) over([..] partition by 'all') - max(max('stddev')) over([..] partition by 'all') as '-1STDDEV';\n",
+          "text": "f = foreach f generate avg(&#39;Amount&#39;) as &#39;Amount&#39;,&#39;Billing_Country&#39; as &#39;Billing_Country&#39;, \navg(avg(&#39;Amount&#39;)) over([..] partition by &#39;all&#39;) as &#39;average&#39;,\navg(avg(&#39;Amount&#39;)) over([..] partition by &#39;all&#39;) + max(max(&#39;stddev&#39;)) over([..] partition by &#39;all&#39;) as &#39;+1STDDEV&#39;,\navg(avg(&#39;Amount&#39;)) over([..] partition by &#39;all&#39;) - max(max(&#39;stddev&#39;)) over([..] partition by &#39;all&#39;) as &#39;-1STDDEV&#39;;\n",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1526,7 +1538,7 @@
       "text_25": {
         "parameters": {
           "fontSize": 14,
-          "text": "r = group q by 'Billing_Country';\nr = foreach r generate sum('Amount') as 'Amount',first('Billing_Country') as 'Billing_Country';",
+          "text": "r = group q by &#39;Billing_Country&#39;;\nr = foreach r generate sum(&#39;Amount&#39;) as &#39;Amount&#39;,first(&#39;Billing_Country&#39;) as &#39;Billing_Country&#39;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1546,7 +1558,7 @@
       "text_24": {
         "parameters": {
           "fontSize": 16,
-          "text": "Standard Deviation! Here's where we calculate it with the stddevp function.",
+          "text": "Standard Deviation! Here&#39;s where we calculate it with the stddevp function.",
           "textAlignment": "left",
           "textColor": "rgb(112, 110, 107)"
         },
@@ -1570,7 +1582,7 @@
       "text_27": {
         "parameters": {
           "fontSize": 14,
-          "text": "f = group q by 'Billing_Country' left,r by 'Billing_Country';\nf = foreach f generate q.'Billing_Country' as 'Billing_Country',sum(q.'Amount') as 'Amount',max(r.'stddevp_Amount') as 'stddev';\nf = group f by 'Billing_Country';",
+          "text": "f = group q by &#39;Billing_Country&#39; left,r by &#39;Billing_Country&#39;;\nf = foreach f generate q.&#39;Billing_Country&#39; as &#39;Billing_Country&#39;,sum(q.&#39;Amount&#39;) as &#39;Amount&#39;,max(r.&#39;stddevp_Amount&#39;) as &#39;stddev&#39;;\nf = group f by &#39;Billing_Country&#39;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1594,7 +1606,7 @@
       "text_26": {
         "parameters": {
           "fontSize": 14,
-          "text": "r = group r by all;\nr = foreach r generate stddevp('Amount') as 'stddevp_Amount',first('Billing_Country') as 'Billing_Country';",
+          "text": "r = group r by all;\nr = foreach r generate stddevp(&#39;Amount&#39;) as &#39;stddevp_Amount&#39;,first(&#39;Billing_Country&#39;) as &#39;Billing_Country&#39;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1612,7 +1624,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
-          "text": "q = load \"Wave_Sample_Opportunities\";",
+          "text": "q = load &quot;Wave_Sample_Opportunities&quot;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

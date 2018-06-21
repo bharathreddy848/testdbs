@@ -9,16 +9,24 @@
   "createdDate": "2018-06-13T04:43:59.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.${App.EdgeMarts.Wave_Sample_Opportunities.Alias}.Alias}"
+      "id": "0Fb7F000000l2TpSAI",
+      "label": "Wave_Sample_Opportunities",
+      "name": "Wave_Sample_Opportunities",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
     }
   ],
   "files": [],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbGWAU",
   "label": "Charts - Location",
-  "lastAccessedDate": "2018-06-21T09:33:49.000Z",
+  "lastAccessedDate": "2018-06-21T09:34:47.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -629,28 +637,32 @@
         "dimensions": [],
         "isGlobal": false,
         "selectMode": "singlerequired",
-        "start": "{\"display\":[\"Countries\"]}",
+        "start": "{&quot;display&quot;:[&quot;Countries&quot;]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"Countries\",\"grouping\":\"Billing_Country\",\"mapType\":\"World Countries\"}",
-          "{\"display\":\"Europe\",\"grouping\":\"Billing_Country\",\"mapType\":\"Europe\"}",
-          "{\"display\":\"Americas\",\"grouping\":\"Billing_Country\",\"mapType\":\"Americas\"}",
-          "{\"display\":\"Asia\",\"grouping\":\"Billing_Country\",\"mapType\":\"Asia\"}",
-          "{\"display\":\"Africa\",\"grouping\":\"Billing_Country\",\"mapType\":\"Africa\"}",
-          "{\"display\":\"State\",\"grouping\":\"Billing_State_Province\",\"mapType\":\"US States\"}"
+          "{&quot;display&quot;:&quot;Countries&quot;,&quot;grouping&quot;:&quot;Billing_Country&quot;,&quot;mapType&quot;:&quot;World Countries&quot;}",
+          "{&quot;display&quot;:&quot;Europe&quot;,&quot;grouping&quot;:&quot;Billing_Country&quot;,&quot;mapType&quot;:&quot;Europe&quot;}",
+          "{&quot;display&quot;:&quot;Americas&quot;,&quot;grouping&quot;:&quot;Billing_Country&quot;,&quot;mapType&quot;:&quot;Americas&quot;}",
+          "{&quot;display&quot;:&quot;Asia&quot;,&quot;grouping&quot;:&quot;Billing_Country&quot;,&quot;mapType&quot;:&quot;Asia&quot;}",
+          "{&quot;display&quot;:&quot;Africa&quot;,&quot;grouping&quot;:&quot;Billing_Country&quot;,&quot;mapType&quot;:&quot;Africa&quot;}",
+          "{&quot;display&quot;:&quot;State&quot;,&quot;grouping&quot;:&quot;Billing_State_Province&quot;,&quot;mapType&quot;:&quot;US States&quot;}"
         ]
       },
       "Billing_Country_1": {
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.${App.EdgeMarts.Wave_Sample_Opportunities.Alias}.Alias}"
+            "id": "0Fb7F000000l2TpSAI",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"{{coalesce(cell(static_1.selection, 0, \\\"grouping\\\"), cell(static_1.result, 0, \\\"grouping\\\")).asString()}}\"]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;{{coalesce(cell(static_1.selection, 0, &#92;&quot;grouping&#92;&quot;), cell(static_1.result, 0, &#92;&quot;grouping&#92;&quot;)).asString()}}&quot;]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -703,7 +715,7 @@
               "type": "x",
               "chartsPerLine": 4
             },
-            "map": "{{coalesce(cell(static_1.selection, 0, \"mapType\"), cell(static_1.result, 0, \"mapType\")).asString()}}"
+            "map": "{{coalesce(cell(static_1.selection, 0, &quot;mapType&quot;), cell(static_1.result, 0, &quot;mapType&quot;)).asString()}}"
           },
           "type": "chart"
         }
@@ -896,7 +908,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 14,
-          "text": "Who doesn't love maps? They're visually compelling and instantly recognizable. If location matters to your business, your apps need maps.\n\nThe map on the left shows opportunity amounts by geography. The darker the color, the higher the amount. North America looks great. Hmm, maybe Greenland will be the next hot spot...",
+          "text": "Who doesn&#39;t love maps? They&#39;re visually compelling and instantly recognizable. If location matters to your business, your apps need maps.\n\nThe map on the left shows opportunity amounts by geography. The darker the color, the higher the amount. North America looks great. Hmm, maybe Greenland will be the next hot spot...",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -948,7 +960,7 @@
       "text_7": {
         "parameters": {
           "fontSize": 14,
-          "text": "There are a different types of map charts: Map, Bubble Map, Geo Map. They're all pretty similar, but give you different ways to visualize your data.\n\nThe basic Map type can only have a single measure, which is shown by color density.\n\nThe Bubble Map type can have up to two measures, and shows relative value by color density and bubble size. See sales and units sold on a single map.\n\nWant to get fancy? The Geo Map type lets you create charts based on latitude and longitude coordinates. This helps you place the bubble more accurately on the map. Neat!\n\nFor maps, your data has to be clean. For example, if your State field contains \"New York,\" \"NY,\" and \"The Big Apple,\" your maps aren't going to be accurate. \n\nWant to create a custom map? Check out the \"Create a Custom Map for Analytics Charts\" Trailhead project!",
+          "text": "There are a different types of map charts: Map, Bubble Map, Geo Map. They&#39;re all pretty similar, but give you different ways to visualize your data.\n\nThe basic Map type can only have a single measure, which is shown by color density.\n\nThe Bubble Map type can have up to two measures, and shows relative value by color density and bubble size. See sales and units sold on a single map.\n\nWant to get fancy? The Geo Map type lets you create charts based on latitude and longitude coordinates. This helps you place the bubble more accurately on the map. Neat!\n\nFor maps, your data has to be clean. For example, if your State field contains &quot;New York,&quot; &quot;NY,&quot; and &quot;The Big Apple,&quot; your maps aren&#39;t going to be accurate. \n\nWant to create a custom map? Check out the &quot;Create a Custom Map for Analytics Charts&quot; Trailhead project!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1060,7 +1072,7 @@
           },
           "theme": "wave",
           "step": "Billing_Country_1",
-          "map": "{{coalesce(cell(static_1.selection, 0, \"mapType\"), cell(static_1.result, 0, \"mapType\")).asString()}}",
+          "map": "{{coalesce(cell(static_1.selection, 0, &quot;mapType&quot;), cell(static_1.result, 0, &quot;mapType&quot;)).asString()}}",
           "dimensionAxis": {
             "showTitle": true,
             "customSize": "auto",

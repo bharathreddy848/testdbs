@@ -9,16 +9,24 @@
   "createdDate": "2018-06-13T04:43:59.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.${App.EdgeMarts.Wave_Sample_Opportunities.Alias}.Alias}"
+      "id": "0Fb7F000000l2TpSAI",
+      "label": "Wave_Sample_Opportunities",
+      "name": "Wave_Sample_Opportunities",
+      "namespace": "puttupu",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
     }
   ],
   "files": [],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001367NQAQ",
+    "label": "Einstein Analytics Learning Adventure",
+    "name": "Einstein_Analytics_Learning_Adventure_By",
+    "namespace": "puttupu",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
   },
   "id": "0FK7F000000nFbFWAU",
   "label": "Charts - Introduction",
-  "lastAccessedDate": "2018-06-21T09:33:52.000Z",
+  "lastAccessedDate": "2018-06-21T09:34:44.000Z",
   "lastModifiedBy": {
     "id": "0057F000000r9JdQAI",
     "name": "prp pradeep",
@@ -423,12 +431,12 @@
         "isGlobal": false,
         "label": "Grouping - Comparison 1 Measure",
         "selectMode": "singlerequired",
-        "start": "{\"display\":[\"Top\"]}",
+        "start": "{&quot;display&quot;:[&quot;Top&quot;]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"Top\",\"value\":false}",
-          "{\"display\":\"Worst\",\"value\":true}"
+          "{&quot;display&quot;:&quot;Top&quot;,&quot;value&quot;:false}",
+          "{&quot;display&quot;:&quot;Worst&quot;,&quot;value&quot;:true}"
         ]
       },
       "Vis___Compariso_1": {
@@ -438,26 +446,30 @@
         "isGlobal": false,
         "label": "Visualization - Comparison 1 Measure",
         "selectMode": "singlerequired",
-        "start": "{\"display\":[\"Bars\"]}",
+        "start": "{&quot;display&quot;:[&quot;Bars&quot;]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{\"display\":\"Bars\",\"value\":\"hbar\"}",
-          "{\"display\":\"Columns\",\"value\":\"vbar\"}",
-          "{\"display\":\"Horizontal Dot Plot\",\"value\":\"hdot\"}",
-          "{\"display\":\"Vertical Dot Plot\",\"value\":\"vdot\"}"
+          "{&quot;display&quot;:&quot;Bars&quot;,&quot;value&quot;:&quot;hbar&quot;}",
+          "{&quot;display&quot;:&quot;Columns&quot;,&quot;value&quot;:&quot;vbar&quot;}",
+          "{&quot;display&quot;:&quot;Horizontal Dot Plot&quot;,&quot;value&quot;:&quot;hdot&quot;}",
+          "{&quot;display&quot;:&quot;Vertical Dot Plot&quot;,&quot;value&quot;:&quot;vdot&quot;}"
         ]
       },
       "Product_Name_1": {
         "broadcastFacet": true,
         "datasets": [
           {
-            "name": "${App.EdgeMarts.${App.EdgeMarts.Wave_Sample_Opportunities.Alias}.Alias}"
+            "id": "0Fb7F000000l2TpSAI",
+            "label": "Wave_Sample_Opportunities",
+            "name": "Wave_Sample_Opportunities",
+            "namespace": "puttupu",
+            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Name\"],\"order\":[[-1,{\"ascending\":\"{{cell(Grouping___Compariso_1.selection, 0, \\\"value\\\").asObject()}}\"}]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Product_Name&quot;],&quot;order&quot;:[[-1,{&quot;ascending&quot;:&quot;{{cell(Grouping___Compariso_1.selection, 0, &#92;&quot;value&#92;&quot;).asObject()}}&quot;}]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -624,7 +636,7 @@
       "text_8": {
         "parameters": {
           "fontSize": 14,
-          "text": "We've all experienced the trauma of bad charts. The thousand slice pie. The technicolor rainbow stacked bar. The distorted axes, the misleading correlations. A funnel grouped by billing country... really?!\n\nMaking bad charts is easy. But how do you make a good one? The kind where the insight jumps out at you? That your users will understand instantly?\n\nEinstein Analytics helps, even gives you suggestions for choosing the right chart type, with previews and everything. But it's a good idea to play around on your own and pick up some best practices on which visualization to use when.\n\nThe best way to start? Get to know your data. It often can tell you exactly how it needs to be shown. Next, click the categories on the left of this dashboard and see for yourself. If you get a sense of what you're trying to show, it's easier to pick the right chart type. Have fun!",
+          "text": "We&#39;ve all experienced the trauma of bad charts. The thousand slice pie. The technicolor rainbow stacked bar. The distorted axes, the misleading correlations. A funnel grouped by billing country... really?!\n\nMaking bad charts is easy. But how do you make a good one? The kind where the insight jumps out at you? That your users will understand instantly?\n\nEinstein Analytics helps, even gives you suggestions for choosing the right chart type, with previews and everything. But it&#39;s a good idea to play around on your own and pick up some best practices on which visualization to use when.\n\nThe best way to start? Get to know your data. It often can tell you exactly how it needs to be shown. Next, click the categories on the left of this dashboard and see for yourself. If you get a sense of what you&#39;re trying to show, it&#39;s easier to pick the right chart type. Have fun!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
