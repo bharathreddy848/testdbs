@@ -9,20 +9,12 @@
   "createdDate": "2018-06-13T04:44:10.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000l2TpSAI",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities",
-      "namespace": "puttupu",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
   "files": [],
   "folder": {
-    "id": "00l7F000001367NQAQ",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure_By",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
+    "id": "${App.Folder.Id}"
   },
   "id": "0FK7F000000nFbfWAE",
   "label": "SAQL - Windowing",
@@ -864,16 +856,12 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Product_Name&quot;],&quot;order&quot;:[[-1,{&quot;ascending&quot;:&quot;{{cell(Grouping___Compariso_1.selection, 0, &#92;&quot;value&#92;&quot;).asObject()}}&quot;}]]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Name\"],\"order\":[[-1,{\"ascending\":\"{{cell(Grouping___Compariso_1.selection, 0, \\\"value\\\").asObject()}}\"}]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -890,7 +878,7 @@
         "groups": [],
         "label": "Account_Type_Billing_1",
         "numbers": [],
-        "query": "q = load &quot;puttupu__Wave_Sample_Opportunities&quot;;\nq = filter q by &#39;Won&#39; == &quot;Not Won&quot;;\n\nq = group q by &#39;Industry&#39;;\nq = foreach q generate &#39;Industry&#39; as &#39;Industry&#39;, count() as &#39;cnt&#39;,\ncount()/sum(count()) over ([..] partition by all )*100 as &#39;percent&#39;;\nq = group q by &#39;Industry&#39;;\nq = foreach q generate &#39;Industry&#39; as &#39;Industry&#39;,max(&#39;cnt&#39;) as &#39;count&#39;,\nsum(sum(&#39;percent&#39;)) over ([..0] partition by all order by max(&#39;cnt&#39;) desc) as &#39;Cumulative %&#39;;",
+        "query": "q = load \"puttupu__Wave_Sample_Opportunities\";\nq = filter q by 'Won' == \"Not Won\";\n\nq = group q by 'Industry';\nq = foreach q generate 'Industry' as 'Industry', count() as 'cnt',\ncount()/sum(count()) over ([..] partition by all )*100 as 'percent';\nq = group q by 'Industry';\nq = foreach q generate 'Industry' as 'Industry',max('cnt') as 'count',\nsum(sum('percent')) over ([..0] partition by all order by max('cnt') desc) as 'Cumulative %';",
         "receiveFacet": true,
         "selectMode": "single",
         "strings": [],
@@ -938,7 +926,7 @@
               "customizeTooltip": false,
               "dimensions": ""
             },
-            "visualizationType": "{{cell(window_1.selection, 0, &quot;value&quot;).asString()}}",
+            "visualizationType": "{{cell(window_1.selection, 0, \"value\").asString()}}",
             "title": {
               "fontSize": 14,
               "subtitleFontSize": 11,
@@ -1008,7 +996,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 14,
-          "text": "Graphing a cumulative percentage across groups quickly reveals each group&#39;s contribution as a percentage of the whole. Here, the pareto chart quickly shows we&#39;re losing the most deals in Banking and Energy.",
+          "text": "Graphing a cumulative percentage across groups quickly reveals each group's contribution as a percentage of the whole. Here, the pareto chart quickly shows we're losing the most deals in Banking and Energy.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1026,7 +1014,7 @@
       "text_19": {
         "parameters": {
           "fontSize": 14,
-          "text": "q = group q by &#39;Industry&#39;;\nq = foreach q generate &#39;Industry&#39; as &#39;Industry&#39;, count() as &#39;cnt&#39;,&#92;ncount()/sum(count()) over ([..] partition by all )*100 as &#39;percent&#39;;\n",
+          "text": "q = group q by 'Industry';\nq = foreach q generate 'Industry' as 'Industry', count() as 'cnt',\\ncount()/sum(count()) over ([..] partition by all )*100 as 'percent';\n",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1191,7 +1179,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 14,
-          "text": "Sure, you can sort data. But that&#39;s boring. &lt;Yawn.&gt; You want to partition, rank, and compare data against adjacent values. You want to see the moving average, calculate the percentage of the  total, compare against previous and next. Percentiles! Subtotals! Windowing functions gives you all this and more for any grouped query.\n\nIn this example, the pareto chart shows the number of lost deals and percentage of the total for each industry.\n\nTip: Many windowing functions can be done using the compare table in Explorer, but you&#39;ll need a little SAQL magic to build fancier things like this chart.",
+          "text": "Sure, you can sort data. But that's boring. <Yawn.> You want to partition, rank, and compare data against adjacent values. You want to see the moving average, calculate the percentage of the  total, compare against previous and next. Percentiles! Subtotals! Windowing functions gives you all this and more for any grouped query.\n\nIn this example, the pareto chart shows the number of lost deals and percentage of the total for each industry.\n\nTip: Many windowing functions can be done using the compare table in Explorer, but you'll need a little SAQL magic to build fancier things like this chart.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1200,7 +1188,7 @@
       "text_5": {
         "parameters": {
           "fontSize": 14,
-          "text": "q = load &quot;Wave_Sample_Opportunities&quot;;\nq = filter q by &#39;Won&#39; == &quot;Not Won&quot;;",
+          "text": "q = load \"Wave_Sample_Opportunities\";\nq = filter q by 'Won' == \"Not Won\";",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1358,7 +1346,7 @@
       "text_8": {
         "parameters": {
           "fontSize": 14,
-          "text": "Creating a pareto chart requires defining two parts: the bars and the line! Let&#39;s break down the query below.\n\nAfter loading the data and filtering for lost deals, we group lost deals by industry to create the bars. We also calculate each industry&#39;s percentage of total lost deals. Note: The row range [..] specifies all rows.\n\nNext it&#39;s all about the line: we use our percentage calculation to build the cumulative percentage. Note: The row range [..0] specifies the first row to the current, and order is set as descending.",
+          "text": "Creating a pareto chart requires defining two parts: the bars and the line! Let's break down the query below.\n\nAfter loading the data and filtering for lost deals, we group lost deals by industry to create the bars. We also calculate each industry's percentage of total lost deals. Note: The row range [..] specifies all rows.\n\nNext it's all about the line: we use our percentage calculation to build the cumulative percentage. Note: The row range [..0] specifies the first row to the current, and order is set as descending.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1561,7 +1549,7 @@
       "text_21": {
         "parameters": {
           "fontSize": 14,
-          "text": "q = group q by &#39;Industry&#39;;\nq = foreach q generate &#39;Industry&#39; as &#39;Industry&#39;,max(&#39;cnt&#39;) as &#39;count&#39;,&#92;nsum(sum(&#39;percent&#39;)) over ([..0] partition by all order by max(&#39;cnt&#39;) desc) as &#39;Cumulative %&#39;;&quot;",
+          "text": "q = group q by 'Industry';\nq = foreach q generate 'Industry' as 'Industry',max('cnt') as 'count',\\nsum(sum('percent')) over ([..0] partition by all order by max('cnt') desc) as 'Cumulative %';\"",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

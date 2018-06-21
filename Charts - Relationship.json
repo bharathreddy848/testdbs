@@ -9,11 +9,7 @@
   "createdDate": "2018-06-13T04:43:59.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000l2TpSAI",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities",
-      "namespace": "puttupu",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
   "files": [
@@ -27,11 +23,7 @@
     }
   ],
   "folder": {
-    "id": "00l7F000001367NQAQ",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure_By",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
+    "id": "${App.Folder.Id}"
   },
   "id": "0FK7F000000nFbIWAU",
   "label": "Charts - Relationship",
@@ -644,16 +636,12 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:&quot;{{cell(Measures___Relations_1.selection, 0, &#92;&quot;value&#92;&quot;).asObject()}}&quot;,&quot;groups&quot;:[&quot;Segment&quot;]}",
+          "query": "{\"measures\":\"{{cell(Measures___Relations_1.selection, 0, \\\"value\\\").asObject()}}\",\"groups\":[\"Segment\"]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -715,12 +703,12 @@
         "isGlobal": false,
         "label": "Measures - Relationship",
         "selectMode": "singlerequired",
-        "start": "{&quot;display&quot;:[&quot;3 Measures&quot;]}",
+        "start": "{\"display\":[\"3 Measures\"]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{&quot;display&quot;:&quot;2 Measures&quot;,&quot;value&quot;:[[&quot;sum&quot;,&quot;Amount&quot;],[&quot;sum&quot;,&quot;Order_Quantity&quot;]]}",
-          "{&quot;display&quot;:&quot;3 Measures&quot;,&quot;value&quot;:[[&quot;sum&quot;,&quot;Amount&quot;],[&quot;sum&quot;,&quot;Order_Quantity&quot;],[&quot;count&quot;,&quot;*&quot;]]}"
+          "{\"display\":\"2 Measures\",\"value\":[[\"sum\",\"Amount\"],[\"sum\",\"Order_Quantity\"]]}",
+          "{\"display\":\"3 Measures\",\"value\":[[\"sum\",\"Amount\"],[\"sum\",\"Order_Quantity\"],[\"count\",\"*\"]]}"
         ]
       }
     },

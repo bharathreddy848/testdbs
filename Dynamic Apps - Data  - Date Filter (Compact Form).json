@@ -9,20 +9,12 @@
   "createdDate": "2018-06-13T04:44:00.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000l2TpSAI",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities",
-      "namespace": "puttupu",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
   "files": [],
   "folder": {
-    "id": "00l7F000001367NQAQ",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure_By",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
+    "id": "${App.Folder.Id}"
   },
   "id": "0FK7F000000nFbLWAU",
   "label": "Dynamic Apps - Data  - Date Filter (Compact Form)",
@@ -759,16 +751,12 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Month&quot;]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[[\"Close_Date_Year\",\"Close_Date_Month\"]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -836,14 +824,14 @@
         "dimensions": [],
         "isGlobal": false,
         "selectMode": "singlerequired",
-        "start": "{&quot;display&quot;:[&quot;Last 5 Years&quot;]}",
+        "start": "{\"display\":[\"Last 5 Years\"]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{&quot;display&quot;:&quot;Last 14 days&quot;,&quot;dateFilter&quot;:[[[&quot;day&quot;,-14],[&quot;day&quot;,0]]],&quot;dateFilterSAQL&quot;:&quot;&#92;&quot;14 days ago&#92;&quot;..&#92;&quot;current day&#92;&quot;&quot;}",
-          "{&quot;display&quot;:&quot;This Month&quot;,&quot;dateFilter&quot;:[[[&quot;month&quot;,0],[&quot;day&quot;,0]]],&quot;dateFilterSAQL&quot;:&quot;&#92;&quot;current month&#92;&quot;..&#92;&quot;current day&#92;&quot;&quot;}",
-          "{&quot;display&quot;:&quot;This Quarter&quot;,&quot;dateFilter&quot;:[[[&quot;quarter&quot;,0],[&quot;day&quot;,0]]],&quot;dateFilterSAQL&quot;:&quot;&#92;&quot;current quarter&#92;&quot;..&#92;&quot;current day&#92;&quot;&quot;}",
-          "{&quot;display&quot;:&quot;Last 5 Years&quot;,&quot;dateFilter&quot;:[[[&quot;year&quot;,-5],[&quot;day&quot;,0]]],&quot;dateFilterSAQL&quot;:&quot;&#92;&quot;5 years ago&#92;&quot;..&#92;&quot;current day&#92;&quot;&quot;}"
+          "{\"display\":\"Last 14 days\",\"dateFilter\":[[[\"day\",-14],[\"day\",0]]],\"dateFilterSAQL\":\"\\\"14 days ago\\\"..\\\"current day\\\"\"}",
+          "{\"display\":\"This Month\",\"dateFilter\":[[[\"month\",0],[\"day\",0]]],\"dateFilterSAQL\":\"\\\"current month\\\"..\\\"current day\\\"\"}",
+          "{\"display\":\"This Quarter\",\"dateFilter\":[[[\"quarter\",0],[\"day\",0]]],\"dateFilterSAQL\":\"\\\"current quarter\\\"..\\\"current day\\\"\"}",
+          "{\"display\":\"Last 5 Years\",\"dateFilter\":[[[\"year\",-5],[\"day\",0]]],\"dateFilterSAQL\":\"\\\"5 years ago\\\"..\\\"current day\\\"\"}"
         ]
       },
       "Binding_Value_1": {
@@ -856,23 +844,19 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{&quot;display&quot;:&quot;1&quot;,&quot;value&quot;:&quot;{{cell(step_time.selection, 0, &#92;&quot;dateFilter&#92;&quot;).asObject()}}&quot;}"
+          "{\"display\":\"1\",\"value\":\"{{cell(step_time.selection, 0, \\\"dateFilter\\\").asObject()}}\"}"
         ]
       },
       "all_2": {
         "broadcastFacet": false,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;filters&quot;:[[&quot;Close_Date&quot;,&quot;{{cell(step_time.selection, 0, &#92;&quot;dateFilter&#92;&quot;).asObject()}}&quot;,&quot;&gt;=&lt;=&quot;]]}",
+          "query": "{\"measures\":[[\"count\",\"*\"]],\"filters\":[[\"Close_Date\",\"{{cell(step_time.selection, 0, \\\"dateFilter\\\").asObject()}}\",\">=<=\"]]}",
           "version": -1
         },
         "receiveFacet": false,
@@ -896,7 +880,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject() }}",
+          "text": "{{ cell( Binding_Value_1.result, 0, \"value\").asObject() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1069,7 +1053,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
-          "text": "Tie a widget&#39;s data or design to the selection or results of another",
+          "text": "Tie a widget's data or design to the selection or results of another",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
         },
@@ -1130,7 +1114,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) Create a date range widget (&quot;dateselector_1&quot;) with a step (&quot;CloseDate_Year_2&quot;) that shows a range of close dates for opportunities.\n\n2) Create a number widget (&quot;number_1&quot;) with a step (&quot;all_2&quot;) in compact form that calculates the total number of opportunities.\n\n3) To filter the results in the number widget based on the selected date range, bind the &quot;filters&quot; JSON property in the &quot;all_2&quot; step.\n\n&quot;filters&quot;: [\n   [\n      &quot;Close_Date&quot;,\n      [&quot;{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject()}}&quot;],\n      &quot;&gt;=&lt;=&quot;\n   ]\n]\n\n4) VOILÀ! Click Done and you&#39;re ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
+          "text": "1) Create a date range widget (\"dateselector_1\") with a step (\"CloseDate_Year_2\") that shows a range of close dates for opportunities.\n\n2) Create a number widget (\"number_1\") with a step (\"all_2\") in compact form that calculates the total number of opportunities.\n\n3) To filter the results in the number widget based on the selected date range, bind the \"filters\" JSON property in the \"all_2\" step.\n\n\"filters\": [\n   [\n      \"Close_Date\",\n      [\"{{ cell( Binding_Value_1.result, 0, \"value\").asObject()}}\"],\n      \">=<=\"\n   ]\n]\n\n4) VOILÀ! Click Done and you're ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1370,7 +1354,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{cell(step_time.selection, 0, &quot;dateFilter&quot;).asString()}}",
+          "text": "{{cell(step_time.selection, 0, \"dateFilter\").asString()}}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1379,7 +1363,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) cell(step_time.selection, 0, &quot;dateFilter&quot;) returns the date range (minimum and maximum values) selected in the date widget. Gets the range from cell (first row, &quot;dateFilter&quot; column) in the &quot;CloseDate_Year_2&quot; step selection.\n\n2) asObject() formats the results as an array, which is the expected format in the dashboard JSON.\n",
+          "text": "1) cell(step_time.selection, 0, \"dateFilter\") returns the date range (minimum and maximum values) selected in the date widget. Gets the range from cell (first row, \"dateFilter\" column) in the \"CloseDate_Year_2\" step selection.\n\n2) asObject() formats the results as an array, which is the expected format in the dashboard JSON.\n",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

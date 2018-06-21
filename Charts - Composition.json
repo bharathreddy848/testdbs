@@ -9,20 +9,12 @@
   "createdDate": "2018-06-13T04:43:58.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000l2TpSAI",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities",
-      "namespace": "puttupu",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
   "files": [],
   "folder": {
-    "id": "00l7F000001367NQAQ",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure_By",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
+    "id": "${App.Folder.Id}"
   },
   "id": "0FK7F000000nFbDWAU",
   "label": "Charts - Composition",
@@ -751,29 +743,25 @@
         "isGlobal": false,
         "label": "Grouping - Composion",
         "selectMode": "singlerequired",
-        "start": "{&quot;display&quot;:[&quot;Donut Chart&quot;]}",
+        "start": "{\"display\":[\"Donut Chart\"]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{&quot;display&quot;:&quot;Donut Chart&quot;,&quot;visualizationType&quot;:&quot;pie&quot;,&quot;inner&quot;:70}",
-          "{&quot;display&quot;:&quot;Pie Chart&quot;,&quot;visualizationType&quot;:&quot;pie&quot;,&quot;inner&quot;:0}",
-          "{&quot;display&quot;:&quot;Treemap&quot;,&quot;visualizationType&quot;:&quot;treemap&quot;,&quot;inner&quot;:70}"
+          "{\"display\":\"Donut Chart\",\"visualizationType\":\"pie\",\"inner\":70}",
+          "{\"display\":\"Pie Chart\",\"visualizationType\":\"pie\",\"inner\":0}",
+          "{\"display\":\"Treemap\",\"visualizationType\":\"treemap\",\"inner\":70}"
         ]
       },
       "Product_Family_Produ_1": {
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Product_Family&quot;,&quot;Product_Name&quot;]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Family\",\"Product_Name\"]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -847,16 +835,12 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Product_Family&quot;]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Family\"]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -1163,7 +1147,7 @@
             "customizeTooltip": false,
             "dimensions": ""
           },
-          "visualizationType": "{{cell(Grouping___Composion_1.selection, 0, &quot;visualizationType&quot;).asObject()}}",
+          "visualizationType": "{{cell(Grouping___Composion_1.selection, 0, \"visualizationType\").asObject()}}",
           "exploreLink": true,
           "title": {
             "fontSize": 14,
@@ -1185,7 +1169,7 @@
             "parameters": {},
             "chartsPerLine": 4
           },
-          "inner": "{{cell(Grouping___Composion_1.selection, 0, &quot;inner&quot;).asObject()}}",
+          "inner": "{{cell(Grouping___Composion_1.selection, 0, \"inner\").asObject()}}",
           "centerValueType": "number",
           "measureAxis2": {
             "sqrtScale": false,
@@ -1342,7 +1326,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 20,
-          "text": "See What You&#39;re Made Of",
+          "text": "See What You're Made Of",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

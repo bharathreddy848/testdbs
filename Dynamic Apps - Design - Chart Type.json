@@ -9,20 +9,12 @@
   "createdDate": "2018-06-13T04:44:03.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000l2TpSAI",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities",
-      "namespace": "puttupu",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
   "files": [],
   "folder": {
-    "id": "00l7F000001367NQAQ",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure_By",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
+    "id": "${App.Folder.Id}"
   },
   "id": "0FK7F000000nFbRWAU",
   "label": "Dynamic Apps - Design - Chart Type",
@@ -722,15 +714,15 @@
         "dimensions": [],
         "isGlobal": false,
         "selectMode": "singlerequired",
-        "start": "{&quot;display&quot;:[&quot;Bar&quot;]}",
+        "start": "{\"display\":[\"Bar\"]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{&quot;display&quot;:&quot;Bar&quot;,&quot;visualizationType&quot;:&quot;hbar&quot;}",
-          "{&quot;display&quot;:&quot;Map&quot;,&quot;visualizationType&quot;:&quot;choropleth&quot;}",
-          "{&quot;display&quot;:&quot;Line&quot;,&quot;visualizationType&quot;:&quot;line&quot;}",
-          "{&quot;display&quot;:&quot;Donut&quot;,&quot;visualizationType&quot;:&quot;pie&quot;}",
-          "{&quot;display&quot;:&quot;Treemap&quot;,&quot;visualizationType&quot;:&quot;treemap&quot;}"
+          "{\"display\":\"Bar\",\"visualizationType\":\"hbar\"}",
+          "{\"display\":\"Map\",\"visualizationType\":\"choropleth\"}",
+          "{\"display\":\"Line\",\"visualizationType\":\"line\"}",
+          "{\"display\":\"Donut\",\"visualizationType\":\"pie\"}",
+          "{\"display\":\"Treemap\",\"visualizationType\":\"treemap\"}"
         ]
       },
       "Binding_Value_1": {
@@ -743,24 +735,20 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{&quot;display&quot;:&quot;1&quot;,&quot;value&quot;:&quot;{{coalesce(cell(static_1.selection, 0, &#92;&#92;&#92;&quot;visualizationType&#92;&#92;&#92;&quot;), cell(static_1.result, 0, &#92;&#92;&#92;&quot;visualizationType&#92;&#92;&#92;&quot;)).asString()}}&quot;}"
+          "{\"display\":\"1\",\"value\":\"{{coalesce(cell(static_1.selection, 0, \\\\\\\"visualizationType\\\\\\\"), cell(static_1.result, 0, \\\\\\\"visualizationType\\\\\\\")).asString()}}\"}"
         ]
       },
       "Billing_Country_1": {
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "label": "Billing_Country_1",
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Billing_Country&quot;]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Billing_Country\"]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -809,7 +797,7 @@
               "customizeTooltip": false,
               "dimensions": ""
             },
-            "visualizationType": "{{coalesce(cell(static_1.selection, 0, &quot;visualizationType&quot;), cell(static_1.result, 0, &quot;visualizationType&quot;)).asString()}}",
+            "visualizationType": "{{coalesce(cell(static_1.selection, 0, \"visualizationType\"), cell(static_1.result, 0, \"visualizationType\")).asString()}}",
             "title": {
               "fontSize": 14,
               "subtitleFontSize": 11,
@@ -1083,7 +1071,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
-          "text": "Tie a widget&#39;s data or design to the selection or results of another",
+          "text": "Tie a widget's data or design to the selection or results of another",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
         },
@@ -1108,7 +1096,7 @@
       "text_5": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{coalesce(cell(static_1.selection, 0, &quot;visualizationType&quot;), cell(static_1.result, 0, &quot;visualizationType&quot;)).asString()}}",
+          "text": "{{coalesce(cell(static_1.selection, 0, \"visualizationType\"), cell(static_1.result, 0, \"visualizationType\")).asString()}}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1117,7 +1105,7 @@
       "text_4": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject() }}",
+          "text": "{{ cell( Binding_Value_1.result, 0, \"value\").asObject() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1184,7 +1172,7 @@
             "customizeTooltip": false,
             "dimensions": ""
           },
-          "visualizationType": "{{coalesce(cell(static_1.selection, 0, &quot;visualizationType&quot;), cell(static_1.result, 0, &quot;visualizationType&quot;)).asString()}}",
+          "visualizationType": "{{coalesce(cell(static_1.selection, 0, \"visualizationType\"), cell(static_1.result, 0, \"visualizationType\")).asString()}}",
           "dashLine": {
             "measures": "",
             "showDashLine": false
@@ -1259,7 +1247,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) Create a toggle widget (&quot;pillbox_1&quot;) with a static step (&quot;static_1&quot;) that specifies the chart labels and types, and selects the bar chart, by default.\n\n2) Create a chart widget (&quot;chart_1&quot;) with a step (&quot;Billing_Country_1&quot;) that shows the total opportunity amount grouped by region.\n\n3) In Spring &#39;18 release, a new columnMap chart property was introduced to build more powerful visualizations, however columnMap is not necessary for this dynamic visualization. Replace this columnMap {} parameter with columnMap: null. \n\n4) To dynamically change the chart based on the selection in the toggle widget, open the dashboard JSON and bind the &quot;visualizationType&quot; property in the chart widget (&quot;chart_1&quot;).\n\n&quot;visualizationType&quot;:&quot;{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject() }}&quot;\n\n5) For each chart, add the required properties to the dashboard JSON. For example, add &quot;drawArea&quot; and &quot;dashLine&quot; for line, and &quot;highColor&quot; and &quot;lowColor&quot; for map. Add them to the &quot;parameters&quot;:{} object in the JSON.\n\n&quot;parameters&quot;: {\n    &quot;drawArea&quot;: {\n        &quot;showDrawArea&quot;: false,\n        &quot;bounding1&quot;: &quot;&quot;,\n        &quot;bounding2&quot;: &quot;&quot;,\n        &quot;measure&quot;: &quot;&quot;\n    },\n    &quot;dashLine&quot;: {\n        &quot;showDashLine&quot;: false,\n        &quot;measures&quot;: &quot;&quot;\n    },\n    &quot;highColor&quot;: &quot;#1674D9&quot;,\n    &quot;lowColor&quot;: &quot;#C5DBF7&quot;,\n &quot;map&quot;: &quot;World Countries&quot;,   (...)\n }\n\n6) VOILÀ! Click Done and you&#39;re ready to go.\n\nTo see how we created the widgets, steps, and bindings in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
+          "text": "1) Create a toggle widget (\"pillbox_1\") with a static step (\"static_1\") that specifies the chart labels and types, and selects the bar chart, by default.\n\n2) Create a chart widget (\"chart_1\") with a step (\"Billing_Country_1\") that shows the total opportunity amount grouped by region.\n\n3) In Spring '18 release, a new columnMap chart property was introduced to build more powerful visualizations, however columnMap is not necessary for this dynamic visualization. Replace this columnMap {} parameter with columnMap: null. \n\n4) To dynamically change the chart based on the selection in the toggle widget, open the dashboard JSON and bind the \"visualizationType\" property in the chart widget (\"chart_1\").\n\n\"visualizationType\":\"{{ cell( Binding_Value_1.result, 0, \"value\").asObject() }}\"\n\n5) For each chart, add the required properties to the dashboard JSON. For example, add \"drawArea\" and \"dashLine\" for line, and \"highColor\" and \"lowColor\" for map. Add them to the \"parameters\":{} object in the JSON.\n\n\"parameters\": {\n    \"drawArea\": {\n        \"showDrawArea\": false,\n        \"bounding1\": \"\",\n        \"bounding2\": \"\",\n        \"measure\": \"\"\n    },\n    \"dashLine\": {\n        \"showDashLine\": false,\n        \"measures\": \"\"\n    },\n    \"highColor\": \"#1674D9\",\n    \"lowColor\": \"#C5DBF7\",\n \"map\": \"World Countries\",   (...)\n }\n\n6) VOILÀ! Click Done and you're ready to go.\n\nTo see how we created the widgets, steps, and bindings in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1414,7 +1402,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) cell(static_1.selection, 0, &#92;&quot;visualizationType&#92;&quot;) returns the selected chart type from the &quot;static_1&quot; step. Gets the value from cell (first row, &quot;visualizationType&quot; column) in the step selection.\n\n2) cell(static_1.result, 0, &#92;&quot;visualizationType&#92;&quot;)) returns the resulting chart type from the &quot;static_1&quot; step. Gets the value from cell (first row, &quot;visualizationType&quot; column) in the step results.\n\n3) coalesce() returns the result of the first cell() binding function if a selection was made. Otherwise, returns the result of the second cell() binding function, which is the default chart type.\n\n4) asString() formats the result as a string, which is the format expected in the dashboard JSON.\n",
+          "text": "1) cell(static_1.selection, 0, \\\"visualizationType\\\") returns the selected chart type from the \"static_1\" step. Gets the value from cell (first row, \"visualizationType\" column) in the step selection.\n\n2) cell(static_1.result, 0, \\\"visualizationType\\\")) returns the resulting chart type from the \"static_1\" step. Gets the value from cell (first row, \"visualizationType\" column) in the step results.\n\n3) coalesce() returns the result of the first cell() binding function if a selection was made. Otherwise, returns the result of the second cell() binding function, which is the default chart type.\n\n4) asString() formats the result as a string, which is the format expected in the dashboard JSON.\n",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

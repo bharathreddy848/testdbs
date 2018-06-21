@@ -9,20 +9,12 @@
   "createdDate": "2018-06-13T04:44:09.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000l2TpSAI",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities",
-      "namespace": "puttupu",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
   "files": [],
   "folder": {
-    "id": "00l7F000001367NQAQ",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure_By",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
+    "id": "${App.Folder.Id}"
   },
   "id": "0FK7F000000nFbcWAE",
   "label": "SAQL - Query Editor",
@@ -718,16 +710,12 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Product_Name&quot;],&quot;order&quot;:[[-1,{&quot;ascending&quot;:&quot;{{cell(Grouping___Compariso_1.selection, 0, &#92;&quot;value&#92;&quot;).asObject()}}&quot;}]]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Name\"],\"order\":[[-1,{\"ascending\":\"{{cell(Grouping___Compariso_1.selection, 0, \\\"value\\\").asObject()}}\"}]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -743,7 +731,7 @@
         "broadcastFacet": true,
         "groups": [],
         "numbers": [],
-        "query": "q = load &quot;puttupu__Wave_Sample_Opportunities&quot;;\nq = filter q by &#39;Account_Type&#39; == &quot;Customer&quot;;\nq = group q by &#39;Opportunity_Owner&#39;;\nq = foreach q generate &#39;Opportunity_Owner&#39; as &#39;Opportunity_Owner&#39;, sum(&#39;Amount&#39;) as &#39;sum_Amount&#39;;\nq = order q by &#39;sum_Amount&#39; desc;\nq = limit q 5;",
+        "query": "q = load \"puttupu__Wave_Sample_Opportunities\";\nq = filter q by 'Account_Type' == \"Customer\";\nq = group q by 'Opportunity_Owner';\nq = foreach q generate 'Opportunity_Owner' as 'Opportunity_Owner', sum('Amount') as 'sum_Amount';\nq = order q by 'sum_Amount' desc;\nq = limit q 5;",
         "receiveFacet": true,
         "selectMode": "single",
         "strings": [],
@@ -1046,7 +1034,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 14,
-          "text": "Don&#39;t be shy! Get in there and edit the query. Don&#39;t forget to click Run Query to see your changes reflected in the results table. Then, select the chart type you want to see your query in action.",
+          "text": "Don't be shy! Get in there and edit the query. Don't forget to click Run Query to see your changes reflected in the results table. Then, select the chart type you want to see your query in action.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1091,7 +1079,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
-          "text": "For each examples in this learning adventure app, we&#39;ll show you the SAQL query we used. Want to play around yourself?:\n\n1. Copy the query and open up explorer. \n\n2. Open the query editor (top GIF).\n\n3. Paste the query into the editor and try things out. See how changing fields updates the query. \n\nYou&#39;ll be a pro in no time!",
+          "text": "For each examples in this learning adventure app, we'll show you the SAQL query we used. Want to play around yourself?:\n\n1. Copy the query and open up explorer. \n\n2. Open the query editor (top GIF).\n\n3. Paste the query into the editor and try things out. See how changing fields updates the query. \n\nYou'll be a pro in no time!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1145,7 +1133,7 @@
       "text_29": {
         "parameters": {
           "fontSize": 14,
-          "text": "Use and start creating a chart. You&#39;ll notice the Query Editor in the upper right",
+          "text": "Use and start creating a chart. You'll notice the Query Editor in the upper right",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1232,7 +1220,7 @@
       "text_24": {
         "parameters": {
           "fontSize": 14,
-          "text": "Open up Explorer and navigate to the selectors at the upper right. In the GIF to the left, the Query Editor is the icon on the far right. Looks like this: &lt;_\n\nWithin the editor, customize the query. Click Run Query to see updated results in the table. Check the GIF to see editing in action!",
+          "text": "Open up Explorer and navigate to the selectors at the upper right. In the GIF to the left, the Query Editor is the icon on the far right. Looks like this: <_\n\nWithin the editor, customize the query. Click Run Query to see updated results in the table. Check the GIF to see editing in action!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1256,7 +1244,7 @@
       "text_27": {
         "parameters": {
           "fontSize": 14,
-          "text": "Behind every chart in Einstein Analytics is a SAQL query that fetches and process the data. \n\nWhile you can create amazing visualizations with explorer, the query editor let&#39;s you take things to the next level with custom queries.",
+          "text": "Behind every chart in Einstein Analytics is a SAQL query that fetches and process the data. \n\nWhile you can create amazing visualizations with explorer, the query editor let's you take things to the next level with custom queries.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },

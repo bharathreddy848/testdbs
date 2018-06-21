@@ -9,20 +9,12 @@
   "createdDate": "2018-06-13T04:44:02.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000l2TpSAI",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities",
-      "namespace": "puttupu",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+      "name": "${App.EdgeMarts.Wave_Sample_Opportunities.Alias}"
     }
   ],
   "files": [],
   "folder": {
-    "id": "00l7F000001367NQAQ",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure_By",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
+    "id": "${App.Folder.Id}"
   },
   "id": "0FK7F000000nFbQWAU",
   "label": "Dynamic Apps - Design  - Values Table",
@@ -722,13 +714,13 @@
         "dimensions": [],
         "isGlobal": false,
         "selectMode": "multirequired",
-        "start": "{&quot;display&quot;:[&quot;Stage&quot;]}",
+        "start": "{\"display\":[\"Stage\"]}",
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{&quot;display&quot;:&quot;Stage&quot;,&quot;value&quot;:&quot;Stage&quot;}",
-          "{&quot;display&quot;:&quot;Owner&quot;,&quot;value&quot;:&quot;Opportunity_Owner&quot;}",
-          "{&quot;display&quot;:&quot;Forecast Category&quot;,&quot;value&quot;:&quot;Forecast_Category&quot;}"
+          "{\"display\":\"Stage\",\"value\":\"Stage\"}",
+          "{\"display\":\"Owner\",\"value\":\"Opportunity_Owner\"}",
+          "{\"display\":\"Forecast Category\",\"value\":\"Forecast_Category\"}"
         ]
       },
       "Binding_Value_1": {
@@ -741,14 +733,14 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{&quot;display&quot;:&quot;1&quot;,&quot;value&quot;:&quot;{{row(static_1.selection, [], [&#92;&#92;&#92;&quot;value&#92;&#92;&#92;&quot;, &#92;&#92;&#92;&quot;display&#92;&#92;&#92;&quot;]).asProjection()}}&quot;}"
+          "{\"display\":\"1\",\"value\":\"{{row(static_1.selection, [], [\\\\\\\"value\\\\\\\", \\\\\\\"display\\\\\\\"]).asProjection()}}\"}"
         ]
       },
       "lens_4": {
         "broadcastFacet": true,
         "groups": [],
         "numbers": [],
-        "query": "q = load &quot;puttupu__Wave_Sample_Opportunities&quot;;\nq = foreach q generate {{row(static_1.selection, [], [&quot;value&quot;, &quot;display&quot;]).asProjection()}}, &#39;Opportunity_Name&#39; as &#39;Opportunity_Name&#39;,  &#39;Amount&#39; as &#39;Amount&#39;, &#39;Close_Date&#39; as &#39;Close_Date&#39;;\nq = limit q 100;\n",
+        "query": "q = load \"puttupu__Wave_Sample_Opportunities\";\nq = foreach q generate {{row(static_1.selection, [], [\"value\", \"display\"]).asProjection()}}, 'Opportunity_Name' as 'Opportunity_Name',  'Amount' as 'Amount', 'Close_Date' as 'Close_Date';\nq = limit q 100;\n",
         "receiveFacet": true,
         "selectMode": "single",
         "strings": [],
@@ -789,7 +781,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asString() }}",
+          "text": "{{ cell( Binding_Value_1.result, 0, \"value\").asString() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -990,7 +982,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
-          "text": "Tie a widget&#39;s data or design to the selection or results of another",
+          "text": "Tie a widget's data or design to the selection or results of another",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
         },
@@ -1033,7 +1025,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
-          "text": "In this example, a SAQL step type powers the values table widget.\n\n1) Create a toggle widget (&quot;pillbox_1&quot;) with static step (&quot;static_1&quot;) that displays Stage, Owner, and Forecast Category. For each toggle option, specify the column to show in the values table.\n\n2) Create a values table widget (&quot;table_2&quot;) with SAQL step type (&quot;lens_4&quot;) that shows the Opportunity Name, Amount, and Close Date columns.\n\n3) To dynamically show a additional columns based on the selection in the toggle widget, open the dashboard JSON and add the binding for the derived dimensions to the foreach statement of the SAQL query for the step (&quot;lens_4&quot;).\n\nq = foreach q generate {{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asString() }}, &#39;Opportunity_Name&#39; as &#39;Opportunity_Name&#39;,  &#39;Amount&#39; as &#39;Amount&#39;, &#39;Close_Date&#39; as &#39;Close_Date&#39;;\n\n4) VOILÀ! Click Done and you&#39;re ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
+          "text": "In this example, a SAQL step type powers the values table widget.\n\n1) Create a toggle widget (\"pillbox_1\") with static step (\"static_1\") that displays Stage, Owner, and Forecast Category. For each toggle option, specify the column to show in the values table.\n\n2) Create a values table widget (\"table_2\") with SAQL step type (\"lens_4\") that shows the Opportunity Name, Amount, and Close Date columns.\n\n3) To dynamically show a additional columns based on the selection in the toggle widget, open the dashboard JSON and add the binding for the derived dimensions to the foreach statement of the SAQL query for the step (\"lens_4\").\n\nq = foreach q generate {{ cell( Binding_Value_1.result, 0, \"value\").asString() }}, 'Opportunity_Name' as 'Opportunity_Name',  'Amount' as 'Amount', 'Close_Date' as 'Close_Date';\n\n4) VOILÀ! Click Done and you're ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1188,7 +1180,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
-          "text": "{{row(static_1.selection, [], [&quot;value&quot;, &quot;display&quot;]).asProjection()}}",
+          "text": "{{row(static_1.selection, [], [\"value\", \"display\"]).asProjection()}}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1197,7 +1189,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) row(static_1.selection, [], [&quot;value&quot;, &quot;display&quot;]) returns the selected table columns from the &quot;static_1&quot; step. Gets the values from the &quot;value&quot; and &quot;display&quot; columns for each row in the step selection. To support multiple selections, the row index is omitted.\n\n2) asProjection() formats the results as a projection, the expected format in the dashboard JSON. This function concatenates the &quot;value&quot; column value, &#39;as&#39;, and the &quot;display&quot; column value, like &quot;Stage as &#39;Stage&#39;.&quot;",
+          "text": "1) row(static_1.selection, [], [\"value\", \"display\"]) returns the selected table columns from the \"static_1\" step. Gets the values from the \"value\" and \"display\" columns for each row in the step selection. To support multiple selections, the row index is omitted.\n\n2) asProjection() formats the results as a projection, the expected format in the dashboard JSON. This function concatenates the \"value\" column value, 'as', and the \"display\" column value, like \"Stage as 'Stage'.\"",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
