@@ -13,9 +13,10 @@
       "label": "DTC Opportunity",
       "name": "DTC_Opportunity_SAMPLE",
       "namespace": "bharathreddy848",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
     }
   ],
+  "dateVersion": 1,
   "files": [
     {
       "contentType": "image/png",
@@ -23,7 +24,7 @@
       "fileName": "assetPreviewThumb",
       "id": "0FJ7F0000008TZVWA2",
       "lastModifiedDate": "2017-10-23T07:09:34.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F0000005f5tWAA/files/0FJ7F0000008TZVWA2"
+      "url": "/services/data/v44.0/wave/lenses/0FK7F0000005f5tWAA/files/0FJ7F0000008TZVWA2"
     }
   ],
   "folder": {
@@ -31,11 +32,10 @@
     "label": "My DTC Sales",
     "name": "My_DTC_Sales",
     "namespace": "bharathreddy848",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001VEMTQA4"
+    "url": "/services/data/v44.0/wave/folders/00l7F000001VEMTQA4"
   },
   "id": "0FK7F0000005f5tWAA",
   "label": "Regional Sales",
-  "lastAccessedDate": "2018-06-21T12:12:01.000Z",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
@@ -61,7 +61,8 @@
         "numColumns": 18,
         "pages": [
           {
-            "name": "95776984-69ca-47b7-9639-a9f616965ced",
+            "name": "b78dc663-305f-44ab-aa7d-055aacaf7437",
+            "navigationHidden": false,
             "widgets": [
               {
                 "colspan": 13,
@@ -181,7 +182,8 @@
         "numColumns": 2,
         "pages": [
           {
-            "name": "95776984-69ca-47b7-9639-a9f616965ced",
+            "name": "b78dc663-305f-44ab-aa7d-055aacaf7437",
+            "navigationHidden": false,
             "widgets": [
               {
                 "colspan": 2,
@@ -296,7 +298,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -315,8 +317,6 @@
       },
       "static_1": {
         "broadcastFacet": false,
-        "datasets": [],
-        "dimensions": [],
         "isGlobal": false,
         "selectMode": "singlerequired",
         "start": "{&quot;display&quot;:[&quot;World&quot;]}",
@@ -337,7 +337,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isFacet": true,
@@ -364,12 +364,14 @@
     "widgets": {
       "table_3": {
         "parameters": {
+          "columnProperties": {},
           "columns": [],
           "customBulkActions": [],
           "exploreLink": true,
           "maxColumnWidth": 300,
           "minColumnWidth": 40,
           "mode": "variable",
+          "showActionMenu": true,
           "step": "lens_3"
         },
         "type": "table"
@@ -378,6 +380,7 @@
         "parameters": {
           "compact": false,
           "exploreLink": false,
+          "showActionMenu": true,
           "step": "static_1"
         },
         "type": "pillbox"
@@ -385,6 +388,7 @@
       "text_1": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Regional Sales",
           "textAlignment": "left",
           "textColor": "#44A2F5"
@@ -403,6 +407,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 18,
+          "showActionMenu": true,
           "text": "Sales",
           "textAlignment": "left",
           "textColor": "#7D98B3"
@@ -426,6 +431,7 @@
       "text_2_mobile": {
         "parameters": {
           "fontSize": 18,
+          "showActionMenu": true,
           "text": "Sales",
           "textAlignment": "center",
           "textColor": "#7D98B3"
@@ -435,6 +441,7 @@
       "chart_1": {
         "parameters": {
           "autoFitMode": "keepLabels",
+          "totalValue": "computeTotal",
           "showValues": true,
           "bins": {
             "breakpoints": {
@@ -477,6 +484,8 @@
             "chartsPerLine": 4
           },
           "binValues": false,
+          "totalLabel": "",
+          "showActionMenu": true,
           "measureAxis2": {
             "sqrtScale": false,
             "showTitle": true,
@@ -502,6 +511,7 @@
       },
       "chart_3": {
         "parameters": {
+          "totalValue": "computeTotal",
           "bins": {
             "breakpoints": {
               "high": 100,
@@ -532,8 +542,6 @@
           "highColor": "#1674D9",
           "lowColor": "#C5DBF7",
           "visualizationType": "choropleth",
-          "theme": "dark",
-          "step": "Account_BillingCount_2",
           "exploreLink": true,
           "title": {
             "label": "",
@@ -546,6 +554,10 @@
             "chartsPerLine": 4
           },
           "binValues": false,
+          "totalLabel": "",
+          "showActionMenu": true,
+          "theme": "dark",
+          "step": "Account_BillingCount_2",
           "map": "{{cell(static_1.selection, 0, &quot;value&quot;).asObject()}}"
         },
         "type": "chart"
@@ -553,5 +565,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000005f5tWAA"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F0000005f5tWAA"
 }

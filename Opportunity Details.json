@@ -13,9 +13,10 @@
       "label": "DTC Opportunity",
       "name": "DTC_Opportunity_SAMPLE",
       "namespace": "bharathreddy848",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
     }
   ],
+  "dateVersion": 1,
   "description": "Analyze opportunities by sales rep, stage, and more. View the total value of their open, won, and lost opportunities. Analyze the sales pipeline with charts. Look at the individual opportunity records. Get it all in this interactive dashboard!",
   "files": [
     {
@@ -24,7 +25,7 @@
       "fileName": "assetPreviewThumb",
       "id": "0FJ7F0000008TZUWA2",
       "lastModifiedDate": "2017-10-23T07:09:34.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F0000005f5sWAA/files/0FJ7F0000008TZUWA2"
+      "url": "/services/data/v44.0/wave/lenses/0FK7F0000005f5sWAA/files/0FJ7F0000008TZUWA2"
     }
   ],
   "folder": {
@@ -32,11 +33,10 @@
     "label": "My DTC Sales",
     "name": "My_DTC_Sales",
     "namespace": "bharathreddy848",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001VEMTQA4"
+    "url": "/services/data/v44.0/wave/folders/00l7F000001VEMTQA4"
   },
   "id": "0FK7F0000005f5sWAA",
   "label": "Opportunity Details",
-  "lastAccessedDate": "2018-06-21T12:12:01.000Z",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
@@ -62,7 +62,8 @@
         "numColumns": 18,
         "pages": [
           {
-            "name": "b52ce228-b1c9-498c-99ea-dee47ba82a06",
+            "name": "bdc3979f-8a0c-44bd-8c65-0a2c092b1aa1",
+            "navigationHidden": false,
             "widgets": [
               {
                 "colspan": 16,
@@ -354,7 +355,8 @@
         "numColumns": 2,
         "pages": [
           {
-            "name": "b52ce228-b1c9-498c-99ea-dee47ba82a06",
+            "name": "bdc3979f-8a0c-44bd-8c65-0a2c092b1aa1",
+            "navigationHidden": false,
             "widgets": [
               {
                 "colspan": 2,
@@ -588,7 +590,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -610,7 +612,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -635,7 +637,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -660,7 +662,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -676,8 +678,6 @@
       },
       "static_1": {
         "broadcastFacet": false,
-        "datasets": [],
-        "dimensions": [],
         "isGlobal": false,
         "selectMode": "singlerequired",
         "start": "{&quot;display&quot;:[&quot;Open&quot;]}",
@@ -697,7 +697,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -722,7 +722,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -747,7 +747,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -769,7 +769,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -794,7 +794,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -817,7 +817,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -842,7 +842,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -877,6 +877,7 @@
           "exploreLink": false,
           "instant": true,
           "measureField": "count",
+          "showActionMenu": false,
           "step": "Owner_Name_1",
           "title": "Sales Rep"
         },
@@ -884,11 +885,13 @@
       },
       "dateselector_1": {
         "parameters": {
+          "absoluteModeEnabled": true,
           "calendarTypeSwitchingAllowed": false,
-          "defaultAbsoluteMode": true,
           "defaultFiscalMode": false,
           "instant": true,
-          "modeSwitchingAllowed": true,
+          "presetsEnabled": false,
+          "relativeModeEnabled": true,
+          "showActionMenu": true,
           "step": "CloseDate_Year_1",
           "title": "Close Date"
         },
@@ -897,6 +900,7 @@
       "text_1": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Opportunity Details",
           "textAlignment": "left",
           "textColor": "#44A2F5"
@@ -910,6 +914,7 @@
           "exploreLink": false,
           "instant": true,
           "measureField": "count",
+          "showActionMenu": false,
           "step": "Account_Name_1",
           "title": "Account"
         },
@@ -931,12 +936,14 @@
       },
       "table_2": {
         "parameters": {
+          "columnProperties": {},
           "columns": [],
           "customBulkActions": [],
           "exploreLink": true,
           "maxColumnWidth": 300,
           "minColumnWidth": 40,
           "mode": "variable",
+          "showActionMenu": true,
           "step": "lens_2"
         },
         "type": "table"
@@ -948,6 +955,7 @@
           "measureField": "sum_Amount",
           "numberColor": "#FFFFFF",
           "numberSize": 48,
+          "showActionMenu": true,
           "step": "Amount_3",
           "textAlignment": "center",
           "title": "Lost Opportunities",
@@ -963,6 +971,7 @@
           "measureField": "sum_Amount",
           "numberColor": "#FFFFFF",
           "numberSize": 48,
+          "showActionMenu": true,
           "step": "Amount_2",
           "textAlignment": "center",
           "title": "Won Opportunities",
@@ -987,6 +996,7 @@
           "measureField": "sum_Amount",
           "numberColor": "#FFFFFF",
           "numberSize": 48,
+          "showActionMenu": true,
           "step": "Amount_1",
           "textAlignment": "center",
           "title": "Open Pipeline",
@@ -1008,6 +1018,7 @@
         "parameters": {
           "compact": false,
           "exploreLink": false,
+          "showActionMenu": true,
           "step": "static_1",
           "title": "Stage"
         },
@@ -1016,6 +1027,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Sales Rep",
           "textAlignment": "left",
           "textColor": "#5C7A99"
@@ -1025,6 +1037,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Stage",
           "textAlignment": "left",
           "textColor": "#5C7A99"
@@ -1038,6 +1051,7 @@
           "exploreLink": false,
           "instant": true,
           "measureField": "count",
+          "showActionMenu": false,
           "step": "Type_1",
           "title": "Opportunity Type"
         },
@@ -1046,6 +1060,7 @@
       "text_5": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Account",
           "textAlignment": "left",
           "textColor": "#5C7A99"
@@ -1055,6 +1070,7 @@
       "text_4": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Oppty Type",
           "textAlignment": "left",
           "textColor": "#5C7A99"
@@ -1063,6 +1079,7 @@
       },
       "chart_2": {
         "parameters": {
+          "totalValue": "computeTotal",
           "showPoints": true,
           "legend": {
             "showHeader": true,
@@ -1090,7 +1107,9 @@
             "type": "x",
             "chartsPerLine": 4
           },
+          "totalLabel": "",
           "fillArea": true,
+          "showActionMenu": true,
           "showZero": true,
           "measureAxis2": {
             "sqrtScale": false,
@@ -1112,6 +1131,7 @@
       "chart_1": {
         "parameters": {
           "autoFitMode": "fit",
+          "totalValue": "computeTotal",
           "showValues": true,
           "legend": {
             "showHeader": false,
@@ -1133,6 +1153,8 @@
             "align": "center",
             "subtitleLabel": ""
           },
+          "totalLabel": "",
+          "showActionMenu": true,
           "measureAxis2": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1167,6 +1189,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Close Date",
           "textAlignment": "left",
           "textColor": "#5C7A99"
@@ -1175,6 +1198,7 @@
       },
       "chart_4": {
         "parameters": {
+          "totalValue": "computeTotal",
           "legend": {
             "showHeader": true,
             "show": true,
@@ -1183,11 +1207,7 @@
             "inside": false
           },
           "showMeasureTitle": false,
-          "valueType": "compactNumber",
-          "showTotal": true,
           "visualizationType": "funnel",
-          "theme": "wave",
-          "step": "StageName_2",
           "exploreLink": true,
           "title": {
             "label": "Opportunity Amount",
@@ -1199,6 +1219,12 @@
             "type": "x",
             "chartsPerLine": 4
           },
+          "totalLabel": "",
+          "showActionMenu": true,
+          "valueType": "compactNumber",
+          "showTotal": true,
+          "theme": "wave",
+          "step": "StageName_2",
           "stemSegments": 3
         },
         "type": "chart"
@@ -1206,5 +1232,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000005f5sWAA"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F0000005f5sWAA"
 }
