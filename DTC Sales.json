@@ -13,7 +13,7 @@
       "label": "DTC Opportunity",
       "name": "DTC_Opportunity_SAMPLE",
       "namespace": "bharathreddy848",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+      "url": "/services/data/v42.0/wave/datasets/0Fb7F0000004IyxSAE"
     }
   ],
   "files": [
@@ -23,7 +23,7 @@
       "fileName": "assetPreviewThumb",
       "id": "0FJ7F0000008TZSWA2",
       "lastModifiedDate": "2017-10-23T07:09:34.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F0000005f5rWAA/files/0FJ7F0000008TZSWA2"
+      "url": "/services/data/v42.0/wave/lenses/0FK7F0000005f5rWAA/files/0FJ7F0000008TZSWA2"
     }
   ],
   "folder": {
@@ -31,11 +31,10 @@
     "label": "My DTC Sales",
     "name": "My_DTC_Sales",
     "namespace": "bharathreddy848",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001VEMTQA4"
+    "url": "/services/data/v42.0/wave/folders/00l7F000001VEMTQA4"
   },
   "id": "0FK7F0000005f5rWAA",
   "label": "DTC Sales",
-  "lastAccessedDate": "2018-06-21T12:12:01.000Z",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
@@ -61,7 +60,7 @@
         "numColumns": 18,
         "pages": [
           {
-            "name": "e6b85fcd-cd9c-4504-8f39-0a8dc13e9181",
+            "name": "b01f23fc-2e2d-485b-aa4e-a5ef3dbe706f",
             "widgets": [
               {
                 "colspan": 3,
@@ -258,7 +257,7 @@
         "numColumns": 2,
         "pages": [
           {
-            "name": "e6b85fcd-cd9c-4504-8f39-0a8dc13e9181",
+            "name": "b01f23fc-2e2d-485b-aa4e-a5ef3dbe706f",
             "widgets": [
               {
                 "colspan": 2,
@@ -468,7 +467,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v42.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -493,7 +492,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v42.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -518,7 +517,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v42.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -543,7 +542,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v42.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -569,7 +568,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v42.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -594,7 +593,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v42.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -792,6 +791,7 @@
       },
       "chart_1": {
         "parameters": {
+          "totalValue": "computeTotal",
           "showPoints": true,
           "legend": {
             "showHeader": true,
@@ -819,6 +819,7 @@
             "type": "x",
             "chartsPerLine": 4
           },
+          "totalLabel": "",
           "fillArea": true,
           "showZero": true,
           "measureAxis2": {
@@ -850,5 +851,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000005f5rWAA"
+  "url": "/services/data/v42.0/wave/dashboards/0FK7F0000005f5rWAA"
 }
