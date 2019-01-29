@@ -1,47 +1,47 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbLWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nEn8WAE&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-06-13T04:44:00.000Z",
+  "createdDate": "2018-06-11T07:58:39.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000l2TpSAI",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities",
-      "namespace": "puttupu",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+      "id": "0Fb7F0000004JDMSA2",
+      "label": "ProductPipelineUSA",
+      "name": "ProductPipelineUSA",
+      "namespace": "bharathreddy848",
+      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JDMSA2"
     }
   ],
+  "dateVersion": 1,
   "files": [],
   "folder": {
-    "id": "00l7F000001367NQAQ",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure_By",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
+    "id": "00l7F000000dDyVQAU",
+    "label": "My Exploration",
+    "name": "My_Exploration",
+    "namespace": "bharathreddy848",
+    "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
   },
-  "id": "0FK7F000000nFbLWAU",
+  "id": "0FK7F000000nEn8WAE",
   "label": "Dynamic Apps - Data  - Date Filter (Compact Form)",
-  "lastAccessedDate": "2018-06-21T10:23:02.000Z",
   "lastModifiedBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-06-13T04:44:14.000Z",
+  "lastModifiedDate": "2018-06-11T07:58:39.000Z",
   "mobileDisabled": false,
-  "name": "Dynamic_Apps_Data_Date_Filter",
-  "namespace": "puttupu",
+  "name": "Dynamic_Apps_Data_Date_Filter_Compact_Form",
+  "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
     "modify": true,
     "view": true
   },
-  "refreshDate": "2018-06-13T04:42:30.000Z",
+  "refreshDate": "2017-10-26T06:25:05.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -54,6 +54,7 @@
           {
             "label": "Untitled",
             "name": "88b970d2-bbad-41c3-9afd-f2213b76a706",
+            "navigationHidden": false,
             "widgets": [
               {
                 "colspan": 2,
@@ -215,7 +216,7 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_9",
-                "row": 19,
+                "row": 18,
                 "rowspan": 48,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -226,10 +227,10 @@
                 }
               },
               {
-                "colspan": 4,
+                "colspan": 5,
                 "column": 7,
                 "name": "text_17",
-                "row": 45,
+                "row": 47,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -245,7 +246,7 @@
                 "colspan": 15,
                 "column": 12,
                 "name": "text_18",
-                "row": 45,
+                "row": 47,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -259,7 +260,7 @@
                 "colspan": 15,
                 "column": 12,
                 "name": "text_20",
-                "row": 52,
+                "row": 56,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -273,18 +274,18 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_4",
-                "row": 58,
-                "rowspan": 20,
+                "row": 65,
+                "rowspan": 19,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
                   "borderEdges": []
                 }
               },
               {
-                "colspan": 4,
+                "colspan": 5,
                 "column": 7,
                 "name": "text_21",
-                "row": 52,
+                "row": 56,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -300,7 +301,7 @@
                 "colspan": 18,
                 "column": 7,
                 "name": "text_22",
-                "row": 61,
+                "row": 68,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
@@ -314,7 +315,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "text_23",
-                "row": 65,
+                "row": 72,
                 "rowspan": 11,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -329,7 +330,7 @@
                 "column": 0,
                 "name": "container_6",
                 "row": 11,
-                "rowspan": 79,
+                "rowspan": 73,
                 "widgetStyle": {
                   "backgroundColor": "rgb(244, 246, 249)",
                   "borderColor": "#E6ECF2",
@@ -342,7 +343,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_7",
-                "row": 44,
+                "row": 46,
                 "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
@@ -358,7 +359,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_8",
-                "row": 51,
+                "row": 55,
                 "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
@@ -374,7 +375,7 @@
                 "colspan": 19,
                 "column": 7,
                 "name": "text_3",
-                "row": 58,
+                "row": 65,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -388,7 +389,7 @@
                 "colspan": 1,
                 "column": 26,
                 "name": "image_7",
-                "row": 58,
+                "row": 65,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -586,7 +587,7 @@
                 "column": 19,
                 "name": "number_1",
                 "row": 22,
-                "rowspan": 10,
+                "rowspan": 9,
                 "widgetStyle": {
                   "borderColor": "rgb(22, 50, 92)",
                   "borderEdges": []
@@ -638,7 +639,7 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_5",
-                "row": 69,
+                "row": 66,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
@@ -654,8 +655,8 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_8",
-                "row": 74,
-                "rowspan": 11,
+                "row": 70,
+                "rowspan": 14,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -759,11 +760,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "id": "0Fb7F0000004JDMSA2",
+            "label": "ProductPipelineUSA",
+            "name": "ProductPipelineUSA",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JDMSA2"
           }
         ],
         "isGlobal": false,
@@ -832,8 +833,6 @@
       },
       "step_time": {
         "broadcastFacet": true,
-        "datasets": [],
-        "dimensions": [],
         "isGlobal": false,
         "selectMode": "singlerequired",
         "start": "{&quot;display&quot;:[&quot;Last 5 Years&quot;]}",
@@ -848,8 +847,6 @@
       },
       "Binding_Value_1": {
         "broadcastFacet": false,
-        "datasets": [],
-        "dimensions": [],
         "isGlobal": false,
         "label": "Binding Value",
         "selectMode": "single",
@@ -863,11 +860,11 @@
         "broadcastFacet": false,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "id": "0Fb7F0000004JDMSA2",
+            "label": "ProductPipelineUSA",
+            "name": "ProductPipelineUSA",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JDMSA2"
           }
         ],
         "isGlobal": false,
@@ -896,6 +893,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -905,8 +903,9 @@
       "text_17": {
         "parameters": {
           "fontSize": 24,
+          "showActionMenu": true,
           "text": "CODE",
-          "textAlignment": "center",
+          "textAlignment": "left",
           "textColor": "rgb(34, 144, 138)"
         },
         "type": "text"
@@ -915,7 +914,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Design_Conditional_Formatting",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -930,7 +929,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Measure_Compact_Form",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -944,6 +943,7 @@
       "text_14": {
         "parameters": {
           "fontSize": 24,
+          "showActionMenu": true,
           "text": "GOAL",
           "textAlignment": "center",
           "textColor": "rgb(22, 50, 92)"
@@ -954,7 +954,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Grouping_Compact_Form",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -969,7 +969,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Order_Compact_Form",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -993,7 +993,8 @@
       },
       "text_15": {
         "parameters": {
-          "fontSize": 16,
+          "fontSize": 14,
+          "showActionMenu": true,
           "text": "Build a binding to let users see results for a predefined relative date range. Try it below! ",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1003,6 +1004,7 @@
       "text_10": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Build It Yourself!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1015,8 +1017,8 @@
           "alignmentY": "bottom",
           "fit": "original",
           "image": {
-            "name": "headerdetailpng3",
-            "namespace": "puttupu"
+            "name": "headerdetailpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -1027,8 +1029,8 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterdesertjpg13",
-            "namespace": "puttupu"
+            "name": "bgfooterdesertjpg1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -1060,6 +1062,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 12,
+          "showActionMenu": true,
           "text": "TRANSLATION",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1069,6 +1072,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Tie a widget&#39;s data or design to the selection or results of another",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -1094,6 +1098,7 @@
       "text_5": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Did You Know?",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1103,6 +1108,7 @@
       "text_4": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Relative Date Filter",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1112,6 +1118,7 @@
       "text_7": {
         "parameters": {
           "fontSize": 12,
+          "showActionMenu": true,
           "text": "DYNAMIC DESIGN",
           "textAlignment": "left",
           "textColor": "rgb(107, 109, 112)"
@@ -1121,6 +1128,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 12,
+          "showActionMenu": true,
           "text": "DYNAMIC DATA",
           "textAlignment": "left",
           "textColor": "rgb(107, 109, 112)"
@@ -1130,6 +1138,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "1) Create a date range widget (&quot;dateselector_1&quot;) with a step (&quot;CloseDate_Year_2&quot;) that shows a range of close dates for opportunities.\n\n2) Create a number widget (&quot;number_1&quot;) with a step (&quot;all_2&quot;) in compact form that calculates the total number of opportunities.\n\n3) To filter the results in the number widget based on the selected date range, bind the &quot;filters&quot; JSON property in the &quot;all_2&quot; step.\n\n&quot;filters&quot;: [\n   [\n      &quot;Close_Date&quot;,\n      [&quot;{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject()}}&quot;],\n      &quot;&gt;=&lt;=&quot;\n   ]\n]\n\n4) VOILÀ! Click Done and you&#39;re ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1139,9 +1148,10 @@
       "text_8": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "You can use faceting to filter other faceted widgets based on a selected date range in a date widget. Faceting is a lot easier to set up than bindings. However, if you want to filter a specific widget (not all faceted widgets) based on the selection, use a binding.",
           "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
+          "textColor": "#091A3E"
         },
         "type": "text"
       },
@@ -1151,8 +1161,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconreferencelinepng6",
-            "namespace": "puttupu"
+            "name": "iconreferencelinepng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1163,8 +1173,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmappng3",
-            "namespace": "puttupu"
+            "name": "iconmappng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1175,8 +1185,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlimitpng3",
-            "namespace": "puttupu"
+            "name": "iconlimitpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1187,8 +1197,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icongrouppng3",
-            "namespace": "puttupu"
+            "name": "icongrouppng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1196,6 +1206,7 @@
       "text_1": {
         "parameters": {
           "fontSize": 32,
+          "showActionMenu": true,
           "text": "Build Dynamic Apps",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -1208,8 +1219,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlearnmorepng3",
-            "namespace": "puttupu"
+            "name": "iconlearnmorepng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1220,8 +1231,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconorderpng3",
-            "namespace": "puttupu"
+            "name": "iconorderpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1233,6 +1244,7 @@
           "measureField": "count",
           "numberColor": "rgb(22, 50, 92)",
           "numberSize": 32,
+          "showActionMenu": true,
           "step": "all_2",
           "textAlignment": "left",
           "title": "Count of Rows",
@@ -1247,8 +1259,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconfilterpng6",
-            "namespace": "puttupu"
+            "name": "iconfilterpng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1259,8 +1271,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmeasurepng3",
-            "namespace": "puttupu"
+            "name": "iconmeasurepng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1271,8 +1283,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icondatepng6",
-            "namespace": "puttupu"
+            "name": "icondatepng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1283,8 +1295,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontablepng3",
-            "namespace": "puttupu"
+            "name": "icontablepng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1295,8 +1307,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconconditionalpng3",
-            "namespace": "puttupu"
+            "name": "iconconditionalpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1307,8 +1319,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconintroductionpng3",
-            "namespace": "puttupu"
+            "name": "iconintroductionpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1317,7 +1329,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Design_Reference_Line",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1332,7 +1344,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Design_Values_Table",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1347,7 +1359,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Design_Chart_Type",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1361,8 +1373,9 @@
       "text_21": {
         "parameters": {
           "fontSize": 24,
+          "showActionMenu": true,
           "text": "RESULTS",
-          "textAlignment": "center",
+          "textAlignment": "left",
           "textColor": "rgb(36, 147, 243)"
         },
         "type": "text"
@@ -1370,6 +1383,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "{{cell(step_time.selection, 0, &quot;dateFilter&quot;).asString()}}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1379,6 +1393,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "1) cell(step_time.selection, 0, &quot;dateFilter&quot;) returns the date range (minimum and maximum values) selected in the date widget. Gets the range from cell (first row, &quot;dateFilter&quot; column) in the &quot;CloseDate_Year_2&quot; step selection.\n\n2) asObject() formats the results as an array, which is the expected format in the dashboard JSON.\n",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1388,6 +1403,7 @@
       "text_22": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "What Does This Code Mean?",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1398,7 +1414,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Limit",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1413,7 +1429,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Adventure_Home",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1428,7 +1444,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Introduction",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1443,7 +1459,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Basic_Filter",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1459,6 +1475,7 @@
           "compact": false,
           "exploreLink": true,
           "instant": true,
+          "showActionMenu": true,
           "step": "step_time",
           "title": ""
         },
@@ -1467,5 +1484,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbLWAU"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nEn8WAE"
 }

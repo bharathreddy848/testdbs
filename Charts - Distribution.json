@@ -1,47 +1,47 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbEWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nEHYWA2&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-06-13T04:43:58.000Z",
+  "createdDate": "2018-06-08T06:07:40.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000l2TpSAI",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities",
-      "namespace": "puttupu",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+      "id": "0Fb7F0000004KfySAE",
+      "label": "OpportunityDataset",
+      "name": "OpportunityDataset",
+      "namespace": "bharathreddy848",
+      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004KfySAE"
     }
   ],
+  "dateVersion": 1,
   "files": [],
   "folder": {
-    "id": "00l7F000001367NQAQ",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure_By",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
+    "id": "00l7F000000dDyVQAU",
+    "label": "My Exploration",
+    "name": "My_Exploration",
+    "namespace": "bharathreddy848",
+    "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
   },
-  "id": "0FK7F000000nFbEWAU",
+  "id": "0FK7F000000nEHYWA2",
   "label": "Charts - Distribution",
-  "lastAccessedDate": "2018-06-21T10:23:01.000Z",
   "lastModifiedBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-06-13T04:44:11.000Z",
+  "lastModifiedDate": "2018-06-08T06:07:40.000Z",
   "mobileDisabled": false,
   "name": "Charts_Distribution",
-  "namespace": "puttupu",
+  "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
     "modify": true,
     "view": true
   },
-  "refreshDate": "2018-06-13T04:42:30.000Z",
+  "refreshDate": "2017-11-27T11:51:55.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -54,6 +54,7 @@
           {
             "label": "Untitled",
             "name": "f5f3d2dc-e9b7-4114-8a35-29b1e5931571",
+            "navigationHidden": false,
             "widgets": [
               {
                 "colspan": 3,
@@ -593,11 +594,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "id": "0Fb7F0000004KfySAE",
+            "label": "OpportunityDataset",
+            "name": "OpportunityDataset",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004KfySAE"
           }
         ],
         "isGlobal": false,
@@ -690,11 +691,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "id": "0Fb7F0000004KfySAE",
+            "label": "OpportunityDataset",
+            "name": "OpportunityDataset",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004KfySAE"
           }
         ],
         "isGlobal": false,
@@ -793,11 +794,11 @@
         "broadcastFacet": false,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "id": "0Fb7F0000004KfySAE",
+            "label": "OpportunityDataset",
+            "name": "OpportunityDataset",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004KfySAE"
           }
         ],
         "isGlobal": false,
@@ -819,11 +820,11 @@
         "broadcastFacet": false,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "id": "0Fb7F0000004KfySAE",
+            "label": "OpportunityDataset",
+            "name": "OpportunityDataset",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004KfySAE"
           }
         ],
         "isGlobal": false,
@@ -842,8 +843,6 @@
       },
       "Axis___Trending_1": {
         "broadcastFacet": false,
-        "datasets": [],
-        "dimensions": [],
         "isGlobal": false,
         "label": "Axis - Trending",
         "selectMode": "singlerequired",
@@ -860,11 +859,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "id": "0Fb7F0000004KfySAE",
+            "label": "OpportunityDataset",
+            "name": "OpportunityDataset",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004KfySAE"
           }
         ],
         "isGlobal": false,
@@ -934,11 +933,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "id": "0Fb7F0000004KfySAE",
+            "label": "OpportunityDataset",
+            "name": "OpportunityDataset",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004KfySAE"
           }
         ],
         "isGlobal": false,
@@ -1017,11 +1016,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "id": "0Fb7F0000004KfySAE",
+            "label": "OpportunityDataset",
+            "name": "OpportunityDataset",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004KfySAE"
           }
         ],
         "isGlobal": false,
@@ -1069,11 +1068,11 @@
         "broadcastFacet": false,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "id": "0Fb7F0000004KfySAE",
+            "label": "OpportunityDataset",
+            "name": "OpportunityDataset",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004KfySAE"
           }
         ],
         "isGlobal": false,
@@ -1092,11 +1091,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "id": "0Fb7F0000004KfySAE",
+            "label": "OpportunityDataset",
+            "name": "OpportunityDataset",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004KfySAE"
           }
         ],
         "isGlobal": false,
@@ -1197,6 +1196,7 @@
       "text_17": {
         "parameters": {
           "fontSize": 12,
+          "showActionMenu": true,
           "text": "CATEGORY",
           "textAlignment": "left",
           "textColor": "rgb(107, 109, 112)"
@@ -1207,7 +1207,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Location",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1222,7 +1222,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Metrics",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1247,6 +1247,7 @@
       "text_10": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Click into these charts to dive into the details.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1256,6 +1257,7 @@
       "text_12": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Heat maps use color density to show concentration. In this case, a darker color means more opportunities. Heat maps can only have a single measure.\n\nWant to see more than one dimension? Try a matrix chart, which is like the offspring of a heat map and a scatter plot. (There&#39;s nothing more beautiful than the love between two chart types.)\n\nMatrix charts show distribution by color density and bubble size. In the below example, size represents sales, and color the number of opportunities. Matrix charts can have up to two measures. When building the chart, change the order of measures to swap color and size.",
           "textAlignment": "left",
           "textColor": "rgb(9, 26, 62)"
@@ -1265,6 +1267,7 @@
       "text_11": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "See where opportunities are concentrated across industry and segment.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1277,8 +1280,8 @@
           "alignmentY": "bottom",
           "fit": "original",
           "image": {
-            "name": "headerdetailpng3",
-            "namespace": "puttupu"
+            "name": "headerdetailpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -1289,8 +1292,8 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterjpg13",
-            "namespace": "puttupu"
+            "name": "bgfooterjpg1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -1301,8 +1304,8 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterjpg13",
-            "namespace": "puttupu"
+            "name": "bgfooterjpg1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -1310,6 +1313,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Heat maps, matrix, and other distribution charts help you visualize volume distribution so you can make decisions about concentration and whitespace. Too many eggs in one basket? Vast stretches of zero penetration? Find out, with a distribution chart.\n\nThis example helps you quickly see where your opportunities fall... and where they don&#39;t. I&#39;m looking at you, Enterprise Energy.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1327,6 +1331,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Learn which chart types are best for visualizing your data",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -1336,6 +1341,7 @@
       "text_5": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Fill the Void",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1345,6 +1351,7 @@
       "text_4": {
         "parameters": {
           "fontSize": 24,
+          "showActionMenu": true,
           "text": "PLAY!",
           "textAlignment": "center",
           "textColor": "rgb(22, 50, 92)"
@@ -1362,6 +1369,7 @@
       "text_7": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "See where you may be missing out in both sales and opportunities by product and country, then plot your next move.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1371,6 +1379,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Why Distribution Charts?",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1380,6 +1389,7 @@
       "chart_1": {
         "parameters": {
           "autoFitMode": "keepLabels",
+          "totalValue": "computeTotal",
           "showValues": true,
           "bins": {
             "breakpoints": {
@@ -1430,6 +1440,8 @@
             "subtitleLabel": ""
           },
           "binValues": false,
+          "totalLabel": "",
+          "showActionMenu": true,
           "measureAxis2": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1439,7 +1451,6 @@
               "showDomain": false
             }
           },
-          "computeTotal": true,
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1482,6 +1493,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Find the Hot Spots",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1491,6 +1503,7 @@
       "chart_3": {
         "parameters": {
           "autoFitMode": "none",
+          "totalValue": "computeTotal",
           "showValues": true,
           "bins": {
             "breakpoints": {
@@ -1549,6 +1562,8 @@
             "parameters": {},
             "chartsPerLine": 4
           },
+          "totalLabel": "",
+          "showActionMenu": true,
           "measureAxis2": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1558,7 +1573,6 @@
               "showDomain": false
             }
           },
-          "computeTotal": true,
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1601,6 +1615,7 @@
       "text_8": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Did You Know?",
           "textAlignment": "left",
           "textColor": "#091A3E"
@@ -1613,8 +1628,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconintroductionpng3",
-            "namespace": "puttupu"
+            "name": "iconintroductionpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1625,8 +1640,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconcomparepng3",
-            "namespace": "puttupu"
+            "name": "iconcomparepng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1637,8 +1652,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlocationpng3",
-            "namespace": "puttupu"
+            "name": "iconlocationpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1649,8 +1664,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icondistributionpng3",
-            "namespace": "puttupu"
+            "name": "icondistributionpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1658,6 +1673,7 @@
       "text_1": {
         "parameters": {
           "fontSize": 32,
+          "showActionMenu": true,
           "text": "Choosing the Right Chart",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -1670,8 +1686,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmetricspng6",
-            "namespace": "puttupu"
+            "name": "iconmetricspng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1680,7 +1696,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Comparison",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1695,7 +1711,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Trending",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1710,7 +1726,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Introduction",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1725,7 +1741,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Adventure_Home",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1740,7 +1756,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Relationship",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1755,7 +1771,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Composition",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1772,8 +1788,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontrendingpng6",
-            "namespace": "puttupu"
+            "name": "icontrendingpng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1784,8 +1800,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconcompositionpng6",
-            "namespace": "puttupu"
+            "name": "iconcompositionpng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1796,8 +1812,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconrelationshippng6",
-            "namespace": "puttupu"
+            "name": "iconrelationshippng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1805,5 +1821,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbEWAU"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nEHYWA2"
 }

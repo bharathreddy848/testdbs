@@ -1,23 +1,32 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nEHiWAM&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000mvBNWAY&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-06-08T06:18:38.000Z",
+  "createdDate": "2018-05-09T10:42:17.000Z",
   "datasets": [
     {
-      "id": "0Fb7F0000004JDMSA2",
-      "label": "ProductPipelineUSA",
-      "name": "ProductPipelineUSA",
+      "id": "0Fb7F0000004JBLSA2",
+      "label": "Opportunities with Accounts and Users",
+      "name": "Opportunities_with_Accounts_and_Users",
       "namespace": "bharathreddy848",
-      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JDMSA2"
+      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBLSA2"
     }
   ],
   "dateVersion": 1,
-  "files": [],
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 15115,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ7F000000kIp4WAE",
+      "lastModifiedDate": "2018-05-09T10:43:41.000Z",
+      "url": "/services/data/v44.0/wave/lenses/0FK7F000000mvBNWAY/files/0FJ7F000000kIp4WAE"
+    }
+  ],
   "folder": {
     "id": "00l7F000000dDyVQAU",
     "label": "My Exploration",
@@ -25,23 +34,23 @@
     "namespace": "bharathreddy848",
     "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
   },
-  "id": "0FK7F000000nEHiWAM",
-  "label": "Dynamic Apps - Data  - Limit (Compact Form)",
+  "id": "0FK7F000000mvBNWAY",
+  "label": "Dynamic Apps - Data  - Order (Compact Form)1525862536088",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-06-08T06:18:38.000Z",
+  "lastModifiedDate": "2018-05-09T10:42:17.000Z",
   "mobileDisabled": false,
-  "name": "Dynamic_Apps_Data_Limit_Compact_Form",
+  "name": "Dynamic_Apps_Data_Order_Compact_Form_1525862536088",
   "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
     "modify": true,
     "view": true
   },
-  "refreshDate": "2017-10-26T06:25:05.000Z",
+  "refreshDate": "2019-01-14T18:30:14.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -53,7 +62,7 @@
         "pages": [
           {
             "label": "Untitled",
-            "name": "dee714b2-dec0-4ccd-b502-00ab3d47a476",
+            "name": "fb450375-871d-412a-ba9c-521ff24ffe24",
             "navigationHidden": false,
             "widgets": [
               {
@@ -155,20 +164,6 @@
                 }
               },
               {
-                "colspan": 2,
-                "column": 0,
-                "name": "image_4",
-                "row": 58,
-                "rowspan": 4,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
                 "colspan": 4,
                 "column": 2,
                 "name": "link_12",
@@ -231,7 +226,7 @@
                 "column": 28,
                 "name": "text_9",
                 "row": 18,
-                "rowspan": 42,
+                "rowspan": 43,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -312,7 +307,7 @@
                 }
               },
               {
-                "colspan": 18,
+                "colspan": 20,
                 "column": 7,
                 "name": "text_22",
                 "row": 73,
@@ -330,7 +325,7 @@
                 "column": 7,
                 "name": "text_23",
                 "row": 77,
-                "rowspan": 10,
+                "rowspan": 9,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -545,7 +540,7 @@
                 }
               },
               {
-                "colspan": 14,
+                "colspan": 15,
                 "column": 12,
                 "name": "text_15",
                 "row": 15,
@@ -603,7 +598,7 @@
                 "row": 58,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
+                  "backgroundColor": "#F2F6FA",
                   "borderColor": "rgb(216, 221, 230)",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -617,8 +612,22 @@
                 "row": 62,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "backgroundColor": "#FFFFFF",
                   "borderColor": "rgb(216, 221, 230)",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "image_13",
+                "row": 62,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
                   "borderWidth": 1
@@ -666,7 +675,7 @@
                 "colspan": 2,
                 "column": 0,
                 "name": "image_3",
-                "row": 62,
+                "row": 58,
                 "rowspan": 4,
                 "widgetStyle": {
                   "borderEdges": []
@@ -675,7 +684,7 @@
               {
                 "colspan": 2,
                 "column": 0,
-                "name": "image_5",
+                "name": "image_4",
                 "row": 54,
                 "rowspan": 4,
                 "widgetStyle": {
@@ -685,7 +694,7 @@
               {
                 "colspan": 2,
                 "column": 0,
-                "name": "image_6",
+                "name": "image_5",
                 "row": 50,
                 "rowspan": 4,
                 "widgetStyle": {
@@ -695,7 +704,7 @@
               {
                 "colspan": 2,
                 "column": 0,
-                "name": "image_12",
+                "name": "image_6",
                 "row": 34,
                 "rowspan": 4,
                 "widgetStyle": {
@@ -721,34 +730,20 @@
     ],
     "layouts": [],
     "steps": {
-      "Limit_Toggle_1": {
-        "broadcastFacet": false,
-        "isGlobal": false,
-        "label": "Grouping Toggle",
-        "selectMode": "singlerequired",
-        "start": "{&quot;display&quot;:[&quot;Top 5&quot;]}",
-        "type": "staticflex",
-        "useGlobal": false,
-        "values": [
-          "{&quot;display&quot;:&quot;Top 5&quot;,&quot;limit&quot;:5}",
-          "{&quot;display&quot;:&quot;Top 20&quot;,&quot;limit&quot;:20}",
-          "{&quot;display&quot;:&quot;All&quot;,&quot;limit&quot;:&quot;&quot;}"
-        ]
-      },
       "Dynamic_Query": {
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F0000004JDMSA2",
-            "label": "ProductPipelineUSA",
-            "name": "ProductPipelineUSA",
+            "id": "0Fb7F0000004JBLSA2",
+            "label": "Opportunities with Accounts and Users",
+            "name": "Opportunities_with_Accounts_and_Users",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JDMSA2"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBLSA2"
           }
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;limit&quot;:&quot;{{ cell(Limit_Toggle_1.selection, 0, &#92;&quot;limit&#92;&quot;).asObject() }}&quot;,&quot;groups&quot;:[&quot;Account_Name&quot;],&quot;order&quot;:[[&quot;sum_Amount&quot;,{&quot;ascending&quot;:false}]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Product_Family&quot;],&quot;order&quot;:&quot;{{ cell(Order_Toggle_1.selection, 0, &#92;&quot;order&#92;&quot;).asObject() }}&quot;}",
           "version": -1
         },
         "receiveFacet": true,
@@ -846,7 +841,21 @@
         "type": "staticflex",
         "useGlobal": false,
         "values": [
-          "{&quot;display&quot;:&quot;1&quot;,&quot;value&quot;:&quot;{{ cell(Limit_Toggle_1.selection, 0, &#92;&#92;&#92;&quot;limit&#92;&#92;&#92;&quot;).asObject() }}&quot;}"
+          "{&quot;display&quot;:&quot;1&quot;,&quot;value&quot;:&quot;{{ cell(Order_Toggle_1.selection, 0, &#92;&#92;&#92;&quot;order&#92;&#92;&#92;&quot;).asObject() }}&quot;}"
+        ]
+      },
+      "Order_Toggle_1": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "label": "Grouping Toggle",
+        "selectMode": "singlerequired",
+        "start": "{&quot;display&quot;:[&quot;Top&quot;]}",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;Top&quot;,&quot;order&quot;:[[&quot;sum_Amount&quot;,{&quot;ascending&quot;:false}]]}",
+          "{&quot;display&quot;:&quot;Bottom&quot;,&quot;order&quot;:[[&quot;sum_Amount&quot;,{&quot;ascending&quot;:true}]]}",
+          "{&quot;display&quot;:&quot;Alphabetical&quot;,&quot;order&quot;:[]}"
         ]
       }
     },
@@ -890,13 +899,13 @@
         },
         "type": "text"
       },
-      "image_12": {
+      "image_13": {
         "parameters": {
           "alignmentX": "center",
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconconditionalpng1",
+            "name": "iconorderpng1",
             "namespace": "bharathreddy848"
           }
         },
@@ -971,11 +980,7 @@
       },
       "link_10": {
         "parameters": {
-          "destinationLink": {
-            "name": "Dynamic_Apps_Data_Order_Compact_Form",
-            "namespace": "bharathreddy848"
-          },
-          "destinationType": "dashboard",
+          "destinationType": "lens",
           "fontSize": 12,
           "includeState": false,
           "text": "ORDER",
@@ -1003,7 +1008,7 @@
         "parameters": {
           "fontSize": 14,
           "showActionMenu": true,
-          "text": "Build a binding to let users choose how many results they want to see in the chart. All? One? You decide. Try it below!",
+          "text": "Build a binding to let users change the sort order of a chart. Quickly see top (and bottom) performers in one chart. Try it below!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1231,7 +1236,7 @@
         "parameters": {
           "fontSize": 14,
           "showActionMenu": true,
-          "text": "1) Create a toggle widget (&quot;pillbox_1&quot;) with a step (&quot;Limit_Toggle_1&quot;) that specifies different limits.\n\n2) Create a bar chart (&quot;chart_1&quot;) with a step (&quot;Dynamic_Query&quot;) in compact form that shows the total amount, displayed in descending order, grouped by account name, with the limit selected in the toggle widget.\n\n3) To dynamically set the limit in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the &quot;limit&quot; property in the &quot;Dynamic_Query&quot; step.\n\n&quot;limit&quot;: &quot;{{cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject()}}&quot;\n\n4) VOILÀ! Click Done and you&#39;re ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
+          "text": "1) Create a toggle widget (&quot;pillbox_1&quot;) with a step (&quot;Order_Toggle_1&quot;) that specifies different orders.\n\n2) Create a bar chart (&quot;chart_1&quot;) with a step (&quot;Dynamic_Query&quot;) in compact form that groups the total amount by product family and sorts the results based on the selected order in the toggle widget.\n\n3) To dynamically set the order in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the &quot;order&quot; property in the &quot;Dynamic_Query&quot; step.\n\n&quot;order&quot;: &quot;{{cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject()}}&quot;\n\n4) VOILÀ! Click Done and you&#39;re ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1267,7 +1272,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icongrouppng1",
+            "name": "iconmeasurepng1",
             "namespace": "bharathreddy848"
           }
         },
@@ -1279,7 +1284,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlimitpng1",
+            "name": "icongrouppng1",
             "namespace": "bharathreddy848"
           }
         },
@@ -1313,7 +1318,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmeasurepng1",
+            "name": "iconconditionalpng1",
             "namespace": "bharathreddy848"
           }
         },
@@ -1378,7 +1383,7 @@
         "parameters": {
           "fontSize": 14,
           "showActionMenu": true,
-          "text": "{{ cell(Limit_Toggle_1.selection, 0, &quot;limit&quot;).asString() }}",
+          "text": "{{ cell(Order_Toggle_1.selection, 0, &quot;order&quot;).asString() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1388,7 +1393,7 @@
         "parameters": {
           "fontSize": 14,
           "showActionMenu": true,
-          "text": "1) cell(Limit_Toggle_1.selection, 0, &#92;&quot;limit&#92;&quot;) returns the selected limit from the &quot;Limit_Toggle_1&quot; step. Gets the value from cell (first row, &quot;limit&quot; column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
+          "text": "1) cell(Order_Toggle_1.selection, 0, &#92;&quot;order&#92;&quot;) returns the selected order from the &quot;Order_Toggle_1&quot; step. Gets the value from cell (first row, &quot;order&quot; column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1406,7 +1411,11 @@
       },
       "link_9": {
         "parameters": {
-          "destinationType": "lens",
+          "destinationLink": {
+            "name": "Dynamic_Apps_Data_Limit",
+            "namespace": "bharathreddy848"
+          },
+          "destinationType": "dashboard",
           "fontSize": 12,
           "includeState": false,
           "text": "LIMIT",
@@ -1436,7 +1445,7 @@
           "exploreLink": true,
           "measureField": "limit",
           "showActionMenu": true,
-          "step": "Limit_Toggle_1"
+          "step": "Order_Toggle_1"
         },
         "type": "pillbox"
       },
@@ -1488,7 +1497,7 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconorderpng1",
+            "name": "iconlimitpng1",
             "namespace": "bharathreddy848"
           }
         },
@@ -1509,5 +1518,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nEHiWAM"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000mvBNWAY"
 }

@@ -1,12 +1,12 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000mrKdWAI&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nHHTWA2&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-05-03T09:03:21.000Z",
+  "createdDate": "2018-06-21T10:37:45.000Z",
   "datasets": [
     {
       "id": "0Fb7F0000004IyxSAE",
@@ -25,16 +25,16 @@
     "namespace": "bharathreddy848",
     "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
   },
-  "id": "0FK7F000000mrKdWAI",
-  "label": "Regional Sales",
+  "id": "0FK7F000000nHHTWA2",
+  "label": "Regional Sales1529577465475",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-05-03T09:03:21.000Z",
+  "lastModifiedDate": "2018-06-21T10:37:45.000Z",
   "mobileDisabled": false,
-  "name": "Regional_Sales1518160298221",
+  "name": "Regional_Sales1529577465475",
   "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
@@ -52,7 +52,7 @@
         "numColumns": 18,
         "pages": [
           {
-            "name": "08032086-17c8-472f-81a3-9af624493f2d",
+            "name": "2ea67a41-1ef0-4318-9974-25cbeb559edf",
             "navigationHidden": false,
             "widgets": [
               {
@@ -173,7 +173,7 @@
         "numColumns": 2,
         "pages": [
           {
-            "name": "08032086-17c8-472f-81a3-9af624493f2d",
+            "name": "2ea67a41-1ef0-4318-9974-25cbeb559edf",
             "navigationHidden": false,
             "widgets": [
               {
@@ -408,8 +408,7 @@
       "link_1": {
         "parameters": {
           "destinationLink": {
-            "name": "DTC_Sales_SAMPLE",
-            "namespace": "bharathreddy848"
+            "name": "DTC_Sales_SAMPLE"
           },
           "destinationType": "dashboard",
           "fontSize": 14,
@@ -557,5 +556,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000mrKdWAI"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nHHTWA2"
 }

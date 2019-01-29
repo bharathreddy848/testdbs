@@ -1,19 +1,19 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nEHiWAM&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nEp9WAE&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-06-08T06:18:38.000Z",
+  "createdDate": "2018-06-11T10:57:35.000Z",
   "datasets": [
     {
-      "id": "0Fb7F0000004JDMSA2",
-      "label": "ProductPipelineUSA",
-      "name": "ProductPipelineUSA",
+      "id": "0Fb7F0000004JBQSA2",
+      "label": "Opportunities",
+      "name": "opportunities",
       "namespace": "bharathreddy848",
-      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JDMSA2"
+      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBQSA2"
     }
   ],
   "dateVersion": 1,
@@ -25,23 +25,23 @@
     "namespace": "bharathreddy848",
     "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
   },
-  "id": "0FK7F000000nEHiWAM",
-  "label": "Dynamic Apps - Data  - Limit (Compact Form)",
+  "id": "0FK7F000000nEp9WAE",
+  "label": "Dynamic Apps - Data  - Limit (Compact Form)1528714659998",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-06-08T06:18:38.000Z",
+  "lastModifiedDate": "2018-06-11T10:57:35.000Z",
   "mobileDisabled": false,
-  "name": "Dynamic_Apps_Data_Limit_Compact_Form",
+  "name": "Dynamic_Apps_Data_Limit_Compact_Form_1528714659998",
   "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
     "modify": true,
     "view": true
   },
-  "refreshDate": "2017-10-26T06:25:05.000Z",
+  "refreshDate": "2019-01-14T18:30:19.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -739,11 +739,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F0000004JDMSA2",
-            "label": "ProductPipelineUSA",
-            "name": "ProductPipelineUSA",
+            "id": "0Fb7F0000004JBQSA2",
+            "label": "Opportunities",
+            "name": "opportunities",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JDMSA2"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBQSA2"
           }
         ],
         "isGlobal": false,
@@ -1509,5 +1509,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nEHiWAM"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nEp9WAE"
 }

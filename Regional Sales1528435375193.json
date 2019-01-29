@@ -1,12 +1,12 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000mrKdWAI&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nEHTWA2&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-05-03T09:03:21.000Z",
+  "createdDate": "2018-06-08T05:22:53.000Z",
   "datasets": [
     {
       "id": "0Fb7F0000004IyxSAE",
@@ -17,7 +17,16 @@
     }
   ],
   "dateVersion": 1,
-  "files": [],
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 21440,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ7F000000kJs9WAE",
+      "lastModifiedDate": "2018-06-08T05:26:55.000Z",
+      "url": "/services/data/v44.0/wave/lenses/0FK7F000000nEHTWA2/files/0FJ7F000000kJs9WAE"
+    }
+  ],
   "folder": {
     "id": "00l7F000000dDyVQAU",
     "label": "My Exploration",
@@ -25,16 +34,16 @@
     "namespace": "bharathreddy848",
     "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
   },
-  "id": "0FK7F000000mrKdWAI",
-  "label": "Regional Sales",
+  "id": "0FK7F000000nEHTWA2",
+  "label": "Regional Sales1528435375193",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-05-03T09:03:21.000Z",
+  "lastModifiedDate": "2018-06-08T05:22:53.000Z",
   "mobileDisabled": false,
-  "name": "Regional_Sales1518160298221",
+  "name": "Regional_Sales1528435375193",
   "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
@@ -52,7 +61,7 @@
         "numColumns": 18,
         "pages": [
           {
-            "name": "08032086-17c8-472f-81a3-9af624493f2d",
+            "name": "74df91da-e3f6-4e1e-b18c-985b230f4392",
             "navigationHidden": false,
             "widgets": [
               {
@@ -173,7 +182,7 @@
         "numColumns": 2,
         "pages": [
           {
-            "name": "08032086-17c8-472f-81a3-9af624493f2d",
+            "name": "74df91da-e3f6-4e1e-b18c-985b230f4392",
             "navigationHidden": false,
             "widgets": [
               {
@@ -414,7 +423,7 @@
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
-          "text": "&amp;lt; Back to  DTC Sales",
+          "text": "&lt; Back to  DTC Sales",
           "textAlignment": "center",
           "textColor": "#7D98B3"
         },
@@ -557,5 +566,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000mrKdWAI"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nEHTWA2"
 }

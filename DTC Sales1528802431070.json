@@ -1,12 +1,12 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000mrKiWAI&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFLiWAM&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-05-03T09:05:11.000Z",
+  "createdDate": "2018-06-12T11:20:28.000Z",
   "datasets": [
     {
       "id": "0Fb7F0000004IyxSAE",
@@ -25,16 +25,16 @@
     "namespace": "bharathreddy848",
     "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
   },
-  "id": "0FK7F000000mrKiWAI",
-  "label": "DTC Sales",
+  "id": "0FK7F000000nFLiWAM",
+  "label": "DTC Sales1528802431070",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-05-03T09:05:11.000Z",
+  "lastModifiedDate": "2018-06-12T11:20:28.000Z",
   "mobileDisabled": false,
-  "name": "DTC_Sales1518168235697",
+  "name": "DTC_Sales1528802431070",
   "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
@@ -52,7 +52,7 @@
         "numColumns": 18,
         "pages": [
           {
-            "name": "00039aac-323f-454a-8dba-bf65b8931c0b",
+            "name": "1485c130-56a7-468b-ad3a-44271777c493",
             "navigationHidden": false,
             "widgets": [
               {
@@ -250,7 +250,7 @@
         "numColumns": 2,
         "pages": [
           {
-            "name": "00039aac-323f-454a-8dba-bf65b8931c0b",
+            "name": "1485c130-56a7-468b-ad3a-44271777c493",
             "navigationHidden": false,
             "widgets": [
               {
@@ -626,8 +626,7 @@
       "link_4": {
         "parameters": {
           "destinationLink": {
-            "name": "Opportunity_Details",
-            "namespace": "bharathreddy848"
+            "name": "Opportunity_Details"
           },
           "destinationType": "dashboard",
           "fontSize": 16,
@@ -716,8 +715,7 @@
       "link_5": {
         "parameters": {
           "destinationLink": {
-            "name": "Regional_Sales_SAMPLE",
-            "namespace": "bharathreddy848"
+            "name": "Regional_Sales_SAMPLE"
           },
           "destinationType": "dashboard",
           "fontSize": 16,
@@ -860,5 +858,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000mrKiWAI"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nFLiWAM"
 }

@@ -1,19 +1,19 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nEmtWAE&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nEHnWAM&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-06-11T07:46:09.000Z",
+  "createdDate": "2018-06-08T06:21:12.000Z",
   "datasets": [
     {
-      "id": "0Fb7F0000004IyxSAE",
-      "label": "DTC Opportunity",
-      "name": "DTC_Opportunity_SAMPLE",
+      "id": "0Fb7F0000004JBLSA2",
+      "label": "Opportunities with Accounts and Users",
+      "name": "Opportunities_with_Accounts_and_Users",
       "namespace": "bharathreddy848",
-      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBLSA2"
     }
   ],
   "dateVersion": 1,
@@ -25,24 +25,23 @@
     "namespace": "bharathreddy848",
     "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
   },
-  "id": "0FK7F000000nEmtWAE",
-  "label": "Charts - Distribution1528703171563",
-  "lastAccessedDate": "2019-01-29T11:17:05.000Z",
+  "id": "0FK7F000000nEHnWAM",
+  "label": "Charts - Distribution1528438873264",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-06-11T07:46:09.000Z",
+  "lastModifiedDate": "2018-06-08T06:21:12.000Z",
   "mobileDisabled": false,
-  "name": "Charts_Distribution1528703171563",
+  "name": "Charts_Distribution1528438873264",
   "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
     "modify": true,
     "view": true
   },
-  "refreshDate": "2017-10-23T07:09:34.000Z",
+  "refreshDate": "2019-01-14T18:30:14.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -595,11 +594,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F0000004IyxSAE",
-            "label": "DTC Opportunity",
-            "name": "DTC_Opportunity_SAMPLE",
+            "id": "0Fb7F0000004JBLSA2",
+            "label": "Opportunities with Accounts and Users",
+            "name": "Opportunities_with_Accounts_and_Users",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBLSA2"
           }
         ],
         "isGlobal": false,
@@ -692,11 +691,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F0000004IyxSAE",
-            "label": "DTC Opportunity",
-            "name": "DTC_Opportunity_SAMPLE",
+            "id": "0Fb7F0000004JBLSA2",
+            "label": "Opportunities with Accounts and Users",
+            "name": "Opportunities_with_Accounts_and_Users",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBLSA2"
           }
         ],
         "isGlobal": false,
@@ -795,11 +794,11 @@
         "broadcastFacet": false,
         "datasets": [
           {
-            "id": "0Fb7F0000004IyxSAE",
-            "label": "DTC Opportunity",
-            "name": "DTC_Opportunity_SAMPLE",
+            "id": "0Fb7F0000004JBLSA2",
+            "label": "Opportunities with Accounts and Users",
+            "name": "Opportunities_with_Accounts_and_Users",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBLSA2"
           }
         ],
         "isGlobal": false,
@@ -821,11 +820,11 @@
         "broadcastFacet": false,
         "datasets": [
           {
-            "id": "0Fb7F0000004IyxSAE",
-            "label": "DTC Opportunity",
-            "name": "DTC_Opportunity_SAMPLE",
+            "id": "0Fb7F0000004JBLSA2",
+            "label": "Opportunities with Accounts and Users",
+            "name": "Opportunities_with_Accounts_and_Users",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBLSA2"
           }
         ],
         "isGlobal": false,
@@ -860,11 +859,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F0000004IyxSAE",
-            "label": "DTC Opportunity",
-            "name": "DTC_Opportunity_SAMPLE",
+            "id": "0Fb7F0000004JBLSA2",
+            "label": "Opportunities with Accounts and Users",
+            "name": "Opportunities_with_Accounts_and_Users",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBLSA2"
           }
         ],
         "isGlobal": false,
@@ -934,11 +933,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F0000004IyxSAE",
-            "label": "DTC Opportunity",
-            "name": "DTC_Opportunity_SAMPLE",
+            "id": "0Fb7F0000004JBLSA2",
+            "label": "Opportunities with Accounts and Users",
+            "name": "Opportunities_with_Accounts_and_Users",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBLSA2"
           }
         ],
         "isGlobal": false,
@@ -1017,11 +1016,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F0000004IyxSAE",
-            "label": "DTC Opportunity",
-            "name": "DTC_Opportunity_SAMPLE",
+            "id": "0Fb7F0000004JBLSA2",
+            "label": "Opportunities with Accounts and Users",
+            "name": "Opportunities_with_Accounts_and_Users",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBLSA2"
           }
         ],
         "isGlobal": false,
@@ -1069,11 +1068,11 @@
         "broadcastFacet": false,
         "datasets": [
           {
-            "id": "0Fb7F0000004IyxSAE",
-            "label": "DTC Opportunity",
-            "name": "DTC_Opportunity_SAMPLE",
+            "id": "0Fb7F0000004JBLSA2",
+            "label": "Opportunities with Accounts and Users",
+            "name": "Opportunities_with_Accounts_and_Users",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBLSA2"
           }
         ],
         "isGlobal": false,
@@ -1092,11 +1091,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F0000004IyxSAE",
-            "label": "DTC Opportunity",
-            "name": "DTC_Opportunity_SAMPLE",
+            "id": "0Fb7F0000004JBLSA2",
+            "label": "Opportunities with Accounts and Users",
+            "name": "Opportunities_with_Accounts_and_Users",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBLSA2"
           }
         ],
         "isGlobal": false,
@@ -1822,5 +1821,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nEmtWAE"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nEHnWAM"
 }

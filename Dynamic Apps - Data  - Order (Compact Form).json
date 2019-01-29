@@ -1,47 +1,47 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbPWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000mrKnWAI&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-06-13T04:44:02.000Z",
+  "createdDate": "2018-05-03T09:22:47.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000l2TpSAI",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities",
-      "namespace": "puttupu",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+      "id": "0Fb7F0000004IyxSAE",
+      "label": "DTC Opportunity",
+      "name": "DTC_Opportunity_SAMPLE",
+      "namespace": "bharathreddy848",
+      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
     }
   ],
+  "dateVersion": 1,
   "files": [],
   "folder": {
-    "id": "00l7F000001367NQAQ",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure_By",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
+    "id": "00l7F000000dDyVQAU",
+    "label": "My Exploration",
+    "name": "My_Exploration",
+    "namespace": "bharathreddy848",
+    "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
   },
-  "id": "0FK7F000000nFbPWAU",
+  "id": "0FK7F000000mrKnWAI",
   "label": "Dynamic Apps - Data  - Order (Compact Form)",
-  "lastAccessedDate": "2018-06-21T10:23:01.000Z",
   "lastModifiedBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-06-13T04:44:15.000Z",
+  "lastModifiedDate": "2018-05-03T09:22:47.000Z",
   "mobileDisabled": false,
   "name": "Dynamic_Apps_Data_Order_Compact_Form",
-  "namespace": "puttupu",
+  "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
     "modify": true,
     "view": true
   },
-  "refreshDate": "2018-06-13T04:42:30.000Z",
+  "refreshDate": "2017-10-23T07:09:34.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -54,6 +54,7 @@
           {
             "label": "Untitled",
             "name": "fb450375-871d-412a-ba9c-521ff24ffe24",
+            "navigationHidden": false,
             "widgets": [
               {
                 "colspan": 2,
@@ -185,7 +186,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_2",
-                "row": 23,
+                "row": 21,
                 "rowspan": 34,
                 "widgetStyle": {
                   "backgroundColor": "rgb(225, 243, 251)",
@@ -215,8 +216,8 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_9",
-                "row": 19,
-                "rowspan": 41,
+                "row": 18,
+                "rowspan": 43,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -226,10 +227,10 @@
                 }
               },
               {
-                "colspan": 4,
+                "colspan": 5,
                 "column": 7,
                 "name": "text_17",
-                "row": 59,
+                "row": 57,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -245,7 +246,7 @@
                 "colspan": 15,
                 "column": 12,
                 "name": "text_18",
-                "row": 59,
+                "row": 57,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -259,7 +260,7 @@
                 "colspan": 15,
                 "column": 12,
                 "name": "text_20",
-                "row": 66,
+                "row": 64,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -273,7 +274,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_4",
-                "row": 72,
+                "row": 70,
                 "rowspan": 18,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
@@ -281,10 +282,10 @@
                 }
               },
               {
-                "colspan": 4,
+                "colspan": 5,
                 "column": 7,
                 "name": "text_21",
-                "row": 66,
+                "row": 64,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -300,7 +301,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "text_22",
-                "row": 75,
+                "row": 73,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
@@ -314,7 +315,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "text_23",
-                "row": 79,
+                "row": 77,
                 "rowspan": 9,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -329,7 +330,7 @@
                 "column": 0,
                 "name": "container_6",
                 "row": 11,
-                "rowspan": 83,
+                "rowspan": 79,
                 "widgetStyle": {
                   "backgroundColor": "rgb(244, 246, 249)",
                   "borderColor": "#E6ECF2",
@@ -342,7 +343,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_7",
-                "row": 58,
+                "row": 56,
                 "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
@@ -358,7 +359,7 @@
                 "colspan": 20,
                 "column": 7,
                 "name": "container_8",
-                "row": 65,
+                "row": 63,
                 "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
@@ -374,7 +375,7 @@
                 "colspan": 19,
                 "column": 7,
                 "name": "text_3",
-                "row": 72,
+                "row": 70,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -388,7 +389,7 @@
                 "colspan": 1,
                 "column": 26,
                 "name": "image_7",
-                "row": 72,
+                "row": 70,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -504,7 +505,7 @@
                 "column": 7,
                 "name": "container_3",
                 "row": 14,
-                "rowspan": 8,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgb(225, 243, 251)",
                   "borderColor": "#E6ECF2",
@@ -518,7 +519,7 @@
                 "column": 7,
                 "name": "text_14",
                 "row": 15,
-                "rowspan": 6,
+                "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgba(2, 34, 66, 0)",
                   "borderColor": "rgb(22, 50, 92)",
@@ -530,11 +531,11 @@
                 }
               },
               {
-                "colspan": 14,
+                "colspan": 15,
                 "column": 12,
                 "name": "text_15",
                 "row": 15,
-                "rowspan": 6,
+                "rowspan": 4,
                 "widgetStyle": {
                   "borderEdges": []
                 }
@@ -627,7 +628,7 @@
                 "colspan": 18,
                 "column": 8,
                 "name": "chart_1",
-                "row": 29,
+                "row": 27,
                 "rowspan": 18,
                 "widgetStyle": {
                   "borderEdges": []
@@ -637,7 +638,7 @@
                 "colspan": 18,
                 "column": 8,
                 "name": "pillbox_1",
-                "row": 25,
+                "row": 23,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "#FFFFFF",
@@ -724,11 +725,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -825,8 +826,6 @@
       },
       "Binding_Value_1": {
         "broadcastFacet": false,
-        "datasets": [],
-        "dimensions": [],
         "isGlobal": false,
         "label": "Binding Value",
         "selectMode": "single",
@@ -838,8 +837,6 @@
       },
       "Order_Toggle_1": {
         "broadcastFacet": false,
-        "datasets": [],
-        "dimensions": [],
         "isGlobal": false,
         "label": "Grouping Toggle",
         "selectMode": "singlerequired",
@@ -867,8 +864,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontablepng3",
-            "namespace": "puttupu"
+            "name": "icontablepng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -876,6 +873,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "{{ cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -885,8 +883,9 @@
       "text_17": {
         "parameters": {
           "fontSize": 24,
+          "showActionMenu": true,
           "text": "CODE",
-          "textAlignment": "center",
+          "textAlignment": "left",
           "textColor": "rgb(34, 144, 138)"
         },
         "type": "text"
@@ -897,8 +896,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconorderpng3",
-            "namespace": "puttupu"
+            "name": "iconorderpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -907,7 +906,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Design_Conditional_Formatting",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -924,8 +923,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconintroductionpng3",
-            "namespace": "puttupu"
+            "name": "iconintroductionpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -934,7 +933,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Measure_Compact_Form",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -948,6 +947,7 @@
       "text_14": {
         "parameters": {
           "fontSize": 24,
+          "showActionMenu": true,
           "text": "GOAL",
           "textAlignment": "center",
           "textColor": "rgb(22, 50, 92)"
@@ -958,7 +958,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Grouping_Compact_Form",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -984,7 +984,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Date_Filter",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -997,7 +997,8 @@
       },
       "text_15": {
         "parameters": {
-          "fontSize": 16,
+          "fontSize": 14,
+          "showActionMenu": true,
           "text": "Build a binding to let users change the sort order of a chart. Quickly see top (and bottom) performers in one chart. Try it below!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1007,6 +1008,7 @@
       "text_10": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Build It Yourself!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1019,8 +1021,8 @@
           "alignmentY": "bottom",
           "fit": "original",
           "image": {
-            "name": "headerdetailpng3",
-            "namespace": "puttupu"
+            "name": "headerdetailpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -1031,8 +1033,8 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterdesertjpg13",
-            "namespace": "puttupu"
+            "name": "bgfooterdesertjpg1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -1064,6 +1066,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 12,
+          "showActionMenu": true,
           "text": "TRANSLATION",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1073,6 +1076,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Tie a widget&#39;s data or design to the selection or results of another",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -1098,6 +1102,7 @@
       "text_7": {
         "parameters": {
           "fontSize": 12,
+          "showActionMenu": true,
           "text": "DYNAMIC DESIGN",
           "textAlignment": "left",
           "textColor": "rgb(107, 109, 112)"
@@ -1107,6 +1112,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 12,
+          "showActionMenu": true,
           "text": "DYNAMIC DATA",
           "textAlignment": "left",
           "textColor": "rgb(107, 109, 112)"
@@ -1116,6 +1122,7 @@
       "chart_1": {
         "parameters": {
           "autoFitMode": "keepLabels",
+          "totalValue": "computeTotal",
           "showValues": true,
           "bins": {
             "breakpoints": {
@@ -1176,6 +1183,8 @@
             "chartsPerLine": 4
           },
           "binValues": false,
+          "totalLabel": "",
+          "showActionMenu": true,
           "measureAxis2": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1185,7 +1194,6 @@
               "showDomain": false
             }
           },
-          "computeTotal": true,
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1218,6 +1226,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "1) Create a toggle widget (&quot;pillbox_1&quot;) with a step (&quot;Order_Toggle_1&quot;) that specifies different orders.\n\n2) Create a bar chart (&quot;chart_1&quot;) with a step (&quot;Dynamic_Query&quot;) in compact form that groups the total amount by product family and sorts the results based on the selected order in the toggle widget.\n\n3) To dynamically set the order in the chart based on the selection in the toggle widget, open the dashboard JSON and bind the &quot;order&quot; property in the &quot;Dynamic_Query&quot; step.\n\n&quot;order&quot;: &quot;{{cell( Binding_Value_1.result, 0, &quot;value&quot;).asObject()}}&quot;\n\n4) VOILÀ! Click Done and you&#39;re ready to go.\n\nTo see how we created the widgets, steps, and binding in this dashboard, press Cmd+E for Mac or Ctrl+E for Windows, and search for them in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1230,8 +1239,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconreferencelinepng6",
-            "namespace": "puttupu"
+            "name": "iconreferencelinepng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1242,8 +1251,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmappng3",
-            "namespace": "puttupu"
+            "name": "iconmappng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1254,8 +1263,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmeasurepng3",
-            "namespace": "puttupu"
+            "name": "iconmeasurepng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1266,8 +1275,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icongrouppng3",
-            "namespace": "puttupu"
+            "name": "icongrouppng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1275,6 +1284,7 @@
       "text_1": {
         "parameters": {
           "fontSize": 32,
+          "showActionMenu": true,
           "text": "Build Dynamic Apps",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -1287,8 +1297,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlearnmorepng3",
-            "namespace": "puttupu"
+            "name": "iconlearnmorepng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1299,8 +1309,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconconditionalpng3",
-            "namespace": "puttupu"
+            "name": "iconconditionalpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1309,7 +1319,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Design_Reference_Line",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1324,7 +1334,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Design_Values_Table",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1339,7 +1349,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Design_Chart_Type",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1353,8 +1363,9 @@
       "text_21": {
         "parameters": {
           "fontSize": 24,
+          "showActionMenu": true,
           "text": "RESULTS",
-          "textAlignment": "center",
+          "textAlignment": "left",
           "textColor": "rgb(36, 147, 243)"
         },
         "type": "text"
@@ -1362,6 +1373,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "{{ cell(Order_Toggle_1.selection, 0, &quot;order&quot;).asString() }}",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1371,6 +1383,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "1) cell(Order_Toggle_1.selection, 0, &#92;&quot;order&#92;&quot;) returns the selected order from the &quot;Order_Toggle_1&quot; step. Gets the value from cell (first row, &quot;order&quot; column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1380,6 +1393,7 @@
       "text_22": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "What Does This Code Mean?",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1390,7 +1404,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Limit",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1405,7 +1419,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Adventure_Home",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1421,6 +1435,7 @@
           "compact": false,
           "exploreLink": true,
           "measureField": "limit",
+          "showActionMenu": true,
           "step": "Order_Toggle_1"
         },
         "type": "pillbox"
@@ -1429,7 +1444,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Introduction",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1444,7 +1459,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Basic_Filter",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1461,8 +1476,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconfilterpng6",
-            "namespace": "puttupu"
+            "name": "iconfilterpng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1473,8 +1488,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlimitpng3",
-            "namespace": "puttupu"
+            "name": "iconlimitpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1485,8 +1500,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icondatepng6",
-            "namespace": "puttupu"
+            "name": "icondatepng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1494,5 +1509,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbPWAU"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000mrKnWAI"
 }

@@ -1,56 +1,56 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbYWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbgWAE&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-06-13T04:44:05.000Z",
+  "createdDate": "2018-06-13T04:50:40.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000l2TpSAI",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities",
-      "namespace": "puttupu",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+      "id": "0Fb7F0000004JBQSA2",
+      "label": "Opportunities",
+      "name": "opportunities",
+      "namespace": "bharathreddy848",
+      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBQSA2"
     }
   ],
+  "dateVersion": 1,
   "files": [
     {
       "contentType": "image/png",
-      "fileLength": 23167,
+      "fileLength": 22767,
       "fileName": "assetPreviewThumb",
-      "id": "0FJ7F000000kK70WAE",
-      "lastModifiedDate": "2018-06-13T04:45:08.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F000000nFbYWAU/files/0FJ7F000000kK70WAE"
+      "id": "0FJ7F000000kK75WAE",
+      "lastModifiedDate": "2018-06-13T04:54:54.000Z",
+      "url": "/services/data/v44.0/wave/lenses/0FK7F000000nFbgWAE/files/0FJ7F000000kK75WAE"
     }
   ],
   "folder": {
-    "id": "00l7F000001367NQAQ",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure_By",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
+    "id": "00l7F000000dDyVQAU",
+    "label": "My Exploration",
+    "name": "My_Exploration",
+    "namespace": "bharathreddy848",
+    "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
   },
-  "id": "0FK7F000000nFbYWAU",
+  "id": "0FK7F000000nFbgWAE",
   "label": "SAQL - Computing Quartiles",
-  "lastAccessedDate": "2018-06-21T10:23:02.000Z",
   "lastModifiedBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-06-13T04:44:19.000Z",
+  "lastModifiedDate": "2018-06-13T04:50:40.000Z",
   "mobileDisabled": false,
-  "name": "New_Copy_Computing_Quartiles",
-  "namespace": "puttupu",
+  "name": "SAQL_Computing_Quartiles",
+  "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
     "modify": true,
     "view": true
   },
-  "refreshDate": "2018-06-13T04:42:30.000Z",
+  "refreshDate": "2019-01-14T18:30:19.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -63,6 +63,7 @@
           {
             "label": "Untitled",
             "name": "ce8d7346-5c22-4242-be0b-0ea0cb6f737d",
+            "navigationHidden": false,
             "widgets": [
               {
                 "colspan": 2,
@@ -815,8 +816,6 @@
       },
       "Toggle_1_1": {
         "broadcastFacet": true,
-        "datasets": [],
-        "dimensions": [],
         "label": "Toggle_1",
         "selectMode": "single",
         "start": "{&quot;display&quot;:[&quot;Countries by Quartile&quot;]}",
@@ -830,11 +829,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "id": "0Fb7F0000004JBQSA2",
+            "label": "Opportunities",
+            "name": "opportunities",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBQSA2"
           }
         ],
         "isGlobal": false,
@@ -909,6 +908,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Other Use Cases",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -918,6 +918,7 @@
       "text_17": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Show Me How",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -928,7 +929,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Query_Editor",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -942,6 +943,7 @@
       "text_19": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Learn More ",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -952,7 +954,7 @@
         "parameters": {
           "destinationLink": {
             "name": "New_Copy_COGROUP",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -966,6 +968,7 @@
       "text_14": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "q = foreach q generate &#39;Billing_Country&#39;,\nsum(&#39;Amount&#39;) as &#39;sum_Revenue&#39;,\nrank() over ([..] partition by all order by sum(&#39;Amount&#39;)) as &#39;Position&#39;, sum(1) over ([..] partition by all) as &#39;count&#39;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -975,6 +978,7 @@
       "text_13": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "q = group q by (&#39;Billing_Country&#39;, &#39;Quartile&#39;);\nq = foreach q generate &#39;Quartile&#39; as &#39;Quartile&#39;, &#39;Billing_Country&#39; as &#39;Billing_Country&#39;, max(&#39;sum_Revenue&#39;) as &#39;sum_Revenue&#39;;\nq = order q by &#39;sum_Revenue&#39; desc;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -998,6 +1002,7 @@
       "text_16": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "q = foreach q generate &#39;Billing_Country&#39;,\n&#39;sum_Revenue&#39;, ( case\nwhen &#39;Position&#39; &lt;= (floor((&#39;count&#39; + 1)/4)) then &quot;1st Quartile&quot; \nwhen &#39;Position&#39; &gt;= (floor(((3*&#39;count&#39;) + 1)/4)) then &quot;4th Quartile&quot; \nwhen &#39;Position&#39; &lt;= (floor(((2*&#39;count&#39;) + 1)/4)) then &quot;2nd Quartile&quot; \nelse &quot;3rd Quartile&quot; end ) as &#39;Quartile&#39;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1007,6 +1012,7 @@
       "text_15": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Want to group your data by relative measures like &quot;top half,&quot; &quot;bottom quarter,&quot; or &quot;10th percentile&quot;? Defining static ranges doesn&#39;t cut it; your data changes. Divvy your data with SAQL quartiles!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1030,6 +1036,7 @@
       "text_10": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Let&#39;s break down the Countries by Quartile query syntax below. \n\nAfter loading the data, we calculate revenue by country. We then order the countries by revenue amount, and define their position in the order. From there, we can calculate the quartiles!\n\nWant to know the SAQL behind the Revenue by Quartile pie chart? Not a problem. Use Cmd-E to check it out in the JSON!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1039,6 +1046,7 @@
       "text_12": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Because quartiles can help you easily spot outliers in your data, they&#39;re great for visualizing team performance. \n\nConsider quartiling service rep performance by looking at how agents or teams compare at resolving cases.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1048,6 +1056,7 @@
       "text_11": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Answer complex questions with SAQL",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -1061,7 +1070,7 @@
           "fit": "original",
           "image": {
             "name": "headerdetailpng3",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -1073,7 +1082,7 @@
           "fit": "fitwidth",
           "image": {
             "name": "bgfootersnowjpg",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -1105,6 +1114,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "q = load &quot;Wave_Sample_Opportunities&quot;;\nq = group q by &#39;Billing_Country&#39;;",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1114,6 +1124,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Quartiles show you how the values in your dataset are distributed. Unlike binning by static ranges, quartiles are set relative to the values in your dataset, so they adapt as your data changes, rather than being fixed.\n\nQuartiling makes it easier to spot outliers or imbalances in your data. In this example, we can see the majority of revenue is coming from our 4th quartile of countries, rather than being evenly distributed around the world. ",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1123,6 +1134,7 @@
       "text_5": {
         "parameters": {
           "fontSize": 24,
+          "showActionMenu": true,
           "text": "GOAL",
           "textAlignment": "center",
           "textColor": "rgb(22, 50, 92)"
@@ -1132,6 +1144,7 @@
       "text_4": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Show Me the Money",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1141,6 +1154,7 @@
       "text_7": {
         "parameters": {
           "fontSize": 24,
+          "showActionMenu": true,
           "text": "SAQL QUERY: COUNTRIES BY QUARTILE",
           "textAlignment": "left",
           "textColor": "rgb(34, 144, 138)"
@@ -1150,6 +1164,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Let&#39;s look at our revenue by country: the quartiles help us quickly see that the majority of our revenue is coming from just a few countries. The 4th quartile to be exact!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1159,6 +1174,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 12,
+          "showActionMenu": true,
           "text": "SAQL BASICS",
           "textAlignment": "left",
           "textColor": "rgb(107, 109, 112)"
@@ -1168,6 +1184,7 @@
       "text_8": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Why Use Quartiles?",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1247,6 +1264,7 @@
               ]
             }
           ],
+          "showActionMenu": true,
           "centerValueType": "number",
           "measureAxis2": {
             "sqrtScale": false,
@@ -1257,7 +1275,6 @@
               "showDomain": false
             }
           },
-          "computeTotal": false,
           "valueType": "compactNumber",
           "measureAxis1": {
             "sqrtScale": false,
@@ -1295,7 +1312,7 @@
           "fit": "original",
           "image": {
             "name": "iconeditpng",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1307,7 +1324,7 @@
           "fit": "original",
           "image": {
             "name": "iconconditionalpng3",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1319,7 +1336,7 @@
           "fit": "original",
           "image": {
             "name": "iconcomparepng3",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1331,7 +1348,7 @@
           "fit": "original",
           "image": {
             "name": "iconrelationshippng6",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1339,6 +1356,7 @@
       "text_1": {
         "parameters": {
           "fontSize": 32,
+          "showActionMenu": true,
           "text": "Ask Complex Questions with SAQL\n",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -1352,7 +1370,7 @@
           "fit": "original",
           "image": {
             "name": "icondistributionpng3",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1364,7 +1382,7 @@
           "fit": "original",
           "image": {
             "name": "iconmeasurepng3",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1376,7 +1394,7 @@
           "fit": "original",
           "image": {
             "name": "iconcompositionpng6",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1388,7 +1406,7 @@
           "fit": "original",
           "image": {
             "name": "iconintroductionpng3",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1400,7 +1418,7 @@
           "fit": "original",
           "image": {
             "name": "iconcodepng",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1412,7 +1430,7 @@
           "fit": "original",
           "image": {
             "name": "icontablepng3",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1421,7 +1439,7 @@
         "parameters": {
           "destinationLink": {
             "name": "New_Copy_Computing_Standard_Deviations",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1435,6 +1453,7 @@
       "text_25": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Load the data.",
           "textAlignment": "left",
           "textColor": "rgb(112, 110, 107)"
@@ -1445,7 +1464,7 @@
         "parameters": {
           "destinationLink": {
             "name": "New_Copy_Union",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1460,7 +1479,7 @@
         "parameters": {
           "destinationLink": {
             "name": "SAQL_Introduction2_Manny_Updates",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1474,6 +1493,7 @@
       "text_27": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Create the chart labels and order  the data.",
           "textAlignment": "left",
           "textColor": "rgb(112, 110, 107)"
@@ -1484,7 +1504,7 @@
         "parameters": {
           "destinationLink": {
             "name": "New_Copy_KA_SAQL_WINDOWING",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1498,6 +1518,7 @@
       "text_26": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Calculate revenue for each country, order by revenue amount, and define their position in the order.",
           "textAlignment": "left",
           "textColor": "rgb(112, 110, 107)"
@@ -1507,7 +1528,8 @@
       "text_21": {
         "parameters": {
           "fontSize": 12,
-          "text": "SAQL &amp; STATISTICS",
+          "showActionMenu": true,
+          "text": "SAQL &amp;amp; STATISTICS",
           "textAlignment": "left",
           "textColor": "rgb(107, 109, 112)"
         },
@@ -1516,6 +1538,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 12,
+          "showActionMenu": true,
           "text": "SAQL OPERATIONS",
           "textAlignment": "left",
           "textColor": "rgb(107, 109, 112)"
@@ -1525,6 +1548,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Quartiles calculated here!",
           "textAlignment": "left",
           "textColor": "rgb(112, 110, 107)"
@@ -1535,7 +1559,7 @@
         "parameters": {
           "destinationLink": {
             "name": "New_Copy_Complex_Boolean_Logic",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1550,7 +1574,7 @@
         "parameters": {
           "destinationLink": {
             "name": "New_Copy_Data_Spreads",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1565,7 +1589,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Adventure_Home",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1580,7 +1604,7 @@
         "parameters": {
           "destinationLink": {
             "name": "KA_SAQL_Introduction",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1606,6 +1630,7 @@
         "parameters": {
           "compact": false,
           "exploreLink": false,
+          "showActionMenu": true,
           "step": "Toggle_1_1"
         },
         "type": "pillbox"
@@ -1613,5 +1638,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbYWAU"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nFbgWAE"
 }

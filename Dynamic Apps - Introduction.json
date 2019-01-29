@@ -1,38 +1,47 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbUWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000mq95WAA&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-06-13T04:44:03.000Z",
-  "datasets": [],
+  "createdDate": "2018-05-02T07:25:58.000Z",
+  "datasets": [
+    {
+      "id": "0Fb7F0000004JBQSA2",
+      "label": "Opportunities",
+      "name": "opportunities",
+      "namespace": "bharathreddy848",
+      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBQSA2"
+    }
+  ],
+  "dateVersion": 1,
   "files": [],
   "folder": {
-    "id": "00l7F000001367NQAQ",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure_By",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
+    "id": "00l7F000000dDyVQAU",
+    "label": "My Exploration",
+    "name": "My_Exploration",
+    "namespace": "bharathreddy848",
+    "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
   },
-  "id": "0FK7F000000nFbUWAU",
+  "id": "0FK7F000000mq95WAA",
   "label": "Dynamic Apps - Introduction",
-  "lastAccessedDate": "2018-06-21T10:23:02.000Z",
   "lastModifiedBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-06-13T04:44:17.000Z",
+  "lastModifiedDate": "2018-05-02T07:25:58.000Z",
   "mobileDisabled": false,
   "name": "Dynamic_Apps_Introduction",
-  "namespace": "puttupu",
+  "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
     "modify": true,
     "view": true
   },
+  "refreshDate": "2019-01-14T18:30:19.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -45,6 +54,7 @@
           {
             "label": "Untitled",
             "name": "ce8d7346-5c22-4242-be0b-0ea0cb6f737d",
+            "navigationHidden": false,
             "widgets": [
               {
                 "colspan": 2,
@@ -476,7 +486,106 @@
       }
     ],
     "layouts": [],
-    "steps": {},
+    "steps": {
+      "static_1": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "selectMode": "singlerequired",
+        "start": "{&quot;display&quot;:[&quot;Countries&quot;]}",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;Countries&quot;,&quot;grouping&quot;:&quot;Billing_Country&quot;,&quot;mapType&quot;:&quot;World Countries&quot;}",
+          "{&quot;display&quot;:&quot;Europe&quot;,&quot;grouping&quot;:&quot;Billing_Country&quot;,&quot;mapType&quot;:&quot;Europe&quot;}",
+          "{&quot;display&quot;:&quot;Americas&quot;,&quot;grouping&quot;:&quot;Billing_Country&quot;,&quot;mapType&quot;:&quot;Americas&quot;}",
+          "{&quot;display&quot;:&quot;Asia&quot;,&quot;grouping&quot;:&quot;Billing_Country&quot;,&quot;mapType&quot;:&quot;Asia&quot;}",
+          "{&quot;display&quot;:&quot;Africa&quot;,&quot;grouping&quot;:&quot;Billing_Country&quot;,&quot;mapType&quot;:&quot;Africa&quot;}",
+          "{&quot;display&quot;:&quot;State&quot;,&quot;grouping&quot;:&quot;Billing_State_Province&quot;,&quot;mapType&quot;:&quot;US States&quot;}"
+        ]
+      },
+      "Binding_Value_1": {
+        "broadcastFacet": false,
+        "isGlobal": false,
+        "label": "Binding Value",
+        "selectMode": "single",
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{&quot;display&quot;:&quot;1&quot;,&quot;value&quot;:&quot;{{coalesce(cell(static_1.selection, 0, &#92;&quot;mapType&#92;&quot;), cell(static_1.result, 0, &#92;&quot;mapType&#92;&quot;)).asString()}}&quot;}"
+        ]
+      },
+      "Billing_Country_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000004JBQSA2",
+            "label": "Opportunities",
+            "name": "opportunities",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBQSA2"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;{{coalesce(cell(static_1.selection, 0, &#92;&quot;grouping&#92;&quot;), cell(static_1.result, 0, &#92;&quot;grouping&#92;&quot;)).asString()}}&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "highColor": "#1674D9",
+            "lowColor": "#C5DBF7",
+            "visualizationType": "choropleth",
+            "theme": "wave",
+            "title": {
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "map": "{{coalesce(cell(static_1.selection, 0, &quot;mapType&quot;), cell(static_1.result, 0, &quot;mapType&quot;)).asString()}}"
+          },
+          "type": "chart"
+        }
+      }
+    },
     "widgetStyle": {
       "backgroundColor": "rgba(2, 34, 66, 0)",
       "borderColor": "#E6ECF2",
@@ -491,8 +600,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontablepng3",
-            "namespace": "puttupu"
+            "name": "icontablepng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -503,8 +612,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconintroductionpng3",
-            "namespace": "puttupu"
+            "name": "iconintroductionpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -513,7 +622,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Measure_Compact_Form",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -528,7 +637,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Grouping_Compact_Form",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -543,7 +652,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Design_Conditional_Formatting",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -558,7 +667,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Date_Filter",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -575,8 +684,8 @@
           "alignmentY": "bottom",
           "fit": "original",
           "image": {
-            "name": "headerdetailpng3",
-            "namespace": "puttupu"
+            "name": "headerdetailpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -587,8 +696,8 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterdesertjpg13",
-            "namespace": "puttupu"
+            "name": "bgfooterdesertjpg1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -604,6 +713,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Tie a widget&#39;s data or design to the selection or results of another",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -613,6 +723,7 @@
       "text_5": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Einstein Analytics dashboards are already interactive. Select a value and the rest of the dashboard filters based on your selection. That&#39;s &quot;faceting.&quot; But faceting has its limits: all faceted widgets change with every selection. And they&#39;re really just a glorified filter. (Not to badmouth facets, which are fantastic and automatic.) But what if you want something a little more sophisticated?\n\nThat&#39;s where bindings come in. They&#39;re really the secret sauce of Analytics, the thing that&#39;ll get you to the next level. Want to go beyond filters? Like filtering one widget instead of all? Or let your users choose a chart&#39;s measure or grouping? Set a reference line based on the average? Change the color of a number widget based on custom thresholds? Or show a custom map based on a user&#39;s locale? Or even change the chart type based on a selection?! You can even nest bindings to create an app of infinite wonder. But let&#39;s start with the basics.\n\nBindings change the data or design of a widget based on the selection or results of another. You add bindings directly in the dashboard JSON, so be ready to get your hands dirty. Don&#39;t worry, this learning app is here to help.\n\nTo view the JSON, press Cmd+E for Mac or Ctrl+E for Windows. But before you go under the hood, first click and walk through the examples on the left to learn more. For wisdom, Odin gave up an eye. For deeper insight, surely you&#39;re willing to learn a little JSON, right? Right?! Okay, let&#39;s do this.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -622,6 +733,7 @@
       "text_4": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Make Your Apps Dynamic with Bindings",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -631,6 +743,7 @@
       "text_7": {
         "parameters": {
           "fontSize": 12,
+          "showActionMenu": true,
           "text": "DYNAMIC DESIGN",
           "textAlignment": "left",
           "textColor": "rgb(107, 109, 112)"
@@ -640,6 +753,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 12,
+          "showActionMenu": true,
           "text": "DYNAMIC DATA",
           "textAlignment": "left",
           "textColor": "rgb(107, 109, 112)"
@@ -652,8 +766,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconreferencelinepng6",
-            "namespace": "puttupu"
+            "name": "iconreferencelinepng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -664,8 +778,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmappng3",
-            "namespace": "puttupu"
+            "name": "iconmappng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -676,8 +790,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icongrouppng3",
-            "namespace": "puttupu"
+            "name": "icongrouppng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -688,8 +802,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmeasurepng3",
-            "namespace": "puttupu"
+            "name": "iconmeasurepng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -697,6 +811,7 @@
       "text_1": {
         "parameters": {
           "fontSize": 32,
+          "showActionMenu": true,
           "text": "Build Dynamic Apps",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -709,8 +824,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconorderpng3",
-            "namespace": "puttupu"
+            "name": "iconorderpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -721,8 +836,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlimitpng3",
-            "namespace": "puttupu"
+            "name": "iconlimitpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -731,7 +846,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Design_Reference_Line",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -746,7 +861,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Design_Values_Table",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -761,7 +876,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Design_Chart_Type",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -776,7 +891,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Limit",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -791,7 +906,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Order_Compact_Form",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -806,7 +921,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Adventure_Home",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -832,7 +947,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Data_Basic_Filter",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -849,8 +964,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconfilterpng6",
-            "namespace": "puttupu"
+            "name": "iconfilterpng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -861,8 +976,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconconditionalpng3",
-            "namespace": "puttupu"
+            "name": "iconconditionalpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -873,8 +988,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icondatepng6",
-            "namespace": "puttupu"
+            "name": "icondatepng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -882,5 +997,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbUWAU"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000mq95WAA"
 }
