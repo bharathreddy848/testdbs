@@ -1,56 +1,48 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbIWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000mrKsWAI&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-06-13T04:43:59.000Z",
+  "createdDate": "2018-05-03T10:17:52.000Z",
   "datasets": [
     {
-      "id": "0Fb7F000000l2TpSAI",
-      "label": "Wave_Sample_Opportunities",
-      "name": "Wave_Sample_Opportunities",
-      "namespace": "puttupu",
-      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+      "id": "0Fb7F0000004JBQSA2",
+      "label": "Opportunities",
+      "name": "opportunities",
+      "namespace": "bharathreddy848",
+      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBQSA2"
     }
   ],
-  "files": [
-    {
-      "contentType": "image/png",
-      "fileLength": 21000,
-      "fileName": "assetPreviewThumb",
-      "id": "0FJ7F000000kKHwWAM",
-      "lastModifiedDate": "2018-06-21T06:19:45.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F000000nFbIWAU/files/0FJ7F000000kKHwWAM"
-    }
-  ],
+  "dateVersion": 1,
+  "files": [],
   "folder": {
-    "id": "00l7F000001367NQAQ",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure_By",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
+    "id": "00l7F000000dDyVQAU",
+    "label": "My Exploration",
+    "name": "My_Exploration",
+    "namespace": "bharathreddy848",
+    "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
   },
-  "id": "0FK7F000000nFbIWAU",
+  "id": "0FK7F000000mrKsWAI",
   "label": "Charts - Relationship",
-  "lastAccessedDate": "2018-06-21T10:23:01.000Z",
+  "lastAccessedDate": "2019-01-29T11:08:33.000Z",
   "lastModifiedBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-06-13T04:44:13.000Z",
+  "lastModifiedDate": "2018-05-03T10:17:52.000Z",
   "mobileDisabled": false,
   "name": "Charts_Relationship",
-  "namespace": "puttupu",
+  "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
     "modify": true,
     "view": true
   },
-  "refreshDate": "2018-06-13T04:42:30.000Z",
+  "refreshDate": "2019-01-14T18:30:19.000Z",
   "state": {
     "dataSourceLinks": [],
     "filters": [],
@@ -63,6 +55,7 @@
           {
             "label": "Untitled",
             "name": "d477d3f4-4226-431d-93b4-a576934ce110",
+            "navigationHidden": false,
             "widgets": [
               {
                 "colspan": 3,
@@ -644,11 +637,11 @@
         "broadcastFacet": true,
         "datasets": [
           {
-            "id": "0Fb7F000000l2TpSAI",
-            "label": "Wave_Sample_Opportunities",
-            "name": "Wave_Sample_Opportunities",
-            "namespace": "puttupu",
-            "url": "/services/data/v41.0/wave/datasets/0Fb7F000000l2TpSAI"
+            "id": "0Fb7F0000004JBQSA2",
+            "label": "Opportunities",
+            "name": "opportunities",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JBQSA2"
           }
         ],
         "isGlobal": false,
@@ -710,8 +703,6 @@
       },
       "Measures___Relations_1": {
         "broadcastFacet": false,
-        "datasets": [],
-        "dimensions": [],
         "isGlobal": false,
         "label": "Measures - Relationship",
         "selectMode": "singlerequired",
@@ -735,6 +726,7 @@
       "text_17": {
         "parameters": {
           "fontSize": 12,
+          "showActionMenu": true,
           "text": "CATEGORY",
           "textAlignment": "left",
           "textColor": "rgb(107, 109, 112)"
@@ -745,7 +737,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Location",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -760,7 +752,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Metrics",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -775,7 +767,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Composition",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -789,6 +781,7 @@
       "text_14": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Make It Dynamic!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -799,7 +792,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Distribution",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -814,7 +807,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Introduction",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 14,
@@ -828,6 +821,7 @@
       "text_16": {
         "parameters": {
           "fontSize": 12,
+          "showActionMenu": true,
           "text": "DIVE DEEPER",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -838,7 +832,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Relationship",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -852,6 +846,7 @@
       "text_15": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "The chart type toggle under the chart is a binding, which helps make apps more interactive. Want to create your own? Learn how!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -861,6 +856,7 @@
       "text_10": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Click the toggle below the chart to change number of measures. The design changes based on your choice. ",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -870,6 +866,7 @@
       "text_11": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Scatter plot charts show distribution across multiple measures to quickly show relative value.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -882,8 +879,8 @@
           "alignmentY": "bottom",
           "fit": "original",
           "image": {
-            "name": "headerdetailpng3",
-            "namespace": "puttupu"
+            "name": "headerdetailpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -894,8 +891,8 @@
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
-            "name": "bgfooterjpg13",
-            "namespace": "puttupu"
+            "name": "bgfooterjpg1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -911,6 +908,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Relationships can be hard, but seeing relationships in your data doesn’t have to be.\n\nWant to compare revenue, number ordered, and number of deals across all segments? Sounds complicated, right? Not for a scatter chart! \n\nThis example makes it easy to visually compare segments (color) by relative position in the chart (up = more ordered, right = more revenue), and relative size (number of deals). Many-layered insight in a compact space. Looks like it’s time to kickstart Enterprise sales….",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -928,6 +926,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 16,
+          "showActionMenu": true,
           "text": "Learn which chart types are best for visualizing your data",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -937,6 +936,7 @@
       "text_4": {
         "parameters": {
           "fontSize": 24,
+          "showActionMenu": true,
           "text": "PLAY!",
           "textAlignment": "center",
           "textColor": "rgb(22, 50, 92)"
@@ -954,6 +954,7 @@
       "text_7": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Did You Know?",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -963,6 +964,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Why Relationship Charts?",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -972,6 +974,7 @@
       "chart_1": {
         "parameters": {
           "autoFitMode": "keepLabels",
+          "totalValue": "computeTotal",
           "showValues": true,
           "bins": {
             "breakpoints": {
@@ -1033,6 +1036,8 @@
             "chartsPerLine": 4
           },
           "radiusRatio": 5,
+          "totalLabel": "",
+          "showActionMenu": true,
           "measureAxis2": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1042,7 +1047,6 @@
               "showDomain": false
             }
           },
-          "computeTotal": true,
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1095,6 +1099,7 @@
       "text_9": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Compare by Position and Size",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1104,6 +1109,7 @@
       "text_8": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "To take full advantage of a scatter chart, add three measures. With just two measures, all the bubbles will be the same size. Still useful, but not awesome.\n\nWhen building your chart, change the order of your measures for the best fit. Want the x-axis to show units? Move that measure to the top. Want bubble size to reflect revenue? Move Sum of Amount to the bottom.\n\nWhen choosing a chart, hover over the type to see helpful hints about the number of measures and groupings. Charts you can’t use are grayed out.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -1116,8 +1122,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconintroductionpng3",
-            "namespace": "puttupu"
+            "name": "iconintroductionpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1128,8 +1134,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconcomparepng3",
-            "namespace": "puttupu"
+            "name": "iconcomparepng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1140,8 +1146,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlocationpng3",
-            "namespace": "puttupu"
+            "name": "iconlocationpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1152,8 +1158,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icondistributionpng3",
-            "namespace": "puttupu"
+            "name": "icondistributionpng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1161,6 +1167,7 @@
       "text_1": {
         "parameters": {
           "fontSize": 32,
+          "showActionMenu": true,
           "text": "Choosing the Right Chart",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -1173,8 +1180,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconlearnmorepng3",
-            "namespace": "puttupu"
+            "name": "iconlearnmorepng1",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1185,8 +1192,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconmetricspng6",
-            "namespace": "puttupu"
+            "name": "iconmetricspng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1195,7 +1202,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Comparison",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1210,7 +1217,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Trending",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1225,7 +1232,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Introduction",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1240,7 +1247,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Adventure_Home",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 12,
@@ -1255,6 +1262,7 @@
         "parameters": {
           "compact": false,
           "exploreLink": true,
+          "showActionMenu": true,
           "step": "Measures___Relations_1"
         },
         "type": "pillbox"
@@ -1265,8 +1273,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "icontrendingpng6",
-            "namespace": "puttupu"
+            "name": "icontrendingpng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1277,8 +1285,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconcompositionpng6",
-            "namespace": "puttupu"
+            "name": "iconcompositionpng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1289,8 +1297,8 @@
           "alignmentY": "center",
           "fit": "original",
           "image": {
-            "name": "iconrelationshippng6",
-            "namespace": "puttupu"
+            "name": "iconrelationshippng2",
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -1298,5 +1306,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbIWAU"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000mrKsWAI"
 }

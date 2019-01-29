@@ -1,33 +1,33 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://puttupu-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nFbVWAU&orgId=00D7F000001bjDF&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nHHdWAM&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-06-13T04:44:04.000Z",
+  "createdDate": "2018-06-21T10:58:26.000Z",
   "datasets": [],
+  "dateVersion": 1,
   "files": [],
   "folder": {
-    "id": "00l7F000001367NQAQ",
-    "label": "Einstein Analytics Learning Adventure",
-    "name": "Einstein_Analytics_Learning_Adventure_By",
-    "namespace": "puttupu",
-    "url": "/services/data/v41.0/wave/folders/00l7F000001367NQAQ"
+    "id": "00l7F000000dDyVQAU",
+    "label": "My Exploration",
+    "name": "My_Exploration",
+    "namespace": "bharathreddy848",
+    "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
   },
-  "id": "0FK7F000000nFbVWAU",
+  "id": "0FK7F000000nHHdWAM",
   "label": "Adventure Home",
-  "lastAccessedDate": "2018-06-21T10:23:01.000Z",
   "lastModifiedBy": {
-    "id": "0057F000000r9JdQAI",
-    "name": "prp pradeep",
-    "profilePhotoUrl": "https://puttupu-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-06-13T04:44:17.000Z",
+  "lastModifiedDate": "2018-06-21T10:58:26.000Z",
   "mobileDisabled": false,
   "name": "Adventure_Home",
-  "namespace": "puttupu",
+  "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
     "modify": true,
@@ -45,6 +45,7 @@
           {
             "label": "Untitled",
             "name": "5d359cf8-be40-4025-801e-851196094128",
+            "navigationHidden": false,
             "widgets": [
               {
                 "colspan": 17,
@@ -367,7 +368,7 @@
           "gutterColor": "rgb(8, 30, 41)",
           "image": {
             "name": "bgpng13",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "version": 1
@@ -390,7 +391,7 @@
           "fit": "fitheight",
           "image": {
             "name": "astro_hard_hatpng3",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -402,7 +403,7 @@
           "fit": "fitheight",
           "image": {
             "name": "astro_clipboardpng13",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -410,6 +411,7 @@
       "text_18": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Learn to choose the best chart for visualizing your data",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -423,7 +425,7 @@
           "fit": "original",
           "image": {
             "name": "iconchartpng13",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -435,7 +437,7 @@
           "fit": "original",
           "image": {
             "name": "arrowrpng13",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -447,7 +449,7 @@
           "fit": "original",
           "image": {
             "name": "iconrefreshinversepng13",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -455,6 +457,7 @@
       "text_1": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "Thanks for stopping by! This app walks you through best practice examples for designing just the right visualizations and building powerful dynamic apps.\n\nPlay, learn, try! Seriously, click the titles below and dig in. You&#39;ll become an Analytics hero in no time. Already a pro? Clone the things you like and call them your own. We won&#39;t tell your boss. Promise!\n\nBrand new to Einstein Analytics? Make sure to check out Trailhead first to learn the basics",
           "textAlignment": "left",
           "textColor": "rgb(255, 255, 255)"
@@ -468,7 +471,7 @@
           "fit": "fitheight",
           "image": {
             "name": "astro_hmmmpng13",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -491,7 +494,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Charts_Introduction",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 24,
@@ -505,8 +508,8 @@
       "link_2": {
         "parameters": {
           "destinationLink": {
-            "name": "KA_SAQL_Introduction",
-            "namespace": "puttupu"
+            "name": "Regional_Sales1529577465475",
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 24,
@@ -520,6 +523,7 @@
       "text_20": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Tie a widget&#39;s data or design to the selection or results of another",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -530,7 +534,7 @@
         "parameters": {
           "destinationLink": {
             "name": "Dynamic_Apps_Introduction",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           },
           "destinationType": "dashboard",
           "fontSize": 24,
@@ -548,7 +552,7 @@
           "fit": "fitwidth",
           "image": {
             "name": "titlepng13",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -560,7 +564,7 @@
           "fit": "fitwidth",
           "image": {
             "name": "bgfootersnowjpg",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -580,7 +584,7 @@
           "fit": "fitwidth",
           "image": {
             "name": "bgfooterjpg13",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -592,7 +596,7 @@
           "fit": "fitwidth",
           "image": {
             "name": "bgfooterdesertjpg13",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "container"
@@ -600,6 +604,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 14,
+          "showActionMenu": true,
           "text": "Take your charts to the next level with advanced queries",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
@@ -613,7 +618,7 @@
           "fit": "original",
           "image": {
             "name": "arrowlpng13",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -633,7 +638,7 @@
           "fit": "original",
           "image": {
             "name": "iconquerypng",
-            "namespace": "puttupu"
+            "namespace": "bharathreddy848"
           }
         },
         "type": "image"
@@ -641,5 +646,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000nFbVWAU"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nHHdWAM"
 }
