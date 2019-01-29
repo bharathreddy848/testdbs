@@ -37,6 +37,7 @@
   },
   "id": "0FK7F0000005f5sWAA",
   "label": "Opportunity Details",
+  "lastAccessedDate": "2019-01-29T10:52:02.000Z",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
@@ -62,7 +63,7 @@
         "numColumns": 18,
         "pages": [
           {
-            "name": "bdc3979f-8a0c-44bd-8c65-0a2c092b1aa1",
+            "name": "6a38d13f-5cd4-4c6a-9545-8d6656311bcf",
             "navigationHidden": false,
             "widgets": [
               {
@@ -355,7 +356,7 @@
         "numColumns": 2,
         "pages": [
           {
-            "name": "bdc3979f-8a0c-44bd-8c65-0a2c092b1aa1",
+            "name": "6a38d13f-5cd4-4c6a-9545-8d6656311bcf",
             "navigationHidden": false,
             "widgets": [
               {

@@ -37,6 +37,7 @@
   },
   "id": "0FK7F0000005f5uWAA",
   "label": "Sales Performance with Selectable Measures",
+  "lastAccessedDate": "2019-01-29T10:52:01.000Z",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
@@ -61,7 +62,7 @@
         "numColumns": 12,
         "pages": [
           {
-            "name": "7c04ea56-d28f-4432-a7d6-615cea22ce94",
+            "name": "fb90f7ee-92a4-4577-a456-afff5dba83d5",
             "navigationHidden": false,
             "widgets": [
               {
@@ -241,7 +242,7 @@
         "numColumns": 6,
         "pages": [
           {
-            "name": "7c04ea56-d28f-4432-a7d6-615cea22ce94",
+            "name": "fb90f7ee-92a4-4577-a456-afff5dba83d5",
             "navigationHidden": false,
             "widgets": [
               {

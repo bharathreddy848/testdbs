@@ -13,9 +13,10 @@
       "label": "DTC Opportunity",
       "name": "DTC_Opportunity_SAMPLE",
       "namespace": "bharathreddy848",
-      "url": "/services/data/v42.0/wave/datasets/0Fb7F0000004IyxSAE"
+      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
     }
   ],
+  "dateVersion": 1,
   "files": [
     {
       "contentType": "image/png",
@@ -23,7 +24,7 @@
       "fileName": "assetPreviewThumb",
       "id": "0FJ7F0000008TZSWA2",
       "lastModifiedDate": "2017-10-23T07:09:34.000Z",
-      "url": "/services/data/v42.0/wave/lenses/0FK7F0000005f5rWAA/files/0FJ7F0000008TZSWA2"
+      "url": "/services/data/v44.0/wave/lenses/0FK7F0000005f5rWAA/files/0FJ7F0000008TZSWA2"
     }
   ],
   "folder": {
@@ -31,10 +32,11 @@
     "label": "My DTC Sales",
     "name": "My_DTC_Sales",
     "namespace": "bharathreddy848",
-    "url": "/services/data/v42.0/wave/folders/00l7F000001VEMTQA4"
+    "url": "/services/data/v44.0/wave/folders/00l7F000001VEMTQA4"
   },
   "id": "0FK7F0000005f5rWAA",
   "label": "DTC Sales",
+  "lastAccessedDate": "2019-01-29T08:54:46.000Z",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
@@ -60,7 +62,8 @@
         "numColumns": 18,
         "pages": [
           {
-            "name": "b01f23fc-2e2d-485b-aa4e-a5ef3dbe706f",
+            "name": "9ecf5704-1486-48f1-a9e7-b02ef367f3bd",
+            "navigationHidden": false,
             "widgets": [
               {
                 "colspan": 3,
@@ -257,7 +260,8 @@
         "numColumns": 2,
         "pages": [
           {
-            "name": "b01f23fc-2e2d-485b-aa4e-a5ef3dbe706f",
+            "name": "9ecf5704-1486-48f1-a9e7-b02ef367f3bd",
+            "navigationHidden": false,
             "widgets": [
               {
                 "colspan": 2,
@@ -467,7 +471,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -492,7 +496,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -517,7 +521,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -542,7 +546,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -568,7 +572,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -593,7 +597,7 @@
             "label": "DTC Opportunity",
             "name": "DTC_Opportunity_SAMPLE",
             "namespace": "bharathreddy848",
-            "url": "/services/data/v42.0/wave/datasets/0Fb7F0000004IyxSAE"
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
           }
         ],
         "isGlobal": false,
@@ -622,6 +626,7 @@
       "text_1": {
         "parameters": {
           "fontSize": 20,
+          "showActionMenu": true,
           "text": "DTC Sales",
           "textAlignment": "left",
           "textColor": "#44A2F5"
@@ -649,6 +654,7 @@
           "measureField": "sum_Amount",
           "numberColor": "#FFFFFF",
           "numberSize": 48,
+          "showActionMenu": true,
           "step": "Amount_4",
           "textAlignment": "center",
           "title": "",
@@ -664,6 +670,7 @@
           "measureField": "sum_Amount",
           "numberColor": "#FFFFFF",
           "numberSize": 48,
+          "showActionMenu": true,
           "step": "Amount_3",
           "textAlignment": "center",
           "title": "",
@@ -679,6 +686,7 @@
           "measureField": "sum_Amount",
           "numberColor": "#FFFFFF",
           "numberSize": 48,
+          "showActionMenu": true,
           "step": "Amount_2",
           "textAlignment": "center",
           "title": "",
@@ -694,6 +702,7 @@
           "measureField": "sum_Amount",
           "numberColor": "#FFFFFF",
           "numberSize": 48,
+          "showActionMenu": true,
           "step": "Amount_1",
           "textAlignment": "center",
           "title": "",
@@ -707,6 +716,7 @@
           "compact": false,
           "exploreLink": false,
           "measureField": "none",
+          "showActionMenu": true,
           "step": "CloseDate_Year_1",
           "title": ""
         },
@@ -729,6 +739,7 @@
       "text_3": {
         "parameters": {
           "fontSize": 18,
+          "showActionMenu": true,
           "text": "Won Opportunities",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -747,6 +758,7 @@
       "text_2": {
         "parameters": {
           "fontSize": 18,
+          "showActionMenu": true,
           "text": "Open Opportunities",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -765,6 +777,7 @@
       "text_5": {
         "parameters": {
           "fontSize": 18,
+          "showActionMenu": true,
           "text": "TOTAL",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -774,6 +787,7 @@
       "text_4": {
         "parameters": {
           "fontSize": 18,
+          "showActionMenu": true,
           "text": "Lost Opportunties",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
@@ -783,6 +797,7 @@
       "text_7": {
         "parameters": {
           "fontSize": 18,
+          "showActionMenu": true,
           "text": "Cumulative Won Opportunities Over Time",
           "textAlignment": "center",
           "textColor": "#7D98B3"
@@ -821,6 +836,7 @@
           },
           "totalLabel": "",
           "fillArea": true,
+          "showActionMenu": true,
           "showZero": true,
           "measureAxis2": {
             "sqrtScale": false,
@@ -842,6 +858,7 @@
       "text_6": {
         "parameters": {
           "fontSize": 18,
+          "showActionMenu": true,
           "text": "Cumulative Won Opportunities Over Time",
           "textAlignment": "left",
           "textColor": "#7D98B3"
@@ -851,5 +868,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v42.0/wave/dashboards/0FK7F0000005f5rWAA"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F0000005f5rWAA"
 }
