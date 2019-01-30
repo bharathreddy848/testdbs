@@ -1,0 +1,24 @@
+{
+  "createdBy": {
+    "id": "0057F000001obluQAA",
+    "name": "Integration User",
+    "profilePhotoUrl": "/img/userprofile/default_profile_45_v2.png"
+  },
+  "createdDate": "2017-10-23T07:09:34.000Z",
+  "description": "This is the default Salesforce dataflow.",
+  "emailNotificationLevel": "never",
+  "id": "02K7F0000004WlwUAE",
+  "label": "Default Salesforce Dataflow",
+  "lastModifiedBy": {
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "/img/userprofile/default_profile_45_v2.png"
+  },
+  "lastModifiedDate": "2017-10-25T07:09:09.000Z",
+  "name": "SalesEdgeEltWorkflow",
+  "namespace": "bharathreddy848",
+  "nextScheduledDate": "2019-01-30T18:30:00.000Z",
+  "scheduleAttributes": "{&quot;scheduleType&quot;:&quot;hourly&quot;,&quot;hourlyInterval&quot;:24,&quot;timeZone&quot;:&quot;Asia/Colombo&quot;,&quot;startTime&quot;:{&quot;hour&quot;:0,&quot;minute&quot;:0},&quot;daysOfWeek&quot;:[&quot;Monday&quot;,&quot;Tuesday&quot;,&quot;Wednesday&quot;,&quot;Thursday&quot;,&quot;Friday&quot;]}",
+  "type": "dataflow",
+  "url": "/services/data/v44.0/wave/dataflows/02K7F0000004WlwUAE"
+}
