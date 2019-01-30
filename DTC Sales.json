@@ -36,7 +36,7 @@
   },
   "id": "0FK7F0000005f5rWAA",
   "label": "DTC Sales",
-  "lastAccessedDate": "2019-01-30T11:51:23.000Z",
+  "lastAccessedDate": "2019-01-30T11:52:22.000Z",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
@@ -62,7 +62,7 @@
         "numColumns": 18,
         "pages": [
           {
-            "name": "4fac03ff-1f80-4403-80fa-80bc8a18a4d3",
+            "name": "0f215a21-830e-48d8-a96a-8e3cf8f12137",
             "navigationHidden": false,
             "widgets": [
               {
@@ -260,7 +260,7 @@
         "numColumns": 2,
         "pages": [
           {
-            "name": "4fac03ff-1f80-4403-80fa-80bc8a18a4d3",
+            "name": "0f215a21-830e-48d8-a96a-8e3cf8f12137",
             "navigationHidden": false,
             "widgets": [
               {
