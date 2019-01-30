@@ -1,12 +1,12 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nEp4WAE&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000005f5uWAA&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-06-11T10:39:57.000Z",
+  "createdDate": "2017-10-23T07:09:34.000Z",
   "datasets": [
     {
       "id": "0Fb7F0000004IyxSAE",
@@ -17,24 +17,35 @@
     }
   ],
   "dateVersion": 1,
-  "files": [],
+  "description": "Analyze opportunities by sales rep, stage, product family, and amount. View the total value of their open, won, and lost opportunities. Look at the individual opportunity records. Get it all in this interactive dashboard!",
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 27172,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ7F0000008TZTWA2",
+      "lastModifiedDate": "2017-10-23T07:09:34.000Z",
+      "url": "/services/data/v44.0/wave/lenses/0FK7F0000005f5uWAA/files/0FJ7F0000008TZTWA2"
+    }
+  ],
   "folder": {
-    "id": "00l7F000000dDyVQAU",
-    "label": "My Exploration",
-    "name": "My_Exploration",
+    "id": "00l7F000001VEMTQA4",
+    "label": "My DTC Sales",
+    "name": "My_DTC_Sales",
     "namespace": "bharathreddy848",
-    "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
+    "url": "/services/data/v44.0/wave/folders/00l7F000001VEMTQA4"
   },
-  "id": "0FK7F000000nEp4WAE",
+  "id": "0FK7F0000005f5uWAA",
   "label": "Sales Performance with Selectable Measures",
+  "lastAccessedDate": "2019-01-29T10:58:48.000Z",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-06-11T10:39:57.000Z",
+  "lastModifiedDate": "2017-10-23T07:09:34.000Z",
   "mobileDisabled": false,
-  "name": "Sales_Performance_with_Selectable_Measures",
+  "name": "Sales_Performance_with_Selectable_Measures_Trailhead",
   "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
@@ -51,7 +62,7 @@
         "numColumns": 12,
         "pages": [
           {
-            "name": "720e83aa-0d7d-418b-8af7-242cb22ba3f0",
+            "name": "359a8f42-d9e7-416e-bf70-8880c8ec34e1",
             "navigationHidden": false,
             "widgets": [
               {
@@ -231,7 +242,7 @@
         "numColumns": 6,
         "pages": [
           {
-            "name": "720e83aa-0d7d-418b-8af7-242cb22ba3f0",
+            "name": "359a8f42-d9e7-416e-bf70-8880c8ec34e1",
             "navigationHidden": false,
             "widgets": [
               {
@@ -476,7 +487,7 @@
         "isGlobal": false,
         "label": "Opp Amount by Owner and Type",
         "query": {
-          "query": "{&quot;measures&quot;:&quot;{{column(static_1.selection,[&amp;amp;#39;value&amp;amp;#39;]).asObject()}}&quot;,&quot;groups&quot;:[&quot;Opportunity_Owner&quot;,&quot;Opportunity_Type&quot;],&quot;filters&quot;:[[&quot;Stage&quot;,[&quot;01 - Prospecting&quot;,&quot;02 - Qualification&quot;,&quot;03 - Needs Analysis&quot;,&quot;04 - Value Proposition&quot;,&quot;05 - Perception Analysis&quot;,&quot;06 - Proposal/Price Quote&quot;,&quot;07 - Negotiation/Review&quot;,&quot;08 - Closed Won&quot;],&quot;in&quot;]],&quot;order&quot;:[[-1,{&quot;ascending&quot;:false}]]}",
+          "query": "{&quot;measures&quot;:&quot;{{column(static_1.selection,[&#92;&quot;value&#92;&quot;]).asObject()}}&quot;,&quot;groups&quot;:[&quot;Opportunity_Owner&quot;,&quot;Opportunity_Type&quot;],&quot;filters&quot;:[[&quot;Stage&quot;,[&quot;01 - Prospecting&quot;,&quot;02 - Qualification&quot;,&quot;03 - Needs Analysis&quot;,&quot;04 - Value Proposition&quot;,&quot;05 - Perception Analysis&quot;,&quot;06 - Proposal/Price Quote&quot;,&quot;07 - Negotiation/Review&quot;,&quot;08 - Closed Won&quot;],&quot;in&quot;]],&quot;order&quot;:[[-1,{&quot;ascending&quot;:false}]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -916,5 +927,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nEp4WAE"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F0000005f5uWAA"
 }
