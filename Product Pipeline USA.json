@@ -1,0 +1,678 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nHHEWA2&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "createdDate": "2018-06-21T10:37:44.000Z",
+  "datasets": [
+    {
+      "id": "0Fb7F0000004JDMSA2",
+      "label": "ProductPipelineUSA",
+      "name": "ProductPipelineUSA",
+      "namespace": "bharathreddy848",
+      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JDMSA2"
+    }
+  ],
+  "dateVersion": 1,
+  "files": [],
+  "folder": {
+    "id": "00l7F000000dDyVQAU",
+    "label": "My Exploration",
+    "name": "My_Exploration",
+    "namespace": "bharathreddy848",
+    "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
+  },
+  "id": "0FK7F000000nHHEWA2",
+  "label": "Product Pipeline USA",
+  "lastAccessedDate": "2019-01-31T10:00:03.000Z",
+  "lastModifiedBy": {
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2018-06-21T10:37:44.000Z",
+  "mobileDisabled": false,
+  "name": "Product_Pipeline_USA1",
+  "namespace": "bharathreddy848",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "refreshDate": "2017-10-26T06:25:05.000Z",
+  "state": {
+    "dataSourceLinks": [],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "name": "Default",
+        "numColumns": 12,
+        "pages": [
+          {
+            "label": "Untitled",
+            "name": "aaea3a0b-c7ec-4b12-9b68-c04ffeb0cd40",
+            "navigationHidden": false,
+            "widgets": [
+              {
+                "colspan": 12,
+                "column": 0,
+                "name": "chart_1",
+                "row": 18,
+                "rowspan": 9,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
+                "name": "chart_2",
+                "row": 8,
+                "rowspan": 10,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
+                "name": "chart_4",
+                "row": 0,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "normal",
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#F2F6FA",
+          "cellSpacingX": 8,
+          "cellSpacingY": 8,
+          "fit": "original",
+          "gutterColor": "#C5D3E0"
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "Stage_1_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000004JDMSA2",
+            "label": "ProductPipelineUSA",
+            "name": "ProductPipelineUSA",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JDMSA2"
+          }
+        ],
+        "isGlobal": false,
+        "label": "Stage_1",
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Pipeline_Amount&quot;]],&quot;groups&quot;:[&quot;Stage&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart"
+        }
+      },
+      "Product_1__1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000004JDMSA2",
+            "label": "ProductPipelineUSA",
+            "name": "ProductPipelineUSA",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JDMSA2"
+          }
+        ],
+        "isGlobal": false,
+        "label": "Product_1 ",
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Pipeline_Amount&quot;],[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;Product&quot;],&quot;order&quot;:[[&quot;sum_Pipeline_Amount&quot;,{&quot;ascending&quot;:true}]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart"
+        }
+      },
+      "State_1_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000004JDMSA2",
+            "label": "ProductPipelineUSA",
+            "name": "ProductPipelineUSA",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004JDMSA2"
+          }
+        ],
+        "isGlobal": false,
+        "label": "State_1",
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;State&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart"
+        }
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "chart_2": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": true,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "autoZoom": false,
+          "highColor": "#1674D9",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "projectionType": "AlbersUSA",
+          "lowColor": "#C5DBF7",
+          "visualizationType": "choropleth",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "Geographic Distribution of Opportunities",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "binValues": false,
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "showActionMenu": true,
+          "theme": "wave",
+          "step": "State_1_1",
+          "map": "US States"
+        },
+        "type": "chart"
+      },
+      "chart_1": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "positiveColor": "#0BA976",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "waterfall",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "Current Product Pipeline by Stage",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "startColor": "#1674D9",
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "totalColor": "#1674D9",
+          "theme": "wave",
+          "step": "Stage_1_1",
+          "negativeColor": "#E41E42",
+          "dimensionAxis": {
+            "showTitle": true,
+            "showAxis": true,
+            "title": ""
+          }
+        },
+        "type": "chart"
+      },
+      "chart_4": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "legend": {
+            "showHeader": true,
+            "show": true,
+            "customSize": "auto",
+            "position": "top-center",
+            "inside": false
+          },
+          "showMeasureTitle": true,
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "pyramid",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "Products by Opportunity Value",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "showMeasure": true,
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "title": "Opportunities",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "theme": "wave",
+          "step": "Product_1__1",
+          "rightColor": "#e16032",
+          "leftColor": "#52b7d8",
+          "dimensionAxis": {
+            "customSize": "auto",
+            "showAxis": true
+          }
+        },
+        "type": "chart"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nHHEWA2"
+}

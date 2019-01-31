@@ -1,0 +1,1671 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nHHYWA2&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "createdDate": "2018-06-21T10:37:45.000Z",
+  "datasets": [
+    {
+      "id": "0Fb7F0000004IyxSAE",
+      "label": "DTC Opportunity",
+      "name": "DTC_Opportunity_SAMPLE",
+      "namespace": "bharathreddy848",
+      "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+    }
+  ],
+  "dateVersion": 1,
+  "files": [],
+  "folder": {
+    "id": "00l7F000000dDyVQAU",
+    "label": "My Exploration",
+    "name": "My_Exploration",
+    "namespace": "bharathreddy848",
+    "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
+  },
+  "id": "0FK7F000000nHHYWA2",
+  "label": "Sales Performance",
+  "lastAccessedDate": "2019-01-31T10:00:03.000Z",
+  "lastModifiedBy": {
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2018-06-21T10:37:45.000Z",
+  "mobileDisabled": false,
+  "name": "Sales_Performance1",
+  "namespace": "bharathreddy848",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "refreshDate": "2017-10-23T07:09:34.000Z",
+  "state": {
+    "dataSourceLinks": [],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "maxWidth": 1240,
+        "name": "Default",
+        "numColumns": 48,
+        "pages": [
+          {
+            "label": "Details",
+            "name": "94532c58-034d-4ed9-a137-989c42bf63d3",
+            "navigationHidden": false,
+            "widgets": [
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "container_5",
+                "row": 0,
+                "rowspan": 8,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(230, 236, 242)",
+                  "borderColor": "#C5D3E0",
+                  "borderEdges": [
+                    "bottom",
+                    "top"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 1,
+                "name": "listselector_1",
+                "row": 2,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 5,
+                "column": 7,
+                "name": "listselector_3",
+                "row": 2,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 16,
+                "column": 32,
+                "name": "container_1",
+                "row": 8,
+                "rowspan": 42,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(9, 26, 62)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "container_3",
+                "row": 50,
+                "rowspan": 48,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [
+                    "top",
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 34,
+                "column": 1,
+                "name": "text_2",
+                "row": 51,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 48,
+                "column": 0,
+                "name": "table_1",
+                "row": 55,
+                "rowspan": 40,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 33,
+                "name": "number_1",
+                "row": 23,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "rgba(51, 87, 121, 0.5)",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 11,
+                "column": 33,
+                "name": "text_3",
+                "row": 18,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#5C7A99",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 33,
+                "name": "number_2",
+                "row": 28,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "rgba(51, 87, 121, 0.5)",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 14,
+                "column": 33,
+                "name": "number_3",
+                "row": 32,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "rgba(51, 87, 121, 0.5)",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 32,
+                "column": 0,
+                "name": "container_7",
+                "row": 8,
+                "rowspan": 42,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 30,
+                "column": 1,
+                "name": "text_5",
+                "row": 10,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 30,
+                "column": 1,
+                "name": "chart_6",
+                "row": 14,
+                "rowspan": 33,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 30,
+                "column": 1,
+                "name": "text_7",
+                "row": 12,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 8,
+                "column": 22,
+                "name": "rangeselector_1",
+                "row": 3,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 8,
+                "column": 13,
+                "name": "listselector_2",
+                "row": 3,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "fine",
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "rgb(230, 236, 242)",
+          "cellSpacingX": 0,
+          "cellSpacingY": 0,
+          "documentId": "",
+          "fit": "original",
+          "gutterColor": "rgb(197, 211, 224)"
+        },
+        "version": 1
+      },
+      {
+        "name": "Sales Performance Mobile",
+        "numColumns": 3,
+        "pages": [
+          {
+            "label": "Details",
+            "name": "94532c58-034d-4ed9-a137-989c42bf63d3",
+            "navigationHidden": false,
+            "widgets": [
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "listselector_1",
+                "row": 2,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "listselector_3",
+                "row": 6,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "listselector_2",
+                "row": 10,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "rangeselector_1",
+                "row": 13,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "container_5",
+                "row": 0,
+                "rowspan": 16,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "text_5",
+                "row": 35,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "text_7",
+                "row": 37,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "chart_6",
+                "row": 39,
+                "rowspan": 33,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "container_7",
+                "row": 33,
+                "rowspan": 39,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "text_3",
+                "row": 17,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "#5C7A99",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "number_1",
+                "row": 21,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "rgba(51, 87, 121, 0.5)",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "number_2",
+                "row": 25,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "rgba(51, 87, 121, 0.5)",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "number_3",
+                "row": 29,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
+                  "borderColor": "rgba(51, 87, 121, 0.5)",
+                  "borderEdges": [
+                    "bottom"
+                  ],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 0,
+                "name": "container_1",
+                "row": 16,
+                "rowspan": 17,
+                "widgetStyle": {
+                  "backgroundColor": "rgb(9, 26, 62)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "fine",
+        "selectors": [
+          "maxWidth(599)"
+        ],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "rgb(230, 236, 242)",
+          "cellSpacingX": 4,
+          "cellSpacingY": 0,
+          "documentId": "",
+          "fit": "original",
+          "gutterColor": "rgb(197, 211, 224)"
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "Lost_Opp_Amount_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+          }
+        ],
+        "isGlobal": false,
+        "label": "Lost Opp Amount",
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;filters&quot;:[[&quot;Stage&quot;,[&quot;09 - Closed Lost&quot;],&quot;in&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart"
+        }
+      },
+      "Opportunity_Owner_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;Opportunity_Owner&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {}
+      },
+      "Opp_Record_Details_1": {
+        "datasets": [
+          {
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+          }
+        ],
+        "isFacet": true,
+        "isGlobal": false,
+        "label": "Opp Record Details",
+        "query": {
+          "query": "{&quot;values&quot;:[&quot;Account_Name&quot;,&quot;Amount&quot;,&quot;Close_Date&quot;,&quot;Opportunity_Name&quot;,&quot;Opportunity_Owner&quot;,&quot;Opportunity_Type&quot;,&quot;Product_Family&quot;,&quot;Stage&quot;]}",
+          "version": -1
+        },
+        "type": "grain",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "parameters": {
+            "borderColor": "#e0e5ee",
+            "borderWidth": 1,
+            "cell": {
+              "backgroundColor": "#ffffff",
+              "fontColor": "#16325c",
+              "fontSize": 12
+            },
+            "columnProperties": {},
+            "columns": [],
+            "customBulkActions": [],
+            "header": {
+              "backgroundColor": "#f4f6f9",
+              "fontColor": "#16325c",
+              "fontSize": 12
+            },
+            "innerMajorBorderColor": "#a8b7c7",
+            "innerMinorBorderColor": "#e0e5ee",
+            "maxColumnWidth": 300,
+            "minColumnWidth": 40,
+            "mode": "variable",
+            "numberOfLines": 1,
+            "showRowIndexColumn": false,
+            "totals": true,
+            "verticalPadding": 8
+          },
+          "type": "table",
+          "visualizationType": "valuestable"
+        }
+      },
+      "Opp_Amount_by_Owner__1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+          }
+        ],
+        "isGlobal": false,
+        "label": "Opp Amount by Owner and Type",
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Opportunity_Owner&quot;,&quot;Opportunity_Type&quot;],&quot;filters&quot;:[[&quot;Stage&quot;,[&quot;01 - Prospecting&quot;,&quot;02 - Qualification&quot;,&quot;03 - Needs Analysis&quot;,&quot;04 - Value Proposition&quot;,&quot;05 - Perception Analysis&quot;,&quot;06 - Proposal/Price Quote&quot;,&quot;07 - Negotiation/Review&quot;,&quot;08 - Closed Won&quot;],&quot;in&quot;]],&quot;order&quot;:[[&quot;sum_Amount&quot;,{&quot;ascending&quot;:false}]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "options": {},
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart",
+          "visualizationType": "hbar"
+        }
+      },
+      "Amount_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;filters&quot;:[[&quot;Stage&quot;,[&quot;01 - Prospecting&quot;,&quot;02 - Qualification&quot;,&quot;03 - Needs Analysis&quot;,&quot;04 - Value Proposition&quot;,&quot;05 - Perception Analysis&quot;,&quot;06 - Proposal/Price Quote&quot;,&quot;07 - Negotiation/Review&quot;],&quot;in&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart"
+        }
+      },
+      "Amount_2": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {}
+      },
+      "Won_Opp_Amount_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+          }
+        ],
+        "isGlobal": false,
+        "label": "Won Opp Amount",
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;filters&quot;:[[&quot;Stage&quot;,[&quot;08 - Closed Won&quot;],&quot;in&quot;]]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "none",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart"
+        }
+      },
+      "Product_Family_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;Product_Family&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "single",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {}
+      },
+      "Stage_1": {
+        "broadcastFacet": true,
+        "datasets": [
+          {
+            "id": "0Fb7F0000004IyxSAE",
+            "label": "DTC Opportunity",
+            "name": "DTC_Opportunity_SAMPLE",
+            "namespace": "bharathreddy848",
+            "url": "/services/data/v44.0/wave/datasets/0Fb7F0000004IyxSAE"
+          }
+        ],
+        "isGlobal": false,
+        "query": {
+          "query": "{&quot;measures&quot;:[[&quot;count&quot;,&quot;*&quot;]],&quot;groups&quot;:[&quot;Stage&quot;]}",
+          "version": -1
+        },
+        "receiveFacet": true,
+        "selectMode": "multi",
+        "type": "aggregateflex",
+        "useGlobal": true,
+        "visualizationParameters": {}
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "rgba(255, 255, 255, 0)",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "text_14": {
+        "parameters": {
+          "fontSize": 12,
+          "showActionMenu": true,
+          "text": "Descriptive text 3",
+          "textAlignment": "left",
+          "textColor": "rgb(125, 152, 179)"
+        },
+        "type": "text"
+      },
+      "text_13": {
+        "parameters": {
+          "fontSize": 16,
+          "showActionMenu": true,
+          "text": "Supporting Chart 3",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "text_12": {
+        "parameters": {
+          "fontSize": 12,
+          "showActionMenu": true,
+          "text": "Descriptive text 2",
+          "textAlignment": "left",
+          "textColor": "rgb(125, 152, 179)"
+        },
+        "type": "text"
+      },
+      "text_11": {
+        "parameters": {
+          "fontSize": 16,
+          "showActionMenu": true,
+          "text": "Supporting Chart 2",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "container_1": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_2": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_3": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "rangeselector_1": {
+        "parameters": {
+          "instant": true,
+          "showActionMenu": true,
+          "step": "Amount_2",
+          "title": "Opp Amount"
+        },
+        "type": "rangeselector"
+      },
+      "container_5": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "container_6": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "text_3": {
+        "parameters": {
+          "fontSize": 16,
+          "showActionMenu": true,
+          "text": "Key Metrics",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "chart_6": {
+        "parameters": {
+          "autoFitMode": "none",
+          "totalValue": "computeTotal",
+          "showValues": true,
+          "legend": {
+            "showHeader": true,
+            "show": true,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "stackvbar",
+          "exploreLink": true,
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "showActionMenu": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "referenceLines": [
+              {
+                "color": "rgb(0, 161, 224)",
+                "label": "Quota $22.5M",
+                "value": 22500000
+              }
+            ],
+            "title": "Total Amount",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "normalize": false,
+          "theme": "wave",
+          "step": "Opp_Amount_by_Owner__1",
+          "dimensionAxis": {
+            "showTitle": true,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "Sales Rep",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      },
+      "text_2": {
+        "parameters": {
+          "fontSize": 16,
+          "showActionMenu": true,
+          "text": "Details",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "container_7": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "chart_5": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "totalLabel": "",
+          "showActionMenu": true
+        },
+        "type": "chart"
+      },
+      "text_5": {
+        "parameters": {
+          "fontSize": 16,
+          "showActionMenu": true,
+          "text": "Main Chart Title",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "container_8": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "text_4": {
+        "parameters": {
+          "fontSize": 14,
+          "showActionMenu": true,
+          "text": "Timeline Chart Title",
+          "textAlignment": "left",
+          "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "container_9": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "text_7": {
+        "parameters": {
+          "fontSize": 12,
+          "showActionMenu": true,
+          "text": "Add some descriptive text here.",
+          "textAlignment": "left",
+          "textColor": "rgb(125, 152, 179)"
+        },
+        "type": "text"
+      },
+      "chart_2": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "showPoints": true,
+          "legend": {
+            "showHeader": true,
+            "show": true,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "visualizationType": "time",
+          "missingValue": "connect",
+          "exploreLink": true,
+          "timeAxis": {
+            "showTitle": true,
+            "showAxis": true,
+            "title": ""
+          },
+          "title": {
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "trellis": {
+            "enable": true,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "totalLabel": "",
+          "fillArea": true,
+          "showActionMenu": true,
+          "showZero": true,
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": ""
+          },
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": false,
+            "title": ""
+          },
+          "theme": "dark"
+        },
+        "type": "chart"
+      },
+      "text_6": {
+        "parameters": {
+          "fontSize": 12,
+          "showActionMenu": true,
+          "text": "Group your data by a time dimension",
+          "textAlignment": "left",
+          "textColor": "rgb(197, 211, 224)"
+        },
+        "type": "text"
+      },
+      "chart_1": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "totalLabel": "",
+          "showActionMenu": true
+        },
+        "type": "chart"
+      },
+      "chart_4": {
+        "parameters": {
+          "totalValue": "computeTotal",
+          "totalLabel": "",
+          "showActionMenu": true
+        },
+        "type": "chart"
+      },
+      "text_8": {
+        "parameters": {
+          "fontSize": 12,
+          "showActionMenu": true,
+          "text": "Descriptive text 1",
+          "textAlignment": "left",
+          "textColor": "rgb(125, 152, 179)"
+        },
+        "type": "text"
+      },
+      "listselector_6": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "title": "Title"
+        },
+        "type": "listselector"
+      },
+      "listselector_3": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Stage_1",
+          "title": "Opp Stage"
+        },
+        "type": "listselector"
+      },
+      "listselector_2": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Product_Family_1",
+          "title": "Product Family"
+        },
+        "type": "listselector"
+      },
+      "text_1": {
+        "parameters": {
+          "fontSize": 16,
+          "showActionMenu": true,
+          "text": "Supporting Chart 1",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "listselector_4": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "title": "Title"
+        },
+        "type": "listselector"
+      },
+      "link_3": {
+        "parameters": {
+          "destinationType": "lens",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "TAB",
+          "textAlignment": "center",
+          "textColor": "#335779"
+        },
+        "type": "link"
+      },
+      "link_4": {
+        "parameters": {
+          "destinationType": "lens",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "TAB",
+          "textAlignment": "center",
+          "textColor": "#335779"
+        },
+        "type": "link"
+      },
+      "link_1": {
+        "parameters": {
+          "destinationType": "lens",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "ACTIVE TAB",
+          "textAlignment": "center",
+          "textColor": "#091A3E"
+        },
+        "type": "link"
+      },
+      "link_2": {
+        "parameters": {
+          "destinationType": "lens",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "TAB",
+          "textAlignment": "center",
+          "textColor": "#335779"
+        },
+        "type": "link"
+      },
+      "table_1": {
+        "parameters": {
+          "borderColor": "#e0e5ee",
+          "borderWidth": 1,
+          "cell": {
+            "backgroundColor": "#ffffff",
+            "fontColor": "#16325c",
+            "fontSize": 12
+          },
+          "columnProperties": {},
+          "columns": [],
+          "customBulkActions": [],
+          "exploreLink": true,
+          "header": {
+            "backgroundColor": "#f4f6f9",
+            "fontColor": "#16325c",
+            "fontSize": 12
+          },
+          "innerMajorBorderColor": "#a8b7c7",
+          "innerMinorBorderColor": "#e0e5ee",
+          "maxColumnWidth": 300,
+          "minColumnWidth": 40,
+          "mode": "variable",
+          "numberOfLines": 1,
+          "showActionMenu": true,
+          "showRowIndexColumn": false,
+          "step": "Opp_Record_Details_1",
+          "totals": true,
+          "verticalPadding": 8
+        },
+        "type": "table"
+      },
+      "number_3": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": true,
+          "measureField": "sum_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Lost_Opp_Amount_1",
+          "textAlignment": "right",
+          "title": "Lost Opportunities",
+          "titleColor": "rgb(197, 211, 224)",
+          "titleSize": 12
+        },
+        "type": "number"
+      },
+      "number_2": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": true,
+          "measureField": "sum_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Won_Opp_Amount_1",
+          "textAlignment": "right",
+          "title": "Won Opportunities",
+          "titleColor": "rgb(197, 211, 224)",
+          "titleSize": 12
+        },
+        "type": "number"
+      },
+      "number_1": {
+        "parameters": {
+          "compact": true,
+          "exploreLink": false,
+          "measureField": "sum_Amount",
+          "numberColor": "#FFFFFF",
+          "numberSize": 24,
+          "showActionMenu": true,
+          "step": "Amount_1",
+          "textAlignment": "right",
+          "title": "Open Opp Amount",
+          "titleColor": "rgb(197, 211, 224)",
+          "titleSize": 12
+        },
+        "type": "number"
+      },
+      "image_1": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "fitwidth"
+        },
+        "type": "image"
+      },
+      "listselector_1": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": false,
+          "instant": true,
+          "measureField": "count",
+          "showActionMenu": false,
+          "step": "Opportunity_Owner_1",
+          "title": "Sales Rep"
+        },
+        "type": "listselector"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nHHYWA2"
+}

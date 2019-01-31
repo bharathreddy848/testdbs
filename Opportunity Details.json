@@ -1,12 +1,12 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000005f5sWAA&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000nHHOWA2&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2017-10-23T07:09:34.000Z",
+  "createdDate": "2018-06-21T10:37:45.000Z",
   "datasets": [
     {
       "id": "0Fb7F0000004IyxSAE",
@@ -17,35 +17,25 @@
     }
   ],
   "dateVersion": 1,
-  "description": "Analyze opportunities by sales rep, stage, and more. View the total value of their open, won, and lost opportunities. Analyze the sales pipeline with charts. Look at the individual opportunity records. Get it all in this interactive dashboard!",
-  "files": [
-    {
-      "contentType": "image/png",
-      "fileLength": 20789,
-      "fileName": "assetPreviewThumb",
-      "id": "0FJ7F0000008TZUWA2",
-      "lastModifiedDate": "2017-10-23T07:09:34.000Z",
-      "url": "/services/data/v44.0/wave/lenses/0FK7F0000005f5sWAA/files/0FJ7F0000008TZUWA2"
-    }
-  ],
+  "files": [],
   "folder": {
-    "id": "00l7F000001VEMTQA4",
-    "label": "My DTC Sales",
-    "name": "My_DTC_Sales",
+    "id": "00l7F000000dDyVQAU",
+    "label": "My Exploration",
+    "name": "My_Exploration",
     "namespace": "bharathreddy848",
-    "url": "/services/data/v44.0/wave/folders/00l7F000001VEMTQA4"
+    "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
   },
-  "id": "0FK7F0000005f5sWAA",
+  "id": "0FK7F000000nHHOWA2",
   "label": "Opportunity Details",
-  "lastAccessedDate": "2019-01-31T10:03:02.000Z",
+  "lastAccessedDate": "2019-01-29T11:32:48.000Z",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2017-10-23T07:09:34.000Z",
+  "lastModifiedDate": "2018-06-21T10:37:45.000Z",
   "mobileDisabled": false,
-  "name": "Opportunity_Details",
+  "name": "Opportunity_Details1518160298232",
   "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
@@ -63,7 +53,7 @@
         "numColumns": 18,
         "pages": [
           {
-            "name": "05918260-a7ac-4d32-b913-be95fecd9b9d",
+            "name": "ce733bf1-6c82-4058-886a-dd8bd2b4a6c6",
             "navigationHidden": false,
             "widgets": [
               {
@@ -356,7 +346,7 @@
         "numColumns": 2,
         "pages": [
           {
-            "name": "05918260-a7ac-4d32-b913-be95fecd9b9d",
+            "name": "ce733bf1-6c82-4058-886a-dd8bd2b4a6c6",
             "navigationHidden": false,
             "widgets": [
               {
@@ -618,7 +608,7 @@
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Opportunity_Owner&quot;,&quot;Opportunity_Type&quot;],&quot;filters&quot;:[[&quot;Closed&quot;,&quot;{{column(static_1.selection, [&#92;&quot;value&#92;&quot;]).asObject()}}&quot;,&quot;in&quot;],[&quot;Won&quot;,&quot;{{column(static_1.selection, [&#92;&quot;won&#92;&quot;]).asObject()}}&quot;,&quot;in&quot;]],&quot;order&quot;:[[-1,{&quot;ascending&quot;:true}]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Opportunity_Owner&quot;,&quot;Opportunity_Type&quot;],&quot;filters&quot;:[[&quot;Closed&quot;,&quot;{{column(static_1.selection, [&#39;value&#39;]).asObject()}}&quot;,&quot;in&quot;],[&quot;Won&quot;,&quot;{{column(static_1.selection, [&#39;won&#39;]).asObject()}}&quot;,&quot;in&quot;]],&quot;order&quot;:[[-1,{&quot;ascending&quot;:true}]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -643,7 +633,7 @@
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Stage&quot;],&quot;filters&quot;:[[&quot;Closed&quot;,&quot;{{column(static_1.selection, [&#92;&quot;value&#92;&quot;]).asObject()}}&quot;,&quot;in&quot;],[&quot;Won&quot;,&quot;{{column(static_1.selection, [&#92;&quot;won&#92;&quot;]).asObject()}}&quot;,&quot;in&quot;]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Stage&quot;],&quot;filters&quot;:[[&quot;Closed&quot;,&quot;{{column(static_1.selection, [&#39;value&#39;]).asObject()}}&quot;,&quot;in&quot;],[&quot;Won&quot;,&quot;{{column(static_1.selection, [&#39;won&#39;]).asObject()}}&quot;,&quot;in&quot;]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -703,7 +693,7 @@
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Month&quot;]],&quot;filters&quot;:[[&quot;Closed&quot;,&quot;{{column(static_1.selection, [&#92;&quot;value&#92;&quot;]).asObject()}}&quot;,&quot;in&quot;],[&quot;Won&quot;,&quot;{{column(static_1.selection, [&#92;&quot;won&#92;&quot;]).asObject()}}&quot;,&quot;in&quot;]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[[&quot;Close_Date_Year&quot;,&quot;Close_Date_Month&quot;]],&quot;filters&quot;:[[&quot;Closed&quot;,&quot;{{column(static_1.selection, [&#39;value&#39;]).asObject()}}&quot;,&quot;in&quot;],[&quot;Won&quot;,&quot;{{column(static_1.selection, [&#39;won&#39;]).asObject()}}&quot;,&quot;in&quot;]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -848,7 +838,7 @@
         ],
         "isGlobal": false,
         "query": {
-          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Close_Date&quot;,&quot;Opportunity_Name&quot;,&quot;Stage&quot;,&quot;Opportunity_Owner&quot;,&quot;Opportunity_Type&quot;,&quot;Forecast_Category&quot;,&quot;Industry&quot;,&quot;Account_Type&quot;,&quot;Account_Owner&quot;],&quot;filters&quot;:[[&quot;Closed&quot;,&quot;{{column(static_1.selection, [&#92;&quot;value&#92;&quot;]).asObject()}}&quot;,&quot;in&quot;],[&quot;Won&quot;,&quot;{{column(static_1.selection, [&#92;&quot;won&#92;&quot;]).asObject()}}&quot;,&quot;in&quot;]]}",
+          "query": "{&quot;measures&quot;:[[&quot;sum&quot;,&quot;Amount&quot;]],&quot;groups&quot;:[&quot;Close_Date&quot;,&quot;Opportunity_Name&quot;,&quot;Stage&quot;,&quot;Opportunity_Owner&quot;,&quot;Opportunity_Type&quot;,&quot;Forecast_Category&quot;,&quot;Industry&quot;,&quot;Account_Type&quot;,&quot;Account_Owner&quot;],&quot;filters&quot;:[[&quot;Closed&quot;,&quot;{{column(static_1.selection, [&#39;value&#39;]).asObject()}}&quot;,&quot;in&quot;],[&quot;Won&quot;,&quot;{{column(static_1.selection, [&#39;won&#39;]).asObject()}}&quot;,&quot;in&quot;]]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -929,7 +919,7 @@
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
-          "text": "&lt; Back to DTC Sales",
+          "text": "&amp;lt; Back to DTC Sales",
           "textAlignment": "center",
           "textColor": "#7D98B3"
         },
@@ -1233,5 +1223,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v44.0/wave/dashboards/0FK7F0000005f5sWAA"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000nHHOWA2"
 }
