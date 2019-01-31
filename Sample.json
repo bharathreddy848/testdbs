@@ -1,0 +1,22 @@
+{
+  "createdBy": {
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "/img/userprofile/default_profile_45_v2.png"
+  },
+  "createdDate": "2017-11-14T10:58:51.000Z",
+  "description": "Sample",
+  "emailNotificationLevel": "warnings",
+  "id": "02K7F0000004ZyCUAU",
+  "label": "Sample",
+  "lastModifiedBy": {
+    "id": "0057F000000wNhyQAE",
+    "name": "Bharath Reddy",
+    "profilePhotoUrl": "/img/userprofile/default_profile_45_v2.png"
+  },
+  "lastModifiedDate": "2018-05-03T10:17:35.000Z",
+  "name": "Sample",
+  "namespace": "bharathreddy848",
+  "type": "dataflow",
+  "url": "/services/data/v44.0/wave/dataflows/02K7F0000004ZyCUAU"
+}
