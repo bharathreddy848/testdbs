@@ -1,22 +1,47 @@
 {
-  "createdBy": {
-    "id": "0057F000000wNhyQAE",
+  "notificationLevel": "",
+  "workflowDefinition": {
+    "Extract_Lead": {
+      "action": "sfdcDigest",
+      "parameters": {
+        "SFDCtoken": "SFDCtoken",
+        "fields": [
+          {
+            "name": "Id"
+          },
+          {
+            "name": "LastModifiedDate"
+          },
+          {
+            "name": "AnnualRevenue"
+          }
+        ],
+        "object": "Lead"
+      }
+    },
+    "Register_Extract_Lead": {
+      "action": "sfdcRegister",
+      "parameters": {
+        "name": "Leads",
+        "alias": "Analyticscc_Leads_c",
+        "source": "Extract_Lead"
+      }
+    }
+  },
+  "_type": "dataflow",
+  "_lastModifiedBy": {
+    "_type": "user",
     "name": "Bharath Reddy",
+    "_uid": "0057F000000wNhyQAE",
     "profilePhotoUrl": "/img/userprofile/default_profile_45_v2.png"
   },
-  "createdDate": "2017-11-14T10:58:51.000Z",
   "description": "Sample",
-  "emailNotificationLevel": "warnings",
-  "id": "02K7F0000004ZyCUAU",
-  "label": "Sample",
-  "lastModifiedBy": {
-    "id": "0057F000000wNhyQAE",
-    "name": "Bharath Reddy",
-    "profilePhotoUrl": "/img/userprofile/default_profile_45_v2.png"
-  },
-  "lastModifiedDate": "2018-05-03T10:17:35.000Z",
-  "name": "Sample",
-  "namespace": "bharathreddy848",
-  "type": "dataflow",
-  "url": "/services/data/v44.0/wave/dataflows/02K7F0000004ZyCUAU"
+  "MasterLabel": "Sample",
+  "nextRun": "",
+  "WorkflowStatus": "Inactive",
+  "isDeletable": true,
+  "DataflowType": "USER",
+  "name": "bharathreddy848__Sample",
+  "_url": "/insights/internal_api/v1.0/esObject/workflow/02K7F0000004ZyCUAU/json",
+  "_uid": "02K7F0000004ZyCUAU"
 }
