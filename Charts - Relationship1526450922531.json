@@ -1,12 +1,12 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000mzNjWAI&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000003y71WAA&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-05-16T06:08:43.000Z",
+  "createdDate": "2019-01-31T11:15:07.000Z",
   "datasets": [
     {
       "id": "0Fb7F0000004JDRSA2",
@@ -19,23 +19,23 @@
   "dateVersion": 1,
   "files": [],
   "folder": {
-    "id": "00l7F000000dDyVQAU",
-    "label": "My Exploration",
-    "name": "My_Exploration",
+    "id": "00l7F000000dEyHQAU",
+    "label": "Sales Performance Datasets",
+    "name": "Sales_Performance_Datasets",
     "namespace": "bharathreddy848",
-    "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
+    "url": "/services/data/v44.0/wave/folders/00l7F000000dEyHQAU"
   },
-  "id": "0FK7F000000mzNjWAI",
+  "id": "0FK7F0000003y71WAA",
   "label": "Charts - Relationship1526450922531",
-  "lastAccessedDate": "2019-01-29T11:32:45.000Z",
+  "lastAccessedDate": "2019-02-01T05:32:52.000Z",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-05-16T06:08:43.000Z",
+  "lastModifiedDate": "2019-01-31T11:15:07.000Z",
   "mobileDisabled": false,
-  "name": "Charts_Relationship1526450922531",
+  "name": "Charts_Relationship15264509225311",
   "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
@@ -1306,5 +1306,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000mzNjWAI"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F0000003y71WAA"
 }

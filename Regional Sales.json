@@ -1,12 +1,12 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000mrKdWAI&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://bharathreddy848-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000005f5tWAA&orgId=00D7F000002bB7k&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-05-03T09:03:21.000Z",
+  "createdDate": "2017-10-23T07:09:34.000Z",
   "datasets": [
     {
       "id": "0Fb7F0000004IyxSAE",
@@ -17,25 +17,34 @@
     }
   ],
   "dateVersion": 1,
-  "files": [],
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 15141,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ7F0000008TZVWA2",
+      "lastModifiedDate": "2017-10-23T07:09:34.000Z",
+      "url": "/services/data/v44.0/wave/lenses/0FK7F0000005f5tWAA/files/0FJ7F0000008TZVWA2"
+    }
+  ],
   "folder": {
-    "id": "00l7F000000dDyVQAU",
-    "label": "My Exploration",
-    "name": "My_Exploration",
+    "id": "00l7F000001VEMTQA4",
+    "label": "My DTC Sales",
+    "name": "My_DTC_Sales",
     "namespace": "bharathreddy848",
-    "url": "/services/data/v44.0/wave/folders/00l7F000000dDyVQAU"
+    "url": "/services/data/v44.0/wave/folders/00l7F000001VEMTQA4"
   },
-  "id": "0FK7F000000mrKdWAI",
+  "id": "0FK7F0000005f5tWAA",
   "label": "Regional Sales",
-  "lastAccessedDate": "2019-01-29T11:32:48.000Z",
+  "lastAccessedDate": "2019-02-01T05:22:34.000Z",
   "lastModifiedBy": {
     "id": "0057F000000wNhyQAE",
     "name": "Bharath Reddy",
     "profilePhotoUrl": "https://bharathreddy848-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-05-03T09:03:21.000Z",
+  "lastModifiedDate": "2017-10-23T07:09:34.000Z",
   "mobileDisabled": false,
-  "name": "Regional_Sales1518160298221",
+  "name": "Regional_Sales_SAMPLE",
   "namespace": "bharathreddy848",
   "permissions": {
     "manage": true,
@@ -53,7 +62,7 @@
         "numColumns": 18,
         "pages": [
           {
-            "name": "08032086-17c8-472f-81a3-9af624493f2d",
+            "name": "1f563594-ee8a-4de8-9de1-c70adb4323ed",
             "navigationHidden": false,
             "widgets": [
               {
@@ -174,7 +183,7 @@
         "numColumns": 2,
         "pages": [
           {
-            "name": "08032086-17c8-472f-81a3-9af624493f2d",
+            "name": "1f563594-ee8a-4de8-9de1-c70adb4323ed",
             "navigationHidden": false,
             "widgets": [
               {
@@ -409,13 +418,12 @@
       "link_1": {
         "parameters": {
           "destinationLink": {
-            "name": "DTC_Sales_SAMPLE",
-            "namespace": "bharathreddy848"
+            "name": "DTC_Sales_SAMPLE"
           },
           "destinationType": "dashboard",
           "fontSize": 14,
           "includeState": false,
-          "text": "&amp;lt; Back to  DTC Sales",
+          "text": "&lt; Back to  DTC Sales",
           "textAlignment": "center",
           "textColor": "#7D98B3"
         },
@@ -558,5 +566,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v44.0/wave/dashboards/0FK7F000000mrKdWAI"
+  "url": "/services/data/v44.0/wave/dashboards/0FK7F0000005f5tWAA"
 }
