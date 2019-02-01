@@ -1,0 +1,20 @@
+{
+  "notificationLevel": "",
+  "workflowDefinition": {},
+  "_type": "dataflow",
+  "_lastModifiedBy": {
+    "_type": "user",
+    "name": "Bharath Reddy",
+    "_uid": "0057F000000wNhyQAE",
+    "profilePhotoUrl": "/img/userprofile/default_profile_45_v2.png"
+  },
+  "description": "This is the default Salesforce dataflow.",
+  "MasterLabel": "Default Salesforce Dataflow",
+  "nextRun": "",
+  "WorkflowStatus": "Inactive",
+  "isDeletable": true,
+  "DataflowType": "USER",
+  "name": "bharathreddy848__test",
+  "_url": "/insights/internal_api/v1.0/esObject/workflow/02K7F000000BlF0UAK/json",
+  "_uid": "02K7F000000BlF0UAK"
+}
